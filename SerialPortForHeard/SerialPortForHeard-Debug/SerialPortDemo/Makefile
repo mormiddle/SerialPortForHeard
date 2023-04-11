@@ -293,6 +293,7 @@ Makefile: ..\..\SerialPortDemo\SerialPortDemo.pro D:\Qt\Qt5.14.2\5.14.2\msvc2017
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\lex.prf \
 		..\..\SerialPortDemo\SerialPortDemo.pro \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Quick.prl \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5PrintSupport.prl \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.prl \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.prl \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5QmlModels.prl \
@@ -306,6 +307,7 @@ Makefile: ..\..\SerialPortDemo\SerialPortDemo.pro D:\Qt\Qt5.14.2\5.14.2\msvc2017
 		..\..\SerialPortDemo\qrc\js.qrc \
 		..\..\SerialPortDemo\qrc\qml.qrc \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Quickd.prl \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5PrintSupportd.prl \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.prl \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.prl \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5QmlModelsd.prl \
@@ -524,6 +526,7 @@ D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\yacc.prf:
 D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\lex.prf:
 ..\..\SerialPortDemo\SerialPortDemo.pro:
 D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Quick.prl:
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5PrintSupport.prl:
 D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.prl:
 D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.prl:
 D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5QmlModels.prl:
@@ -537,6 +540,7 @@ D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\build_pass.prf:
 ..\..\SerialPortDemo\qrc\js.qrc:
 ..\..\SerialPortDemo\qrc\qml.qrc:
 D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Quickd.prl:
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5PrintSupportd.prl:
 D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.prl:
 D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.prl:
 D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5QmlModelsd.prl:

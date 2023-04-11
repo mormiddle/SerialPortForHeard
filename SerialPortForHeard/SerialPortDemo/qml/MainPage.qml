@@ -33,7 +33,6 @@ Page{
     SerialPort {
         id: sp_obj
     }
-
     Basic.Rectangle {
         id: rect_top
         radius: 0

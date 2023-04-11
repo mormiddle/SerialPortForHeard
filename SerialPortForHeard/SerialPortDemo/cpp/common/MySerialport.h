@@ -5,13 +5,15 @@
 #include <QSerialPort>
 #include <QColor>
 #include <vector>
+
+#include "Globals.h"
+
 #define ASIIC_TYPE true
 #define HEX_TYPE false
 
 class MySerialPort : public QObject
 {
     Q_OBJECT
-
 
 public:
     explicit MySerialPort(QObject *parent = nullptr);
@@ -21,7 +23,6 @@ public:
 public:
     QByteArray buffer;
     int start = 0;
-    QByteArray checkedData;
     int framesReceived = 0;
 signals:
     void portNameSignal(QString portName);
@@ -36,7 +37,8 @@ public slots:
     void readData_slot();
     bool readIsMyPortOpen();
     quint8 CRC8(QByteArray buffer, int start, int length);
-    void showData(QByteArray&);
+    void showData(QVector<QVector<double>>&);
+    int toIntData(quint8 lowByte, quint8 highByte);
 
 };
 

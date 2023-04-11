@@ -74,7 +74,6 @@ void MySerialPort::readData_slot()
 
     QByteArray buff;
     buff = myPort->readAll();
-    qDebug() << "已从缓冲器读取到数据";
 
     buffer.append(buff);//缓存数据
 
@@ -90,40 +89,44 @@ void MySerialPort::readData_slot()
         }
 
         if( CRC8(buffer, start + 2, 40) !=static_cast<unsigned char>(buffer[start + 42]) ){
-            qDebug() << "crc8 = " << CRC8(buffer, start + 2, 40);
-            qDebug() << "buffer[42] = " << buffer[start + 42];
             ++start;
             ++bytesIgnored;
             continue;
         }
 
+
         //appen data
-        for (int i = start + 2; i < start + 42; i++)
         {
-            checkedData.append(buffer.at(i));
+            QVector<double> values;
+            for (int i = start + 2; i < start + 42; i += 2)
+            {
+                values.append(toIntData(buffer[i], buffer[i + 1]));
+            }
+            checkedData.append(values);
+            values.clear();
         }
+
 
         start += 44;
         ++framesReceived;
 
-        if( bytesIgnored > 0) {
-            QDateTime dt = QDateTime::currentDateTime();
-            qDebug() << QString("%1:%2:%3.%4 %5 frames received, %6 bytes ignored")
-                                .arg(dt.time().hour()).arg(dt.time().minute())
-                                .arg(dt.time().second()).arg(dt.time().msec())
-                                .arg(framesReceived).arg(bytesIgnored);
-                    framesReceived = 0;
-        }
-
-        if( start < count ) {
-            buffer = buffer.mid(start, count - start);
-        }
-        else {
-            buffer.clear();
-        }
-        start = 0;
-
 }
+    if( bytesIgnored > 0) {
+        QDateTime dt = QDateTime::currentDateTime();
+        qDebug() << QString("%1:%2:%3.%4 %5 frames received, %6 bytes ignored")
+                            .arg(dt.time().hour()).arg(dt.time().minute())
+                            .arg(dt.time().second()).arg(dt.time().msec())
+                            .arg(framesReceived).arg(bytesIgnored);
+                framesReceived = 0;
+    }
+
+    if( start < count ) {
+        buffer = buffer.mid(start, count - start);
+    }
+    else {
+        buffer.clear();
+    }
+    start = 0;
     //测试数据传输，将其显示出来
     showData(checkedData);
 
@@ -159,17 +162,25 @@ quint8 MySerialPort::CRC8(QByteArray buffer, int start, int length)
        return crc;
 }
 
-void MySerialPort::showData(QByteArray& buff)
+void MySerialPort::showData(QVector<QVector<double>>& checkedData)
 {
     //默认为HEX
-    QString str = buff.toHex();
-    QString str1;
-    for( int i=0; i < str.length()/2; ++i )
-    {
-        str1 += str.mid( i*2, 2) + " ";
+    QString str;
+    for (const auto& vec : checkedData) { // 遍历每个 vector
+        for (const auto& val : vec) { // 遍历 vector 中的每个元素
+            str += QString::number(val) + " ";
+        }
+        str += "\n"; // 每个 vector 后添加换行符
     }
 
-    emit displayRecDataSignal( str1 );
+    emit displayRecDataSignal( str );
+}
+
+int MySerialPort::toIntData(quint8 lowByte, quint8 highByte)
+{
+    qint16 rawValue = (qint16)((highByte << 8) | lowByte); // convert to signed short
+    int signedValue = static_cast<int>(rawValue); // convert to signed int
+    return signedValue;
 }
 
 

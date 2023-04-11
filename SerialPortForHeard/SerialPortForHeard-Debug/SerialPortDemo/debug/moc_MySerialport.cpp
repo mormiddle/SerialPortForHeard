@@ -10,6 +10,7 @@
 #include "../../../SerialPortDemo/cpp/common/MySerialport.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
+#include <QtCore/QVector>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'MySerialport.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
@@ -22,8 +23,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MySerialPort_t {
-    QByteArrayData data[19];
-    char stringdata0[204];
+    QByteArrayData data[22];
+    char stringdata0[246];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -50,7 +51,10 @@ QT_MOC_LITERAL(14, 163, 6), // "buffer"
 QT_MOC_LITERAL(15, 170, 5), // "start"
 QT_MOC_LITERAL(16, 176, 6), // "length"
 QT_MOC_LITERAL(17, 183, 8), // "showData"
-QT_MOC_LITERAL(18, 192, 11) // "QByteArray&"
+QT_MOC_LITERAL(18, 192, 26), // "QVector<QVector<double> >&"
+QT_MOC_LITERAL(19, 219, 9), // "toIntData"
+QT_MOC_LITERAL(20, 229, 7), // "lowByte"
+QT_MOC_LITERAL(21, 237, 8) // "highByte"
 
     },
     "MySerialPort\0portNameSignal\0\0portName\0"
@@ -58,7 +62,8 @@ QT_MOC_LITERAL(18, 192, 11) // "QByteArray&"
     "returnOpenResultSignal\0setPort\0initPort\0"
     "openPort\0value\0readData_slot\0"
     "readIsMyPortOpen\0CRC8\0buffer\0start\0"
-    "length\0showData\0QByteArray&"
+    "length\0showData\0QVector<QVector<double> >&\0"
+    "toIntData\0lowByte\0highByte"
 };
 #undef QT_MOC_LITERAL
 
@@ -68,7 +73,7 @@ static const uint qt_meta_data_MySerialPort[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+      12,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -76,19 +81,20 @@ static const uint qt_meta_data_MySerialPort[] = {
        4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   69,    2, 0x06 /* Public */,
-       4,    1,   72,    2, 0x06 /* Public */,
-       5,    0,   75,    2, 0x06 /* Public */,
-       6,    1,   76,    2, 0x06 /* Public */,
+       1,    1,   74,    2, 0x06 /* Public */,
+       4,    1,   77,    2, 0x06 /* Public */,
+       5,    0,   80,    2, 0x06 /* Public */,
+       6,    1,   81,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       7,    0,   79,    2, 0x0a /* Public */,
-       8,    0,   80,    2, 0x0a /* Public */,
-       9,    1,   81,    2, 0x0a /* Public */,
-      11,    0,   84,    2, 0x0a /* Public */,
-      12,    0,   85,    2, 0x0a /* Public */,
-      13,    3,   86,    2, 0x0a /* Public */,
-      17,    1,   93,    2, 0x0a /* Public */,
+       7,    0,   84,    2, 0x0a /* Public */,
+       8,    0,   85,    2, 0x0a /* Public */,
+       9,    1,   86,    2, 0x0a /* Public */,
+      11,    0,   89,    2, 0x0a /* Public */,
+      12,    0,   90,    2, 0x0a /* Public */,
+      13,    3,   91,    2, 0x0a /* Public */,
+      17,    1,   98,    2, 0x0a /* Public */,
+      19,    2,  101,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
@@ -104,6 +110,7 @@ static const uint qt_meta_data_MySerialPort[] = {
     QMetaType::Bool,
     QMetaType::UChar, QMetaType::QByteArray, QMetaType::Int, QMetaType::Int,   14,   15,   16,
     QMetaType::Void, 0x80000000 | 18,    2,
+    QMetaType::Int, QMetaType::UChar, QMetaType::UChar,   20,   21,
 
        0        // eod
 };
@@ -126,7 +133,9 @@ void MySerialPort::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         case 9: { quint8 _r = _t->CRC8((*reinterpret_cast< QByteArray(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])));
             if (_a[0]) *reinterpret_cast< quint8*>(_a[0]) = std::move(_r); }  break;
-        case 10: _t->showData((*reinterpret_cast< QByteArray(*)>(_a[1]))); break;
+        case 10: _t->showData((*reinterpret_cast< QVector<QVector<double> >(*)>(_a[1]))); break;
+        case 11: { int _r = _t->toIntData((*reinterpret_cast< quint8(*)>(_a[1])),(*reinterpret_cast< quint8(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -191,13 +200,13 @@ int MySerialPort::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 12)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 12;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 12)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 11;
+        _id -= 12;
     }
     return _id;
 }

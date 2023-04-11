@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include <QtCore/qglobal.h>
 
@@ -24,13 +24,13 @@
 #define GetValByRange(v, a, b) ( (v) < (a) ? (a) : ( (v) > (b) ? (b) : (v)))
 #define AdjustValByRange(v, a, b) if(v < (a)) {v = (a);} else{if(v > (b)) {v = (b);}}
 
-#define Sl_POINT
-#ifdef Sl_POINT
-typedef struct
-{
-    int x;
-    int y;
-}POINT;
-#endif
+//#define Sl_POINT
+//#ifdef Sl_POINT
+//typedef struct
+//{
+//    int x;
+//    int y;
+//}POINT;
+//#endif
 
 

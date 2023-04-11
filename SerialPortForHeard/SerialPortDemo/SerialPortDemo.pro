@@ -1,4 +1,6 @@
-QT += quick widgets serialport
+QT += quick widgets serialport core gui printsupport
+
+#greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++11
 
@@ -15,7 +17,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     cpp/common/AppInfo.cpp \
+    cpp/common/Globals.cpp \
     cpp/common/MySerialport.cpp \
+    cpp/common/qcustomplot.cpp \
+    cpp/common/slqmlcustomplot.cpp \
         cpp/main.cpp \
 
 RESOURCES += \
@@ -44,8 +49,11 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     cpp/common/AppInfo.h \
     cpp/common/EnumParameter.h \
+    cpp/common/Globals.h \
     cpp/common/MySerialport.h \
-    cpp/common/SwitchPage.h
+    cpp/common/SwitchPage.h \
+    cpp/common/qcustomplot.h \
+    cpp/common/slqmlcustomplot.h
 
 
 
@@ -57,3 +65,5 @@ else:win32:CONFIG(debug, debug|release): LIBS += -L$$OUT_PWD/../SlBase/debug/ -l
 
 INCLUDEPATH += $$PWD/../SlBase/cpp
 DEPENDPATH += $$PWD/../SlBase/cpp
+
+DISTFILES +=

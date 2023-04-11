@@ -37,5 +37,6 @@
         <file>../qml/MiddleMain.qml</file>
         <file>../qml/RightMain.qml</file>
         <file>../qml/TopMain.qml</file>
+        <file>../qml/ColorMap.qml</file>
     </qresource>
 </RCC>
