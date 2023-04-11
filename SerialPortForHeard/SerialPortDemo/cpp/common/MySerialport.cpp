@@ -1,0 +1,193 @@
+﻿#include "MySerialport.h"
+#include <QSerialPortInfo>
+#include <QDebug>
+#include <QTime>
+
+int count = 0;
+MySerialPort::MySerialPort(QObject *parent) : QObject(parent)
+{
+    myPort = new QSerialPort;
+}
+
+MySerialPort::~MySerialPort()
+{
+    delete myPort;
+}
+
+void MySerialPort::setPort()
+{
+
+}
+
+
+void MySerialPort::initPort()
+{
+    foreach( const QSerialPortInfo &info, QSerialPortInfo::availablePorts() )
+    {
+        qDebug() << "Name : " << info.portName();
+        emit portNameSignal( info.portName() );
+    }
+    myPort->setBaudRate(115200);
+    myPort->setDataBits(QSerialPort::Data8);
+    myPort->setParity(QSerialPort::NoParity);
+    myPort->setStopBits(QSerialPort::OneStop);
+}
+
+void MySerialPort::openPort( QString value)
+{
+    qDebug() << " openPort is working ";
+    QStringList list = value.split('/');
+    int btnState = list[0].toInt();
+    QString port = list[1];
+
+    if( btnState == 1 )     //1 串口打开标志
+    {
+        //设置串口名字
+        myPort->setPortName( port );
+        if( myPort->open( QIODevice::ReadWrite ) )
+        {
+            connect( myPort, &QSerialPort::readyRead, this, &MySerialPort::readData_slot );
+            qDebug() << myPort->portName() << myPort->baudRate() << myPort->dataBits()
+                     << myPort->parity() << myPort->stopBits();
+        }
+        else
+        {
+
+        }
+    }
+    else
+    {
+        if( btnState == 0 )
+        {
+            myPort->close();
+        }
+        emit returnOpenResultSignal( myPort->isOpen() );
+    }
+}
+
+void MySerialPort::readData_slot()
+{
+    int num = myPort->bytesAvailable();
+    if( num == 0) {
+        return;
+    }
+
+    QByteArray buff;
+    buff = myPort->readAll();
+    qDebug() << "已从缓冲器读取到数据";
+
+    buffer.append(buff);//缓存数据
+
+    int count = buffer.count();
+    int bytesIgnored = 0;
+
+    while ( start + 44 <= count ) {
+
+        if( buffer[start] != static_cast<char>(0xaa) || buffer[start + 1] != static_cast<char>(0x29) || buffer[start + 43] != static_cast<char>(0x80)) {
+            ++start;
+            ++bytesIgnored;
+            continue;
+        }
+
+        if( CRC8(buffer, start + 2, 40) !=static_cast<unsigned char>(buffer[start + 42]) ){
+            qDebug() << "crc8 = " << CRC8(buffer, start + 2, 40);
+            qDebug() << "buffer[42] = " << buffer[start + 42];
+            ++start;
+            ++bytesIgnored;
+            continue;
+        }
+
+        //appen data
+        for (int i = start + 2; i < start + 42; i++)
+        {
+            checkedData.append(buffer.at(i));
+        }
+
+        start += 44;
+        ++framesReceived;
+
+        if( bytesIgnored > 0) {
+            QDateTime dt = QDateTime::currentDateTime();
+            qDebug() << QString("%1:%2:%3.%4 %5 frames received, %6 bytes ignored")
+                                .arg(dt.time().hour()).arg(dt.time().minute())
+                                .arg(dt.time().second()).arg(dt.time().msec())
+                                .arg(framesReceived).arg(bytesIgnored);
+                    framesReceived = 0;
+        }
+
+        if( start < count ) {
+            buffer = buffer.mid(start, count - start);
+        }
+        else {
+            buffer.clear();
+        }
+        start = 0;
+
+}
+    //测试数据传输，将其显示出来
+    showData(checkedData);
+
+
+}
+
+bool MySerialPort::readIsMyPortOpen()
+{
+    qDebug() << myPort->isOpen();
+    return myPort->isOpen();
+}
+
+quint8 MySerialPort::CRC8(QByteArray buffer, int start, int length)
+{
+    quint8 crc = 0; // Initial value
+
+       for (int j = start; j < start + length; j++)
+       {
+           crc ^= buffer[j];
+           for (int i = 0; i < 8; i++)
+           {
+               if ((crc & 0x80) != 0)
+               {
+                   crc <<= 1;
+                   crc ^= 0x07;
+               }
+               else
+               {
+                   crc <<= 1;
+               }
+           }
+       }
+       return crc;
+}
+
+void MySerialPort::showData(QByteArray& buff)
+{
+    //默认为HEX
+    QString str = buff.toHex();
+    QString str1;
+    for( int i=0; i < str.length()/2; ++i )
+    {
+        str1 += str.mid( i*2, 2) + " ";
+    }
+
+    emit displayRecDataSignal( str1 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

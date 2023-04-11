@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../qml/main.qml</file>
+        <file>../qml/alert/error.qml</file>
+        <file>../qml/alert/null.qml</file>
+        <file>../qml/basic/AdjustTime.qml</file>
+        <file>../qml/basic/BusyIndicator.qml</file>
+        <file>../qml/basic/Button.qml</file>
+        <file>../qml/basic/ButtonToolTip.qml</file>
+        <file>../qml/basic/CheckBox.qml</file>
+        <file>../qml/basic/ComboBox.qml</file>
+        <file>../qml/basic/Dialog.qml</file>
+        <file>../qml/basic/GroupBox.qml</file>
+        <file>../qml/basic/Image.qml</file>
+        <file>../qml/basic/Label.qml</file>
+        <file>../qml/basic/Listview.qml</file>
+        <file>../qml/basic/MarkLine.qml</file>
+        <file>../qml/basic/MarkRectangle.qml</file>
+        <file>../qml/basic/MenuBlank.qml</file>
+        <file>../qml/basic/MenuBox.qml</file>
+        <file>../qml/basic/MenuBoxItem.qml</file>
+        <file>../qml/basic/MenuButton.qml</file>
+        <file>../qml/basic/MenuColumn.qml</file>
+        <file>../qml/basic/MenuRow.qml</file>
+        <file>../qml/basic/MenuTextField.qml</file>
+        <file>../qml/basic/MouseArea.qml</file>
+        <file>../qml/basic/RangeSlider.qml</file>
+        <file>../qml/basic/Rectangle.qml</file>
+        <file>../qml/basic/Slider.qml</file>
+        <file>../qml/basic/Text.qml</file>
+        <file>../qml/basic/TextField.qml</file>
+        <file>../qml/basic/Updown.qml</file>
+        <file>../qml/LoginPage.qml</file>
+        <file>../qml/MainPage.qml</file>
+        <file>../qml/BottomMain.qml</file>
+        <file>../qml/LeftMain.qml</file>
+        <file>../qml/MiddleMain.qml</file>
+        <file>../qml/RightMain.qml</file>
+        <file>../qml/TopMain.qml</file>
+    </qresource>
+</RCC>

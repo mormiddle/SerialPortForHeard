@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../js/global.js</file>
+        <file>../js/images.js</file>
+        <file>../js/zbase.js</file>
+    </qresource>
+</RCC>
