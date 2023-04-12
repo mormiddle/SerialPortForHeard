@@ -205,7 +205,7 @@ void CustomColorMap::initCustomPlot()
 
 void CustomColorMap::myPlotData()
 {
-    qDebug() << "pushbutton is clicked" << endl;
+    //qDebug() << "pushbutton is clicked" << endl;
 
     QCustomPlot* plot = getPlot();
 
@@ -222,24 +222,41 @@ void CustomColorMap::myPlotData()
     plot->xAxis->setSubTickLength(6);
     plot->xAxis->setRange(0, distance.size());
 
-    for (int i = 0; i < m_px; i++)
+    if( m_px < checkedData.count() )
     {
-        for (int j = 0; j < 10; j++)
-        {
-            int z = checkedData[i][j];
+        for( int i = 0; i < 10; ++i) {
+            int z = checkedData[m_px][i];
             if (z)
-                heatmap->data()->setCell(m_px - 1 - i, j, z);  // Change this line
+                heatmap->data()->setCell(m_px , i, z);  // Change this line
             else
-                heatmap->data()->setAlpha(m_px - 1 - i, j, 0); // Change this line
+                heatmap->data()->setAlpha(m_px , i, 0); // Change this line
         }
+        ++m_px;
+        distance.append(QString::number(m_px));
+        updateXAxisSpacing();
+
+        onCustomReplot();
+
+    }
+    else {
 
     }
 
-    ++m_px;
-    distance.append(QString::number(m_px));
-    updateXAxisSpacing();
+//    for (int i = 0; i < m_px; i++)
+//    {
+//        for (int j = 0; j < 10; j++)
+//        {
+//            int z = checkedData[i][j];
+//            if (z)
+//                heatmap->data()->setCell(m_px - 1 - i, j, z);  // Change this line
+//            else
+//                heatmap->data()->setAlpha(m_px - 1 - i, j, 0); // Change this line
+//        }
 
-    onCustomReplot();
+//    }
+
+
+
 
 }
 

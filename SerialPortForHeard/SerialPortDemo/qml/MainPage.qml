@@ -4,6 +4,7 @@ import QtQuick.Layouts 1.12
 import "./basic" as Basic
 import SerialPortDemo.SWitchpage 1.0
 import MySerialPort 1.0
+import CustomPlot 1.0
 
 Page{
     id: root
@@ -28,6 +29,7 @@ Page{
         right_main.sendSettingInfoSignal.connect(sendSetting)
         //sp_obj.displayRecDataSignal.connect(setRecDisplayData)
         //right_main.clearSignal.connect(clearDisplay)
+
     }
 
     SerialPort {
@@ -91,10 +93,16 @@ Page{
             id: middle_main
             anchors.fill: parent
 
-            ColorMap {
-                id: colorMap
+//            ColorMap {
+//                id: colorMap
+//                anchors.fill: parent
+//                visible: true
+//            }
+            CustomPlotItem {
+                id: customPlot
                 anchors.fill: parent
-                visible: true
+
+                Component.onCompleted: initCustomPlot()
             }
 
         }

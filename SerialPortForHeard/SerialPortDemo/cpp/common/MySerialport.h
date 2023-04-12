@@ -37,7 +37,7 @@ public slots:
     void readData_slot();
     bool readIsMyPortOpen();
     quint8 CRC8(QByteArray buffer, int start, int length);
-    void showData(QVector<QVector<double>>&);
+    //void showData(QVector<QVector<double>>&);
     int toIntData(quint8 lowByte, quint8 highByte);
 
 };

@@ -19,7 +19,7 @@ Item {
 
     Timer {
         id: timer
-        interval: 1000
+        interval: 100
         repeat: true
         onTriggered: {
             customColorMap.myPlotData()

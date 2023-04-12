@@ -26,6 +26,7 @@ Item {
     Component.onCompleted: {
         sp_obj.returnOpenResultSignal.connect(setOpenBtnText)
         sp_obj.portNameSignal.connect(setPortName)
+
     }
 
 
@@ -74,6 +75,41 @@ Item {
                }
 
            }
+       }
+
+       Basic.ComboBox {
+           id: aisleComBox
+           model: ListModel {
+               id: aisleModel
+               ListElement { text: "通道1"; value: 0 }
+               ListElement { text: "通道2"; value: 1 }
+               ListElement { text: "通道3"; value: 2 }
+               ListElement { text: "通道4"; value: 3 }
+               ListElement { text: "通道5"; value: 4 }
+               ListElement { text: "通道6"; value: 5 }
+               ListElement { text: "通道7"; value: 6 }
+               ListElement { text: "通道8"; value: 7 }
+               ListElement { text: "通道9"; value: 8 }
+               ListElement { text: "通道10"; value: 9 }
+           }
+
+           delegate: ItemDelegate {
+               id: aiselItmdlg
+               height: 30
+               width: parent.width
+               text: modelData
+               background: Rectangle {
+                   id: aisleBackRect
+                   anchors.fill: parent
+                   color: itmdlg.hovered ? "#507BF6":"white"
+               }
+           }
+
+           onActivated: {
+               var value = aisleComBox.model.get(aisleComBox.currentIndex).value
+               console.log("Selected value: " + value)
+               // emit signal or do something with selected value
+            }
        }
 
 //       Basic.Button {

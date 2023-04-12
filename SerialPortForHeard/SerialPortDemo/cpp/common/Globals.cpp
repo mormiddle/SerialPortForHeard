@@ -2,3 +2,4 @@
 
 
 QVector<QVector<double>> checkedData;
+
