@@ -28,10 +28,6 @@ Item {
             text: "Company: xxxxxx\r\nOperator:xxx"
         }
 
-        ColorMap {
-            anchors.fill: parent
-            visible: true
-        }
 
 
 //        property string mouseAction: ""             // box, drag

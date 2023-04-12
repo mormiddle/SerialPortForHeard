@@ -12,6 +12,16 @@ Item {
     Button {
         text: "test"
         onClicked: {
+           // customColorMap.myPlotData()
+            timer.start()
+        }
+    }
+
+    Timer {
+        id: timer
+        interval: 1000
+        repeat: true
+        onTriggered: {
             customColorMap.myPlotData()
         }
     }

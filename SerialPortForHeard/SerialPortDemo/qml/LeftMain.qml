@@ -9,12 +9,12 @@ Item {
     id: root
     anchors.fill: parent
 
-    function clearDisplayText(){
-        displaText.clear()
-    }
-    function setDisplyText(data){
-        displaText.insert(displaText.length,data)
-    }
+//    function clearDisplayText(){
+//        displaText.clear()
+//    }
+//    function setDisplyText(data){
+//        displaText.insert(displaText.length,data)
+//    }
 //        Layout.fillWidth: true
 //        Layout.fillHeight: true
 //        Layout.columnSpan:2
@@ -22,24 +22,24 @@ Item {
 //        border.color: "gray"
 //        height: 4
 
-        ScrollView {
-            width: parent.width
-            height: 300
-            clip: true
-            background: Rectangle {
-                anchors.fill: parent
-                border.color: "gray"
-                radius: 5
-            }
+//        ScrollView {
+//            width: parent.width
+//            height: 300
+//            clip: true
+//            background: Rectangle {
+//                anchors.fill: parent
+//                border.color: "gray"
+//                radius: 5
+//            }
 
-            TextArea {
-                id: displaText
-                wrapMode:TextArea.Wrap
-                font.family: "Courier New"
-                font.pointSize: 14
+//            TextArea {
+//                id: displaText
+//                wrapMode:TextArea.Wrap
+//                font.family: "Courier New"
+//                font.pointSize: 14
 
-            }
-        }
+//            }
+//        }
 
 
 

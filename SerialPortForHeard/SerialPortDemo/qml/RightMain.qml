@@ -9,7 +9,7 @@ Item {
     anchors.fill: parent
 
     signal sendSettingInfoSignal(int state)
-    signal clearSignal()
+    //signal clearSignal()
 
     function setModel(s){
         myModel.append({s})
@@ -76,18 +76,18 @@ Item {
            }
        }
 
-       Basic.Button {
-           id: cleanBtn
-           height: 30
-           width: parent.width
-           text: "清除数据"
-           font.pointSize: 12
-           font.family: "Helvetica"
-           font.bold: true
-           onClicked: {
-               clearSignal()
-           }
-       }
+//       Basic.Button {
+//           id: cleanBtn
+//           height: 30
+//           width: parent.width
+//           text: "清除数据"
+//           font.pointSize: 12
+//           font.family: "Helvetica"
+//           font.bold: true
+//           onClicked: {
+//               clearSignal()
+//           }
+//       }
 
 
 

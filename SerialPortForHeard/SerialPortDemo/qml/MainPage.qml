@@ -15,19 +15,19 @@ Page{
         var value=state+'/'+right_main.getSetting()
         sp_obj.openPort(value)
     }
-    function setRecDisplayData(data){
-        left_main.setDisplyText(data)
-    }
-    function clearDisplay() {
-        left_main.clearDisplayText()
-    }
+//    function setRecDisplayData(data){
+//        left_main.setDisplyText(data)
+//    }
+//    function clearDisplay() {
+//        left_main.clearDisplayText()
+//    }
 
     Component.onCompleted: {
         sp_obj.portNameSignal.connect(setPortName)
         sp_obj.initPort()
         right_main.sendSettingInfoSignal.connect(sendSetting)
-        sp_obj.displayRecDataSignal.connect(setRecDisplayData)
-        right_main.clearSignal.connect(clearDisplay)
+        //sp_obj.displayRecDataSignal.connect(setRecDisplayData)
+        //right_main.clearSignal.connect(clearDisplay)
     }
 
     SerialPort {
@@ -90,6 +90,13 @@ Page{
         MiddleMain {
             id: middle_main
             anchors.fill: parent
+
+            ColorMap {
+                id: colorMap
+                anchors.fill: parent
+                visible: true
+            }
+
         }
 
 //        Loader{

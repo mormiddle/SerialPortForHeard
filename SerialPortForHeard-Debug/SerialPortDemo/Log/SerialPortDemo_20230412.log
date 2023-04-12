@@ -1,0 +1,870 @@
+09:26:52.433 (0x39b4) [info ]
+09:26:52.435 (0x39b4) [info ] ----- App init ------
+09:26:52.435 (0x39b4) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:26:52.436 (0x39b4) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+09:26:52.437 (0x39b4) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+09:26:52.438 (0x39b4) [info ] Check chinese support: 012汉字abc
+09:26:52.438 (0x39b4) [info ] ----- msAppInit: 150944134.188700, 04:11:29.135855134
+09:26:52.440 (0x39b4) [info ] [trace] --- FuncEntry
+09:26:52.440 (0x39b4) [info ] [trace]012汉字abc 
+09:26:52.441 (0x39b4) [info ] qInfo
+09:26:52.442 (0x39b4) [info ] qDebug
+09:26:52.443 (0x39b4) [info ] qWanging
+09:26:52.444 (0x39b4) [info ] QCritical
+09:26:52.445 (0x39b4) [info ] call getMs() 1000 times, 0.028400 ms
+09:26:52.460 (0x39b4) [info ] 1-1
+09:26:52.461 (0x39b4) [info ] 1-2
+09:26:52.462 (0x39b4) [info ] 2-1,汉字
+09:26:52.463 (0x39b4) [info ] 2-2,汉字
+09:26:52.463 (0x39b4) [info ] 1
+09:26:52.465 (0x39b4) [info ] 12345678901234
+09:26:52.465 (0x39b4) [info ] 12345679020032.0000000000000000
+09:26:52.466 (0x39b4) [info ] 12345678901234567168.00000000000000000000000000000000
+09:26:52.472 (0x39b4) [debug] SlBase::add( 3 + 4 ) = 7
+09:26:52.473 (0x39b4) [debug] SlBase::getTime() = 2023-04-12 09:26:52.473
+09:26:52.474 (0x39b4) [info ] [trace] --- FuncExit, 33.875 ms
+09:26:53.380 (0x39b4) [warn ] Both point size and pixel size set. Using pixel size.
+09:26:53.382 (0x39b4) [warn ] Both point size and pixel size set. Using pixel size.
+09:26:53.689 (0x39b4) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:26:53.811 (0x39b4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+09:26:53.848 (0x39b4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+09:26:54.030 (0x39b4) [debug] Name :  "COM5"
+09:26:54.036 (0x39b4) [debug] Name :  "COM4"
+09:26:54.047 (0x39b4) [debug] Name :  "COM1"
+09:26:54.048 (0x39b4) [debug] Name :  "COM2"
+09:26:54.051 (0x39b4) [debug] Name :  "COM3"
+09:26:54.054 (0x39b4) [debug] Name :  "COM6"
+09:26:54.137 (0x39b4) [debug] qml: [trace]activetrue
+09:26:57.586 (0x39b4) [debug] qml: [trace]activefalse
+09:27:28.903 (0x39b4) [debug] qml: [trace]activetrue
+09:27:29.838 (0x39b4) [trace] qml:
+09:27:29.943 (0x39b4) [info ] ----- msAppExit: 150981645.721400, 04:11:33.135888645
+09:27:29.946 (0x39b4) [info ] app running: 37511.532700, 00:00:03.34511
+09:27:29.947 (0x39b4) [info ] app return: 0
+09:27:29.948 (0x39b4) [info ] ----- App exit ------
+09:28:42.013 (0x4f60) [info ]
+09:28:42.016 (0x4f60) [info ] ----- App init ------
+09:28:42.017 (0x4f60) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:28:42.018 (0x4f60) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+09:28:42.019 (0x4f60) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+09:28:42.020 (0x4f60) [info ] Check chinese support: 012汉字abc
+09:28:42.021 (0x4f60) [info ] ----- msAppInit: 151053715.265800, 04:11:40.135953715
+09:28:42.022 (0x4f60) [info ] [trace] --- FuncEntry
+09:28:42.023 (0x4f60) [info ] [trace]012汉字abc 
+09:28:42.024 (0x4f60) [info ] qInfo
+09:28:42.025 (0x4f60) [info ] qDebug
+09:28:42.025 (0x4f60) [info ] qWanging
+09:28:42.026 (0x4f60) [info ] QCritical
+09:28:42.027 (0x4f60) [info ] call getMs() 1000 times, 0.028300 ms
+09:28:42.034 (0x4f60) [info ] 1-1
+09:28:42.035 (0x4f60) [info ] 1-2
+09:28:42.035 (0x4f60) [info ] 2-1,汉字
+09:28:42.036 (0x4f60) [info ] 2-2,汉字
+09:28:42.037 (0x4f60) [info ] 1
+09:28:42.037 (0x4f60) [info ] 12345678901234
+09:28:42.039 (0x4f60) [info ] 12345679020032.0000000000000000
+09:28:42.041 (0x4f60) [info ] 12345678901234567168.00000000000000000000000000000000
+09:28:42.046 (0x4f60) [debug] SlBase::add( 3 + 4 ) = 7
+09:28:42.047 (0x4f60) [debug] SlBase::getTime() = 2023-04-12 09:28:42.047
+09:28:42.048 (0x4f60) [info ] [trace] --- FuncExit, 26.1428 ms
+09:28:42.810 (0x4f60) [warn ] Both point size and pixel size set. Using pixel size.
+09:28:42.814 (0x4f60) [warn ] Both point size and pixel size set. Using pixel size.
+09:28:43.165 (0x4f60) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:28:43.261 (0x4f60) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+09:28:43.264 (0x4f60) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+09:28:43.363 (0x4f60) [debug] Name :  "COM5"
+09:28:43.365 (0x4f60) [debug] Name :  "COM4"
+09:28:43.366 (0x4f60) [debug] Name :  "COM1"
+09:28:43.367 (0x4f60) [debug] Name :  "COM2"
+09:28:43.368 (0x4f60) [debug] Name :  "COM3"
+09:28:43.369 (0x4f60) [debug] Name :  "COM6"
+09:28:43.445 (0x4f60) [debug] qml: [trace]activetrue
+09:28:46.502 (0x4f60) [trace] qml:
+09:28:46.531 (0x4f60) [info ] ----- msAppExit: 151058233.484800, 04:11:41.135957233
+09:28:46.532 (0x4f60) [info ] app running: 4518.219000, 00:00:00.4518
+09:28:46.533 (0x4f60) [info ] app return: 0
+09:28:46.534 (0x4f60) [info ] ----- App exit ------
+09:35:14.322 (0x383c) [info ]
+09:35:14.345 (0x383c) [info ] ----- App init ------
+09:35:14.365 (0x383c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:35:14.366 (0x383c) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+09:35:14.368 (0x383c) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+09:35:14.368 (0x383c) [info ] Check chinese support: 012汉字abc
+09:35:14.369 (0x383c) [info ] ----- msAppInit: 151446024.349100, 04:12:20.136306024
+09:35:14.370 (0x383c) [info ] [trace] --- FuncEntry
+09:35:14.371 (0x383c) [info ] [trace]012汉字abc 
+09:35:14.372 (0x383c) [info ] qInfo
+09:35:14.373 (0x383c) [info ] qDebug
+09:35:14.374 (0x383c) [info ] qWanging
+09:35:14.375 (0x383c) [info ] QCritical
+09:35:14.375 (0x383c) [info ] call getMs() 1000 times, 0.029000 ms
+09:35:14.382 (0x383c) [info ] 1-1
+09:35:14.382 (0x383c) [info ] 1-2
+09:35:14.382 (0x383c) [info ] 2-1,汉字
+09:35:14.383 (0x383c) [info ] 2-2,汉字
+09:35:14.384 (0x383c) [info ] 1
+09:35:14.385 (0x383c) [info ] 12345678901234
+09:35:14.386 (0x383c) [info ] 12345679020032.0000000000000000
+09:35:14.387 (0x383c) [info ] 12345678901234567168.00000000000000000000000000000000
+09:35:14.404 (0x383c) [debug] SlBase::add( 3 + 4 ) = 7
+09:35:14.410 (0x383c) [debug] SlBase::getTime() = 2023-04-12 09:35:14.410
+09:35:14.411 (0x383c) [info ] [trace] --- FuncExit, 40.5998 ms
+09:35:15.532 (0x383c) [warn ] Both point size and pixel size set. Using pixel size.
+09:35:15.554 (0x383c) [warn ] Both point size and pixel size set. Using pixel size.
+09:35:15.899 (0x383c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:35:15.991 (0x383c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+09:35:15.993 (0x383c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+09:35:16.175 (0x383c) [debug] Name :  "COM5"
+09:35:16.177 (0x383c) [debug] Name :  "COM4"
+09:35:16.178 (0x383c) [debug] Name :  "COM1"
+09:35:16.178 (0x383c) [debug] Name :  "COM2"
+09:35:16.179 (0x383c) [debug] Name :  "COM3"
+09:35:16.180 (0x383c) [debug] Name :  "COM6"
+09:35:16.241 (0x383c) [debug] qml: [trace]activetrue
+09:35:17.511 (0x383c) [debug] pushbutton is clicked 
+
+09:35:18.514 (0x383c) [debug] pushbutton is clicked 
+
+09:35:18.516 (0x383c) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:18.553 (0x383c) [debug] qml: [trace]activefalse
+09:35:19.511 (0x383c) [debug] pushbutton is clicked 
+
+09:35:19.516 (0x383c) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:20.512 (0x383c) [debug] pushbutton is clicked 
+
+09:35:20.514 (0x383c) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:21.511 (0x383c) [debug] pushbutton is clicked 
+
+09:35:21.513 (0x383c) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:22.512 (0x383c) [debug] pushbutton is clicked 
+
+09:35:22.517 (0x383c) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:23.511 (0x383c) [debug] pushbutton is clicked 
+
+09:35:23.512 (0x383c) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:51.358 (0x7430) [info ]
+09:35:51.361 (0x7430) [info ] ----- App init ------
+09:35:51.362 (0x7430) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:35:51.363 (0x7430) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+09:35:51.364 (0x7430) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+09:35:51.364 (0x7430) [info ] Check chinese support: 012汉字abc
+09:35:51.365 (0x7430) [info ] ----- msAppInit: 151483060.043000, 04:12:23.136340060
+09:35:51.366 (0x7430) [info ] [trace] --- FuncEntry
+09:35:51.367 (0x7430) [info ] [trace]012汉字abc 
+09:35:51.368 (0x7430) [info ] qInfo
+09:35:51.369 (0x7430) [info ] qDebug
+09:35:51.370 (0x7430) [info ] qWanging
+09:35:51.371 (0x7430) [info ] QCritical
+09:35:51.372 (0x7430) [info ] call getMs() 1000 times, 0.028500 ms
+09:35:51.389 (0x7430) [info ] 1-1
+09:35:51.389 (0x7430) [info ] 1-2
+09:35:51.390 (0x7430) [info ] 2-1,汉字
+09:35:51.391 (0x7430) [info ] 2-2,汉字
+09:35:51.393 (0x7430) [info ] 1
+09:35:51.394 (0x7430) [info ] 12345678901234
+09:35:51.394 (0x7430) [info ] 12345679020032.0000000000000000
+09:35:51.395 (0x7430) [info ] 12345678901234567168.00000000000000000000000000000000
+09:35:51.401 (0x7430) [debug] SlBase::add( 3 + 4 ) = 7
+09:35:51.402 (0x7430) [debug] SlBase::getTime() = 2023-04-12 09:35:51.402
+09:35:51.402 (0x7430) [info ] [trace] --- FuncExit, 36.6776 ms
+09:35:52.930 (0x7430) [warn ] Both point size and pixel size set. Using pixel size.
+09:35:52.932 (0x7430) [warn ] Both point size and pixel size set. Using pixel size.
+09:35:53.266 (0x7430) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:35:53.360 (0x7430) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+09:35:53.388 (0x7430) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+09:35:53.573 (0x7430) [debug] Name :  "COM5"
+09:35:53.575 (0x7430) [debug] Name :  "COM4"
+09:35:53.577 (0x7430) [debug] Name :  "COM1"
+09:35:53.578 (0x7430) [debug] Name :  "COM2"
+09:35:53.578 (0x7430) [debug] Name :  "COM3"
+09:35:53.579 (0x7430) [debug] Name :  "COM6"
+09:35:53.648 (0x7430) [debug] qml: [trace]activetrue
+09:35:54.917 (0x7430) [debug] pushbutton is clicked 
+
+09:35:55.917 (0x7430) [debug] pushbutton is clicked 
+
+09:35:55.920 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:55.940 (0x7430) [debug] qml: [trace]activefalse
+09:35:56.917 (0x7430) [debug] pushbutton is clicked 
+
+09:35:56.929 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:57.917 (0x7430) [debug] pushbutton is clicked 
+
+09:35:57.919 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:58.917 (0x7430) [debug] pushbutton is clicked 
+
+09:35:58.919 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:35:59.917 (0x7430) [debug] pushbutton is clicked 
+
+09:35:59.918 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:36:00.917 (0x7430) [debug] pushbutton is clicked 
+
+09:36:00.918 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:36:01.917 (0x7430) [debug] pushbutton is clicked 
+
+09:36:01.920 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:36:02.917 (0x7430) [debug] pushbutton is clicked 
+
+09:36:02.919 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:36:03.917 (0x7430) [debug] pushbutton is clicked 
+
+09:36:03.919 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:36:04.918 (0x7430) [debug] pushbutton is clicked 
+
+09:36:04.920 (0x7430) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+09:36:59.628 (0x6750) [info ]
+09:36:59.631 (0x6750) [info ] ----- App init ------
+09:36:59.632 (0x6750) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:36:59.633 (0x6750) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+09:36:59.635 (0x6750) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+09:36:59.635 (0x6750) [info ] Check chinese support: 012汉字abc
+09:36:59.636 (0x6750) [info ] ----- msAppInit: 151551331.145200, 04:12:30.136401331
+09:36:59.637 (0x6750) [info ] [trace] --- FuncEntry
+09:36:59.638 (0x6750) [info ] [trace]012汉字abc 
+09:36:59.639 (0x6750) [info ] qInfo
+09:36:59.640 (0x6750) [info ] qDebug
+09:36:59.641 (0x6750) [info ] qWanging
+09:36:59.642 (0x6750) [info ] QCritical
+09:36:59.642 (0x6750) [info ] call getMs() 1000 times, 0.028400 ms
+09:36:59.648 (0x6750) [info ] 1-1
+09:36:59.649 (0x6750) [info ] 1-2
+09:36:59.650 (0x6750) [info ] 2-1,汉字
+09:36:59.651 (0x6750) [info ] 2-2,汉字
+09:36:59.652 (0x6750) [info ] 1
+09:36:59.653 (0x6750) [info ] 12345678901234
+09:36:59.654 (0x6750) [info ] 12345679020032.0000000000000000
+09:36:59.655 (0x6750) [info ] 12345678901234567168.00000000000000000000000000000000
+09:36:59.662 (0x6750) [debug] SlBase::add( 3 + 4 ) = 7
+09:36:59.663 (0x6750) [debug] SlBase::getTime() = 2023-04-12 09:36:59.663
+09:36:59.664 (0x6750) [info ] [trace] --- FuncExit, 26.3396 ms
+09:37:00.438 (0x6750) [warn ] Both point size and pixel size set. Using pixel size.
+09:37:00.441 (0x6750) [warn ] Both point size and pixel size set. Using pixel size.
+09:37:00.820 (0x6750) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:37:00.916 (0x6750) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+09:37:00.946 (0x6750) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+09:37:01.119 (0x6750) [debug] Name :  "COM5"
+09:37:01.121 (0x6750) [debug] Name :  "COM4"
+09:37:01.123 (0x6750) [debug] Name :  "COM1"
+09:37:01.125 (0x6750) [debug] Name :  "COM2"
+09:37:01.127 (0x6750) [debug] Name :  "COM3"
+09:37:01.128 (0x6750) [debug] Name :  "COM6"
+09:37:01.185 (0x6750) [debug] qml: [trace]activetrue
+09:37:01.457 (0x6750) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+09:37:01.459 (0x6750) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+09:37:01.459 (0x6750) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+09:37:05.583 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:05.632 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:05.707 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:05.717 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:05.941 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:05.964 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:05.980 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.082 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.180 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.197 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.216 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.237 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.464 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.479 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.495 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.512 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.896 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.926 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.937 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:06.956 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:07.316 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:07.340 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:07.350 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:07.378 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:07.396 (0x6750) [debug] onWidgetMouseWheel is running 
+
+09:37:11.900 (0x6750) [trace] qml:
+09:37:11.940 (0x6750) [info ] ----- msAppExit: 151563643.770500, 04:12:31.136412643
+09:37:12.011 (0x6750) [info ] app running: 12312.625300, 00:00:01.11312
+09:37:12.012 (0x6750) [info ] app return: 0
+09:37:12.014 (0x6750) [info ] ----- App exit ------
+09:37:26.983 (0x0fe4) [info ]
+09:37:26.986 (0x0fe4) [info ] ----- App init ------
+09:37:26.987 (0x0fe4) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:37:26.988 (0x0fe4) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+09:37:26.988 (0x0fe4) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+09:37:26.989 (0x0fe4) [info ] Check chinese support: 012汉字abc
+09:37:26.991 (0x0fe4) [info ] ----- msAppInit: 151578685.261400, 04:12:33.136425685
+09:37:26.992 (0x0fe4) [info ] [trace] --- FuncEntry
+09:37:26.992 (0x0fe4) [info ] [trace]012汉字abc 
+09:37:26.993 (0x0fe4) [info ] qInfo
+09:37:26.994 (0x0fe4) [info ] qDebug
+09:37:26.994 (0x0fe4) [info ] qWanging
+09:37:26.995 (0x0fe4) [info ] QCritical
+09:37:26.997 (0x0fe4) [info ] call getMs() 1000 times, 0.029000 ms
+09:37:27.003 (0x0fe4) [info ] 1-1
+09:37:27.008 (0x0fe4) [info ] 1-2
+09:37:27.009 (0x0fe4) [info ] 2-1,汉字
+09:37:27.010 (0x0fe4) [info ] 2-2,汉字
+09:37:27.011 (0x0fe4) [info ] 1
+09:37:27.011 (0x0fe4) [info ] 12345678901234
+09:37:27.012 (0x0fe4) [info ] 12345679020032.0000000000000000
+09:37:27.013 (0x0fe4) [info ] 12345678901234567168.00000000000000000000000000000000
+09:37:27.014 (0x0fe4) [debug] SlBase::add( 3 + 4 ) = 7
+09:37:27.015 (0x0fe4) [debug] SlBase::getTime() = 2023-04-12 09:37:27.015
+09:37:27.016 (0x0fe4) [info ] [trace] --- FuncExit, 24.7969 ms
+09:37:27.769 (0x0fe4) [warn ] Both point size and pixel size set. Using pixel size.
+09:37:27.772 (0x0fe4) [warn ] Both point size and pixel size set. Using pixel size.
+09:37:28.090 (0x0fe4) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:37:28.194 (0x0fe4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+09:37:28.197 (0x0fe4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+09:37:28.387 (0x0fe4) [debug] Name :  "COM5"
+09:37:28.389 (0x0fe4) [debug] Name :  "COM4"
+09:37:28.390 (0x0fe4) [debug] Name :  "COM1"
+09:37:28.391 (0x0fe4) [debug] Name :  "COM2"
+09:37:28.392 (0x0fe4) [debug] Name :  "COM3"
+09:37:28.393 (0x0fe4) [debug] Name :  "COM6"
+09:37:28.455 (0x0fe4) [debug] qml: [trace]activetrue
+09:37:33.895 (0x0fe4) [trace] qml:
+09:37:33.926 (0x0fe4) [info ] ----- msAppExit: 151585628.671800, 04:12:34.136431628
+09:37:33.929 (0x0fe4) [info ] app running: 6943.410400, 00:00:00.6943
+09:37:33.930 (0x0fe4) [info ] app return: 0
+09:37:33.931 (0x0fe4) [info ] ----- App exit ------
+09:37:54.614 (0x5c9c) [info ]
+09:37:54.914 (0x5c9c) [info ] ----- App init ------
+09:37:54.915 (0x5c9c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:37:54.916 (0x5c9c) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+09:37:54.917 (0x5c9c) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+09:37:54.918 (0x5c9c) [info ] Check chinese support: 012汉字abc
+09:37:54.919 (0x5c9c) [info ] ----- msAppInit: 151606316.181800, 04:12:36.136450316
+09:37:54.920 (0x5c9c) [info ] [trace] --- FuncEntry
+09:37:54.921 (0x5c9c) [info ] [trace]012汉字abc 
+09:37:54.921 (0x5c9c) [info ] qInfo
+09:37:54.922 (0x5c9c) [info ] qDebug
+09:37:54.923 (0x5c9c) [info ] qWanging
+09:37:54.924 (0x5c9c) [info ] QCritical
+09:37:54.925 (0x5c9c) [info ] call getMs() 1000 times, 0.029100 ms
+09:37:54.930 (0x5c9c) [info ] 1-1
+09:37:54.931 (0x5c9c) [info ] 1-2
+09:37:54.932 (0x5c9c) [info ] 2-1,汉字
+09:37:54.933 (0x5c9c) [info ] 2-2,汉字
+09:37:54.934 (0x5c9c) [info ] 1
+09:37:54.935 (0x5c9c) [info ] 12345678901234
+09:37:54.935 (0x5c9c) [info ] 12345679020032.0000000000000000
+09:37:54.936 (0x5c9c) [info ] 12345678901234567168.00000000000000000000000000000000
+09:37:54.943 (0x5c9c) [debug] SlBase::add( 3 + 4 ) = 7
+09:37:54.944 (0x5c9c) [debug] SlBase::getTime() = 2023-04-12 09:37:54.944
+09:37:54.944 (0x5c9c) [info ] [trace] --- FuncExit, 24.7483 ms
+09:37:56.464 (0x5c9c) [warn ] Both point size and pixel size set. Using pixel size.
+09:37:56.466 (0x5c9c) [warn ] Both point size and pixel size set. Using pixel size.
+09:37:56.794 (0x5c9c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:37:56.887 (0x5c9c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+09:37:56.909 (0x5c9c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+09:37:57.106 (0x5c9c) [debug] Name :  "COM5"
+09:37:57.108 (0x5c9c) [debug] Name :  "COM7"
+09:37:57.109 (0x5c9c) [debug] Name :  "COM4"
+09:37:57.110 (0x5c9c) [debug] Name :  "COM1"
+09:37:57.111 (0x5c9c) [debug] Name :  "COM2"
+09:37:57.114 (0x5c9c) [debug] Name :  "COM3"
+09:37:57.116 (0x5c9c) [debug] Name :  "COM6"
+09:37:57.181 (0x5c9c) [debug] qml: [trace]activetrue
+09:38:00.430 (0x5c9c) [debug] false
+09:38:00.432 (0x5c9c) [debug]  openPort is working 
+09:38:00.436 (0x5c9c) [debug] "COM7" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+09:38:00.438 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml:16: ReferenceError: displaText is not defined
+09:38:00.440 (0x5c9c) [debug] "9:38:0.440 0 frames received, 8 bytes ignored"
+09:38:00.441 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml:16: ReferenceError: displaText is not defined
+09:38:00.529 (0x5c9c) [debug] "9:38:0.529 0 frames received, 32 bytes ignored"
+09:38:00.558 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml:16: ReferenceError: displaText is not defined
+09:38:00.559 (0x5c9c) [debug] "9:38:0.559 1 frames received, 11 bytes ignored"
+09:38:00.560 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.620 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.622 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.710 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.714 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.800 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.803 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.892 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.896 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.981 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:00.984 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.071 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.075 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.161 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.164 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.253 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.255 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.344 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.349 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.433 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.436 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.523 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.526 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.615 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.617 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.705 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.706 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.794 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.799 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.885 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.888 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.976 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:01.979 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.067 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.070 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.160 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.162 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.247 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.251 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.341 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.350 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.428 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.431 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.522 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.525 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.613 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.618 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.699 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.703 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.789 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.793 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.879 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.885 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.969 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:02.973 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.061 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.065 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.150 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.164 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.242 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.248 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.332 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.335 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.421 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.425 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.517 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.523 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.525 (0x5c9c) [debug] qml: [trace]activefalse
+09:38:03.602 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.606 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.694 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.698 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.787 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.798 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.874 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.878 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.964 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:03.971 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.055 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.058 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.149 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.154 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.235 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.241 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.326 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.330 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.415 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.423 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.507 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.511 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.601 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.606 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.688 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.692 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.778 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.785 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.868 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.873 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.959 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:04.963 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.050 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.054 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.140 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.148 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.233 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.240 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.320 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.325 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.420 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.425 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.508 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.513 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.598 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.603 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.685 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.690 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.772 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.780 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.864 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.870 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.955 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:05.961 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.043 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.052 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.137 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.142 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.224 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.229 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.314 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.322 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.404 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.409 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.495 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.500 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.585 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.593 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.677 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.682 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.766 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.771 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.856 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.864 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.948 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:06.954 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.040 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.045 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.131 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.136 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.218 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.224 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.309 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.317 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.399 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.406 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.490 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.496 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.591 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.598 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.670 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.676 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.760 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.769 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.852 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.857 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.942 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:07.948 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.035 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.041 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.125 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.133 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.215 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.221 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.302 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.309 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.400 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.407 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.488 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.494 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.577 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.583 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.665 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.672 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.761 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.767 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.846 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.853 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.949 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:08.956 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.029 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.036 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.121 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.198 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.208 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.228 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.300 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.307 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.386 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.393 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.480 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.486 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.568 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.575 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.661 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.667 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.748 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.755 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.843 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.850 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.933 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:09.940 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.030 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.037 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.118 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.128 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.202 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.209 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.297 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.304 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.381 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.391 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.472 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.479 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.569 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.576 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.652 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.662 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.743 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.750 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.836 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.843 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.923 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:10.933 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.014 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.023 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.039 (0x5c9c) [debug] qml: [trace]activetrue
+09:38:11.107 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.115 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.195 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.216 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.285 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.293 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.378 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.387 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.466 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.476 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.558 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.566 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.655 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.663 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.738 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.749 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.828 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.836 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml: ReferenceError: displaText is not defined
+09:38:11.877 (0x5c9c) [debug] true
+09:38:11.879 (0x5c9c) [debug]  openPort is working 
+09:38:11.881 (0x5c9c) [debug] qml: get result:false
+09:38:12.629 (0x5c9c) [debug] qml: [trace]activefalse
+09:38:36.194 (0x5c9c) [debug] qml: [trace]activetrue
+09:38:40.170 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:41.170 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:42.171 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:43.169 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:44.170 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:45.170 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:46.169 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:47.170 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:48.004 (0x5c9c) [debug] onWidgetMouseWheel is running 
+
+09:38:48.171 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:49.170 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:50.170 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:51.170 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:52.058 (0x5c9c) [warn ] qrc:/qml/LeftMain.qml:13: ReferenceError: displaText is not defined
+09:38:52.169 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:53.170 (0x5c9c) [debug] pushbutton is clicked 
+
+09:38:53.710 (0x5c9c) [trace] qml:
+09:38:53.740 (0x5c9c) [info ] ----- msAppExit: 151665442.601300, 04:12:41.136504442
+09:38:53.820 (0x5c9c) [info ] app running: 59126.419500, 00:00:05.54126
+09:38:53.822 (0x5c9c) [info ] app return: 0
+09:38:53.823 (0x5c9c) [info ] ----- App exit ------
+09:40:43.345 (0x3200) [info ]
+09:40:43.348 (0x3200) [info ] ----- App init ------
+09:40:43.349 (0x3200) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:40:43.350 (0x3200) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+09:40:43.350 (0x3200) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+09:40:43.351 (0x3200) [info ] Check chinese support: 012汉字abc
+09:40:43.352 (0x3200) [info ] ----- msAppInit: 151775047.590400, 04:12:52.136603047
+09:40:43.353 (0x3200) [info ] [trace] --- FuncEntry
+09:40:43.354 (0x3200) [info ] [trace]012汉字abc 
+09:40:43.354 (0x3200) [info ] qInfo
+09:40:43.355 (0x3200) [info ] qDebug
+09:40:43.356 (0x3200) [info ] qWanging
+09:40:43.357 (0x3200) [info ] QCritical
+09:40:43.358 (0x3200) [info ] call getMs() 1000 times, 0.028400 ms
+09:40:43.364 (0x3200) [info ] 1-1
+09:40:43.379 (0x3200) [info ] 1-2
+09:40:43.380 (0x3200) [info ] 2-1,汉字
+09:40:43.381 (0x3200) [info ] 2-2,汉字
+09:40:43.381 (0x3200) [info ] 1
+09:40:43.382 (0x3200) [info ] 12345678901234
+09:40:43.384 (0x3200) [info ] 12345679020032.0000000000000000
+09:40:43.385 (0x3200) [info ] 12345678901234567168.00000000000000000000000000000000
+09:40:43.391 (0x3200) [debug] SlBase::add( 3 + 4 ) = 7
+09:40:43.391 (0x3200) [debug] SlBase::getTime() = 2023-04-12 09:40:43.391
+09:40:43.392 (0x3200) [info ] [trace] --- FuncExit, 39.263 ms
+09:40:44.948 (0x3200) [warn ] Both point size and pixel size set. Using pixel size.
+09:40:45.306 (0x3200) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:40:45.400 (0x3200) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+09:40:45.402 (0x3200) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+09:40:45.601 (0x3200) [debug] Name :  "COM5"
+09:40:45.603 (0x3200) [debug] Name :  "COM7"
+09:40:45.604 (0x3200) [debug] Name :  "COM4"
+09:40:45.605 (0x3200) [debug] Name :  "COM1"
+09:40:45.606 (0x3200) [debug] Name :  "COM2"
+09:40:45.606 (0x3200) [debug] Name :  "COM3"
+09:40:45.607 (0x3200) [debug] Name :  "COM6"
+09:40:45.668 (0x3200) [debug] qml: [trace]activetrue
+09:40:48.770 (0x3200) [debug] false
+09:40:48.772 (0x3200) [debug]  openPort is working 
+09:40:48.774 (0x3200) [debug] "COM7" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+09:40:51.946 (0x3200) [debug] pushbutton is clicked 
+
+09:40:52.946 (0x3200) [debug] pushbutton is clicked 
+
+09:40:53.946 (0x3200) [debug] pushbutton is clicked 
+
+09:40:54.947 (0x3200) [debug] pushbutton is clicked 
+
+09:40:55.946 (0x3200) [debug] pushbutton is clicked 
+
+09:40:56.946 (0x3200) [debug] pushbutton is clicked 
+
+09:40:57.946 (0x3200) [debug] pushbutton is clicked 
+
+09:40:58.946 (0x3200) [debug] pushbutton is clicked 
+
+09:40:59.947 (0x3200) [debug] pushbutton is clicked 
+
+09:41:00.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:01.960 (0x3200) [debug] pushbutton is clicked 
+
+09:41:02.948 (0x3200) [debug] pushbutton is clicked 
+
+09:41:03.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:04.945 (0x3200) [debug] pushbutton is clicked 
+
+09:41:05.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:06.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:07.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:08.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:09.947 (0x3200) [debug] pushbutton is clicked 
+
+09:41:10.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:11.947 (0x3200) [debug] pushbutton is clicked 
+
+09:41:12.945 (0x3200) [debug] pushbutton is clicked 
+
+09:41:13.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:14.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:15.972 (0x3200) [debug] pushbutton is clicked 
+
+09:41:16.970 (0x3200) [debug] pushbutton is clicked 
+
+09:41:17.963 (0x3200) [debug] pushbutton is clicked 
+
+09:41:18.958 (0x3200) [debug] pushbutton is clicked 
+
+09:41:19.950 (0x3200) [debug] pushbutton is clicked 
+
+09:41:20.949 (0x3200) [debug] pushbutton is clicked 
+
+09:41:21.945 (0x3200) [debug] pushbutton is clicked 
+
+09:41:22.945 (0x3200) [debug] pushbutton is clicked 
+
+09:41:23.950 (0x3200) [debug] pushbutton is clicked 
+
+09:41:24.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:25.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:26.945 (0x3200) [debug] pushbutton is clicked 
+
+09:41:27.945 (0x3200) [debug] pushbutton is clicked 
+
+09:41:28.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:29.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:30.983 (0x3200) [debug] pushbutton is clicked 
+
+09:41:31.981 (0x3200) [debug] pushbutton is clicked 
+
+09:41:32.980 (0x3200) [debug] pushbutton is clicked 
+
+09:41:33.973 (0x3200) [debug] pushbutton is clicked 
+
+09:41:34.963 (0x3200) [debug] pushbutton is clicked 
+
+09:41:35.238 (0x3200) [debug] true
+09:41:35.242 (0x3200) [debug]  openPort is working 
+09:41:35.244 (0x3200) [debug] qml: get result:false
+09:41:35.947 (0x3200) [debug] pushbutton is clicked 
+
+09:41:36.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:37.947 (0x3200) [debug] pushbutton is clicked 
+
+09:41:38.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:39.947 (0x3200) [debug] pushbutton is clicked 
+
+09:41:40.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:41.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:42.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:43.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:44.947 (0x3200) [debug] pushbutton is clicked 
+
+09:41:45.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:46.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:47.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:48.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:49.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:50.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:51.947 (0x3200) [debug] pushbutton is clicked 
+
+09:41:52.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:53.946 (0x3200) [debug] pushbutton is clicked 
+
+09:41:54.947 (0x3200) [debug] pushbutton is clicked 
+
+09:41:55.945 (0x3200) [debug] pushbutton is clicked 
+
+09:41:56.293 (0x3200) [trace] qml:
+09:41:56.328 (0x3200) [info ] ----- msAppExit: 151848030.962400, 04:13:00.136668030
+09:41:56.409 (0x3200) [info ] app running: 72983.372000, 00:00:07.65983
+09:41:56.410 (0x3200) [info ] app return: 0
+09:41:56.411 (0x3200) [info ] ----- App exit ------
