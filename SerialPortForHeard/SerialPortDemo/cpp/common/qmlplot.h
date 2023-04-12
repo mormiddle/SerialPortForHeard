@@ -42,6 +42,7 @@ public:
     CustomPlotItem( QQuickItem* parent = 0 );
     virtual ~CustomPlotItem();
     Q_INVOKABLE void initCustomPlot();
+    Q_INVOKABLE void upAisleData();
 
 public slots:
     void setAisleValue(int value);
@@ -51,11 +52,8 @@ signals:
 
 private:
     int m_aisle = 0;
+    double t = 0, U = 0;
 
-protected:
-    virtual void timerEvent(QTimerEvent *event);
-private:
-    int                  m_timerId;
 };
 
 

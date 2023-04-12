@@ -23,6 +23,7 @@ Item {
         repeat: true
         onTriggered: {
             customColorMap.myPlotData()
+
         }
     }
 }

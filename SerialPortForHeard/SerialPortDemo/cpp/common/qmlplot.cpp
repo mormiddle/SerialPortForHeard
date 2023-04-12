@@ -114,15 +114,11 @@ void DDuiBasePlotItem::onCustomReplot()
 /// \param parent
 ///
 CustomPlotItem::CustomPlotItem( QQuickItem* parent ) : DDuiBasePlotItem( parent )
-   , m_timerId( 0 )
 {
 }
 
 CustomPlotItem::~CustomPlotItem()
 {
-    if(m_timerId != 0) {
-        killTimer(m_timerId);
-    }
 }
 
 void CustomPlotItem::initCustomPlot()
@@ -136,7 +132,7 @@ void CustomPlotItem::initCustomPlot()
     getPlot()->yAxis->setRange( 0, 5 );
     getPlot() ->setInteractions( QCP::iRangeDrag | QCP::iRangeZoom );
 
-    startTimer(500);
+    //startTimer(500);
 
     connect( getPlot(), &QCustomPlot::afterReplot, this, &CustomPlotItem::onCustomReplot );
 
@@ -151,17 +147,25 @@ void CustomPlotItem::setAisleValue(int value)
 }
 
 
-void CustomPlotItem::timerEvent(QTimerEvent *event)
+void CustomPlotItem::upAisleData()
 {
-    static int t, U;
-//    if( t < checkedData.count() )
-//    {
-//        U = checkedData[t][aisle];
-//        getPlot()->graph(0)->addData(t, U);
-//        t++;
-//        getPlot()->replot();
-//    }
-    //qDebug() << Q_FUNC_INFO << QString("Adding dot t = %1, S = %2").arg(t).arg(U);
+//    static double t, U;
+//    U = ((double)rand() / RAND_MAX) * 5;
+//    getPlot()->graph(0)->addData(t, U);
+//    //qDebug() << Q_FUNC_INFO << QString("Adding dot t = %1, S = %2").arg(t).arg(U);
+//    t++;
+//    getPlot()->replot();
+
+    if( t < checkedData.count() )
+    {
+        U = checkedData[t][m_aisle];
+        getPlot()->graph(0)->addData(t, U);
+        t++;
+        getPlot()->replot();
+    }
+
+    qDebug() << Q_FUNC_INFO << QString("Adding dot t = %1, S = %2").arg(t).arg(U);
+
 
 }
 

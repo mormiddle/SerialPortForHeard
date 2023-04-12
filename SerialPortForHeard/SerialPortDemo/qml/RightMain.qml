@@ -71,9 +71,11 @@ Item {
                btnStation = !btnStation
                if( sp_obj.readIsMyPortOpen() ) {
                    emit: sendSettingInfoSignal(0)
+                   customPlotTimer.stop()
                }
                else {
                    emit: sendSettingInfoSignal(1)
+                   customPlotTimer.start()
                }
 
            }
@@ -133,7 +135,14 @@ Item {
 //       }
 
 
-
+    Timer {
+        id: customPlotTimer
+        interval: 100
+        repeat: true
+        onTriggered: {
+            customPlot.upAisleData()
+        }
+    }
 
    }
 
