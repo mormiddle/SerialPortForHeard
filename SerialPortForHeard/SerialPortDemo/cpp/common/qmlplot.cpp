@@ -143,6 +143,13 @@ void CustomPlotItem::initCustomPlot()
     getPlot()->replot();
 }
 
+void CustomPlotItem::setAisleValue(int value)
+{
+    m_aisle = value;
+    emit aisleValueChanged(value);
+    qDebug() << "aisle = " << m_aisle;
+}
+
 
 void CustomPlotItem::timerEvent(QTimerEvent *event)
 {

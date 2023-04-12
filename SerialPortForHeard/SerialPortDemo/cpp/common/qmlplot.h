@@ -38,23 +38,16 @@ private:
 class CustomPlotItem : public DDuiBasePlotItem
 {
     Q_OBJECT
-    Q_PROPERTY(int aisle READ aisle WRITE setAisle NOTIFY aisleChanged)
 public:
     CustomPlotItem( QQuickItem* parent = 0 );
     virtual ~CustomPlotItem();
     Q_INVOKABLE void initCustomPlot();
 
-    int aisle() const { return m_aisle; }
-
-    void setAisle(int value) {
-            if (m_aisle != value) {
-                m_aisle = value;
-                emit aisleChanged();
-            }
-        }
+public slots:
+    void setAisleValue(int value);
 
 signals:
-    void aisleChanged();
+    void aisleValueChanged(int value);
 
 private:
     int m_aisle = 0;

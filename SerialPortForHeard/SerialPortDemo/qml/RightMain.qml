@@ -8,8 +8,10 @@ Item {
     id: root
     anchors.fill: parent
 
+    property var choosedAisle: 0
     signal sendSettingInfoSignal(int state)
     //signal clearSignal()
+    signal senChooseAisleSignal( var value)
 
     function setModel(s){
         myModel.append({s})
@@ -79,6 +81,7 @@ Item {
 
        Basic.ComboBox {
            id: aisleComBox
+           textRole: "text"
            model: ListModel {
                id: aisleModel
                ListElement { text: "通道1"; value: 0 }
@@ -93,21 +96,25 @@ Item {
                ListElement { text: "通道10"; value: 9 }
            }
 
-           delegate: ItemDelegate {
-               id: aiselItmdlg
-               height: 30
-               width: parent.width
-               text: modelData
-               background: Rectangle {
-                   id: aisleBackRect
-                   anchors.fill: parent
-                   color: itmdlg.hovered ? "#507BF6":"white"
-               }
-           }
+//           delegate: ItemDelegate {
+//               id: aiselItmdlg
+//               height: 30
+//               width: parent.width
+//               contentItem: Text {
+//                   text: modalData.text
+//               }
+//               //text: modelData
+//               background: Rectangle {
+//                   id: aisleBackRect
+//                   anchors.fill: parent
+//                   color: itmdlg.hovered ? "#507BF6":"white"
+//               }
+//           }
 
            onActivated: {
-               var value = aisleComBox.model.get(aisleComBox.currentIndex).value
-               console.log("Selected value: " + value)
+               choosedAisle = aisleComBox.model.get(aisleComBox.currentIndex).value
+               senChooseAisleSignal( choosedAisle )
+               console.log("Selected value: " + choosedAisle)
                // emit signal or do something with selected value
             }
        }

@@ -127,6 +127,10 @@ Page{
         RightMain {
             id: right_main
             anchors.fill: parent
+
+            onSenChooseAisleSignal: {
+                customPlot.setAisleValue( choosedAisle )
+            }
         }
 
 //        Loader{

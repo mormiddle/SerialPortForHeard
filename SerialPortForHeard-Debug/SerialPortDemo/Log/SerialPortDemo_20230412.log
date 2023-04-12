@@ -13015,3 +13015,1070 @@
 14:06:02.602 (0x80e4) [info ] app running: 14857.231000, 00:00:01.13857
 14:06:02.603 (0x80e4) [info ] app return: 0
 14:06:02.604 (0x80e4) [info ] ----- App exit ------
+14:55:27.210 (0x6f9c) [info ]
+14:55:27.212 (0x6f9c) [info ] ----- App init ------
+14:55:27.213 (0x6f9c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:55:27.213 (0x6f9c) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:55:27.214 (0x6f9c) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:55:27.215 (0x6f9c) [info ] Check chinese support: 012汉字abc
+14:55:27.216 (0x6f9c) [info ] ----- msAppInit: 170658912.168800, 04:44:20.153598912
+14:55:27.217 (0x6f9c) [info ] [trace] --- FuncEntry
+14:55:27.217 (0x6f9c) [info ] [trace]012汉字abc 
+14:55:27.218 (0x6f9c) [info ] qInfo
+14:55:27.219 (0x6f9c) [info ] qDebug
+14:55:27.219 (0x6f9c) [info ] qWanging
+14:55:27.220 (0x6f9c) [info ] QCritical
+14:55:27.221 (0x6f9c) [info ] call getMs() 1000 times, 0.028400 ms
+14:55:27.229 (0x6f9c) [info ] 1-1
+14:55:27.333 (0x6f9c) [info ] 1-2
+14:55:27.334 (0x6f9c) [info ] 2-1,汉字
+14:55:27.335 (0x6f9c) [info ] 2-2,汉字
+14:55:27.336 (0x6f9c) [info ] 1
+14:55:27.336 (0x6f9c) [info ] 12345678901234
+14:55:27.337 (0x6f9c) [info ] 12345679020032.0000000000000000
+14:55:27.338 (0x6f9c) [info ] 12345678901234567168.00000000000000000000000000000000
+14:55:27.343 (0x6f9c) [debug] SlBase::add( 3 + 4 ) = 7
+14:55:27.344 (0x6f9c) [debug] SlBase::getTime() = 2023-04-12 14:55:27.344
+14:55:27.345 (0x6f9c) [info ] [trace] --- FuncExit, 128.497 ms
+14:55:28.928 (0x6f9c) [warn ] Both point size and pixel size set. Using pixel size.
+14:55:29.300 (0x6f9c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:55:29.401 (0x6f9c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:55:29.402 (0x6f9c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:55:29.597 (0x6f9c) [debug] Name :  "COM5"
+14:55:29.598 (0x6f9c) [debug] Name :  "COM7"
+14:55:29.599 (0x6f9c) [debug] Name :  "COM4"
+14:55:29.600 (0x6f9c) [debug] Name :  "COM1"
+14:55:29.601 (0x6f9c) [debug] Name :  "COM2"
+14:55:29.602 (0x6f9c) [debug] Name :  "COM3"
+14:55:29.603 (0x6f9c) [debug] Name :  "COM6"
+14:55:29.649 (0x6f9c) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:55:29.651 (0x6f9c) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:55:29.664 (0x6f9c) [debug] qml: [trace]activetrue
+14:55:32.932 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:55:32.933 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:55:32.934 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:55:32.935 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:55:32.936 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:55:32.937 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:55:32.938 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:55:32.938 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:55:32.939 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:55:32.940 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:55:32.941 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:55:32.941 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:55:32.942 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:55:32.943 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:55:32.944 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:55:32.945 (0x6f9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:55:32.946 (0x6f9c) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:55:32.947 (0x6f9c) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:55:32.949 (0x6f9c) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:55:32.949 (0x6f9c) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:55:44.060 (0x6f9c) [trace] qml:
+14:55:44.826 (0x6f9c) [info ] ----- msAppExit: 170676528.787300, 04:44:22.153614528
+14:55:44.835 (0x6f9c) [info ] app running: 17616.618500, 00:00:01.16616
+14:55:44.835 (0x6f9c) [info ] app return: 0
+14:55:44.836 (0x6f9c) [info ] ----- App exit ------
+14:56:10.095 (0x5d9c) [info ]
+14:56:10.097 (0x5d9c) [info ] ----- App init ------
+14:56:10.098 (0x5d9c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:56:10.099 (0x5d9c) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:56:10.100 (0x5d9c) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:56:10.101 (0x5d9c) [info ] Check chinese support: 012汉字abc
+14:56:10.102 (0x5d9c) [info ] ----- msAppInit: 170701797.606300, 04:44:25.153636797
+14:56:10.103 (0x5d9c) [info ] [trace] --- FuncEntry
+14:56:10.104 (0x5d9c) [info ] [trace]012汉字abc 
+14:56:10.104 (0x5d9c) [info ] qInfo
+14:56:10.105 (0x5d9c) [info ] qDebug
+14:56:10.106 (0x5d9c) [info ] qWanging
+14:56:10.107 (0x5d9c) [info ] QCritical
+14:56:10.107 (0x5d9c) [info ] call getMs() 1000 times, 0.029000 ms
+14:56:10.113 (0x5d9c) [info ] 1-1
+14:56:10.114 (0x5d9c) [info ] 1-2
+14:56:10.114 (0x5d9c) [info ] 2-1,汉字
+14:56:10.115 (0x5d9c) [info ] 2-2,汉字
+14:56:10.116 (0x5d9c) [info ] 1
+14:56:10.117 (0x5d9c) [info ] 12345678901234
+14:56:10.118 (0x5d9c) [info ] 12345679020032.0000000000000000
+14:56:10.119 (0x5d9c) [info ] 12345678901234567168.00000000000000000000000000000000
+14:56:10.125 (0x5d9c) [debug] SlBase::add( 3 + 4 ) = 7
+14:56:10.126 (0x5d9c) [debug] SlBase::getTime() = 2023-04-12 14:56:10.126
+14:56:10.126 (0x5d9c) [info ] [trace] --- FuncExit, 23.3655 ms
+14:56:11.704 (0x5d9c) [warn ] Both point size and pixel size set. Using pixel size.
+14:56:12.044 (0x5d9c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:56:12.141 (0x5d9c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:56:12.157 (0x5d9c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:56:12.384 (0x5d9c) [debug] Name :  "COM5"
+14:56:12.385 (0x5d9c) [debug] Name :  "COM7"
+14:56:12.387 (0x5d9c) [debug] Name :  "COM4"
+14:56:12.390 (0x5d9c) [debug] Name :  "COM1"
+14:56:12.392 (0x5d9c) [debug] Name :  "COM2"
+14:56:12.393 (0x5d9c) [debug] Name :  "COM3"
+14:56:12.394 (0x5d9c) [debug] Name :  "COM6"
+14:56:12.460 (0x5d9c) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:56:12.515 (0x5d9c) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:56:12.532 (0x5d9c) [debug] qml: [trace]activetrue
+14:56:13.357 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:56:13.358 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:56:13.359 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:56:13.360 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:56:13.360 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:56:13.361 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:56:13.362 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:56:13.363 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:56:13.364 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:56:13.365 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:56:13.366 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:56:13.366 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:56:13.367 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:56:13.368 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:56:13.369 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:56:13.370 (0x5d9c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:56:13.371 (0x5d9c) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:56:13.371 (0x5d9c) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:56:13.372 (0x5d9c) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:56:13.373 (0x5d9c) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:56:14.528 (0x5d9c) [trace] qml:
+14:56:14.578 (0x5d9c) [info ] ----- msAppExit: 170706281.052100, 04:44:25.153641281
+14:56:14.579 (0x5d9c) [info ] app running: 4483.445800, 00:00:00.4483
+14:56:14.580 (0x5d9c) [info ] app return: 0
+14:56:14.581 (0x5d9c) [info ] ----- App exit ------
+14:58:11.167 (0x65ec) [info ]
+14:58:11.173 (0x65ec) [info ] ----- App init ------
+14:58:11.174 (0x65ec) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:58:11.174 (0x65ec) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:58:11.175 (0x65ec) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:58:11.176 (0x65ec) [info ] Check chinese support: 012汉字abc
+14:58:11.177 (0x65ec) [info ] ----- msAppInit: 170822870.620300, 04:44:37.153745870
+14:58:11.177 (0x65ec) [info ] [trace] --- FuncEntry
+14:58:11.178 (0x65ec) [info ] [trace]012汉字abc 
+14:58:11.179 (0x65ec) [info ] qInfo
+14:58:11.180 (0x65ec) [info ] qDebug
+14:58:11.181 (0x65ec) [info ] qWanging
+14:58:11.181 (0x65ec) [info ] QCritical
+14:58:11.182 (0x65ec) [info ] call getMs() 1000 times, 0.029200 ms
+14:58:11.188 (0x65ec) [info ] 1-1
+14:58:11.189 (0x65ec) [info ] 1-2
+14:58:11.190 (0x65ec) [info ] 2-1,汉字
+14:58:11.190 (0x65ec) [info ] 2-2,汉字
+14:58:11.191 (0x65ec) [info ] 1
+14:58:11.192 (0x65ec) [info ] 12345678901234
+14:58:11.193 (0x65ec) [info ] 12345679020032.0000000000000000
+14:58:11.193 (0x65ec) [info ] 12345678901234567168.00000000000000000000000000000000
+14:58:11.199 (0x65ec) [debug] SlBase::add( 3 + 4 ) = 7
+14:58:11.199 (0x65ec) [debug] SlBase::getTime() = 2023-04-12 14:58:11.199
+14:58:11.200 (0x65ec) [info ] [trace] --- FuncExit, 22.6392 ms
+14:58:11.980 (0x65ec) [warn ] Both point size and pixel size set. Using pixel size.
+14:58:12.357 (0x65ec) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:58:12.451 (0x65ec) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:58:12.452 (0x65ec) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:58:12.642 (0x65ec) [debug] Name :  "COM5"
+14:58:12.644 (0x65ec) [debug] Name :  "COM7"
+14:58:12.645 (0x65ec) [debug] Name :  "COM4"
+14:58:12.646 (0x65ec) [debug] Name :  "COM1"
+14:58:12.647 (0x65ec) [debug] Name :  "COM2"
+14:58:12.648 (0x65ec) [debug] Name :  "COM3"
+14:58:12.649 (0x65ec) [debug] Name :  "COM6"
+14:58:12.697 (0x65ec) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:58:12.698 (0x65ec) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:58:12.712 (0x65ec) [debug] qml: [trace]activetrue
+14:58:14.056 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:14.058 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:14.058 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:14.059 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:14.060 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:14.061 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:14.062 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:14.063 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:14.063 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:14.065 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:14.065 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:14.066 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:14.066 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:14.067 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:14.068 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:14.069 (0x65ec) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:14.070 (0x65ec) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:58:14.071 (0x65ec) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:58:14.072 (0x65ec) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:58:14.073 (0x65ec) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:58:14.545 (0x65ec) [debug] qml: Selected value: 1
+14:58:16.367 (0x65ec) [trace] qml:
+14:58:16.416 (0x65ec) [info ] ----- msAppExit: 170828118.711200, 04:44:37.153751118
+14:58:16.417 (0x65ec) [info ] app running: 5248.090900, 00:00:00.5248
+14:58:16.418 (0x65ec) [info ] app return: 0
+14:58:16.419 (0x65ec) [info ] ----- App exit ------
+14:58:27.572 (0x42d0) [info ]
+14:58:27.574 (0x42d0) [info ] ----- App init ------
+14:58:27.575 (0x42d0) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:58:27.576 (0x42d0) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:58:27.577 (0x42d0) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:58:27.577 (0x42d0) [info ] Check chinese support: 012汉字abc
+14:58:27.578 (0x42d0) [info ] ----- msAppInit: 170839274.539800, 04:44:38.153761274
+14:58:27.579 (0x42d0) [info ] [trace] --- FuncEntry
+14:58:27.580 (0x42d0) [info ] [trace]012汉字abc 
+14:58:27.581 (0x42d0) [info ] qInfo
+14:58:27.582 (0x42d0) [info ] qDebug
+14:58:27.582 (0x42d0) [info ] qWanging
+14:58:27.583 (0x42d0) [info ] QCritical
+14:58:27.584 (0x42d0) [info ] call getMs() 1000 times, 0.028300 ms
+14:58:27.589 (0x42d0) [info ] 1-1
+14:58:27.590 (0x42d0) [info ] 1-2
+14:58:27.591 (0x42d0) [info ] 2-1,汉字
+14:58:27.592 (0x42d0) [info ] 2-2,汉字
+14:58:27.593 (0x42d0) [info ] 1
+14:58:27.593 (0x42d0) [info ] 12345678901234
+14:58:27.595 (0x42d0) [info ] 12345679020032.0000000000000000
+14:58:27.596 (0x42d0) [info ] 12345678901234567168.00000000000000000000000000000000
+14:58:27.713 (0x42d0) [debug] SlBase::add( 3 + 4 ) = 7
+14:58:27.715 (0x42d0) [debug] SlBase::getTime() = 2023-04-12 14:58:27.715
+14:58:27.715 (0x42d0) [info ] [trace] --- FuncExit, 136.165 ms
+14:58:29.569 (0x42d0) [warn ] Both point size and pixel size set. Using pixel size.
+14:58:29.910 (0x42d0) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:58:30.003 (0x42d0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:58:30.025 (0x42d0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:58:30.219 (0x42d0) [debug] Name :  "COM5"
+14:58:30.220 (0x42d0) [debug] Name :  "COM7"
+14:58:30.221 (0x42d0) [debug] Name :  "COM4"
+14:58:30.222 (0x42d0) [debug] Name :  "COM1"
+14:58:30.223 (0x42d0) [debug] Name :  "COM2"
+14:58:30.224 (0x42d0) [debug] Name :  "COM3"
+14:58:30.227 (0x42d0) [debug] Name :  "COM6"
+14:58:30.276 (0x42d0) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:58:30.278 (0x42d0) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:58:30.289 (0x42d0) [debug] qml: [trace]activetrue
+14:58:31.419 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:31.424 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:31.424 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:31.425 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:31.426 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:31.427 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:31.427 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:31.428 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:31.429 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:31.429 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:31.430 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:31.431 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:31.432 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:31.433 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:31.434 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+14:58:31.435 (0x42d0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+14:58:31.435 (0x42d0) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:58:31.436 (0x42d0) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:58:31.437 (0x42d0) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+14:58:31.438 (0x42d0) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+14:58:32.817 (0x42d0) [trace] qml:
+14:58:32.862 (0x42d0) [info ] ----- msAppExit: 170844565.353300, 04:44:39.153765565
+14:58:32.865 (0x42d0) [info ] app running: 5290.813500, 00:00:00.5290
+14:58:32.866 (0x42d0) [info ] app return: 0
+14:58:32.867 (0x42d0) [info ] ----- App exit ------
+15:00:52.842 (0x13c0) [info ]
+15:00:52.856 (0x13c0) [info ] ----- App init ------
+15:00:52.856 (0x13c0) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:00:52.857 (0x13c0) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:00:52.858 (0x13c0) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:00:52.859 (0x13c0) [info ] Check chinese support: 012汉字abc
+15:00:52.860 (0x13c0) [info ] ----- msAppInit: 170984544.892400, 04:44:53.153891544
+15:00:52.860 (0x13c0) [info ] [trace] --- FuncEntry
+15:00:52.861 (0x13c0) [info ] [trace]012汉字abc 
+15:00:52.862 (0x13c0) [info ] qInfo
+15:00:52.862 (0x13c0) [info ] qDebug
+15:00:52.863 (0x13c0) [info ] qWanging
+15:00:52.865 (0x13c0) [info ] QCritical
+15:00:52.865 (0x13c0) [info ] call getMs() 1000 times, 0.028500 ms
+15:00:52.871 (0x13c0) [info ] 1-1
+15:00:52.872 (0x13c0) [info ] 1-2
+15:00:52.872 (0x13c0) [info ] 2-1,汉字
+15:00:52.873 (0x13c0) [info ] 2-2,汉字
+15:00:52.874 (0x13c0) [info ] 1
+15:00:52.875 (0x13c0) [info ] 12345678901234
+15:00:52.875 (0x13c0) [info ] 12345679020032.0000000000000000
+15:00:52.876 (0x13c0) [info ] 12345678901234567168.00000000000000000000000000000000
+15:00:52.882 (0x13c0) [debug] SlBase::add( 3 + 4 ) = 7
+15:00:52.883 (0x13c0) [debug] SlBase::getTime() = 2023-04-12 15:00:52.883
+15:00:52.884 (0x13c0) [info ] [trace] --- FuncExit, 23.182 ms
+15:00:53.645 (0x13c0) [warn ] Both point size and pixel size set. Using pixel size.
+15:00:54.060 (0x13c0) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:00:54.156 (0x13c0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:00:54.183 (0x13c0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:00:54.378 (0x13c0) [debug] Name :  "COM5"
+15:00:54.379 (0x13c0) [debug] Name :  "COM7"
+15:00:54.379 (0x13c0) [debug] Name :  "COM4"
+15:00:54.380 (0x13c0) [debug] Name :  "COM1"
+15:00:54.381 (0x13c0) [debug] Name :  "COM2"
+15:00:54.382 (0x13c0) [debug] Name :  "COM3"
+15:00:54.383 (0x13c0) [debug] Name :  "COM6"
+15:00:54.432 (0x13c0) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:00:54.434 (0x13c0) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+15:00:54.446 (0x13c0) [debug] qml: [trace]activetrue
+15:00:55.441 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:00:55.442 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:00:55.443 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:00:55.443 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:00:55.444 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:00:55.445 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:00:55.446 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:00:55.446 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:00:55.447 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:00:55.448 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:00:55.449 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:00:55.450 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:00:55.451 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:00:55.451 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:00:55.453 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:00:55.453 (0x13c0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:00:55.454 (0x13c0) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:00:55.455 (0x13c0) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+15:00:55.456 (0x13c0) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:00:55.457 (0x13c0) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+15:00:56.047 (0x13c0) [debug] qml: Selected value: 0
+15:00:56.865 (0x13c0) [debug] qml: Selected value: 1
+15:00:57.528 (0x13c0) [trace] qml:
+15:00:57.567 (0x13c0) [info ] ----- msAppExit: 170989270.750900, 04:44:53.153896270
+15:00:57.649 (0x13c0) [info ] app running: 4725.858500, 00:00:00.4725
+15:00:57.650 (0x13c0) [info ] app return: 0
+15:00:57.651 (0x13c0) [info ] ----- App exit ------
+15:01:24.803 (0x5cdc) [info ]
+15:01:24.806 (0x5cdc) [info ] ----- App init ------
+15:01:24.807 (0x5cdc) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:01:24.807 (0x5cdc) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:01:24.808 (0x5cdc) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:01:24.809 (0x5cdc) [info ] Check chinese support: 012汉字abc
+15:01:24.811 (0x5cdc) [info ] ----- msAppInit: 171016506.174000, 04:44:56.153920506
+15:01:24.811 (0x5cdc) [info ] [trace] --- FuncEntry
+15:01:24.812 (0x5cdc) [info ] [trace]012汉字abc 
+15:01:24.813 (0x5cdc) [info ] qInfo
+15:01:24.813 (0x5cdc) [info ] qDebug
+15:01:24.814 (0x5cdc) [info ] qWanging
+15:01:24.815 (0x5cdc) [info ] QCritical
+15:01:24.815 (0x5cdc) [info ] call getMs() 1000 times, 0.028500 ms
+15:01:24.821 (0x5cdc) [info ] 1-1
+15:01:24.822 (0x5cdc) [info ] 1-2
+15:01:24.823 (0x5cdc) [info ] 2-1,汉字
+15:01:24.823 (0x5cdc) [info ] 2-2,汉字
+15:01:24.824 (0x5cdc) [info ] 1
+15:01:24.825 (0x5cdc) [info ] 12345678901234
+15:01:24.826 (0x5cdc) [info ] 12345679020032.0000000000000000
+15:01:24.827 (0x5cdc) [info ] 12345678901234567168.00000000000000000000000000000000
+15:01:24.833 (0x5cdc) [debug] SlBase::add( 3 + 4 ) = 7
+15:01:24.833 (0x5cdc) [debug] SlBase::getTime() = 2023-04-12 15:01:24.833
+15:01:24.834 (0x5cdc) [info ] [trace] --- FuncExit, 22.6465 ms
+15:01:26.391 (0x5cdc) [warn ] Both point size and pixel size set. Using pixel size.
+15:01:26.740 (0x5cdc) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:01:26.833 (0x5cdc) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:01:26.857 (0x5cdc) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:01:27.053 (0x5cdc) [debug] Name :  "COM5"
+15:01:27.056 (0x5cdc) [debug] Name :  "COM7"
+15:01:27.057 (0x5cdc) [debug] Name :  "COM4"
+15:01:27.058 (0x5cdc) [debug] Name :  "COM1"
+15:01:27.059 (0x5cdc) [debug] Name :  "COM2"
+15:01:27.060 (0x5cdc) [debug] Name :  "COM3"
+15:01:27.061 (0x5cdc) [debug] Name :  "COM6"
+15:01:27.109 (0x5cdc) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:01:27.110 (0x5cdc) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+15:01:27.111 (0x5cdc) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:01:27.112 (0x5cdc) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:01:27.125 (0x5cdc) [debug] qml: [trace]activetrue
+15:01:28.051 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:28.053 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:01:28.054 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:28.054 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:01:28.055 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:28.056 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:01:28.057 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:28.057 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:01:28.058 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:28.059 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:01:28.060 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:28.061 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:01:28.061 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:28.062 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:01:28.063 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:28.064 (0x5cdc) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:01:28.065 (0x5cdc) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:01:28.065 (0x5cdc) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+15:01:28.066 (0x5cdc) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:01:28.067 (0x5cdc) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+15:01:28.512 (0x5cdc) [debug] qml: Selected value: 1
+15:01:29.384 (0x5cdc) [trace] qml:
+15:01:29.429 (0x5cdc) [info ] ----- msAppExit: 171021131.970300, 04:44:56.153925131
+15:01:29.430 (0x5cdc) [info ] app running: 4625.796300, 00:00:00.4625
+15:01:29.431 (0x5cdc) [info ] app return: 0
+15:01:29.431 (0x5cdc) [info ] ----- App exit ------
+15:01:41.635 (0x6614) [info ]
+15:01:41.638 (0x6614) [info ] ----- App init ------
+15:01:41.638 (0x6614) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:01:41.639 (0x6614) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:01:41.640 (0x6614) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:01:41.641 (0x6614) [info ] Check chinese support: 012汉字abc
+15:01:41.642 (0x6614) [info ] ----- msAppInit: 171033337.980800, 04:44:58.153935337
+15:01:41.642 (0x6614) [info ] [trace] --- FuncEntry
+15:01:41.643 (0x6614) [info ] [trace]012汉字abc 
+15:01:41.644 (0x6614) [info ] qInfo
+15:01:41.645 (0x6614) [info ] qDebug
+15:01:41.645 (0x6614) [info ] qWanging
+15:01:41.646 (0x6614) [info ] QCritical
+15:01:41.647 (0x6614) [info ] call getMs() 1000 times, 0.028900 ms
+15:01:41.653 (0x6614) [info ] 1-1
+15:01:41.654 (0x6614) [info ] 1-2
+15:01:41.654 (0x6614) [info ] 2-1,汉字
+15:01:41.655 (0x6614) [info ] 2-2,汉字
+15:01:41.656 (0x6614) [info ] 1
+15:01:41.657 (0x6614) [info ] 12345678901234
+15:01:41.658 (0x6614) [info ] 12345679020032.0000000000000000
+15:01:41.659 (0x6614) [info ] 12345678901234567168.00000000000000000000000000000000
+15:01:41.666 (0x6614) [debug] SlBase::add( 3 + 4 ) = 7
+15:01:41.781 (0x6614) [debug] SlBase::getTime() = 2023-04-12 15:01:41.781
+15:01:41.784 (0x6614) [info ] [trace] --- FuncExit, 141.427 ms
+15:01:42.153 (0x6614) [warn ] QQmlApplicationEngine failed to load component
+15:01:42.154 (0x6614) [warn ] qrc:/qml/main.qml:23:5: Type MainPage unavailable
+15:01:42.155 (0x6614) [warn ] qrc:/qml/MainPage.qml:127:9: Type RightMain unavailable
+15:01:42.156 (0x6614) [warn ] qrc:/qml/RightMain.qml:104:45: Expected token `,'
+15:01:42.157 (0x6614) [info ] ----- msAppExit: 171033859.940000, 04:44:58.153935859
+15:01:42.158 (0x6614) [info ] app running: 521.959200, 00:00:00.521
+15:01:42.159 (0x6614) [info ] app return: -1
+15:01:42.160 (0x6614) [info ] ----- App exit ------
+15:01:49.139 (0x0fd4) [info ]
+15:01:49.141 (0x0fd4) [info ] ----- App init ------
+15:01:49.141 (0x0fd4) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:01:49.142 (0x0fd4) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:01:49.143 (0x0fd4) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:01:49.144 (0x0fd4) [info ] Check chinese support: 012汉字abc
+15:01:49.144 (0x0fd4) [info ] ----- msAppInit: 171040841.768600, 04:44:58.153942841
+15:01:49.145 (0x0fd4) [info ] [trace] --- FuncEntry
+15:01:49.146 (0x0fd4) [info ] [trace]012汉字abc 
+15:01:49.147 (0x0fd4) [info ] qInfo
+15:01:49.147 (0x0fd4) [info ] qDebug
+15:01:49.148 (0x0fd4) [info ] qWanging
+15:01:49.149 (0x0fd4) [info ] QCritical
+15:01:49.150 (0x0fd4) [info ] call getMs() 1000 times, 0.029000 ms
+15:01:49.165 (0x0fd4) [info ] 1-1
+15:01:49.166 (0x0fd4) [info ] 1-2
+15:01:49.167 (0x0fd4) [info ] 2-1,汉字
+15:01:49.168 (0x0fd4) [info ] 2-2,汉字
+15:01:49.169 (0x0fd4) [info ] 1
+15:01:49.170 (0x0fd4) [info ] 12345678901234
+15:01:49.171 (0x0fd4) [info ] 12345679020032.0000000000000000
+15:01:49.171 (0x0fd4) [info ] 12345678901234567168.00000000000000000000000000000000
+15:01:49.177 (0x0fd4) [debug] SlBase::add( 3 + 4 ) = 7
+15:01:49.178 (0x0fd4) [debug] SlBase::getTime() = 2023-04-12 15:01:49.178
+15:01:49.178 (0x0fd4) [info ] [trace] --- FuncExit, 33.0605 ms
+15:01:50.800 (0x0fd4) [warn ] Both point size and pixel size set. Using pixel size.
+15:01:51.142 (0x0fd4) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:01:51.242 (0x0fd4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:01:51.242 (0x0fd4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:01:51.427 (0x0fd4) [debug] Name :  "COM5"
+15:01:51.429 (0x0fd4) [debug] Name :  "COM7"
+15:01:51.430 (0x0fd4) [debug] Name :  "COM4"
+15:01:51.430 (0x0fd4) [debug] Name :  "COM1"
+15:01:51.431 (0x0fd4) [debug] Name :  "COM2"
+15:01:51.433 (0x0fd4) [debug] Name :  "COM3"
+15:01:51.434 (0x0fd4) [debug] Name :  "COM6"
+15:01:51.481 (0x0fd4) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:01:51.482 (0x0fd4) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:01:51.483 (0x0fd4) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:01:51.497 (0x0fd4) [debug] qml: [trace]activetrue
+15:01:52.660 (0x0fd4) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:52.667 (0x0fd4) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:52.667 (0x0fd4) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:52.668 (0x0fd4) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:52.669 (0x0fd4) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:52.670 (0x0fd4) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:52.670 (0x0fd4) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:52.671 (0x0fd4) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:01:52.672 (0x0fd4) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:01:52.673 (0x0fd4) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:01:53.410 (0x0fd4) [debug] qml: Selected value: undefined
+15:01:54.368 (0x0fd4) [debug] qml: Selected value: undefined
+15:01:57.148 (0x0fd4) [debug] qml: [trace]activefalse
+15:02:15.193 (0x0fd4) [trace] qml:
+15:02:15.214 (0x0fd4) [info ] ----- msAppExit: 171066916.084400, 04:45:01.153965916
+15:02:15.309 (0x0fd4) [info ] app running: 26074.315800, 00:00:02.24074
+15:02:15.310 (0x0fd4) [info ] app return: 0
+15:02:15.311 (0x0fd4) [info ] ----- App exit ------
+15:02:17.386 (0x3628) [info ]
+15:02:17.388 (0x3628) [info ] ----- App init ------
+15:02:17.389 (0x3628) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:02:17.389 (0x3628) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:02:17.390 (0x3628) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:02:17.391 (0x3628) [info ] Check chinese support: 012汉字abc
+15:02:17.392 (0x3628) [info ] ----- msAppInit: 171069088.057900, 04:45:01.153968088
+15:02:17.393 (0x3628) [info ] [trace] --- FuncEntry
+15:02:17.393 (0x3628) [info ] [trace]012汉字abc 
+15:02:17.394 (0x3628) [info ] qInfo
+15:02:17.395 (0x3628) [info ] qDebug
+15:02:17.395 (0x3628) [info ] qWanging
+15:02:17.396 (0x3628) [info ] QCritical
+15:02:17.397 (0x3628) [info ] call getMs() 1000 times, 0.028200 ms
+15:02:17.403 (0x3628) [info ] 1-1
+15:02:17.404 (0x3628) [info ] 1-2
+15:02:17.404 (0x3628) [info ] 2-1,汉字
+15:02:17.405 (0x3628) [info ] 2-2,汉字
+15:02:17.406 (0x3628) [info ] 1
+15:02:17.407 (0x3628) [info ] 12345678901234
+15:02:17.407 (0x3628) [info ] 12345679020032.0000000000000000
+15:02:17.408 (0x3628) [info ] 12345678901234567168.00000000000000000000000000000000
+15:02:17.415 (0x3628) [debug] SlBase::add( 3 + 4 ) = 7
+15:02:17.415 (0x3628) [debug] SlBase::getTime() = 2023-04-12 15:02:17.415
+15:02:17.415 (0x3628) [info ] [trace] --- FuncExit, 23.5288 ms
+15:02:18.185 (0x3628) [warn ] Both point size and pixel size set. Using pixel size.
+15:02:18.513 (0x3628) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:02:18.607 (0x3628) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:02:18.608 (0x3628) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:02:18.814 (0x3628) [debug] Name :  "COM5"
+15:02:18.832 (0x3628) [debug] Name :  "COM7"
+15:02:18.834 (0x3628) [debug] Name :  "COM4"
+15:02:18.835 (0x3628) [debug] Name :  "COM1"
+15:02:18.837 (0x3628) [debug] Name :  "COM2"
+15:02:18.841 (0x3628) [debug] Name :  "COM3"
+15:02:18.842 (0x3628) [debug] Name :  "COM6"
+15:02:18.889 (0x3628) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:02:18.890 (0x3628) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+15:02:18.890 (0x3628) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:02:18.891 (0x3628) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:02:18.901 (0x3628) [debug] qml: [trace]activetrue
+15:02:19.868 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:02:19.878 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:02:19.879 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:02:19.880 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:02:19.881 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:02:19.881 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:02:19.882 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:02:19.883 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:02:19.884 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:02:19.884 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:02:19.885 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:02:19.886 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:02:19.887 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:02:19.888 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:02:19.888 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:02:19.889 (0x3628) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modelData is not defined
+15:02:19.890 (0x3628) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:02:19.891 (0x3628) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+15:02:19.892 (0x3628) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:02:19.892 (0x3628) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modelData is not defined
+15:02:22.017 (0x3628) [trace] qml:
+15:02:22.067 (0x3628) [info ] ----- msAppExit: 171073770.279400, 04:45:02.153971770
+15:02:22.138 (0x3628) [info ] app running: 4682.221500, 00:00:00.4682
+15:02:22.141 (0x3628) [info ] app return: 0
+15:02:22.147 (0x3628) [info ] ----- App exit ------
+15:04:55.073 (0x440c) [info ]
+15:04:55.075 (0x440c) [info ] ----- App init ------
+15:04:55.076 (0x440c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:04:55.076 (0x440c) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:04:55.077 (0x440c) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:04:55.078 (0x440c) [info ] Check chinese support: 012汉字abc
+15:04:55.079 (0x440c) [info ] ----- msAppInit: 171226775.646900, 04:45:17.154109775
+15:04:55.080 (0x440c) [info ] [trace] --- FuncEntry
+15:04:55.080 (0x440c) [info ] [trace]012汉字abc 
+15:04:55.081 (0x440c) [info ] qInfo
+15:04:55.083 (0x440c) [info ] qDebug
+15:04:55.083 (0x440c) [info ] qWanging
+15:04:55.083 (0x440c) [info ] QCritical
+15:04:55.084 (0x440c) [info ] call getMs() 1000 times, 0.029000 ms
+15:04:55.090 (0x440c) [info ] 1-1
+15:04:55.091 (0x440c) [info ] 1-2
+15:04:55.091 (0x440c) [info ] 2-1,汉字
+15:04:55.092 (0x440c) [info ] 2-2,汉字
+15:04:55.093 (0x440c) [info ] 1
+15:04:55.093 (0x440c) [info ] 12345678901234
+15:04:55.094 (0x440c) [info ] 12345679020032.0000000000000000
+15:04:55.095 (0x440c) [info ] 12345678901234567168.00000000000000000000000000000000
+15:04:55.100 (0x440c) [debug] SlBase::add( 3 + 4 ) = 7
+15:04:55.101 (0x440c) [debug] SlBase::getTime() = 2023-04-12 15:04:55.101
+15:04:55.102 (0x440c) [info ] [trace] --- FuncExit, 22.5185 ms
+15:04:56.669 (0x440c) [warn ] Both point size and pixel size set. Using pixel size.
+15:04:57.012 (0x440c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:04:57.103 (0x440c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:04:57.135 (0x440c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:04:57.328 (0x440c) [debug] Name :  "COM5"
+15:04:57.329 (0x440c) [debug] Name :  "COM7"
+15:04:57.330 (0x440c) [debug] Name :  "COM4"
+15:04:57.331 (0x440c) [debug] Name :  "COM1"
+15:04:57.332 (0x440c) [debug] Name :  "COM2"
+15:04:57.332 (0x440c) [debug] Name :  "COM3"
+15:04:57.333 (0x440c) [debug] Name :  "COM6"
+15:04:57.380 (0x440c) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:04:57.381 (0x440c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:04:57.382 (0x440c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:04:57.395 (0x440c) [debug] qml: [trace]activetrue
+15:04:58.250 (0x440c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:04:58.251 (0x440c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:04:58.252 (0x440c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:04:58.253 (0x440c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:04:58.254 (0x440c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:04:58.255 (0x440c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:04:58.255 (0x440c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:04:58.256 (0x440c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:04:58.257 (0x440c) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:04:58.258 (0x440c) [warn ] qrc:/qml/RightMain.qml:104: ReferenceError: itmdlg is not defined
+15:04:58.959 (0x440c) [debug] qml: Selected value: 1
+15:04:59.741 (0x440c) [debug] qml: Selected value: 0
+15:05:00.256 (0x440c) [trace] qml:
+15:05:00.297 (0x440c) [info ] ----- msAppExit: 171232000.546500, 04:45:18.154114000
+15:05:00.366 (0x440c) [info ] app running: 5224.899600, 00:00:00.5224
+15:05:00.367 (0x440c) [info ] app return: 0
+15:05:00.368 (0x440c) [info ] ----- App exit ------
+15:05:57.346 (0x2bb0) [info ]
+15:05:57.356 (0x2bb0) [info ] ----- App init ------
+15:05:57.357 (0x2bb0) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:05:57.358 (0x2bb0) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:05:57.359 (0x2bb0) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:05:57.360 (0x2bb0) [info ] Check chinese support: 012汉字abc
+15:05:57.361 (0x2bb0) [info ] ----- msAppInit: 171289048.662500, 04:45:23.154166048
+15:05:57.361 (0x2bb0) [info ] [trace] --- FuncEntry
+15:05:57.362 (0x2bb0) [info ] [trace]012汉字abc 
+15:05:57.362 (0x2bb0) [info ] qInfo
+15:05:57.364 (0x2bb0) [info ] qDebug
+15:05:57.364 (0x2bb0) [info ] qWanging
+15:05:57.364 (0x2bb0) [info ] QCritical
+15:05:57.365 (0x2bb0) [info ] call getMs() 1000 times, 0.028500 ms
+15:05:57.371 (0x2bb0) [info ] 1-1
+15:05:57.372 (0x2bb0) [info ] 1-2
+15:05:57.372 (0x2bb0) [info ] 2-1,汉字
+15:05:57.373 (0x2bb0) [info ] 2-2,汉字
+15:05:57.374 (0x2bb0) [info ] 1
+15:05:57.374 (0x2bb0) [info ] 12345678901234
+15:05:57.376 (0x2bb0) [info ] 12345679020032.0000000000000000
+15:05:57.376 (0x2bb0) [info ] 12345678901234567168.00000000000000000000000000000000
+15:05:57.383 (0x2bb0) [debug] SlBase::add( 3 + 4 ) = 7
+15:05:57.384 (0x2bb0) [debug] SlBase::getTime() = 2023-04-12 15:05:57.384
+15:05:57.385 (0x2bb0) [info ] [trace] --- FuncExit, 23.6805 ms
+15:05:58.954 (0x2bb0) [warn ] Both point size and pixel size set. Using pixel size.
+15:05:59.306 (0x2bb0) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:05:59.399 (0x2bb0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:05:59.400 (0x2bb0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:05:59.595 (0x2bb0) [debug] Name :  "COM5"
+15:05:59.597 (0x2bb0) [debug] Name :  "COM7"
+15:05:59.598 (0x2bb0) [debug] Name :  "COM4"
+15:05:59.599 (0x2bb0) [debug] Name :  "COM1"
+15:05:59.600 (0x2bb0) [debug] Name :  "COM2"
+15:05:59.603 (0x2bb0) [debug] Name :  "COM3"
+15:05:59.605 (0x2bb0) [debug] Name :  "COM6"
+15:05:59.654 (0x2bb0) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modalData is not defined
+15:05:59.655 (0x2bb0) [warn ] qrc:/qml/RightMain.qml:105: ReferenceError: itmdlg is not defined
+15:05:59.655 (0x2bb0) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:05:59.656 (0x2bb0) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:05:59.670 (0x2bb0) [debug] qml: [trace]activetrue
+15:06:01.762 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:06:01.792 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:06:01.793 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:06:01.794 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:06:01.795 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:06:01.796 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:06:01.796 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:06:01.797 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:06:01.798 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:06:01.799 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:06:01.800 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:06:01.800 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:06:01.801 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:06:01.802 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:06:01.803 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:06:01.804 (0x2bb0) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:06:01.805 (0x2bb0) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modalData is not defined
+15:06:01.805 (0x2bb0) [warn ] qrc:/qml/RightMain.qml:105: ReferenceError: itmdlg is not defined
+15:06:01.806 (0x2bb0) [warn ] qrc:/qml/RightMain.qml:100: ReferenceError: modalData is not defined
+15:06:01.807 (0x2bb0) [warn ] qrc:/qml/RightMain.qml:105: ReferenceError: itmdlg is not defined
+15:06:13.912 (0x2bb0) [trace] qml:
+15:06:13.959 (0x2bb0) [info ] ----- msAppExit: 171305662.310600, 04:45:25.154180662
+15:06:14.024 (0x2bb0) [info ] app running: 16613.648100, 00:00:01.15613
+15:06:14.025 (0x2bb0) [info ] app return: 0
+15:06:14.025 (0x2bb0) [info ] ----- App exit ------
+15:07:58.033 (0x5e5c) [info ]
+15:07:58.043 (0x5e5c) [info ] ----- App init ------
+15:07:58.045 (0x5e5c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:07:58.045 (0x5e5c) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:07:58.046 (0x5e5c) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:07:58.047 (0x5e5c) [info ] Check chinese support: 012汉字abc
+15:07:58.048 (0x5e5c) [info ] ----- msAppInit: 171409736.054600, 04:45:35.154274736
+15:07:58.048 (0x5e5c) [info ] [trace] --- FuncEntry
+15:07:58.049 (0x5e5c) [info ] [trace]012汉字abc 
+15:07:58.050 (0x5e5c) [info ] qInfo
+15:07:58.051 (0x5e5c) [info ] qDebug
+15:07:58.052 (0x5e5c) [info ] qWanging
+15:07:58.053 (0x5e5c) [info ] QCritical
+15:07:58.054 (0x5e5c) [info ] call getMs() 1000 times, 0.029100 ms
+15:07:58.059 (0x5e5c) [info ] 1-1
+15:07:58.060 (0x5e5c) [info ] 1-2
+15:07:58.061 (0x5e5c) [info ] 2-1,汉字
+15:07:58.061 (0x5e5c) [info ] 2-2,汉字
+15:07:58.062 (0x5e5c) [info ] 1
+15:07:58.063 (0x5e5c) [info ] 12345678901234
+15:07:58.064 (0x5e5c) [info ] 12345679020032.0000000000000000
+15:07:58.064 (0x5e5c) [info ] 12345678901234567168.00000000000000000000000000000000
+15:07:58.071 (0x5e5c) [debug] SlBase::add( 3 + 4 ) = 7
+15:07:58.071 (0x5e5c) [debug] SlBase::getTime() = 2023-04-12 15:07:58.071
+15:07:58.072 (0x5e5c) [info ] [trace] --- FuncExit, 22.8483 ms
+15:07:59.652 (0x5e5c) [warn ] Both point size and pixel size set. Using pixel size.
+15:08:00.012 (0x5e5c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:08:00.105 (0x5e5c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:08:00.106 (0x5e5c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:08:00.298 (0x5e5c) [debug] Name :  "COM5"
+15:08:00.299 (0x5e5c) [debug] Name :  "COM7"
+15:08:00.301 (0x5e5c) [debug] Name :  "COM4"
+15:08:00.301 (0x5e5c) [debug] Name :  "COM1"
+15:08:00.304 (0x5e5c) [debug] Name :  "COM2"
+15:08:00.306 (0x5e5c) [debug] Name :  "COM3"
+15:08:00.309 (0x5e5c) [debug] Name :  "COM6"
+15:08:00.357 (0x5e5c) [warn ] qrc:/qml/RightMain.qml:101: ReferenceError: modalData is not defined
+15:08:00.359 (0x5e5c) [warn ] qrc:/qml/RightMain.qml:107: ReferenceError: itmdlg is not defined
+15:08:00.360 (0x5e5c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:08:00.361 (0x5e5c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:08:00.372 (0x5e5c) [debug] qml: [trace]activetrue
+15:08:01.204 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:08:01.205 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:08:01.206 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:08:01.206 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:08:01.207 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:08:01.208 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:08:01.209 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:08:01.210 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:08:01.211 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:08:01.211 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:08:01.212 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:08:01.214 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:08:01.214 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:08:01.215 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:08:01.216 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:08:01.216 (0x5e5c) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:08:01.217 (0x5e5c) [warn ] qrc:/qml/RightMain.qml:101: ReferenceError: modalData is not defined
+15:08:01.218 (0x5e5c) [warn ] qrc:/qml/RightMain.qml:107: ReferenceError: itmdlg is not defined
+15:08:01.219 (0x5e5c) [warn ] qrc:/qml/RightMain.qml:101: ReferenceError: modalData is not defined
+15:08:01.220 (0x5e5c) [warn ] qrc:/qml/RightMain.qml:107: ReferenceError: itmdlg is not defined
+15:09:24.360 (0x5e5c) [debug] qml: Selected value: 2
+15:09:41.121 (0x5e5c) [debug] qml: [trace]activefalse
+15:09:48.318 (0x5e5c) [debug] qml: [trace]activetrue
+15:09:48.835 (0x5e5c) [debug] qml: [trace]activefalse
+15:12:03.053 (0x5e5c) [trace] qml:
+15:12:03.152 (0x5e5c) [info ] ----- msAppExit: 171654854.945800, 04:46:00.154494854
+15:12:03.153 (0x5e5c) [info ] app running: 245118.891200, 00:00:24.221118
+15:12:03.153 (0x5e5c) [info ] app return: 0
+15:12:03.154 (0x5e5c) [info ] ----- App exit ------
+15:12:05.326 (0x2d88) [info ]
+15:12:05.329 (0x2d88) [info ] ----- App init ------
+15:12:05.329 (0x2d88) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:12:05.330 (0x2d88) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:12:05.331 (0x2d88) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:12:05.331 (0x2d88) [info ] Check chinese support: 012汉字abc
+15:12:05.332 (0x2d88) [info ] ----- msAppInit: 171657028.845100, 04:46:00.154497028
+15:12:05.333 (0x2d88) [info ] [trace] --- FuncEntry
+15:12:05.334 (0x2d88) [info ] [trace]012汉字abc 
+15:12:05.335 (0x2d88) [info ] qInfo
+15:12:05.335 (0x2d88) [info ] qDebug
+15:12:05.336 (0x2d88) [info ] qWanging
+15:12:05.337 (0x2d88) [info ] QCritical
+15:12:05.338 (0x2d88) [info ] call getMs() 1000 times, 0.031800 ms
+15:12:05.343 (0x2d88) [info ] 1-1
+15:12:05.344 (0x2d88) [info ] 1-2
+15:12:05.345 (0x2d88) [info ] 2-1,汉字
+15:12:05.346 (0x2d88) [info ] 2-2,汉字
+15:12:05.347 (0x2d88) [info ] 1
+15:12:05.347 (0x2d88) [info ] 12345678901234
+15:12:05.348 (0x2d88) [info ] 12345679020032.0000000000000000
+15:12:05.349 (0x2d88) [info ] 12345678901234567168.00000000000000000000000000000000
+15:12:05.355 (0x2d88) [debug] SlBase::add( 3 + 4 ) = 7
+15:12:05.355 (0x2d88) [debug] SlBase::getTime() = 2023-04-12 15:12:05.355
+15:12:05.355 (0x2d88) [info ] [trace] --- FuncExit, 22.436 ms
+15:12:06.113 (0x2d88) [warn ] Both point size and pixel size set. Using pixel size.
+15:12:06.465 (0x2d88) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:12:06.557 (0x2d88) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:12:06.582 (0x2d88) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:12:06.775 (0x2d88) [debug] Name :  "COM5"
+15:12:06.776 (0x2d88) [debug] Name :  "COM7"
+15:12:06.777 (0x2d88) [debug] Name :  "COM4"
+15:12:06.778 (0x2d88) [debug] Name :  "COM1"
+15:12:06.778 (0x2d88) [debug] Name :  "COM2"
+15:12:06.779 (0x2d88) [debug] Name :  "COM3"
+15:12:06.780 (0x2d88) [debug] Name :  "COM6"
+15:12:06.832 (0x2d88) [warn ] qrc:/qml/RightMain.qml:101: ReferenceError: modalData is not defined
+15:12:06.833 (0x2d88) [warn ] qrc:/qml/RightMain.qml:107: ReferenceError: itmdlg is not defined
+15:12:06.834 (0x2d88) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:12:06.836 (0x2d88) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:12:06.847 (0x2d88) [debug] qml: [trace]activetrue
+15:12:07.780 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:12:07.781 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:12:07.782 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:12:07.783 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:12:07.784 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:12:07.784 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:12:07.785 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:12:07.786 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:12:07.787 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:12:07.788 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:12:07.788 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:12:07.789 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:12:07.790 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:12:07.790 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:12:07.791 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:12:07.792 (0x2d88) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:12:07.793 (0x2d88) [warn ] qrc:/qml/RightMain.qml:101: ReferenceError: modalData is not defined
+15:12:07.794 (0x2d88) [warn ] qrc:/qml/RightMain.qml:107: ReferenceError: itmdlg is not defined
+15:12:07.794 (0x2d88) [warn ] qrc:/qml/RightMain.qml:101: ReferenceError: modalData is not defined
+15:12:07.795 (0x2d88) [warn ] qrc:/qml/RightMain.qml:107: ReferenceError: itmdlg is not defined
+15:12:10.000 (0x2d88) [debug] qml: Selected value: 1
+15:12:10.604 (0x2d88) [trace] qml:
+15:12:10.631 (0x2d88) [info ] ----- msAppExit: 171662333.965600, 04:46:01.154501333
+15:12:10.715 (0x2d88) [info ] app running: 5305.120500, 00:00:00.5305
+15:12:10.715 (0x2d88) [info ] app return: 0
+15:12:10.716 (0x2d88) [info ] ----- App exit ------
+15:13:25.168 (0x6d14) [info ]
+15:13:25.175 (0x6d14) [info ] ----- App init ------
+15:13:25.177 (0x6d14) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:13:25.177 (0x6d14) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:13:25.178 (0x6d14) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:13:25.179 (0x6d14) [info ] Check chinese support: 012汉字abc
+15:13:25.180 (0x6d14) [info ] ----- msAppInit: 171736870.537700, 04:46:08.154568870
+15:13:25.181 (0x6d14) [info ] [trace] --- FuncEntry
+15:13:25.182 (0x6d14) [info ] [trace]012汉字abc 
+15:13:25.182 (0x6d14) [info ] qInfo
+15:13:25.183 (0x6d14) [info ] qDebug
+15:13:25.184 (0x6d14) [info ] qWanging
+15:13:25.184 (0x6d14) [info ] QCritical
+15:13:25.185 (0x6d14) [info ] call getMs() 1000 times, 0.028400 ms
+15:13:25.190 (0x6d14) [info ] 1-1
+15:13:25.191 (0x6d14) [info ] 1-2
+15:13:25.191 (0x6d14) [info ] 2-1,汉字
+15:13:25.192 (0x6d14) [info ] 2-2,汉字
+15:13:25.193 (0x6d14) [info ] 1
+15:13:25.194 (0x6d14) [info ] 12345678901234
+15:13:25.195 (0x6d14) [info ] 12345679020032.0000000000000000
+15:13:25.195 (0x6d14) [info ] 12345678901234567168.00000000000000000000000000000000
+15:13:25.201 (0x6d14) [debug] SlBase::add( 3 + 4 ) = 7
+15:13:25.202 (0x6d14) [debug] SlBase::getTime() = 2023-04-12 15:13:25.202
+15:13:25.203 (0x6d14) [info ] [trace] --- FuncExit, 22.2995 ms
+15:13:26.765 (0x6d14) [warn ] Both point size and pixel size set. Using pixel size.
+15:13:27.103 (0x6d14) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:13:27.194 (0x6d14) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:13:27.195 (0x6d14) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:13:27.391 (0x6d14) [debug] Name :  "COM5"
+15:13:27.392 (0x6d14) [debug] Name :  "COM7"
+15:13:27.393 (0x6d14) [debug] Name :  "COM4"
+15:13:27.394 (0x6d14) [debug] Name :  "COM1"
+15:13:27.395 (0x6d14) [debug] Name :  "COM2"
+15:13:27.396 (0x6d14) [debug] Name :  "COM3"
+15:13:27.396 (0x6d14) [debug] Name :  "COM6"
+15:13:27.446 (0x6d14) [warn ] qrc:/qml/RightMain.qml:101: ReferenceError: modalData is not defined
+15:13:27.448 (0x6d14) [warn ] qrc:/qml/RightMain.qml:107: ReferenceError: itmdlg is not defined
+15:13:27.450 (0x6d14) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:13:27.451 (0x6d14) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:13:27.460 (0x6d14) [debug] qml: [trace]activetrue
+15:13:28.370 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:13:28.371 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:13:28.372 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:13:28.373 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:13:28.373 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:13:28.374 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:13:28.375 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:13:28.376 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:13:28.377 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:13:28.378 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:13:28.379 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:13:28.380 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:13:28.380 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:13:28.381 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:13:28.382 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: modalData is not defined
+15:13:28.383 (0x6d14) [warn ] qrc:/qml/RightMain.qml: ReferenceError: itmdlg is not defined
+15:13:28.383 (0x6d14) [warn ] qrc:/qml/RightMain.qml:101: ReferenceError: modalData is not defined
+15:13:28.384 (0x6d14) [warn ] qrc:/qml/RightMain.qml:107: ReferenceError: itmdlg is not defined
+15:13:28.385 (0x6d14) [warn ] qrc:/qml/RightMain.qml:101: ReferenceError: modalData is not defined
+15:13:28.386 (0x6d14) [warn ] qrc:/qml/RightMain.qml:107: ReferenceError: itmdlg is not defined
+15:13:29.544 (0x6d14) [trace] qml:
+15:13:29.594 (0x6d14) [info ] ----- msAppExit: 171741296.295100, 04:46:08.154573296
+15:13:29.657 (0x6d14) [info ] app running: 4425.757400, 00:00:00.4425
+15:13:29.658 (0x6d14) [info ] app return: 0
+15:13:29.659 (0x6d14) [info ] ----- App exit ------
+15:14:09.492 (0x3784) [info ]
+15:14:09.494 (0x3784) [info ] ----- App init ------
+15:14:09.495 (0x3784) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:14:09.496 (0x3784) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:14:09.496 (0x3784) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:14:09.497 (0x3784) [info ] Check chinese support: 012汉字abc
+15:14:09.498 (0x3784) [info ] ----- msAppInit: 171781195.534800, 04:46:12.154609195
+15:14:09.499 (0x3784) [info ] [trace] --- FuncEntry
+15:14:09.500 (0x3784) [info ] [trace]012汉字abc 
+15:14:09.500 (0x3784) [info ] qInfo
+15:14:09.501 (0x3784) [info ] qDebug
+15:14:09.502 (0x3784) [info ] qWanging
+15:14:09.503 (0x3784) [info ] QCritical
+15:14:09.504 (0x3784) [info ] call getMs() 1000 times, 0.029600 ms
+15:14:09.509 (0x3784) [info ] 1-1
+15:14:09.510 (0x3784) [info ] 1-2
+15:14:09.511 (0x3784) [info ] 2-1,汉字
+15:14:09.512 (0x3784) [info ] 2-2,汉字
+15:14:09.512 (0x3784) [info ] 1
+15:14:09.513 (0x3784) [info ] 12345678901234
+15:14:09.514 (0x3784) [info ] 12345679020032.0000000000000000
+15:14:09.515 (0x3784) [info ] 12345678901234567168.00000000000000000000000000000000
+15:14:09.520 (0x3784) [debug] SlBase::add( 3 + 4 ) = 7
+15:14:09.522 (0x3784) [debug] SlBase::getTime() = 2023-04-12 15:14:09.522
+15:14:09.523 (0x3784) [info ] [trace] --- FuncExit, 23.0204 ms
+15:14:10.604 (0x3784) [warn ] Both point size and pixel size set. Using pixel size.
+15:14:10.945 (0x3784) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:14:11.041 (0x3784) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:14:11.064 (0x3784) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:14:11.266 (0x3784) [debug] Name :  "COM5"
+15:14:11.282 (0x3784) [debug] Name :  "COM7"
+15:14:11.283 (0x3784) [debug] Name :  "COM4"
+15:14:11.284 (0x3784) [debug] Name :  "COM1"
+15:14:11.285 (0x3784) [debug] Name :  "COM2"
+15:14:11.286 (0x3784) [debug] Name :  "COM3"
+15:14:11.287 (0x3784) [debug] Name :  "COM6"
+15:14:11.343 (0x3784) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:14:11.345 (0x3784) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:14:11.354 (0x3784) [debug] qml: [trace]activetrue
+15:14:14.887 (0x3784) [debug] false
+15:14:14.889 (0x3784) [debug]  openPort is working 
+15:14:15.759 (0x3784) [debug] false
+15:14:15.761 (0x3784) [debug]  openPort is working 
+15:14:19.696 (0x3784) [debug] qml: Selected value: 0
+15:14:20.917 (0x3784) [debug] qml: Selected value: 1
+15:14:22.343 (0x3784) [debug] qml: Selected value: 1
+15:14:26.425 (0x3784) [debug] qml: Selected value: 0
+15:14:29.076 (0x3784) [trace] qml:
+15:14:29.104 (0x3784) [info ] ----- msAppExit: 171800807.205400, 04:46:14.154626807
+15:14:29.183 (0x3784) [info ] app running: 19611.670600, 00:00:01.18611
+15:14:29.184 (0x3784) [info ] app return: 0
+15:14:29.185 (0x3784) [info ] ----- App exit ------
+15:15:15.647 (0x2c9c) [info ]
+15:15:15.936 (0x2c9c) [info ] ----- App init ------
+15:15:15.937 (0x2c9c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:15:15.938 (0x2c9c) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:15:15.939 (0x2c9c) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:15:15.940 (0x2c9c) [info ] Check chinese support: 012汉字abc
+15:15:15.941 (0x2c9c) [info ] ----- msAppInit: 171847349.818900, 04:46:19.154668349
+15:15:15.942 (0x2c9c) [info ] [trace] --- FuncEntry
+15:15:15.942 (0x2c9c) [info ] [trace]012汉字abc 
+15:15:15.943 (0x2c9c) [info ] qInfo
+15:15:15.944 (0x2c9c) [info ] qDebug
+15:15:15.945 (0x2c9c) [info ] qWanging
+15:15:15.946 (0x2c9c) [info ] QCritical
+15:15:15.946 (0x2c9c) [info ] call getMs() 1000 times, 0.029000 ms
+15:15:15.951 (0x2c9c) [info ] 1-1
+15:15:15.952 (0x2c9c) [info ] 1-2
+15:15:15.959 (0x2c9c) [info ] 2-1,汉字
+15:15:15.960 (0x2c9c) [info ] 2-2,汉字
+15:15:15.960 (0x2c9c) [info ] 1
+15:15:15.961 (0x2c9c) [info ] 12345678901234
+15:15:15.962 (0x2c9c) [info ] 12345679020032.0000000000000000
+15:15:15.963 (0x2c9c) [info ] 12345678901234567168.00000000000000000000000000000000
+15:15:15.968 (0x2c9c) [debug] SlBase::add( 3 + 4 ) = 7
+15:15:15.969 (0x2c9c) [debug] SlBase::getTime() = 2023-04-12 15:15:15.969
+15:15:15.970 (0x2c9c) [info ] [trace] --- FuncExit, 28.5816 ms
+15:15:17.476 (0x2c9c) [warn ] Both point size and pixel size set. Using pixel size.
+15:15:17.810 (0x2c9c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:15:17.905 (0x2c9c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:15:17.921 (0x2c9c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:15:18.119 (0x2c9c) [debug] Name :  "COM5"
+15:15:18.121 (0x2c9c) [debug] Name :  "COM7"
+15:15:18.122 (0x2c9c) [debug] Name :  "COM4"
+15:15:18.123 (0x2c9c) [debug] Name :  "COM1"
+15:15:18.124 (0x2c9c) [debug] Name :  "COM2"
+15:15:18.126 (0x2c9c) [debug] Name :  "COM3"
+15:15:18.129 (0x2c9c) [debug] Name :  "COM6"
+15:15:18.181 (0x2c9c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:15:18.182 (0x2c9c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:15:18.196 (0x2c9c) [debug] qml: [trace]activetrue
+15:15:22.031 (0x2c9c) [debug] qml: Selected value: 0
+15:15:24.453 (0x2c9c) [debug] qml: Selected value: 1
+15:15:25.603 (0x2c9c) [trace] qml:
+15:15:25.631 (0x2c9c) [info ] ----- msAppExit: 171857333.813700, 04:46:20.154677333
+15:15:25.712 (0x2c9c) [info ] app running: 9983.994800, 00:00:00.9983
+15:15:25.713 (0x2c9c) [info ] app return: 0
+15:15:25.714 (0x2c9c) [info ] ----- App exit ------
+15:46:54.616 (0x3b6c) [info ]
+15:46:54.619 (0x3b6c) [info ] ----- App init ------
+15:46:54.620 (0x3b6c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:46:54.620 (0x3b6c) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:46:54.621 (0x3b6c) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:46:54.622 (0x3b6c) [info ] Check chinese support: 012汉字abc
+15:46:54.623 (0x3b6c) [info ] ----- msAppInit: 173746319.056900, 04:49:29.156377319
+15:46:54.624 (0x3b6c) [info ] [trace] --- FuncEntry
+15:46:54.625 (0x3b6c) [info ] [trace]012汉字abc 
+15:46:54.625 (0x3b6c) [info ] qInfo
+15:46:54.626 (0x3b6c) [info ] qDebug
+15:46:54.627 (0x3b6c) [info ] qWanging
+15:46:54.628 (0x3b6c) [info ] QCritical
+15:46:54.629 (0x3b6c) [info ] call getMs() 1000 times, 0.028300 ms
+15:46:54.634 (0x3b6c) [info ] 1-1
+15:46:54.635 (0x3b6c) [info ] 1-2
+15:46:54.636 (0x3b6c) [info ] 2-1,汉字
+15:46:54.636 (0x3b6c) [info ] 2-2,汉字
+15:46:54.637 (0x3b6c) [info ] 1
+15:46:54.638 (0x3b6c) [info ] 12345678901234
+15:46:54.639 (0x3b6c) [info ] 12345679020032.0000000000000000
+15:46:54.640 (0x3b6c) [info ] 12345678901234567168.00000000000000000000000000000000
+15:46:54.645 (0x3b6c) [debug] SlBase::add( 3 + 4 ) = 7
+15:46:54.646 (0x3b6c) [debug] SlBase::getTime() = 2023-04-12 15:46:54.646
+15:46:54.647 (0x3b6c) [info ] [trace] --- FuncExit, 23.1062 ms
+15:46:55.741 (0x3b6c) [warn ] Both point size and pixel size set. Using pixel size.
+15:46:56.100 (0x3b6c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:46:56.196 (0x3b6c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:46:56.210 (0x3b6c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:46:56.408 (0x3b6c) [debug] Name :  "COM5"
+15:46:56.409 (0x3b6c) [debug] Name :  "COM7"
+15:46:56.410 (0x3b6c) [debug] Name :  "COM4"
+15:46:56.411 (0x3b6c) [debug] Name :  "COM1"
+15:46:56.412 (0x3b6c) [debug] Name :  "COM2"
+15:46:56.413 (0x3b6c) [debug] Name :  "COM3"
+15:46:56.414 (0x3b6c) [debug] Name :  "COM6"
+15:46:56.468 (0x3b6c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:46:56.469 (0x3b6c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:46:56.482 (0x3b6c) [debug] qml: [trace]activetrue
+15:47:00.945 (0x3b6c) [trace] qml:
+15:47:00.972 (0x3b6c) [info ] ----- msAppExit: 173752674.514400, 04:49:30.156382674
+15:47:01.061 (0x3b6c) [info ] app running: 6355.457500, 00:00:00.6355
+15:47:01.063 (0x3b6c) [info ] app return: 0
+15:47:01.064 (0x3b6c) [info ] ----- App exit ------
+16:02:52.038 (0x3460) [info ]
+16:02:52.041 (0x3460) [info ] ----- App init ------
+16:02:52.042 (0x3460) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:02:52.042 (0x3460) [info ] Exe file: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+16:02:52.043 (0x3460) [info ] App path: F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+16:02:52.044 (0x3460) [info ] Check chinese support: 012汉字abc
+16:02:52.045 (0x3460) [info ] ----- msAppInit: 174703741.439300, 04:51:05.157238741
+16:02:52.046 (0x3460) [info ] [trace] --- FuncEntry
+16:02:52.046 (0x3460) [info ] [trace]012汉字abc 
+16:02:52.047 (0x3460) [info ] qInfo
+16:02:52.049 (0x3460) [info ] qDebug
+16:02:52.049 (0x3460) [info ] qWanging
+16:02:52.050 (0x3460) [info ] QCritical
+16:02:52.050 (0x3460) [info ] call getMs() 1000 times, 0.029000 ms
+16:02:52.056 (0x3460) [info ] 1-1
+16:02:52.057 (0x3460) [info ] 1-2
+16:02:52.057 (0x3460) [info ] 2-1,汉字
+16:02:52.058 (0x3460) [info ] 2-2,汉字
+16:02:52.059 (0x3460) [info ] 1
+16:02:52.060 (0x3460) [info ] 12345678901234
+16:02:52.060 (0x3460) [info ] 12345679020032.0000000000000000
+16:02:52.061 (0x3460) [info ] 12345678901234567168.00000000000000000000000000000000
+16:02:52.067 (0x3460) [debug] SlBase::add( 3 + 4 ) = 7
+16:02:52.068 (0x3460) [debug] SlBase::getTime() = 2023-04-12 16:02:52.068
+16:02:52.070 (0x3460) [info ] [trace] --- FuncExit, 22.9855 ms
+16:02:52.845 (0x3460) [warn ] Both point size and pixel size set. Using pixel size.
+16:02:53.205 (0x3460) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:02:53.302 (0x3460) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:02:53.319 (0x3460) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:02:53.503 (0x3460) [debug] Name :  "COM5"
+16:02:53.504 (0x3460) [debug] Name :  "COM7"
+16:02:53.505 (0x3460) [debug] Name :  "COM4"
+16:02:53.506 (0x3460) [debug] Name :  "COM1"
+16:02:53.507 (0x3460) [debug] Name :  "COM2"
+16:02:53.508 (0x3460) [debug] Name :  "COM3"
+16:02:53.509 (0x3460) [debug] Name :  "COM6"
+16:02:53.556 (0x3460) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:02:53.557 (0x3460) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:02:53.571 (0x3460) [debug] qml: [trace]activetrue
+16:03:00.127 (0x3460) [debug] aisle =  1
+16:03:00.129 (0x3460) [debug] qml: Selected value: 1
+16:03:04.798 (0x3460) [debug] aisle =  2
+16:03:04.811 (0x3460) [debug] qml: Selected value: 2
+16:03:06.916 (0x3460) [debug] qml: [trace]activefalse
+16:03:08.585 (0x3460) [debug] qml: [trace]activetrue
+16:03:14.932 (0x3460) [debug] qml: [trace]activefalse
+16:03:26.665 (0x3460) [debug] qml: [trace]activetrue
+16:03:26.666 (0x3460) [trace] qml:
+16:03:26.779 (0x3460) [info ] ----- msAppExit: 174738482.096500, 04:51:08.157270482
+16:03:26.781 (0x3460) [info ] app running: 34740.657200, 00:00:03.31740
+16:03:26.782 (0x3460) [info ] app return: 0
+16:03:26.784 (0x3460) [info ] ----- App exit ------
