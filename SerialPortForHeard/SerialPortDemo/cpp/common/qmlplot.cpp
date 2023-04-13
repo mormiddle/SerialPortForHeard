@@ -170,6 +170,9 @@ void CustomPlotItem::upAisleData()
         // 计算曲线的最大值和最小值
         if( t > 100 )
             getPlot()->xAxis->setRange( t-100, t);
+        else {
+            getPlot()->xAxis->setRange( 0, 100);
+        }
         if( maxValue > minValue )
           getPlot()->yAxis->setRange(minValue - 10, maxValue + 10);
 
@@ -200,6 +203,18 @@ void CustomPlotItem::saveData()
 void CustomPlotItem::clearData()
 {
     checkedData.clear();
+    t = 0;
+    maxValue = -99999, minValue = 99999;
+    getPlot()->replot();
+}
+
+void CustomPlotItem::clearPlot()
+{
+    checkedData.clear();
+    t = 0;
+    maxValue = -99999, minValue = 99999;
+    getPlot()->graph(0)->data().data()->clear();
+    getPlot()->replot();
 }
 
 void CustomPlotItem::saveDataToTxt(const QVector<QVector<double> > &data, const QString &filePath)

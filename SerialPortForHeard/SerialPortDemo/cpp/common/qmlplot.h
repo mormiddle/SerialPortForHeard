@@ -51,6 +51,7 @@ public:
     Q_INVOKABLE void upAisleData();
     Q_INVOKABLE void saveData();
     Q_INVOKABLE void clearData();
+    Q_INVOKABLE void clearPlot();
     void saveDataToTxt(const QVector<QVector<double>>& data, const QString& filePath);
 
 
@@ -62,7 +63,7 @@ signals:
 
 private:
     int m_aisle = 0;
-    int maxValue = 0, minValue = 99999;
+    int maxValue = -99999, minValue = 99999;
     double t = 0, U = 0;
 
 

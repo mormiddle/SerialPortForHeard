@@ -103,6 +103,7 @@ Item {
                senChooseAisleSignal( choosedAisle )
                console.log("Selected value: " + choosedAisle)
                // emit signal or do something with selected value
+               customPlot.clearPlot()
             }
        }
 
@@ -119,7 +120,6 @@ Item {
                }
 
            }
-       }
 
        Basic.Button {
            id: cleanBtn
@@ -133,6 +133,10 @@ Item {
                customPlot.clearData()
            }
        }
+
+    }
+
+
 
 
     Timer {
