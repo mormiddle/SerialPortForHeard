@@ -1623,6 +1623,180 @@ release\moc_qmlplot.cpp: ..\..\SerialPortForHeard\SerialPortDemo\cpp\common\qmlp
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtQuick\qsgvertexcolormaterial.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtQuick\qtquickversion.h \
 		..\..\SerialPortForHeard\SerialPortDemo\cpp\common\Globals.h \
+		..\..\SerialPortForHeard\SerialPortDemo\cpp\common\qcustomplot.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QPointer \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QSharedPointer \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QTimer \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\QPainter \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\QPaintEvent \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\QMouseEvent \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\QWheelEvent \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\QPixmap \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QDateTime \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QMultiMap \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QDebug \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QStack \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QCache \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\QOpenGLFramebufferObject \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\QOffscreenSurface \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL\QGLPixelBuffer \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL\qglpixelbuffer.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL\qgl.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qwidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtwidgetsglobal.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtwidgets-config.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qsizepolicy.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL\qglcolormap.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL\qtopenglglobal.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QtNumeric \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QWidget \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\QtPrintSupport \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\QtPrintSupportDepends \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QtWidgets \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QtWidgetsDepends \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qabstractbutton.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qabstractitemdelegate.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qstyleoption.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qabstractspinbox.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qslider.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qabstractslider.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qstyle.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtabbar.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtabwidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qrubberband.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qframe.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qabstractitemview.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qabstractscrollarea.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qaccessiblewidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qaction.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qactiongroup.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qapplication.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qdesktopwidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qboxlayout.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qlayout.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qlayoutitem.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgridlayout.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qbuttongroup.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qcalendarwidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qcheckbox.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qcolordialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qdialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qcolormap.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qcolumnview.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qcombobox.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qcommandlinkbutton.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qpushbutton.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qcommonstyle.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qcompleter.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qdatawidgetmapper.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qdatetimeedit.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qdial.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qdialogbuttonbox.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qdirmodel.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qfileiconprovider.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qdockwidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qdrawutil.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qerrormessage.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qfiledialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qfilesystemmodel.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qfocusframe.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qfontcombobox.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qfontdialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qformlayout.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QLayout \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgesture.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgesturerecognizer.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicsanchorlayout.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicsitem.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicslayout.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicslayoutitem.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicseffect.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicsgridlayout.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicsitemanimation.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicslinearlayout.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicsproxywidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicswidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicsscene.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicssceneevent.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicstransform.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\QVector3D \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgraphicsview.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qscrollarea.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgroupbox.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qheaderview.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qinputdialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qlineedit.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qitemdelegate.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qitemeditorfactory.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qkeyeventtransition.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qkeysequenceedit.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qlabel.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qlcdnumber.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qlistview.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qlistwidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qmainwindow.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qmdiarea.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qmdisubwindow.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qmenu.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qmenubar.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qmessagebox.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qmouseeventtransition.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qopenglwidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qplaintextedit.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtextedit.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qprogressbar.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qprogressdialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qproxystyle.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QCommonStyle \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qradiobutton.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qscrollbar.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qscroller.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QPointF \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QScrollerProperties \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qscrollerproperties.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qshortcut.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qsizegrip.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qspinbox.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qsplashscreen.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qsplitter.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qstackedlayout.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qstackedwidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qstatusbar.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qstyleditemdelegate.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qstylefactory.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qstylepainter.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qstyleplugin.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qsystemtrayicon.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtableview.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtablewidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtextbrowser.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtoolbar.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtoolbox.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtoolbutton.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtooltip.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtreeview.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtreewidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtreewidgetitemiterator.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qundogroup.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qundostack.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qundoview.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qwhatsthis.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qwidgetaction.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qwizard.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qtwidgetsversion.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qtprintsupportglobal.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qtprintsupport-config.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qabstractprintdialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qpagesetupdialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qprintdialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qprintengine.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qprinter.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qprinterinfo.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QPair \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qprintpreviewdialog.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qprintpreviewwidget.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qtprintsupportversion.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QMessageBox \
 		release\moc_predefs.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe
 	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include F:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -IF:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo -IF:/code/QT/QMLdemo/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I. -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" ..\..\SerialPortForHeard\SerialPortDemo\cpp\common\qmlplot.h -o release\moc_qmlplot.cpp
@@ -3658,7 +3832,8 @@ release\qmlplot.obj: ..\..\SerialPortForHeard\SerialPortDemo\cpp\common\qmlplot.
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QPair \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qprintpreviewdialog.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qprintpreviewwidget.h \
-		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qtprintsupportversion.h
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qtprintsupportversion.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QMessageBox
 
 release\slqmlcustomplot.obj: ..\..\SerialPortForHeard\SerialPortDemo\cpp\common\slqmlcustomplot.cpp ..\..\SerialPortForHeard\SerialPortDemo\cpp\common\slqmlcustomplot.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtQuick\QtQuick \
@@ -4961,6 +5136,7 @@ release\main.obj: ..\..\SerialPortForHeard\SerialPortDemo\cpp\main.cpp D:\Qt\Qt5
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qprintpreviewwidget.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qtprintsupportversion.h \
 		..\..\SerialPortForHeard\SerialPortDemo\cpp\common\qmlplot.h \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QMessageBox \
 		..\..\SerialPortForHeard\SlBase\cpp\SlBase.h \
 		..\..\SerialPortForHeard\SlBase\cpp\SlBase_global.h \
 		..\..\SerialPortForHeard\SlBase\cpp\SlApp.h \

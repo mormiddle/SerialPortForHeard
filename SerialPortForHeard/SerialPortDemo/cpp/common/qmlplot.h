@@ -3,9 +3,13 @@
 
 #include <QtQuick>
 #include "Globals.h"
+#include "qcustomplot.h"
+#include <QMessageBox>
+
 
 class QCustomPlot;
 class QCPAbstractPlottable;
+
 
 class DDuiBasePlotItem : public QQuickPaintedItem
 {
@@ -33,6 +37,8 @@ public slots:
     void updateCustomPlotSize();
 private:
     QCustomPlot*         m_CustomPlot;
+
+
 };
 
 class CustomPlotItem : public DDuiBasePlotItem
@@ -43,6 +49,10 @@ public:
     virtual ~CustomPlotItem();
     Q_INVOKABLE void initCustomPlot();
     Q_INVOKABLE void upAisleData();
+    Q_INVOKABLE void saveData();
+    Q_INVOKABLE void clearData();
+    void saveDataToTxt(const QVector<QVector<double>>& data, const QString& filePath);
+
 
 public slots:
     void setAisleValue(int value);
@@ -52,47 +62,12 @@ signals:
 
 private:
     int m_aisle = 0;
+    int maxValue = 0, minValue = 99999;
     double t = 0, U = 0;
 
+
+
 };
 
 
-class CustomPlotBarItem : public DDuiBasePlotItem
-{
-    Q_OBJECT
-    Q_PROPERTY(QColor barColor READ barColor WRITE setBarColor NOTIFY barColorChanged)
-public:
-    CustomPlotBarItem( QQuickItem* parent = 0 );
-    virtual ~CustomPlotBarItem();    
-    Q_INVOKABLE void initCustomPlot();
-    QColor barColor();
-    void setBarColor(const QColor &color);
-signals:
-    void barColorChanged(const QColor &color);
-private:
-    QColor mBarColor{Qt::blue};
-};
-
-class CustomKLine : public DDuiBasePlotItem{
-  Q_OBJECT
-public:
-    explicit CustomKLine(QQuickItem* parent = 0);
-    Q_INVOKABLE void initCustomPlot();
-};
-
-//class CustomColorMap : public DDuiBasePlotItem{
-//  Q_OBJECT
-//public:
-//    explicit CustomColorMap(QQuickItem* parent = 0);
-//    Q_INVOKABLE void initCustomPlot();
-//};
-
-class CustomBarChart: public DDuiBasePlotItem
-{
-  Q_OBJECT
-public:
-    explicit CustomBarChart(QQuickItem *parent=0){}
-
-    Q_INVOKABLE void iniCustomPlot();
-};
 #endif // QMLPLOT_H
