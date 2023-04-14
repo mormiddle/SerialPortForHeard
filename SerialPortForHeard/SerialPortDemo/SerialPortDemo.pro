@@ -20,7 +20,6 @@ SOURCES += \
     cpp/common/Globals.cpp \
     cpp/common/MySerialport.cpp \
     cpp/common/qcustomplot.cpp \
-    cpp/common/qmlplot.cpp \
     cpp/common/slqmlcustomplot.cpp \
         cpp/main.cpp \
 
@@ -54,7 +53,6 @@ HEADERS += \
     cpp/common/MySerialport.h \
     cpp/common/SwitchPage.h \
     cpp/common/qcustomplot.h \
-    cpp/common/qmlplot.h \
     cpp/common/slqmlcustomplot.h
 
 

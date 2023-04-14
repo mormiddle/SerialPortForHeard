@@ -225,7 +225,7 @@ void CustomColorMap::myPlotData()
     if( m_px < checkedData.count() )
     {
         for( int i = 0; i < 10; ++i) {
-            int z = checkedData[m_px][i];
+            int z = checkedData[m_px][i] / 100;
             if (z)
                 heatmap->data()->setCell(m_px , i, z);  // Change this line
             else

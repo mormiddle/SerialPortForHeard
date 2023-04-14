@@ -1,8 +1,6 @@
 ﻿import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import QtQuick.Shapes 1.14
-import QtQuick.XmlListModel 2.0
 import "./basic" as Basic
 import "./../js/zbase.js" as JsZBase
 import "./../js/images.js" as JsPng

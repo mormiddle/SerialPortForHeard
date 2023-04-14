@@ -71,81 +71,93 @@ Item {
                btnStation = !btnStation
                if( sp_obj.readIsMyPortOpen() ) {
                    emit: sendSettingInfoSignal(0)
-                   customPlotTimer.stop()
+                   timer.stop()
+                   //customPlotTimer.stop()
                }
                else {
                    emit: sendSettingInfoSignal(1)
-                   customPlotTimer.start()
+                   timer.start()
+                   //customPlotTimer.start()
                }
 
            }
        }
 
-       Basic.ComboBox {
-           id: aisleComBox
-           textRole: "text"
-           model: ListModel {
-               id: aisleModel
-               ListElement { text: "通道1"; value: 0 }
-               ListElement { text: "通道2"; value: 1 }
-               ListElement { text: "通道3"; value: 2 }
-               ListElement { text: "通道4"; value: 3 }
-               ListElement { text: "通道5"; value: 4 }
-               ListElement { text: "通道6"; value: 5 }
-               ListElement { text: "通道7"; value: 6 }
-               ListElement { text: "通道8"; value: 7 }
-               ListElement { text: "通道9"; value: 8 }
-               ListElement { text: "通道10"; value: 9 }
-           }
+       Timer {
+           id: timer
+           interval: 100
+           repeat: true
+           onTriggered: {
+               customColorMap.myPlotData()
 
-           onActivated: {
-               choosedAisle = aisleComBox.model.get(aisleComBox.currentIndex).value
-               senChooseAisleSignal( choosedAisle )
-               console.log("Selected value: " + choosedAisle)
-               // emit signal or do something with selected value
-
-            }
-       }
-
-       Basic.Button {
-           id: saveBtn
-           height: 30
-           width: parent.width
-           text: "保存当前通道数据"
-           font.pointSize: 12
-           font.family: "Helvetica"
-           font.bold: true
-           onClicked: {
-                customPlot.saveData()
-               }
-
-           }
-
-       Basic.Button {
-           id: cleanBtn
-           height: 30
-           width: parent.width
-           text: "清除数据"
-           font.pointSize: 12
-           font.family: "Helvetica"
-           font.bold: true
-           onClicked: {
-               customPlot.clearData()
            }
        }
 
-       Basic.Button {
-           id: cleanPlotBtn
-           height: 30
-           width: parent.width
-           text: "清除表格"
-           font.pointSize: 12
-           font.family: "Helvetica"
-           font.bold: true
-           onClicked: {
-               customPlot.clearPlot()
-           }
-       }
+//       Basic.ComboBox {
+//           id: aisleComBox
+//           textRole: "text"
+//           model: ListModel {
+//               id: aisleModel
+//               ListElement { text: "通道1"; value: 0 }
+//               ListElement { text: "通道2"; value: 1 }
+//               ListElement { text: "通道3"; value: 2 }
+//               ListElement { text: "通道4"; value: 3 }
+//               ListElement { text: "通道5"; value: 4 }
+//               ListElement { text: "通道6"; value: 5 }
+//               ListElement { text: "通道7"; value: 6 }
+//               ListElement { text: "通道8"; value: 7 }
+//               ListElement { text: "通道9"; value: 8 }
+//               ListElement { text: "通道10"; value: 9 }
+//           }
+
+//           onActivated: {
+//               choosedAisle = aisleComBox.model.get(aisleComBox.currentIndex).value
+//               senChooseAisleSignal( choosedAisle )
+//               console.log("Selected value: " + choosedAisle)
+//               // emit signal or do something with selected value
+
+//            }
+//       }
+
+//       Basic.Button {
+//           id: saveBtn
+//           height: 30
+//           width: parent.width
+//           text: "保存当前通道数据"
+//           font.pointSize: 12
+//           font.family: "Helvetica"
+//           font.bold: true
+//           onClicked: {
+//                customPlot.saveData()
+//               }
+
+//           }
+
+//       Basic.Button {
+//           id: cleanBtn
+//           height: 30
+//           width: parent.width
+//           text: "清除数据"
+//           font.pointSize: 12
+//           font.family: "Helvetica"
+//           font.bold: true
+//           onClicked: {
+//               customPlot.clearData()
+//           }
+//       }
+
+//       Basic.Button {
+//           id: cleanPlotBtn
+//           height: 30
+//           width: parent.width
+//           text: "清除表格"
+//           font.pointSize: 12
+//           font.family: "Helvetica"
+//           font.bold: true
+//           onClicked: {
+//               customPlot.clearPlot()
+//           }
+//       }
 
 
     }
@@ -153,14 +165,14 @@ Item {
 
 
 
-    Timer {
-        id: customPlotTimer
-        interval: 50
-        repeat: true
-        onTriggered: {
-            customPlot.upAisleData()
-        }
-    }
+//    Timer {
+//        id: customPlotTimer
+//        interval: 50
+//        repeat: true
+//        onTriggered: {
+//            customPlot.upAisleData()
+//        }
+//    }
 
  }
 

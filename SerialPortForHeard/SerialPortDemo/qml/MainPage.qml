@@ -5,6 +5,7 @@ import "./basic" as Basic
 import SerialPortDemo.SWitchpage 1.0
 import MySerialPort 1.0
 import CustomPlot 1.0
+//import CustomPlot 1.0
 
 Page{
     id: root
@@ -93,17 +94,17 @@ Page{
             id: middle_main
             anchors.fill: parent
 
-//            ColorMap {
-//                id: colorMap
-//                anchors.fill: parent
-//                visible: true
-//            }
-            CustomPlotItem {
-                id: customPlot
+            CustomColorMap {
+                id: customColorMap
                 anchors.fill: parent
-
-                Component.onCompleted: initCustomPlot()
+                Component.onCompleted: customColorMap.initCustomPlot()
             }
+//            CustomPlotItem {
+//                id: customPlot
+//                anchors.fill: parent
+
+//                Component.onCompleted: initCustomPlot()
+//            }
 
         }
 

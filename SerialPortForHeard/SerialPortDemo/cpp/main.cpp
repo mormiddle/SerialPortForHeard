@@ -7,7 +7,6 @@
 #include "common/SwitchPage.h"
 #include "common/MySerialport.h"
 #include "common/slqmlcustomplot.h"
-#include "common/qmlplot.h"
 
 #include "SlBase.h"
 
@@ -51,7 +50,6 @@ int main(int argc, char *argv[])
         qmlRegisterType<SwitchPage>( "SerialPortDemo.SWitchpage", 1, 0, "TypePage");
         qmlRegisterType<MySerialPort>("MySerialPort", 1, 0, "SerialPort");
         qmlRegisterType<CustomColorMap>("CustomPlot", 1, 0, "CustomColorMap");
-        qmlRegisterType<CustomPlotItem>("CustomPlot", 1, 0, "CustomPlotItem");
         qRegisterMetaType<SwitchPage::SWITCH_PAGE>( "SWITCH_PAGE" );
 
         QQmlContext* pContext = engine.rootContext();
