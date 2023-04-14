@@ -8,6 +8,28 @@ DDuiBasePlotItem::DDuiBasePlotItem( QQuickItem* parent ) : QQuickPaintedItem( pa
     setAcceptedMouseButtons( Qt::AllButtons );
     setAcceptHoverEvents(true);
 
+    //游标
+    tracer = new QCPItemTracer(getPlot());
+    //tracer->setInterpolating(false);
+    tracer->setStyle(QCPItemTracer::tsCircle);
+    tracer->setPen(QPen(Qt::red));
+    tracer->setBrush(Qt::red);
+    tracer->setSize(6);
+
+    //游标说明
+    //游标说明
+    tracerLabel = new QCPItemText(getPlot()); //生成游标说明
+    tracerLabel->setLayer("overlay");//设置图层为overlay，因为需要频繁刷新
+    tracerLabel->setPen(QPen(Qt::black));//设置游标说明颜色
+    tracerLabel->setBrush(Qt::cyan);//设置游标说明背景
+    tracerLabel->setPositionAlignment(Qt::AlignLeft | Qt::AlignTop);//左上
+    tracerLabel->position->setParentAnchor(tracer->position);//将游标说明锚固在tracer位置处，实现自动跟随
+
+
+    //游标的槽连接语句
+    connect( getPlot(), SIGNAL(mousePress(QMouseEvent*)), this, SLOT(mousePressEvent(QMouseEvent*)));
+
+
     connect( this, &QQuickPaintedItem::widthChanged, this, &DDuiBasePlotItem::updateCustomPlotSize );
     connect( this, &QQuickPaintedItem::heightChanged, this, &DDuiBasePlotItem::updateCustomPlotSize );
 }
@@ -41,6 +63,23 @@ QCustomPlot *DDuiBasePlotItem::getPlot()
 
 void DDuiBasePlotItem::mousePressEvent( QMouseEvent* event )
 {
+    int x = getPlot()->xAxis->pixelToCoord(event->pos().x());
+    //double y = getPlot()->yAxis->pixelToCoord(event->pos().y());
+//    tracer->position->setCoords(x, y);//设置游标位置
+//    tracerLabel->setText(QString("x = %1, y = %2").arg(x).arg(y));//设置游标说明内容
+//    getPlot()->replot();//绘制器一定要重绘，否则看不到游标位置更新情况
+
+    tracer->setGraph(getPlot()->graph(0)); //将游标和该曲线图层想连接
+    tracer->setGraphKey(x); //将游标横坐标设置成刚获得的横坐标数据x
+    tracer->setInterpolating(true); //游标的纵坐标可以通过曲线数据线性插值自动获得
+    tracer->updatePosition(); //使得刚设置游标的横纵坐标位置生效
+    //更新游标说明的内容
+    int xValue = tracer->position->key();
+    int yValue = tracer->position->value();
+    tracerLabel->setText(QString("(%1, %2)").arg(xValue).arg(yValue));
+
+    getPlot()->replot();//绘制器一定要重绘，否则看不到游标位置更新情况
+
     qDebug() << Q_FUNC_INFO;
     routeMouseEvents( event );
 }
@@ -134,6 +173,25 @@ void CustomPlotItem::initCustomPlot()
 
     //startTimer(500);
 
+//    //游标
+//    tracer = new QCPItemTracer(getPlot());
+//    //tracer->setInterpolating(false);
+//    tracer->setStyle(QCPItemTracer::tsCircle);
+//    tracer->setPen(QPen(Qt::red));
+//    tracer->setBrush(Qt::red);
+//    tracer->setSize(6);
+
+//    //游标说明
+//    //游标说明
+//    tracerLabel = new QCPItemText(getPlot()); //生成游标说明
+//    tracerLabel->setLayer("overlay");//设置图层为overlay，因为需要频繁刷新
+//    tracerLabel->setPen(QPen(Qt::black));//设置游标说明颜色
+//    tracerLabel->setPositionAlignment(Qt::AlignLeft | Qt::AlignTop);//左上
+//    tracerLabel->position->setParentAnchor(tracer->position);//将游标说明锚固在tracer位置处，实现自动跟随
+
+
+    //信号-槽连接语句
+    //connect( getPlot(), SIGNAL(mouseMove(QMouseEvent*)), this, SLOT(mouseMoveEvent(QMouseEvent*)));
     connect( getPlot(), &QCustomPlot::afterReplot, this, &CustomPlotItem::onCustomReplot );
 
     getPlot()->replot();
@@ -145,6 +203,19 @@ void CustomPlotItem::setAisleValue(int value)
     emit aisleValueChanged(value);
     qDebug() << "aisle = " << m_aisle;
 }
+
+//void CustomPlotItem::mouseMoveEvent(QMouseEvent *event)
+//{
+//    double x = getPlot()->xAxis->pixelToCoord(event->pos().x());
+//    double y = getPlot()->yAxis->pixelToCoord(event->pos().y());
+
+
+//    tracer->position->setCoords(x, y);//设置游标位置
+//    tracerLabel->setText(QString("x = %1, y = %2").arg(x).arg(y));//设置游标说明内容
+//    getPlot()->replot();//绘制器一定要重绘，否则看不到游标位置更新情况
+
+
+//}
 
 
 void CustomPlotItem::upAisleData()

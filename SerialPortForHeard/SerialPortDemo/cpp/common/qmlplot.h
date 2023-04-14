@@ -37,6 +37,8 @@ public slots:
     void updateCustomPlotSize();
 private:
     QCustomPlot*         m_CustomPlot;
+    QCPItemTracer *tracer;
+    QCPItemText *tracerLabel;
 
 
 };
@@ -57,6 +59,7 @@ public:
 
 public slots:
     void setAisleValue(int value);
+    //void mouseMoveEvent(QMouseEvent *event);
 
 signals:
     void aisleValueChanged(int value);
@@ -65,6 +68,7 @@ private:
     int m_aisle = 0;
     int maxValue = -99999, minValue = 99999;
     double t = 0, U = 0;
+
 
 
 

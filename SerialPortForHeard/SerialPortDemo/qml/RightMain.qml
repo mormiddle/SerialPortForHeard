@@ -103,7 +103,7 @@ Item {
                senChooseAisleSignal( choosedAisle )
                console.log("Selected value: " + choosedAisle)
                // emit signal or do something with selected value
-               customPlot.clearPlot()
+
             }
        }
 
@@ -111,7 +111,7 @@ Item {
            id: saveBtn
            height: 30
            width: parent.width
-           text: "保存当前通道"
+           text: "保存当前通道数据"
            font.pointSize: 12
            font.family: "Helvetica"
            font.bold: true
@@ -133,6 +133,20 @@ Item {
                customPlot.clearData()
            }
        }
+
+       Basic.Button {
+           id: cleanPlotBtn
+           height: 30
+           width: parent.width
+           text: "清除表格"
+           font.pointSize: 12
+           font.family: "Helvetica"
+           font.bold: true
+           onClicked: {
+               customPlot.clearPlot()
+           }
+       }
+
 
     }
 
