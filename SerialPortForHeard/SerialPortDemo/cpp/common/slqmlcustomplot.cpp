@@ -203,61 +203,116 @@ void CustomColorMap::initCustomPlot()
 }
 
 
-void CustomColorMap::myPlotData()
+void CustomColorMap::myPlotData( QVector<QVector<double>>& myArray )
 {
+    //qDebug() << "pushbutton is clicked" << endl;
+
+//    QCustomPlot* plot = getPlot();
+
+//    heatmap->data()->setSize(distance.size(), aisle.size());   // 设置颜色图数据维度，其内部维护着一个一维数组（一般表现为二维数组），这里可以理解为有多少个小方块
+//    heatmap->data()->setKeyRange(QCPRange(0.5, distance.size() - 0.5));
+//    QSharedPointer<QCPAxisTickerText> xTicker(new QCPAxisTickerText);
+//    xTicker->setTicks(labelPositions(distance, 0.5), distance);
+//    xTicker->setSubTickCount(1);
+//    plot->xAxis->setTicker(xTicker);
+//    plot->xAxis->grid()->setPen(Qt::NoPen);
+//    plot->xAxis->grid()->setSubGridVisible(true);
+//    plot->xAxis->setSubTicks(true);
+//    plot->xAxis->setTickLength(0);
+//    plot->xAxis->setSubTickLength(6);
+//    plot->xAxis->setRange(0, distance.size());
+
+//    if( m_px < checkedData.count() )
+//    {
+//        for( int i = 0; i < m_px; ++i)
+//        {
+//            for( int j = 0; j < 10; ++j) {
+//                int z = checkedData[m_px][j]  - 1300;
+//                if (z)
+//                    heatmap->data()->setCell(m_px - 1 - i, j, z);  // Change this line
+//                else
+//                    heatmap->data()->setAlpha(m_px -1 - i, j, 0); // Change this line
+
+//                qDebug() << QString(" m_px = %1, i = %2, z = %3, count = %4").arg(m_px - 1 - i).arg(j).arg(z).arg(checkedData.count() );
+//            }
+//        }
+
+//        ++m_px;
+//        distance.append(QString::number(m_px));
+//        updateXAxisSpacing();
+
+//        onCustomReplot();
+
+//    }
+//    else {
+
+//    }
+
     //qDebug() << "pushbutton is clicked" << endl;
 
     QCustomPlot* plot = getPlot();
 
-    heatmap->data()->setSize(distance.size(), aisle.size());   // 设置颜色图数据维度，其内部维护着一个一维数组（一般表现为二维数组），这里可以理解为有多少个小方块
-    heatmap->data()->setKeyRange(QCPRange(0.5, distance.size() - 0.5));
-    QSharedPointer<QCPAxisTickerText> xTicker(new QCPAxisTickerText);
-    xTicker->setTicks(labelPositions(distance, 0.5), distance);
-    xTicker->setSubTickCount(1);
-    plot->xAxis->setTicker(xTicker);
-    plot->xAxis->grid()->setPen(Qt::NoPen);
-    plot->xAxis->grid()->setSubGridVisible(true);
-    plot->xAxis->setSubTicks(true);
-    plot->xAxis->setTickLength(0);
-    plot->xAxis->setSubTickLength(6);
-    plot->xAxis->setRange(0, distance.size());
+    //造数据
+    qsrand(QTime(0, 0, 0).secsTo(QTime::currentTime()));
 
-    if( m_px < checkedData.count() )
+    QCPColorMapData* mapData = heatmap->data();
+
+    addCols( plot, heatmap, myArray );
+    int keySize = mapData->keySize();
+    int n = myArray.size();
+    mapData->setKeyRange( QCPRange( 0.5, 0.5 + keySize ) );
+    plot->xAxis->setRange( 0, n - 1 );
+
+    update();
+
+}
+
+void CustomColorMap::addCols(QCustomPlot *plot, QCPColorMap *heatmap, QVector<QVector<double> > &array)
+{
+    QSharedPointer<QCPColorMapData> mapData(heatmap->data());
+    int keySize = mapData->keySize();
+    int valueSize = mapData->valueSize();
+
+//    array.append( data );
+    int cols = array[0].size();
+    if ( keySize < cols )
     {
-        for( int i = 0; i < 10; ++i) {
-            int z = checkedData[m_px][i] / 100;
-            if (z)
-                heatmap->data()->setCell(m_px , i, z);  // Change this line
-            else
-                heatmap->data()->setAlpha(m_px , i, 0); // Change this line
+        keySize += 100;
+        mapData->setKeySize( keySize + 1 );
+
+        {
+            QVector<double> positions;
+            QVector<QString> labels;
+            int skip = qMax( 1, cols / 20 );
+            for ( int i = 0; i < cols; i += skip )
+            {
+                positions.append( i + 0.5 );
+                labels.append( QString( i ) );
+            }
+
+            QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
+            xTicker->setTicks( positions, labels );
+            xTicker->setSubTickCount( 1 );
+            plot->xAxis->setTicker( xTicker );
         }
-        ++m_px;
-        distance.append(QString::number(m_px));
-        updateXAxisSpacing();
 
-        onCustomReplot();
-
+        for ( int i = 0; i < cols; i++ )
+        {
+            QVector<qreal>& tmp = array[ i ];
+            for ( int j = 0; j < valueSize; j++ )
+            {
+                mapData->setCell( i, j, tmp[ j ] );
+            }
+        }
     }
-    else {
-
-    }
-
-//    for (int i = 0; i < m_px; i++)
-//    {
-//        for (int j = 0; j < 10; j++)
+    else
+    {
+//        int i = cols - 1;
+//        for ( int j = 0; j < valueSize; j++ )
 //        {
-//            int z = checkedData[i][j];
-//            if (z)
-//                heatmap->data()->setCell(m_px - 1 - i, j, z);  // Change this line
-//            else
-//                heatmap->data()->setAlpha(m_px - 1 - i, j, 0); // Change this line
+//            mapData->setCell( i, j, data[ j ] );
 //        }
-
-//    }
-
-
-
-
+    }
 }
 
 void CustomColorMap::updateXAxisSpacing()

@@ -6,8 +6,6 @@
 #include <QColor>
 #include <vector>
 
-#include "Globals.h"
-
 #define ASIIC_TYPE true
 #define HEX_TYPE false
 
@@ -40,6 +38,15 @@ public slots:
     //void showData(QVector<QVector<double>>&);
     int toIntData(quint8 lowByte, quint8 highByte);
 
+public:
+
+   int m_chanelPerScanLine;
+
+   typedef QVector<double>          CHANEL_DATA;
+   typedef QVector< CHANEL_DATA >   SCAN_LINE;
+
+   QVector<SCAN_LINE>   m_scanLines;
+   int                  m_idxCurrScanLine;
 };
 
 #endif // MYSERIALPORT_H

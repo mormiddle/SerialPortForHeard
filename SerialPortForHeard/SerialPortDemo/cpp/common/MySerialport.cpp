@@ -7,6 +7,7 @@ int count = 0;
 MySerialPort::MySerialPort(QObject *parent) : QObject(parent)
 {
     myPort = new QSerialPort;
+    m_idxCurrScanLine = 0;
 }
 
 MySerialPort::~MySerialPort()
@@ -97,13 +98,12 @@ void MySerialPort::readData_slot()
 
         //appen data
         {
-            QVector<double> values;
-            for (int i = start + 2; i < start + 42; i += 4)
+            SCAN_LINE& line = m_scanLines[m_idxCurrScanLine];
+            for (int i = 0; i < m_chanelPerScanLine; i++)
             {
-                values.append(toIntData(buffer[i + 2], buffer[i + 3]));
+                int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
+                line[i].push_back(value);
             }
-            checkedData.append(values);
-            values.clear();
         }
 
 

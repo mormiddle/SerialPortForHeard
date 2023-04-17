@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C62D76D9-EA75-3A68-97E1-86C6117E4C94}</ProjectGuid>
+    <ProjectGuid>{05F46FD2-BD9D-322A-8C48-57A96154D3BE}</ProjectGuid>
     <RootNamespace>SlBase</RootNamespace>
     <Keyword>QtVS_v304</Keyword>
     <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>

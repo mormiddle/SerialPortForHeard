@@ -1,5 +1,5 @@
 CONFIG += no_fixpath
-QT += core network gui widgets qml serialport quick
+QT += core network gui widgets qml serialport printsupport quick
         
         
       

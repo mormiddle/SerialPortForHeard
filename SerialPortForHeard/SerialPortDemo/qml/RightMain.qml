@@ -85,10 +85,10 @@ Item {
 
        Timer {
            id: timer
-           interval: 100
+           interval: 50
            repeat: true
            onTriggered: {
-               customColorMap.myPlotData()
+               customColorMap.myPlotData( sp_obj.m_idxCurrScanLine[m_idxCurrScanLine] )
 
            }
        }

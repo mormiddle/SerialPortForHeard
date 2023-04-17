@@ -47,22 +47,22 @@ Item {
                     pImageProvider.reset()
                 }
             }
-            Basic.MenuButton {
-                source: JsPng.img_right_undo
-                tooltip: qsTr("撤消")
-                onClicked: {
-                    console.log("[trace] " + tooltip)
-                    pImageProvider.undo()
-                }
-            }
-            Basic.MenuButton {
-                source: JsPng.img_right_redo
-                tooltip: qsTr("重做")
-                onClicked: {
-                    console.log("[trace] " + tooltip)
-                    pImageProvider.redo()
-                }
-            }
+//            Basic.MenuButton {
+//                source: JsPng.img_right_undo
+//                tooltip: qsTr("撤消")
+//                onClicked: {
+//                    console.log("[trace] " + tooltip)
+//                    pImageProvider.undo()
+//                }
+//            }
+//            Basic.MenuButton {
+//                source: JsPng.img_right_redo
+//                tooltip: qsTr("重做")
+//                onClicked: {
+//                    console.log("[trace] " + tooltip)
+//                    pImageProvider.redo()
+//                }
+//            }
 
 
         }

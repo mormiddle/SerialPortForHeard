@@ -1,9 +1,18 @@
-﻿#ifndef GLOBALS_H
-#define GLOBALS_H
+﻿#pragma once
 
 
 #include <QVector>
 
 extern QVector<QVector<double>> checkedData;
 
-#endif // GLOBALS_H
+// int m_chanelPerScanLine;
+
+//typedef QVector<double>          CHANEL_DATA;
+
+//typedef QVector< CHANEL_DATA >   SCAN_LINE;
+
+
+//QVector<SCAN_LINE>  m_scanLines;
+//int          m_idxCurrScanLine;
+
+

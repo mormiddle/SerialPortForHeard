@@ -3,7 +3,6 @@
 
 #include <QtQuick>
 #include "qcustomplot.h"
-#include "Globals.h"
 class QCustomPlot;
 class QCPAbstractPlottable;     //一个抽象基类
                                 //是 Qt 开源绘图库 QCustomPlot 中的一个关键类
@@ -56,7 +55,8 @@ class CustomColorMap : public SlQmlCustomPlot{
 public:
     explicit CustomColorMap(QQuickItem* parent = nullptr);
     Q_INVOKABLE void initCustomPlot();
-    Q_INVOKABLE void myPlotData();
+    Q_INVOKABLE void myPlotData( QVector<QVector<double>>& );
+    void addCols( QCustomPlot* plot, QCPColorMap* heatmap, QVector<QVector<double>>& );
     void updateXAxisSpacing();
     void onWidgetMouseWheel(QWheelEvent* event);//设置滚轮所发和拖拽
 };
