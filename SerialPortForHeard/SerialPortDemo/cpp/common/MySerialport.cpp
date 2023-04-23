@@ -7,7 +7,8 @@ int count = 0;
 MySerialPort::MySerialPort(QObject *parent) : QObject(parent)
 {
     myPort = new QSerialPort;
-    m_idxCurrScanLine = 0;
+    m_currScanLine = 0;
+
 }
 
 MySerialPort::~MySerialPort()
@@ -98,12 +99,35 @@ void MySerialPort::readData_slot()
 
         //appen data
         {
-            SCAN_LINE& line = m_scanLines[m_idxCurrScanLine];
+            if( m_repeateScanLines.size() == 0)
+            {
+                m_repeateScanLines = QVector<SINGAL_SCAN_LINE>(1);
+                QVector<SINGAL_CHANEL_DATA>& firstScanData = m_repeateScanLines[m_currScanLine].tenChanelData;
+                for (int i = 0; i < m_chanelPerScanLine; i++) {
+                    firstScanData.push_back(SINGAL_CHANEL_DATA());
+                }
+                for (int i = 0; i < m_chanelPerScanLine; i++)
+                {
+                    int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
+
+                    firstScanData[i].push_back(value);
+                }
+
+                return;
+            }
+
+
+            QVector<SINGAL_CHANEL_DATA>& signalScanTenChanelData = m_repeateScanLines[m_currScanLine].tenChanelData;
+            
+
             for (int i = 0; i < m_chanelPerScanLine; i++)
             {
                 int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
-                line[i].push_back(value);
+
+                signalScanTenChanelData[i].push_back(value);
             }
+
+            qInfo("cols: %d", signalScanTenChanelData[0].size());
         }
 
 
@@ -127,6 +151,7 @@ void MySerialPort::readData_slot()
         buffer.clear();
     }
     start = 0;
+
     //测试数据传输，将其显示出来
     //showData(checkedData);
 

@@ -3,16 +3,15 @@
 
 #include <QVector>
 
-extern QVector<QVector<double>> checkedData;
+extern  int m_chanelPerScanLine;
 
-// int m_chanelPerScanLine;
+typedef QVector<int>			SINGAL_CHANEL_DATA;
 
-//typedef QVector<double>          CHANEL_DATA;
+typedef struct {
+	int								cols;
+    QVector<SINGAL_CHANEL_DATA>		tenChanelData;
+} SINGAL_SCAN_LINE;
 
-//typedef QVector< CHANEL_DATA >   SCAN_LINE;
-
-
-//QVector<SCAN_LINE>  m_scanLines;
-//int          m_idxCurrScanLine;
-
-
+extern  QVector<SINGAL_SCAN_LINE>		m_repeateScanLines;
+extern  int								m_currScanLine;
+	

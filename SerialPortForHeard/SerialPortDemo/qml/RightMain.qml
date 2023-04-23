@@ -88,7 +88,7 @@ Item {
            interval: 50
            repeat: true
            onTriggered: {
-               customColorMap.myPlotData( sp_obj.m_idxCurrScanLine[m_idxCurrScanLine] )
+               customColorMap.updatePlot( )
 
            }
        }

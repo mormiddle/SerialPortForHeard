@@ -1,6 +1,8 @@
 ﻿#include "Globals.h"
 
-QVector<QVector<double>> checkedData;
 
-int         m_chanelPerScanLine = 10;
-int         m_idxCurrScanLine = 0;
+int                 m_chanelPerScanLine = 10;
+QVector<SINGAL_SCAN_LINE>  m_repeateScanLines;
+int                 m_currScanLine = 0;
+
+

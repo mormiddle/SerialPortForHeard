@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\common\AppInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\common\Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\common\MySerialport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\common\qcustomplot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\common\slqmlcustomplot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="cpp\common\AppInfo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cpp\common\EnumParameter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="cpp\common\Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="cpp\common\MySerialport.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cpp\common\SwitchPage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cpp\common\qcustomplot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cpp\common\slqmlcustomplot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ts\DicomViewer_zh_CN.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\other\??.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\other\???.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\????.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\??????.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\AdjustTime.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\BottomMain.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\BusyIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\Button.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\ButtonToolTip.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\CheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\ColorMap.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\ComboBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\Dialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\other\File1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\other\File2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\GroupBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\Image.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\Label.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\LeftMain.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\Listview.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\LoginPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\MainPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MarkLine.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MarkRectangle.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MenuBlank.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MenuBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MenuBoxItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MenuButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MenuColumn.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MenuRow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MenuTextField.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\MiddleMain.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\MouseArea.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\RangeSlider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\Rectangle.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\RightMain.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\Slider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\Text.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\TextField.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\TopMain.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\basic\Updown.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\other\actualView.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\other\autoFit.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bottom\bottom_avreage_gray.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bottom\bottom_connection.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bottom\bottom_image_coordinate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bottom\bottom_image_count.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bottom\bottom_point_gray.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bottom\bottom_unconnection.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\car\car_bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\car\car_manager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\car\car_ruler.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\car\car_start.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\car\car_top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ico\diye.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\alert\error.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="js\global.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\other\histoEqual.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\other\histo_equal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qrc\image.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="js\images.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qrc\js.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\left\left_add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_average.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_burn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_delete_image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_denoise.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_double_wire_measurement.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_histogram_recall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_histogram_redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_image_manager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_image_quality_inspection.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_input_new_project.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_line_gray.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_line_width.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_print.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_quality_check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_send.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_single_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left\left_splice.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\login\login_password.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\login\login_user.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_acquisition_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_acquisition_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_automatic_acquisition.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_calibration_background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_calibration_option.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_close_window.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_defect_review.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_exposure.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_full_screen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_industrial_xray.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_mesure_calibration.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_placeholder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_remote_assitant.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu\menu_video.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\middle\middle_ruler.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\alert\null.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qrc\qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\other\reset.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_angle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_api_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_api_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_api_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_api_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_api_5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_api_6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_api_7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_api_8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_arrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_clockwise.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_counterclockwise.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_dilatationline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_elliipse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_equalization.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_four_image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_horizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_inhance.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_interest.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_mark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_mark_manger.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_mouse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_move.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_oppozite.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_part_zoom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_polygon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_rectangle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_reset.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_sharpen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_smooth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_straight_line.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_vertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_window_wide.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\right\right_zoom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\other\saveas.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\other\tools.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="js\zbase.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ico\zdv.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7477962-7E72-394F-A7C5-6BA027432081}</ProjectGuid>
+    <RootNamespace>SerialPortDemo</RootNamespace>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.20348.0</WindowsTargetPlatformMinVersion>
+  <QtMsBuild Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>SerialPortDemo</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>SerialPortDemo</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" /><Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')"><Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." /></Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" /><ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')"><Import Project="$(QtMsBuild)\qt_defaults.props" /></ImportGroup><PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"><OutDir>debug\</OutDir><IntDir>debug\</IntDir><TargetName>SerialPortDemo</TargetName><IgnoreImportLibrary>true</IgnoreImportLibrary></PropertyGroup><PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'"><OutDir>release\</OutDir><IntDir>release\</IntDir><TargetName>SerialPortDemo</TargetName><IgnoreImportLibrary>true</IgnoreImportLibrary><LinkIncremental>false</LinkIncremental></PropertyGroup><PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"><QtInstall>5.14.2_msvc2017_64</QtInstall><QtModules>core;network;gui;widgets;qml;serialport;printsupport;quick</QtModules></PropertyGroup><PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'"><QtInstall>5.14.2_msvc2017_64</QtInstall><QtModules>core;network;gui;widgets;qml;serialport;printsupport;quick</QtModules></PropertyGroup><ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')"><Import Project="$(QtMsBuild)\qt.props" /></ImportGroup>
+  
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..\SlBase\cpp;release;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /source-charset:utf-8 /execution-charset:utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;NDEBUG;QT_NO_DEBUG;QT_QMLMODELS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    <MultiProcessorCompilation>true</MultiProcessorCompilation></ClCompile>
+    <Link>
+      <AdditionalDependencies>SlBase.lib;$(QTDIR)\lib\Qt5QmlModels.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\release;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\SerialPortDemo.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;NDEBUG;QT_NO_DEBUG;QT_QMLMODELS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  <QtMoc><CompilerFlavor>msvc</CompilerFlavor><Include>./$(Configuration)/moc_predefs.h</Include><ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription><DynamicSource>output</DynamicSource><QtMocDir>$(Configuration)</QtMocDir><QtMocFileName>moc_%(Filename).cpp</QtMocFileName></QtMoc><QtRcc><Compression>default</Compression><ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription><QtRccDir>$(Configuration)</QtRccDir><QtRccFileName>qrc_%(Filename).cpp</QtRccFileName></QtRcc></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..\SlBase\cpp;debug;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /source-charset:utf-8 /execution-charset:utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;QT_QMLMODELS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    <MultiProcessorCompilation>true</MultiProcessorCompilation></ClCompile>
+    <Link>
+      <AdditionalDependencies>E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\debug\SlBase.lib;$(QTDIR)\lib\Qt5QmlModelsd.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\debug;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\SerialPortDemo.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;QT_QMLMODELS_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  <QtMoc><CompilerFlavor>msvc</CompilerFlavor><Include>./$(Configuration)/moc_predefs.h</Include><ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription><DynamicSource>output</DynamicSource><QtMocDir>$(Configuration)</QtMocDir><QtMocFileName>moc_%(Filename).cpp</QtMocFileName></QtMoc><QtRcc><Compression>default</Compression><ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription><QtRccDir>$(Configuration)</QtRccDir><QtRccFileName>qrc_%(Filename).cpp</QtRccFileName></QtRcc></ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\common\AppInfo.cpp" />
+    <ClCompile Include="cpp\common\Globals.cpp" />
+    <ClCompile Include="cpp\common\MySerialport.cpp" />
+    <ClCompile Include="cpp\main.cpp" />
+    <ClCompile Include="cpp\common\qcustomplot.cpp" />
+    <ClCompile Include="cpp\common\slqmlcustomplot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="cpp\common\AppInfo.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="cpp\common\EnumParameter.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <ClInclude Include="cpp\common\Globals.h" />
+    <QtMoc Include="cpp\common\MySerialport.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="cpp\common\SwitchPage.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="cpp\common\qcustomplot.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="cpp\common\slqmlcustomplot.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /source-charset:utf-8 /execution-charset:utf-8 -Zi -MDd -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /source-charset:utf-8 /execution-charset:utf-8 -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ts\DicomViewer_zh_CN.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\other\??.png" />
+    <None Include="images\other\???.png" />
+    <None Include="images\menu\????.png" />
+    <None Include="images\menu\??????.png" />
+    <None Include="qml\basic\AdjustTime.qml" />
+    <None Include="qml\BottomMain.qml" />
+    <None Include="qml\basic\BusyIndicator.qml" />
+    <None Include="qml\basic\Button.qml" />
+    <None Include="qml\basic\ButtonToolTip.qml" />
+    <None Include="qml\basic\CheckBox.qml" />
+    <None Include="qml\ColorMap.qml" />
+    <None Include="qml\basic\ComboBox.qml" />
+    <None Include="qml\basic\Dialog.qml" />
+    <None Include="images\other\File1.png" />
+    <None Include="images\other\File2.png" />
+    <None Include="qml\basic\GroupBox.qml" />
+    <None Include="qml\basic\Image.qml" />
+    <None Include="qml\basic\Label.qml" />
+    <None Include="qml\LeftMain.qml" />
+    <None Include="qml\basic\Listview.qml" />
+    <None Include="qml\LoginPage.qml" />
+    <None Include="qml\MainPage.qml" />
+    <None Include="qml\basic\MarkLine.qml" />
+    <None Include="qml\basic\MarkRectangle.qml" />
+    <None Include="qml\basic\MenuBlank.qml" />
+    <None Include="qml\basic\MenuBox.qml" />
+    <None Include="qml\basic\MenuBoxItem.qml" />
+    <None Include="qml\basic\MenuButton.qml" />
+    <None Include="qml\basic\MenuColumn.qml" />
+    <None Include="qml\basic\MenuRow.qml" />
+    <None Include="qml\basic\MenuTextField.qml" />
+    <None Include="qml\MiddleMain.qml" />
+    <None Include="qml\basic\MouseArea.qml" />
+    <None Include="qml\basic\RangeSlider.qml" />
+    <None Include="qml\basic\Rectangle.qml" />
+    <None Include="qml\RightMain.qml" />
+    <None Include="qml\basic\Slider.qml" />
+    <None Include="qml\basic\Text.qml" />
+    <None Include="qml\basic\TextField.qml" />
+    <None Include="qml\TopMain.qml" />
+    <None Include="qml\basic\Updown.qml" />
+    <None Include="images\other\actualView.PNG" />
+    <None Include="images\other\autoFit.PNG" />
+    <None Include="images\bottom\bottom_avreage_gray.png" />
+    <None Include="images\bottom\bottom_connection.png" />
+    <None Include="images\bottom\bottom_image_coordinate.png" />
+    <None Include="images\bottom\bottom_image_count.png" />
+    <None Include="images\bottom\bottom_point_gray.png" />
+    <None Include="images\bottom\bottom_unconnection.png" />
+    <None Include="images\car\car_bottom.png" />
+    <None Include="images\car\car_manager.png" />
+    <None Include="images\car\car_ruler.png" />
+    <None Include="images\car\car_start.png" />
+    <None Include="images\car\car_top.png" />
+    <None Include="images\ico\diye.ico" />
+    <None Include="qml\alert\error.qml" />
+    <None Include="js\global.js" />
+    <None Include="images\other\histoEqual.png" />
+    <None Include="images\other\histo_equal.png" />
+    <QtRcc Include="qrc\image.qrc">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">image</InitFuncName><InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">image</InitFuncName></QtRcc>
+    <None Include="js\images.js" />
+    <QtRcc Include="qrc\js.qrc">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">js</InitFuncName><InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">js</InitFuncName></QtRcc>
+    <None Include="images\left\left_add.png" />
+    <None Include="images\left\left_average.png" />
+    <None Include="images\left\left_burn.png" />
+    <None Include="images\left\left_cut.png" />
+    <None Include="images\left\left_delete_image.png" />
+    <None Include="images\left\left_denoise.png" />
+    <None Include="images\left\left_double_wire_measurement.png" />
+    <None Include="images\left\left_histogram_recall.png" />
+    <None Include="images\left\left_histogram_redo.png" />
+    <None Include="images\left\left_image_manager.png" />
+    <None Include="images\left\left_image_quality_inspection.png" />
+    <None Include="images\left\left_input_new_project.png" />
+    <None Include="images\left\left_line_gray.png" />
+    <None Include="images\left\left_line_width.png" />
+    <None Include="images\left\left_print.png" />
+    <None Include="images\left\left_quality_check.png" />
+    <None Include="images\left\left_save.png" />
+    <None Include="images\left\left_send.png" />
+    <None Include="images\left\left_single_frame.png" />
+    <None Include="images\left\left_splice.png" />
+    <None Include="images\login\login_password.png" />
+    <None Include="images\login\login_user.png" />
+    <None Include="qml\main.qml" />
+    <None Include="images\menu\menu_acquisition_1.png" />
+    <None Include="images\menu\menu_acquisition_2.png" />
+    <None Include="images\menu\menu_automatic_acquisition.png" />
+    <None Include="images\menu\menu_calibration_background.png" />
+    <None Include="images\menu\menu_calibration_option.png" />
+    <None Include="images\menu\menu_close.png" />
+    <None Include="images\menu\menu_close_window.png" />
+    <None Include="images\menu\menu_defect_review.png" />
+    <None Include="images\menu\menu_exposure.png" />
+    <None Include="images\menu\menu_full_screen.png" />
+    <None Include="images\menu\menu_help.png" />
+    <None Include="images\menu\menu_industrial_xray.png" />
+    <None Include="images\menu\menu_mesure_calibration.png" />
+    <None Include="images\menu\menu_placeholder.png" />
+    <None Include="images\menu\menu_play.png" />
+    <None Include="images\menu\menu_remote_assitant.png" />
+    <None Include="images\menu\menu_video.png" />
+    <None Include="images\middle\middle_ruler.png" />
+    <None Include="qml\alert\null.qml" />
+    <QtRcc Include="qrc\qml.qrc">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qml</InitFuncName><InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qml</InitFuncName></QtRcc>
+    <None Include="images\other\reset.png" />
+    <None Include="images\right\right_angle.png" />
+    <None Include="images\right\right_api_1.png" />
+    <None Include="images\right\right_api_2.png" />
+    <None Include="images\right\right_api_3.png" />
+    <None Include="images\right\right_api_4.png" />
+    <None Include="images\right\right_api_5.png" />
+    <None Include="images\right\right_api_6.png" />
+    <None Include="images\right\right_api_7.png" />
+    <None Include="images\right\right_api_8.png" />
+    <None Include="images\right\right_arrow.png" />
+    <None Include="images\right\right_clockwise.png" />
+    <None Include="images\right\right_counterclockwise.png" />
+    <None Include="images\right\right_dilatationline.png" />
+    <None Include="images\right\right_elliipse.png" />
+    <None Include="images\right\right_equalization.png" />
+    <None Include="images\right\right_four_image.png" />
+    <None Include="images\right\right_horizontal.png" />
+    <None Include="images\right\right_inhance.png" />
+    <None Include="images\right\right_interest.png" />
+    <None Include="images\right\right_mark.png" />
+    <None Include="images\right\right_mark_manger.png" />
+    <None Include="images\right\right_mouse.png" />
+    <None Include="images\right\right_move.png" />
+    <None Include="images\right\right_oppozite.png" />
+    <None Include="images\right\right_part_zoom.png" />
+    <None Include="images\right\right_polygon.png" />
+    <None Include="images\right\right_rectangle.png" />
+    <None Include="images\right\right_redo.png" />
+    <None Include="images\right\right_reset.png" />
+    <None Include="images\right\right_save.png" />
+    <None Include="images\right\right_sharpen.png" />
+    <None Include="images\right\right_smooth.png" />
+    <None Include="images\right\right_straight_line.png" />
+    <None Include="images\right\right_undo.png" />
+    <None Include="images\right\right_vertical.png" />
+    <None Include="images\right\right_window_wide.png" />
+    <None Include="images\right\right_zoom.png" />
+    <None Include="images\other\saveas.png" />
+    <None Include="images\other\tools.png" />
+    <None Include="js\zbase.js" />
+    <None Include="images\ico\zdv.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" /><ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')"><Import Project="$(QtMsBuild)\qt.targets" /></ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
