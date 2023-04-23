@@ -231,23 +231,23 @@ void CustomColorMap::updatePlot()
         keySize += (newCols / 10) + 1;
         mapData->setKeySize( keySize + 1 );
 
-        {
-            //QVector<double> positions;
-            //int skip = qMax( 1, newCols / 20 );
-            //for ( int i = 0; i < newCols; i += skip )
-            //{
-            //    //positions.append( i + 0.5 );
-            //    distance.append(QString::number(i));
-            //}
+        //{
+        //    //QVector<double> positions;
+        //    //int skip = qMax( 1, newCols / 20 );
+        //    //for ( int i = 0; i < newCols; i += skip )
+        //    //{
+        //    //    //positions.append( i + 0.5 );
+        //    //    distance.append(QString::number(i));
+        //    //}
 
-            distance.append(QString::number(m_px));
-            QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
-            xTicker->setTicks(labelPositions(distance, 0.5), distance);
-            xTicker->setSubTickCount(1);
-            /*xTicker->setTicks( positions, labels );
-            xTicker->setSubTickCount( 1 );*/
-            plot->xAxis->setTicker( xTicker );
-        }
+        //    distance.append(QString::number(m_px));
+        //    QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
+        //    xTicker->setTicks(labelPositions(distance, 0.5), distance);
+        //    xTicker->setSubTickCount(1);
+        //    /*xTicker->setTicks( positions, labels );
+        //    xTicker->setSubTickCount( 1 );*/
+        //    plot->xAxis->setTicker( xTicker );
+        //}
 
         // refill
         for ( int i = 0; i < newCols; i++ )
@@ -257,6 +257,7 @@ void CustomColorMap::updatePlot()
                 mapData->setCell( i, j, data[j][i] );
             }
             m_px++;
+            distance.append(QString::number(m_px));
         }
         currCols = newCols;
     }
@@ -271,9 +272,14 @@ void CustomColorMap::updatePlot()
             }
             currCols++;
             m_px++;
+            distance.append(QString::number(m_px));
+
         }
+
     }
 
+    updateXAxisSpacing();
+    
     mapData->setKeyRange(QCPRange(0.5, 0.5 + keySize));
     plot->xAxis->setRange(0, newCols - 1);
 
@@ -285,12 +291,26 @@ void CustomColorMap::updateXAxisSpacing()
     QCustomPlot* plot = getPlot();
     QVector<double> positions;
     QVector<QString> labels;
-    int skip = qMax(1, distance.size() / m_visibleLabels);
+
+    if (distance.size() <= 20) {
+        m_visibleLabels = distance.size();
+    }
+    else {
+        m_visibleLabels = 20;
+    }
+
+    int skip = qMax(1, static_cast<int>(std::ceil(static_cast<double>(distance.size()) / m_visibleLabels)));
 
     for (int i = 0; i < distance.size(); i += skip)
     {
         positions.append(i + 0.5);
         labels.append(distance.at(i));
+    }
+
+    // 为最后一个标签添加位置和标签，以确保它被显示
+    if (!distance.isEmpty()) {
+        positions.append(distance.size() - 1 + 0.5);
+        labels.append(distance.last());
     }
 
     QSharedPointer<QCPAxisTickerText> xTicker(new QCPAxisTickerText);
@@ -306,7 +326,19 @@ void CustomColorMap::onWidgetMouseWheel(QWheelEvent* event)
     int numDegrees = event->delta() / 8;
     int numSteps = numDegrees / 15;
 
-    int newVisibleLabels = m_visibleLabels + numSteps; // Change the sign to +
+    //int newVisibleLabels = m_visibleLabels + numSteps; // Change the sign to +
+    //newVisibleLabels = qBound(1, newVisibleLabels, distance.size());
+
+    // 根据滚轮滚动方向调整标签数量
+    int newVisibleLabels = m_visibleLabels;
+    if (numDegrees > 0) {
+        // 放大：增加可见标签
+        newVisibleLabels += numSteps;
+    }
+    else {
+        // 缩小：减少可见标签
+        newVisibleLabels -= numSteps;
+    }
     newVisibleLabels = qBound(1, newVisibleLabels, distance.size());
 
     if (newVisibleLabels != m_visibleLabels)

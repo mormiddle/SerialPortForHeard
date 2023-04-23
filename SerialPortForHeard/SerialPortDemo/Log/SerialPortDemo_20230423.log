@@ -5534,3 +5534,3310 @@
 16:45:26.734 (0x6278) [info ] app running: 12265.675300, 00:00:01.11265
 16:45:26.735 (0x6278) [info ] app return: 0
 16:45:26.736 (0x6278) [info ] ----- App exit ------
+16:53:37.135 (0x5930) [info ]
+16:53:37.137 (0x5930) [info ] ----- App init ------
+16:53:37.138 (0x5930) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:53:37.138 (0x5930) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+16:53:37.139 (0x5930) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+16:53:37.139 (0x5930) [info ] Check chinese support: 012汉字abc
+16:53:37.140 (0x5930) [info ] ----- msAppInit: 11468160.449400, 00:19:06.10322160
+16:53:37.140 (0x5930) [info ] [trace] --- FuncEntry
+16:53:37.140 (0x5930) [info ] [trace]012汉字abc 
+16:53:37.141 (0x5930) [info ] qInfo
+16:53:37.141 (0x5930) [info ] qDebug
+16:53:37.142 (0x5930) [info ] qWanging
+16:53:37.142 (0x5930) [info ] QCritical
+16:53:37.143 (0x5930) [info ] call getMs() 1000 times, 0.037900 ms
+16:53:37.159 (0x5930) [info ] 1-1
+16:53:37.160 (0x5930) [info ] 1-2
+16:53:37.160 (0x5930) [info ] 2-1,汉字
+16:53:37.161 (0x5930) [info ] 2-2,汉字
+16:53:37.161 (0x5930) [info ] 1
+16:53:37.162 (0x5930) [info ] 12345678901234
+16:53:37.162 (0x5930) [info ] 12345679020032.0000000000000000
+16:53:37.163 (0x5930) [info ] 12345678901234567168.00000000000000000000000000000000
+16:53:37.169 (0x5930) [debug] SlBase::add( 3 + 4 ) = 7
+16:53:37.169 (0x5930) [debug] SlBase::getTime() = 2023-04-23 16:53:37.169
+16:53:37.170 (0x5930) [info ] [trace] --- FuncExit, 29.4045 ms
+16:53:38.130 (0x5930) [warn ] Both point size and pixel size set. Using pixel size.
+16:53:38.510 (0x5930) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:53:38.623 (0x5930) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:53:38.623 (0x5930) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:53:38.846 (0x5930) [debug] Name :  "COM5"
+16:53:38.847 (0x5930) [debug] Name :  "COM11"
+16:53:38.848 (0x5930) [debug] Name :  "COM4"
+16:53:38.849 (0x5930) [debug] Name :  "COM1"
+16:53:38.850 (0x5930) [debug] Name :  "COM2"
+16:53:38.850 (0x5930) [debug] Name :  "COM3"
+16:53:38.851 (0x5930) [debug] Name :  "COM6"
+16:53:38.898 (0x5930) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:53:38.927 (0x5930) [debug] qml: [trace]activetrue
+16:53:41.385 (0x5930) [debug] false
+16:53:41.386 (0x5930) [debug]  openPort is working 
+16:53:41.387 (0x5930) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+16:53:43.257 (0x5930) [info ] cols: 2
+16:53:43.260 (0x5930) [info ] cols: 3
+16:53:43.502 (0x5930) [info ] cols: 4
+16:53:43.751 (0x5930) [info ] cols: 5
+16:53:44.068 (0x5930) [info ] cols: 6
+16:53:44.349 (0x5930) [info ] cols: 7
+16:53:44.458 (0x5930) [info ] cols: 8
+16:53:44.592 (0x5930) [info ] cols: 9
+16:53:44.753 (0x5930) [info ] cols: 10
+16:53:44.942 (0x5930) [info ] cols: 11
+16:53:45.555 (0x5930) [info ] cols: 12
+16:53:45.680 (0x5930) [info ] cols: 13
+16:53:45.821 (0x5930) [info ] cols: 14
+16:53:45.928 (0x5930) [info ] cols: 15
+16:53:46.010 (0x5930) [info ] cols: 16
+16:53:46.097 (0x5930) [info ] cols: 17
+16:53:46.176 (0x5930) [info ] cols: 18
+16:53:46.250 (0x5930) [info ] cols: 19
+16:53:46.328 (0x5930) [info ] cols: 20
+16:53:46.411 (0x5930) [info ] cols: 21
+16:53:46.484 (0x5930) [info ] cols: 22
+16:53:46.562 (0x5930) [info ] cols: 23
+16:53:46.642 (0x5930) [info ] cols: 24
+16:53:46.710 (0x5930) [info ] cols: 25
+16:53:46.764 (0x5930) [info ] cols: 26
+16:53:46.830 (0x5930) [info ] cols: 27
+16:53:46.974 (0x5930) [info ] cols: 28
+16:53:47.302 (0x5930) [info ] cols: 29
+16:53:47.415 (0x5930) [info ] cols: 30
+16:53:47.481 (0x5930) [info ] cols: 31
+16:53:47.548 (0x5930) [info ] cols: 32
+16:53:47.618 (0x5930) [info ] cols: 33
+16:53:47.691 (0x5930) [info ] cols: 34
+16:53:47.741 (0x5930) [info ] cols: 35
+16:53:47.795 (0x5930) [info ] cols: 36
+16:53:47.861 (0x5930) [info ] cols: 37
+16:53:47.918 (0x5930) [info ] cols: 38
+16:53:47.970 (0x5930) [info ] cols: 39
+16:53:48.031 (0x5930) [info ] cols: 40
+16:53:48.083 (0x5930) [info ] cols: 41
+16:53:48.136 (0x5930) [info ] cols: 42
+16:53:48.190 (0x5930) [info ] cols: 43
+16:53:48.244 (0x5930) [info ] cols: 44
+16:53:48.307 (0x5930) [info ] cols: 45
+16:53:48.372 (0x5930) [info ] cols: 46
+16:53:48.442 (0x5930) [info ] cols: 47
+16:53:48.512 (0x5930) [info ] cols: 48
+16:53:48.583 (0x5930) [info ] cols: 49
+16:53:48.635 (0x5930) [info ] cols: 50
+16:53:48.688 (0x5930) [info ] cols: 51
+16:53:48.742 (0x5930) [info ] cols: 52
+16:53:48.808 (0x5930) [info ] cols: 53
+16:53:48.855 (0x5930) [info ] cols: 54
+16:53:48.907 (0x5930) [info ] cols: 55
+16:53:48.956 (0x5930) [info ] cols: 56
+16:53:49.009 (0x5930) [info ] cols: 57
+16:53:49.056 (0x5930) [info ] cols: 58
+16:53:49.109 (0x5930) [info ] cols: 59
+16:53:49.162 (0x5930) [info ] cols: 60
+16:53:49.209 (0x5930) [info ] cols: 61
+16:53:49.245 (0x5930) [info ] cols: 62
+16:53:49.292 (0x5930) [info ] cols: 63
+16:53:49.344 (0x5930) [info ] cols: 64
+16:53:49.386 (0x5930) [info ] cols: 65
+16:53:49.429 (0x5930) [info ] cols: 66
+16:53:49.472 (0x5930) [info ] cols: 67
+16:53:49.515 (0x5930) [info ] cols: 68
+16:53:49.559 (0x5930) [info ] cols: 69
+16:53:49.608 (0x5930) [info ] cols: 70
+16:53:49.657 (0x5930) [info ] cols: 71
+16:53:49.693 (0x5930) [info ] cols: 72
+16:53:49.738 (0x5930) [info ] cols: 73
+16:53:49.784 (0x5930) [info ] cols: 74
+16:53:50.909 (0x5930) [debug] true
+16:53:50.910 (0x5930) [debug]  openPort is working 
+16:53:50.912 (0x5930) [debug] qml: get result:false
+16:53:51.350 (0x5930) [debug] qml: [trace]activefalse
+16:54:32.615 (0x0ae0) [info ]
+16:54:32.616 (0x0ae0) [info ] ----- App init ------
+16:54:32.616 (0x0ae0) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:54:32.617 (0x0ae0) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+16:54:32.617 (0x0ae0) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+16:54:32.618 (0x0ae0) [info ] Check chinese support: 012汉字abc
+16:54:32.618 (0x0ae0) [info ] ----- msAppInit: 11523640.185700, 00:19:12.10371640
+16:54:32.618 (0x0ae0) [info ] [trace] --- FuncEntry
+16:54:32.619 (0x0ae0) [info ] [trace]012汉字abc 
+16:54:32.619 (0x0ae0) [info ] qInfo
+16:54:32.620 (0x0ae0) [info ] qDebug
+16:54:32.620 (0x0ae0) [info ] qWanging
+16:54:32.620 (0x0ae0) [info ] QCritical
+16:54:32.621 (0x0ae0) [info ] call getMs() 1000 times, 0.038000 ms
+16:54:32.659 (0x0ae0) [info ] 1-1
+16:54:32.660 (0x0ae0) [info ] 1-2
+16:54:32.660 (0x0ae0) [info ] 2-1,汉字
+16:54:32.660 (0x0ae0) [info ] 2-2,汉字
+16:54:32.661 (0x0ae0) [info ] 1
+16:54:32.661 (0x0ae0) [info ] 12345678901234
+16:54:32.661 (0x0ae0) [info ] 12345679020032.0000000000000000
+16:54:32.662 (0x0ae0) [info ] 12345678901234567168.00000000000000000000000000000000
+16:54:32.668 (0x0ae0) [debug] SlBase::add( 3 + 4 ) = 7
+16:54:32.669 (0x0ae0) [debug] SlBase::getTime() = 2023-04-23 16:54:32.669
+16:54:32.669 (0x0ae0) [info ] [trace] --- FuncExit, 51.0043 ms
+16:54:33.707 (0x0ae0) [warn ] Both point size and pixel size set. Using pixel size.
+16:54:34.077 (0x0ae0) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:54:34.207 (0x0ae0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:54:34.207 (0x0ae0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:54:34.426 (0x0ae0) [debug] Name :  "COM5"
+16:54:34.427 (0x0ae0) [debug] Name :  "COM11"
+16:54:34.427 (0x0ae0) [debug] Name :  "COM4"
+16:54:34.428 (0x0ae0) [debug] Name :  "COM1"
+16:54:34.430 (0x0ae0) [debug] Name :  "COM2"
+16:54:34.431 (0x0ae0) [debug] Name :  "COM3"
+16:54:34.432 (0x0ae0) [debug] Name :  "COM6"
+16:54:34.476 (0x0ae0) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:54:34.499 (0x0ae0) [debug] qml: [trace]activetrue
+16:54:36.313 (0x0ae0) [debug] false
+16:54:36.314 (0x0ae0) [debug]  openPort is working 
+16:54:36.315 (0x0ae0) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+16:54:38.142 (0x0ae0) [info ] cols: 2
+16:54:38.145 (0x0ae0) [info ] cols: 3
+16:54:38.618 (0x0ae0) [info ] cols: 4
+16:54:39.179 (0x0ae0) [info ] cols: 5
+16:54:40.295 (0x0ae0) [info ] cols: 6
+16:54:41.467 (0x0ae0) [info ] cols: 7
+16:54:42.522 (0x0ae0) [info ] cols: 8
+16:54:43.198 (0x0ae0) [info ] cols: 9
+16:54:43.817 (0x0ae0) [info ] cols: 10
+16:54:44.308 (0x0ae0) [info ] cols: 11
+16:54:44.677 (0x0ae0) [info ] cols: 12
+16:54:44.822 (0x0ae0) [info ] cols: 13
+16:54:44.967 (0x0ae0) [info ] cols: 14
+16:54:45.116 (0x0ae0) [info ] cols: 15
+16:54:45.298 (0x0ae0) [info ] cols: 16
+16:54:45.589 (0x0ae0) [info ] cols: 17
+16:54:45.843 (0x0ae0) [info ] cols: 18
+16:54:46.051 (0x0ae0) [info ] cols: 19
+16:54:46.169 (0x0ae0) [info ] cols: 20
+16:54:46.288 (0x0ae0) [info ] cols: 21
+16:54:46.407 (0x0ae0) [info ] cols: 22
+16:54:46.535 (0x0ae0) [info ] cols: 23
+16:54:46.648 (0x0ae0) [info ] cols: 24
+16:54:46.752 (0x0ae0) [info ] cols: 25
+16:54:46.882 (0x0ae0) [info ] cols: 26
+16:54:47.009 (0x0ae0) [info ] cols: 27
+16:54:47.126 (0x0ae0) [info ] cols: 28
+16:54:47.342 (0x0ae0) [info ] cols: 29
+16:54:47.453 (0x0ae0) [info ] cols: 30
+16:54:47.609 (0x0ae0) [info ] cols: 31
+16:54:47.709 (0x0ae0) [info ] cols: 32
+16:54:47.839 (0x0ae0) [info ] cols: 33
+16:54:47.943 (0x0ae0) [info ] cols: 34
+16:54:48.077 (0x0ae0) [info ] cols: 35
+16:54:48.168 (0x0ae0) [info ] cols: 36
+16:54:48.301 (0x0ae0) [info ] cols: 37
+16:54:48.401 (0x0ae0) [info ] cols: 38
+16:54:48.529 (0x0ae0) [info ] cols: 39
+16:54:48.636 (0x0ae0) [info ] cols: 40
+16:54:48.713 (0x0ae0) [info ] cols: 41
+16:54:48.793 (0x0ae0) [info ] cols: 42
+16:54:48.885 (0x0ae0) [info ] cols: 43
+16:54:48.964 (0x0ae0) [info ] cols: 44
+16:54:49.047 (0x0ae0) [info ] cols: 45
+16:54:49.139 (0x0ae0) [info ] cols: 46
+16:54:49.212 (0x0ae0) [info ] cols: 47
+16:54:49.288 (0x0ae0) [info ] cols: 48
+16:54:49.370 (0x0ae0) [info ] cols: 49
+16:54:49.439 (0x0ae0) [info ] cols: 50
+16:54:49.510 (0x0ae0) [info ] cols: 51
+16:54:49.585 (0x0ae0) [info ] cols: 52
+16:54:49.652 (0x0ae0) [info ] cols: 53
+16:54:49.725 (0x0ae0) [info ] cols: 54
+16:54:49.803 (0x0ae0) [info ] cols: 55
+16:54:49.875 (0x0ae0) [info ] cols: 56
+16:54:49.943 (0x0ae0) [info ] cols: 57
+16:54:50.012 (0x0ae0) [info ] cols: 58
+16:54:50.096 (0x0ae0) [info ] cols: 59
+16:54:50.191 (0x0ae0) [info ] cols: 60
+16:54:50.296 (0x0ae0) [info ] cols: 61
+16:54:50.380 (0x0ae0) [info ] cols: 62
+16:54:50.462 (0x0ae0) [info ] cols: 63
+16:54:50.547 (0x0ae0) [info ] cols: 64
+16:54:50.627 (0x0ae0) [info ] cols: 65
+16:54:50.698 (0x0ae0) [info ] cols: 66
+16:54:50.778 (0x0ae0) [info ] cols: 67
+16:54:50.861 (0x0ae0) [info ] cols: 68
+16:54:50.950 (0x0ae0) [info ] cols: 69
+16:54:51.118 (0x0ae0) [info ] cols: 70
+16:54:51.394 (0x0ae0) [info ] cols: 71
+16:54:52.023 (0x0ae0) [info ] cols: 72
+16:54:52.466 (0x0ae0) [info ] cols: 73
+16:54:52.669 (0x0ae0) [info ] cols: 74
+16:54:52.846 (0x0ae0) [info ] cols: 75
+16:54:52.959 (0x0ae0) [info ] cols: 76
+16:54:53.041 (0x0ae0) [info ] cols: 77
+16:54:53.123 (0x0ae0) [info ] cols: 78
+16:54:53.212 (0x0ae0) [info ] cols: 79
+16:54:53.280 (0x0ae0) [info ] cols: 80
+16:54:53.351 (0x0ae0) [info ] cols: 81
+16:54:53.425 (0x0ae0) [info ] cols: 82
+16:54:53.501 (0x0ae0) [info ] cols: 83
+16:54:53.580 (0x0ae0) [info ] cols: 84
+16:54:53.662 (0x0ae0) [info ] cols: 85
+16:54:53.748 (0x0ae0) [info ] cols: 86
+16:54:53.841 (0x0ae0) [info ] cols: 87
+16:54:53.985 (0x0ae0) [info ] cols: 88
+16:54:54.083 (0x0ae0) [info ] cols: 89
+16:54:54.189 (0x0ae0) [info ] cols: 90
+16:54:54.297 (0x0ae0) [info ] cols: 91
+16:54:54.376 (0x0ae0) [info ] cols: 92
+16:54:54.459 (0x0ae0) [info ] cols: 93
+16:54:54.545 (0x0ae0) [info ] cols: 94
+16:54:55.856 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:55.967 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:56.004 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:56.328 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:56.360 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:56.388 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:56.620 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:56.648 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:56.684 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.012 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.048 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.112 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.145 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.636 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.801 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.808 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.824 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.842 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:57.861 (0x0ae0) [debug] onWidgetMouseWheel is running 
+
+16:54:59.936 (0x0ae0) [trace] qml:
+16:54:59.978 (0x0ae0) [info ] ----- msAppExit: 11551003.869800, 00:19:14.10397003
+16:54:59.978 (0x0ae0) [info ] app running: 27363.684100, 00:00:02.25363
+16:54:59.979 (0x0ae0) [info ] app return: 0
+16:54:59.980 (0x0ae0) [info ] ----- App exit ------
+16:55:24.935 (0x359c) [info ]
+16:55:24.936 (0x359c) [info ] ----- App init ------
+16:55:24.937 (0x359c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:55:24.937 (0x359c) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+16:55:24.938 (0x359c) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+16:55:24.938 (0x359c) [info ] Check chinese support: 012汉字abc
+16:55:24.939 (0x359c) [info ] ----- msAppInit: 11575960.384800, 00:19:17.10418960
+16:55:24.939 (0x359c) [info ] [trace] --- FuncEntry
+16:55:24.939 (0x359c) [info ] [trace]012汉字abc 
+16:55:24.940 (0x359c) [info ] qInfo
+16:55:24.940 (0x359c) [info ] qDebug
+16:55:24.941 (0x359c) [info ] qWanging
+16:55:24.941 (0x359c) [info ] QCritical
+16:55:24.942 (0x359c) [info ] call getMs() 1000 times, 0.038400 ms
+16:55:24.949 (0x359c) [info ] 1-1
+16:55:24.950 (0x359c) [info ] 1-2
+16:55:24.950 (0x359c) [info ] 2-1,汉字
+16:55:24.950 (0x359c) [info ] 2-2,汉字
+16:55:24.951 (0x359c) [info ] 1
+16:55:24.951 (0x359c) [info ] 12345678901234
+16:55:24.952 (0x359c) [info ] 12345679020032.0000000000000000
+16:55:24.952 (0x359c) [info ] 12345678901234567168.00000000000000000000000000000000
+16:55:24.958 (0x359c) [debug] SlBase::add( 3 + 4 ) = 7
+16:55:24.959 (0x359c) [debug] SlBase::getTime() = 2023-04-23 16:55:24.959
+16:55:24.959 (0x359c) [info ] [trace] --- FuncExit, 19.8492 ms
+16:55:25.949 (0x359c) [warn ] Both point size and pixel size set. Using pixel size.
+16:55:26.321 (0x359c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:55:26.432 (0x359c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:55:26.433 (0x359c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:55:26.673 (0x359c) [debug] Name :  "COM5"
+16:55:26.674 (0x359c) [debug] Name :  "COM11"
+16:55:26.674 (0x359c) [debug] Name :  "COM4"
+16:55:26.675 (0x359c) [debug] Name :  "COM1"
+16:55:26.675 (0x359c) [debug] Name :  "COM2"
+16:55:26.676 (0x359c) [debug] Name :  "COM3"
+16:55:26.676 (0x359c) [debug] Name :  "COM6"
+16:55:26.721 (0x359c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:55:26.744 (0x359c) [debug] qml: [trace]activetrue
+16:55:28.614 (0x359c) [debug] false
+16:55:28.615 (0x359c) [debug]  openPort is working 
+16:55:28.616 (0x359c) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+16:55:32.032 (0x359c) [info ] cols: 2
+16:55:32.034 (0x359c) [info ] cols: 3
+16:55:32.193 (0x359c) [info ] cols: 4
+16:55:32.392 (0x359c) [info ] cols: 5
+16:55:32.544 (0x359c) [info ] cols: 6
+16:55:32.786 (0x359c) [info ] cols: 7
+16:55:32.985 (0x359c) [info ] cols: 8
+16:55:33.113 (0x359c) [info ] cols: 9
+16:55:33.256 (0x359c) [info ] cols: 10
+16:55:33.401 (0x359c) [info ] cols: 11
+16:55:33.653 (0x359c) [info ] cols: 12
+16:55:33.747 (0x359c) [info ] cols: 13
+16:55:34.540 (0x359c) [info ] cols: 14
+16:55:34.873 (0x359c) [info ] cols: 15
+16:55:35.055 (0x359c) [info ] cols: 16
+16:55:35.251 (0x359c) [info ] cols: 17
+16:55:37.025 (0x359c) [debug] true
+16:55:37.026 (0x359c) [debug]  openPort is working 
+16:55:37.027 (0x359c) [debug] qml: get result:false
+16:55:37.529 (0x359c) [trace] qml:
+16:55:37.591 (0x359c) [info ] ----- msAppExit: 11588616.453000, 00:19:18.10430616
+16:55:37.592 (0x359c) [info ] app running: 12656.068200, 00:00:01.11656
+16:55:37.594 (0x359c) [info ] app return: 0
+16:55:37.595 (0x359c) [info ] ----- App exit ------
+16:57:44.269 (0x4988) [info ]
+16:57:44.270 (0x4988) [info ] ----- App init ------
+16:57:44.271 (0x4988) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:57:44.271 (0x4988) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+16:57:44.272 (0x4988) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+16:57:44.272 (0x4988) [info ] Check chinese support: 012汉字abc
+16:57:44.273 (0x4988) [info ] ----- msAppInit: 11715294.258800, 00:19:31.10544294
+16:57:44.273 (0x4988) [info ] [trace] --- FuncEntry
+16:57:44.274 (0x4988) [info ] [trace]012汉字abc 
+16:57:44.274 (0x4988) [info ] qInfo
+16:57:44.275 (0x4988) [info ] qDebug
+16:57:44.275 (0x4988) [info ] qWanging
+16:57:44.275 (0x4988) [info ] QCritical
+16:57:44.276 (0x4988) [info ] call getMs() 1000 times, 0.041000 ms
+16:57:44.292 (0x4988) [info ] 1-1
+16:57:44.293 (0x4988) [info ] 1-2
+16:57:44.293 (0x4988) [info ] 2-1,汉字
+16:57:44.293 (0x4988) [info ] 2-2,汉字
+16:57:44.294 (0x4988) [info ] 1
+16:57:44.294 (0x4988) [info ] 12345678901234
+16:57:44.294 (0x4988) [info ] 12345679020032.0000000000000000
+16:57:44.295 (0x4988) [info ] 12345678901234567168.00000000000000000000000000000000
+16:57:44.302 (0x4988) [debug] SlBase::add( 3 + 4 ) = 7
+16:57:44.302 (0x4988) [debug] SlBase::getTime() = 2023-04-23 16:57:44.302
+16:57:44.303 (0x4988) [info ] [trace] --- FuncExit, 29.5076 ms
+16:57:45.319 (0x4988) [warn ] Both point size and pixel size set. Using pixel size.
+16:57:45.685 (0x4988) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:57:45.795 (0x4988) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:57:45.795 (0x4988) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:57:46.039 (0x4988) [debug] Name :  "COM5"
+16:57:46.041 (0x4988) [debug] Name :  "COM11"
+16:57:46.042 (0x4988) [debug] Name :  "COM4"
+16:57:46.042 (0x4988) [debug] Name :  "COM1"
+16:57:46.043 (0x4988) [debug] Name :  "COM2"
+16:57:46.043 (0x4988) [debug] Name :  "COM3"
+16:57:46.044 (0x4988) [debug] Name :  "COM6"
+16:57:46.099 (0x4988) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:57:46.124 (0x4988) [debug] qml: [trace]activetrue
+16:57:48.224 (0x4988) [debug] false
+16:57:48.225 (0x4988) [debug]  openPort is working 
+16:57:48.227 (0x4988) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+16:57:49.318 (0x4988) [info ] cols: 2
+16:57:49.321 (0x4988) [info ] cols: 3
+16:57:49.388 (0x4988) [info ] cols: 4
+16:57:49.450 (0x4988) [info ] cols: 5
+16:57:49.515 (0x4988) [info ] cols: 6
+16:57:49.581 (0x4988) [info ] cols: 7
+16:57:49.648 (0x4988) [info ] cols: 8
+16:57:49.719 (0x4988) [info ] cols: 9
+16:57:49.790 (0x4988) [info ] cols: 10
+16:57:49.865 (0x4988) [info ] cols: 11
+16:57:49.967 (0x4988) [info ] cols: 12
+16:57:50.066 (0x4988) [info ] cols: 13
+16:57:50.145 (0x4988) [info ] cols: 14
+16:57:50.227 (0x4988) [info ] cols: 15
+16:57:50.314 (0x4988) [info ] cols: 16
+16:57:50.405 (0x4988) [info ] cols: 17
+16:57:50.501 (0x4988) [info ] cols: 18
+16:57:50.603 (0x4988) [info ] cols: 19
+16:57:50.714 (0x4988) [info ] cols: 20
+16:57:50.838 (0x4988) [info ] cols: 21
+16:57:51.023 (0x4988) [info ] cols: 22
+16:57:51.129 (0x4988) [info ] cols: 23
+16:57:51.226 (0x4988) [info ] cols: 24
+16:57:51.319 (0x4988) [info ] cols: 25
+16:57:51.420 (0x4988) [info ] cols: 26
+16:57:51.529 (0x4988) [info ] cols: 27
+16:57:51.646 (0x4988) [info ] cols: 28
+16:57:51.777 (0x4988) [info ] cols: 29
+16:57:51.925 (0x4988) [info ] cols: 30
+16:57:52.103 (0x4988) [info ] cols: 31
+16:57:52.338 (0x4988) [info ] cols: 32
+16:57:52.568 (0x4988) [info ] cols: 33
+16:57:52.691 (0x4988) [info ] cols: 34
+16:57:52.830 (0x4988) [info ] cols: 35
+16:57:52.990 (0x4988) [info ] cols: 36
+16:57:57.101 (0x4988) [debug] qml: [trace]activefalse
+16:57:58.046 (0x4988) [info ] cols: 37
+17:00:13.508 (0x5fa8) [info ]
+17:00:13.509 (0x5fa8) [info ] ----- App init ------
+17:00:13.510 (0x5fa8) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:00:13.510 (0x5fa8) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:00:13.511 (0x5fa8) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:00:13.511 (0x5fa8) [info ] Check chinese support: 012汉字abc
+17:00:13.512 (0x5fa8) [info ] ----- msAppInit: 11864533.502600, 00:19:46.10678533
+17:00:13.512 (0x5fa8) [info ] [trace] --- FuncEntry
+17:00:13.513 (0x5fa8) [info ] [trace]012汉字abc 
+17:00:13.513 (0x5fa8) [info ] qInfo
+17:00:13.514 (0x5fa8) [info ] qDebug
+17:00:13.514 (0x5fa8) [info ] qWanging
+17:00:13.514 (0x5fa8) [info ] QCritical
+17:00:13.515 (0x5fa8) [info ] call getMs() 1000 times, 0.039600 ms
+17:00:13.533 (0x5fa8) [info ] 1-1
+17:00:13.534 (0x5fa8) [info ] 1-2
+17:00:13.534 (0x5fa8) [info ] 2-1,汉字
+17:00:13.535 (0x5fa8) [info ] 2-2,汉字
+17:00:13.535 (0x5fa8) [info ] 1
+17:00:13.536 (0x5fa8) [info ] 12345678901234
+17:00:13.536 (0x5fa8) [info ] 12345679020032.0000000000000000
+17:00:13.537 (0x5fa8) [info ] 12345678901234567168.00000000000000000000000000000000
+17:00:13.542 (0x5fa8) [debug] SlBase::add( 3 + 4 ) = 7
+17:00:13.543 (0x5fa8) [debug] SlBase::getTime() = 2023-04-23 17:00:13.543
+17:00:13.543 (0x5fa8) [info ] [trace] --- FuncExit, 30.71 ms
+17:00:14.542 (0x5fa8) [warn ] Both point size and pixel size set. Using pixel size.
+17:00:14.900 (0x5fa8) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:00:15.009 (0x5fa8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:00:15.010 (0x5fa8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:00:15.243 (0x5fa8) [debug] Name :  "COM5"
+17:00:15.243 (0x5fa8) [debug] Name :  "COM11"
+17:00:15.244 (0x5fa8) [debug] Name :  "COM4"
+17:00:15.244 (0x5fa8) [debug] Name :  "COM1"
+17:00:15.245 (0x5fa8) [debug] Name :  "COM2"
+17:00:15.246 (0x5fa8) [debug] Name :  "COM3"
+17:00:15.246 (0x5fa8) [debug] Name :  "COM6"
+17:00:15.294 (0x5fa8) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:00:15.320 (0x5fa8) [debug] qml: [trace]activetrue
+17:00:17.225 (0x5fa8) [debug] false
+17:00:17.226 (0x5fa8) [debug]  openPort is working 
+17:00:17.227 (0x5fa8) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:00:18.920 (0x5fa8) [info ] cols: 2
+17:00:18.923 (0x5fa8) [info ] cols: 3
+17:00:19.314 (0x5fa8) [info ] cols: 4
+17:00:19.603 (0x5fa8) [info ] cols: 5
+17:00:19.809 (0x5fa8) [info ] cols: 6
+17:00:19.927 (0x5fa8) [info ] cols: 7
+17:00:20.176 (0x5fa8) [info ] cols: 8
+17:00:20.246 (0x5fa8) [info ] cols: 9
+17:00:20.324 (0x5fa8) [info ] cols: 10
+17:00:20.406 (0x5fa8) [info ] cols: 11
+17:00:20.505 (0x5fa8) [info ] cols: 12
+17:00:20.617 (0x5fa8) [info ] cols: 13
+17:00:20.733 (0x5fa8) [info ] cols: 14
+17:00:20.797 (0x5fa8) [info ] cols: 15
+17:00:20.858 (0x5fa8) [info ] cols: 16
+17:00:20.921 (0x5fa8) [info ] cols: 17
+17:00:20.986 (0x5fa8) [info ] cols: 18
+17:00:21.051 (0x5fa8) [info ] cols: 19
+17:00:21.130 (0x5fa8) [info ] cols: 20
+17:00:21.214 (0x5fa8) [info ] cols: 21
+17:00:21.302 (0x5fa8) [info ] cols: 22
+17:00:21.390 (0x5fa8) [info ] cols: 23
+17:00:21.468 (0x5fa8) [info ] cols: 24
+17:00:21.551 (0x5fa8) [info ] cols: 25
+17:00:21.642 (0x5fa8) [info ] cols: 26
+17:00:21.725 (0x5fa8) [info ] cols: 27
+17:00:21.783 (0x5fa8) [info ] cols: 28
+17:00:21.843 (0x5fa8) [info ] cols: 29
+17:00:21.904 (0x5fa8) [info ] cols: 30
+17:00:21.970 (0x5fa8) [info ] cols: 31
+17:00:22.051 (0x5fa8) [info ] cols: 32
+17:00:22.114 (0x5fa8) [info ] cols: 33
+17:00:22.179 (0x5fa8) [info ] cols: 34
+17:00:22.244 (0x5fa8) [info ] cols: 35
+17:00:22.315 (0x5fa8) [info ] cols: 36
+17:00:22.369 (0x5fa8) [info ] cols: 37
+17:00:22.426 (0x5fa8) [info ] cols: 38
+17:00:22.485 (0x5fa8) [info ] cols: 39
+17:00:22.553 (0x5fa8) [info ] cols: 40
+17:00:22.612 (0x5fa8) [info ] cols: 41
+17:00:22.657 (0x5fa8) [info ] cols: 42
+17:00:22.702 (0x5fa8) [info ] cols: 43
+17:00:22.748 (0x5fa8) [info ] cols: 44
+17:00:22.795 (0x5fa8) [info ] cols: 45
+17:00:22.855 (0x5fa8) [info ] cols: 46
+17:00:22.914 (0x5fa8) [info ] cols: 47
+17:00:22.975 (0x5fa8) [info ] cols: 48
+17:00:23.038 (0x5fa8) [info ] cols: 49
+17:00:23.099 (0x5fa8) [info ] cols: 50
+17:00:23.148 (0x5fa8) [info ] cols: 51
+17:00:23.198 (0x5fa8) [info ] cols: 52
+17:00:23.249 (0x5fa8) [info ] cols: 53
+17:00:23.300 (0x5fa8) [info ] cols: 54
+17:00:23.350 (0x5fa8) [info ] cols: 55
+17:00:23.403 (0x5fa8) [info ] cols: 56
+17:00:23.458 (0x5fa8) [info ] cols: 57
+17:00:23.518 (0x5fa8) [info ] cols: 58
+17:00:23.587 (0x5fa8) [info ] cols: 59
+17:00:23.649 (0x5fa8) [info ] cols: 60
+17:00:23.713 (0x5fa8) [info ] cols: 61
+17:00:23.778 (0x5fa8) [info ] cols: 62
+17:00:23.833 (0x5fa8) [info ] cols: 63
+17:00:23.882 (0x5fa8) [info ] cols: 64
+17:00:23.932 (0x5fa8) [info ] cols: 65
+17:00:23.984 (0x5fa8) [info ] cols: 66
+17:00:24.045 (0x5fa8) [info ] cols: 67
+17:00:24.093 (0x5fa8) [info ] cols: 68
+17:00:24.144 (0x5fa8) [info ] cols: 69
+17:00:24.185 (0x5fa8) [info ] cols: 70
+17:00:24.232 (0x5fa8) [info ] cols: 71
+17:00:24.281 (0x5fa8) [info ] cols: 72
+17:00:24.334 (0x5fa8) [info ] cols: 73
+17:00:24.382 (0x5fa8) [info ] cols: 74
+17:00:24.433 (0x5fa8) [info ] cols: 75
+17:00:24.494 (0x5fa8) [info ] cols: 76
+17:00:24.544 (0x5fa8) [info ] cols: 77
+17:00:24.595 (0x5fa8) [info ] cols: 78
+17:00:24.650 (0x5fa8) [info ] cols: 79
+17:00:24.704 (0x5fa8) [info ] cols: 80
+17:00:24.760 (0x5fa8) [info ] cols: 81
+17:00:24.818 (0x5fa8) [info ] cols: 82
+17:00:24.875 (0x5fa8) [info ] cols: 83
+17:00:24.935 (0x5fa8) [info ] cols: 84
+17:00:25.354 (0x5fa8) [info ] cols: 85
+17:00:25.929 (0x5fa8) [info ] cols: 86
+17:00:26.029 (0x5fa8) [info ] cols: 87
+17:00:26.119 (0x5fa8) [info ] cols: 88
+17:00:26.227 (0x5fa8) [info ] cols: 89
+17:00:26.353 (0x5fa8) [info ] cols: 90
+17:00:26.437 (0x5fa8) [info ] cols: 91
+17:00:26.529 (0x5fa8) [info ] cols: 92
+17:00:26.612 (0x5fa8) [info ] cols: 93
+17:00:26.676 (0x5fa8) [info ] cols: 94
+17:00:26.743 (0x5fa8) [info ] cols: 95
+17:00:26.812 (0x5fa8) [info ] cols: 96
+17:00:26.879 (0x5fa8) [info ] cols: 97
+17:00:26.944 (0x5fa8) [info ] cols: 98
+17:00:27.010 (0x5fa8) [info ] cols: 99
+17:00:27.083 (0x5fa8) [info ] cols: 100
+17:00:27.174 (0x5fa8) [info ] cols: 101
+17:00:27.279 (0x5fa8) [info ] cols: 102
+17:00:27.392 (0x5fa8) [info ] cols: 103
+17:00:27.496 (0x5fa8) [info ] cols: 104
+17:00:27.610 (0x5fa8) [info ] cols: 105
+17:00:27.716 (0x5fa8) [info ] cols: 106
+17:00:27.831 (0x5fa8) [info ] cols: 107
+17:00:27.950 (0x5fa8) [info ] cols: 108
+17:00:28.024 (0x5fa8) [info ] cols: 109
+17:00:28.090 (0x5fa8) [info ] cols: 110
+17:00:28.152 (0x5fa8) [info ] cols: 111
+17:00:28.215 (0x5fa8) [info ] cols: 112
+17:00:28.288 (0x5fa8) [info ] cols: 113
+17:00:28.357 (0x5fa8) [info ] cols: 114
+17:00:28.417 (0x5fa8) [info ] cols: 115
+17:00:28.487 (0x5fa8) [info ] cols: 116
+17:00:28.574 (0x5fa8) [info ] cols: 117
+17:00:28.642 (0x5fa8) [info ] cols: 118
+17:00:28.697 (0x5fa8) [info ] cols: 119
+17:00:28.747 (0x5fa8) [info ] cols: 120
+17:00:28.795 (0x5fa8) [info ] cols: 121
+17:00:28.844 (0x5fa8) [info ] cols: 122
+17:00:28.904 (0x5fa8) [info ] cols: 123
+17:00:28.957 (0x5fa8) [info ] cols: 124
+17:00:29.005 (0x5fa8) [info ] cols: 125
+17:00:29.056 (0x5fa8) [info ] cols: 126
+17:00:29.108 (0x5fa8) [info ] cols: 127
+17:00:29.159 (0x5fa8) [info ] cols: 128
+17:00:29.208 (0x5fa8) [info ] cols: 129
+17:00:29.266 (0x5fa8) [info ] cols: 130
+17:00:29.337 (0x5fa8) [info ] cols: 131
+17:00:29.404 (0x5fa8) [info ] cols: 132
+17:00:29.461 (0x5fa8) [info ] cols: 133
+17:00:29.514 (0x5fa8) [info ] cols: 134
+17:00:29.561 (0x5fa8) [info ] cols: 135
+17:00:29.608 (0x5fa8) [info ] cols: 136
+17:00:29.656 (0x5fa8) [info ] cols: 137
+17:00:29.702 (0x5fa8) [info ] cols: 138
+17:00:29.746 (0x5fa8) [info ] cols: 139
+17:00:29.800 (0x5fa8) [info ] cols: 140
+17:00:29.832 (0x5fa8) [info ] cols: 141
+17:00:29.878 (0x5fa8) [info ] cols: 142
+17:00:29.926 (0x5fa8) [info ] cols: 143
+17:00:29.976 (0x5fa8) [info ] cols: 144
+17:00:30.029 (0x5fa8) [info ] cols: 145
+17:00:30.084 (0x5fa8) [info ] cols: 146
+17:00:30.133 (0x5fa8) [info ] cols: 147
+17:00:30.186 (0x5fa8) [info ] cols: 148
+17:00:30.244 (0x5fa8) [info ] cols: 149
+17:00:30.333 (0x5fa8) [info ] cols: 150
+17:00:31.368 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:31.616 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:31.641 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:31.688 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:32.360 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:32.504 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:32.612 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:33.292 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:33.400 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:34.153 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+17:00:34.159 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.181 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.186 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.190 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.201 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.208 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.212 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.223 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.228 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.232 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.245 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.249 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.262 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.267 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.280 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.285 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.289 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.300 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.305 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.318 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.323 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.328 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.341 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.345 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.357 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.362 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.376 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.377 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.384 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.398 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.403 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.407 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.419 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.426 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.439 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.444 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.449 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.461 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.467 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.480 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.485 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.499 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.504 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.517 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:34.517 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+17:00:34.736 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:35.064 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:35.432 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:35.450 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:35.480 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:35.752 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:35.786 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:35.809 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:35.848 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:36.104 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:36.161 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:36.328 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:36.376 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:36.952 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:37.024 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:37.496 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:37.544 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:37.640 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:37.896 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:37.939 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:38.492 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:38.544 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:38.888 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:38.921 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:38.992 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:39.753 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+17:00:39.759 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.767 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.785 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.794 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.813 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.823 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.832 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.850 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.861 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.880 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.888 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.905 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.913 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.932 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.940 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.960 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:39.978 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+17:00:40.200 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:40.232 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:40.537 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:40.568 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:40.632 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:40.984 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:41.360 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:41.704 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+17:00:41.712 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.720 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.734 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.740 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.745 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.758 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.773 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.778 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.783 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.798 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.804 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.808 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.813 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.826 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.841 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.846 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.851 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.863 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.868 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.871 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.884 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.889 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:41.913 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+17:00:42.144 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:42.192 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:42.528 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:42.584 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:43.060 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:43.620 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:43.688 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:44.128 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:44.520 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:44.564 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:45.236 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:45.624 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:45.656 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:45.696 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:46.178 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+17:00:46.184 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.192 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.205 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.210 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.225 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.233 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.245 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.250 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.262 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.268 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.272 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.283 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.288 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.301 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.305 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.319 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.324 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.328 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.340 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.345 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.358 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.363 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.377 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.384 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.397 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.403 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.408 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.421 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.426 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.441 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.442 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:00:46.443 (0x5fa8) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+17:00:46.672 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:46.744 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:47.143 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:47.188 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:47.248 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:47.568 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:47.616 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:47.864 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:48.163 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:48.520 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:49.368 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:49.376 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:49.390 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:49.416 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:49.808 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:49.824 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:49.872 (0x5fa8) [debug] onWidgetMouseWheel is running 
+
+17:00:50.787 (0x5fa8) [debug] true
+17:00:50.787 (0x5fa8) [debug]  openPort is working 
+17:00:50.789 (0x5fa8) [debug] qml: get result:false
+17:00:51.336 (0x5fa8) [trace] qml:
+17:00:51.390 (0x5fa8) [info ] ----- msAppExit: 11902416.586400, 00:19:49.10713416
+17:00:51.392 (0x5fa8) [info ] app running: 37883.083800, 00:00:03.34883
+17:00:51.393 (0x5fa8) [info ] app return: 0
+17:00:51.393 (0x5fa8) [info ] ----- App exit ------
+17:09:22.636 (0x3a20) [info ]
+17:09:22.637 (0x3a20) [info ] ----- App init ------
+17:09:22.637 (0x3a20) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:09:22.638 (0x3a20) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:09:22.638 (0x3a20) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:09:22.639 (0x3a20) [info ] Check chinese support: 012汉字abc
+17:09:22.639 (0x3a20) [info ] ----- msAppInit: 12413660.772200, 00:20:40.11173660
+17:09:22.640 (0x3a20) [info ] [trace] --- FuncEntry
+17:09:22.640 (0x3a20) [info ] [trace]012汉字abc 
+17:09:22.640 (0x3a20) [info ] qInfo
+17:09:22.641 (0x3a20) [info ] qDebug
+17:09:22.641 (0x3a20) [info ] qWanging
+17:09:22.641 (0x3a20) [info ] QCritical
+17:09:22.642 (0x3a20) [info ] call getMs() 1000 times, 0.032200 ms
+17:09:22.648 (0x3a20) [info ] 1-1
+17:09:22.649 (0x3a20) [info ] 1-2
+17:09:22.649 (0x3a20) [info ] 2-1,汉字
+17:09:22.650 (0x3a20) [info ] 2-2,汉字
+17:09:22.650 (0x3a20) [info ] 1
+17:09:22.650 (0x3a20) [info ] 12345678901234
+17:09:22.651 (0x3a20) [info ] 12345679020032.0000000000000000
+17:09:22.651 (0x3a20) [info ] 12345678901234567168.00000000000000000000000000000000
+17:09:22.657 (0x3a20) [debug] SlBase::add( 3 + 4 ) = 7
+17:09:22.657 (0x3a20) [debug] SlBase::getTime() = 2023-04-23 17:09:22.657
+17:09:22.657 (0x3a20) [info ] [trace] --- FuncExit, 17.7223 ms
+17:09:23.651 (0x3a20) [warn ] Both point size and pixel size set. Using pixel size.
+17:09:24.004 (0x3a20) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:09:24.118 (0x3a20) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:09:24.118 (0x3a20) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:09:24.377 (0x3a20) [debug] Name :  "COM5"
+17:09:24.377 (0x3a20) [debug] Name :  "COM11"
+17:09:24.378 (0x3a20) [debug] Name :  "COM4"
+17:09:24.379 (0x3a20) [debug] Name :  "COM1"
+17:09:24.379 (0x3a20) [debug] Name :  "COM2"
+17:09:24.380 (0x3a20) [debug] Name :  "COM3"
+17:09:24.380 (0x3a20) [debug] Name :  "COM6"
+17:09:24.431 (0x3a20) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:09:24.474 (0x3a20) [debug] qml: [trace]activetrue
+17:09:24.479 (0x3a20) [debug] qml: [trace]activefalse
+17:09:25.709 (0x3a20) [debug] qml: [trace]activetrue
+17:09:27.337 (0x3a20) [debug] false
+17:09:27.338 (0x3a20) [debug]  openPort is working 
+17:09:27.339 (0x3a20) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:09:28.995 (0x3a20) [info ] cols: 2
+17:09:28.998 (0x3a20) [info ] cols: 3
+17:09:29.319 (0x3a20) [info ] cols: 4
+17:09:29.765 (0x3a20) [info ] cols: 5
+17:09:29.981 (0x3a20) [info ] cols: 6
+17:09:30.152 (0x3a20) [info ] cols: 7
+17:09:30.278 (0x3a20) [info ] cols: 8
+17:09:30.422 (0x3a20) [info ] cols: 9
+17:09:30.564 (0x3a20) [info ] cols: 10
+17:09:30.714 (0x3a20) [info ] cols: 11
+17:09:30.862 (0x3a20) [info ] cols: 12
+17:09:31.021 (0x3a20) [info ] cols: 13
+17:09:31.125 (0x3a20) [info ] cols: 14
+17:09:31.242 (0x3a20) [info ] cols: 15
+17:09:31.360 (0x3a20) [info ] cols: 16
+17:09:31.443 (0x3a20) [info ] cols: 17
+17:09:31.507 (0x3a20) [info ] cols: 18
+17:09:31.569 (0x3a20) [info ] cols: 19
+17:09:31.643 (0x3a20) [info ] cols: 20
+17:09:31.721 (0x3a20) [info ] cols: 21
+17:09:31.787 (0x3a20) [info ] cols: 22
+17:09:31.857 (0x3a20) [info ] cols: 23
+17:09:31.933 (0x3a20) [info ] cols: 24
+17:09:32.009 (0x3a20) [info ] cols: 25
+17:09:32.111 (0x3a20) [info ] cols: 26
+17:09:32.194 (0x3a20) [info ] cols: 27
+17:09:32.264 (0x3a20) [info ] cols: 28
+17:09:32.328 (0x3a20) [info ] cols: 29
+17:09:32.378 (0x3a20) [info ] cols: 30
+17:09:32.431 (0x3a20) [info ] cols: 31
+17:09:32.489 (0x3a20) [info ] cols: 32
+17:09:32.548 (0x3a20) [info ] cols: 33
+17:09:32.604 (0x3a20) [info ] cols: 34
+17:09:32.655 (0x3a20) [info ] cols: 35
+17:09:32.721 (0x3a20) [info ] cols: 36
+17:09:32.817 (0x3a20) [info ] cols: 37
+17:09:32.918 (0x3a20) [info ] cols: 38
+17:09:33.004 (0x3a20) [info ] cols: 39
+17:09:33.079 (0x3a20) [info ] cols: 40
+17:09:33.150 (0x3a20) [info ] cols: 41
+17:09:33.224 (0x3a20) [info ] cols: 42
+17:09:33.299 (0x3a20) [info ] cols: 43
+17:09:33.361 (0x3a20) [info ] cols: 44
+17:09:33.424 (0x3a20) [info ] cols: 45
+17:09:33.492 (0x3a20) [info ] cols: 46
+17:09:33.555 (0x3a20) [info ] cols: 47
+17:09:33.744 (0x3a20) [info ] cols: 48
+17:09:34.949 (0x3a20) [debug] true
+17:09:34.949 (0x3a20) [debug]  openPort is working 
+17:09:34.951 (0x3a20) [debug] qml: get result:false
+17:09:35.712 (0x3a20) [trace] qml:
+17:09:35.743 (0x3a20) [info ] ----- msAppExit: 12426769.020300, 00:20:42.11184769
+17:09:35.743 (0x3a20) [info ] app running: 13108.248100, 00:00:01.12108
+17:09:35.744 (0x3a20) [info ] app return: 0
+17:09:35.744 (0x3a20) [info ] ----- App exit ------
+17:09:45.497 (0x48e4) [info ]
+17:09:45.498 (0x48e4) [info ] ----- App init ------
+17:09:45.499 (0x48e4) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:09:45.499 (0x48e4) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:09:45.499 (0x48e4) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:09:45.500 (0x48e4) [info ] Check chinese support: 012汉字abc
+17:09:45.500 (0x48e4) [info ] ----- msAppInit: 12436522.661000, 00:20:43.11193522
+17:09:45.501 (0x48e4) [info ] [trace] --- FuncEntry
+17:09:45.501 (0x48e4) [info ] [trace]012汉字abc 
+17:09:45.502 (0x48e4) [info ] qInfo
+17:09:45.502 (0x48e4) [info ] qDebug
+17:09:45.503 (0x48e4) [info ] qWanging
+17:09:45.503 (0x48e4) [info ] QCritical
+17:09:45.503 (0x48e4) [info ] call getMs() 1000 times, 0.040500 ms
+17:09:45.521 (0x48e4) [info ] 1-1
+17:09:45.521 (0x48e4) [info ] 1-2
+17:09:45.522 (0x48e4) [info ] 2-1,汉字
+17:09:45.522 (0x48e4) [info ] 2-2,汉字
+17:09:45.523 (0x48e4) [info ] 1
+17:09:45.523 (0x48e4) [info ] 12345678901234
+17:09:45.523 (0x48e4) [info ] 12345679020032.0000000000000000
+17:09:45.524 (0x48e4) [info ] 12345678901234567168.00000000000000000000000000000000
+17:09:45.530 (0x48e4) [debug] SlBase::add( 3 + 4 ) = 7
+17:09:45.530 (0x48e4) [debug] SlBase::getTime() = 2023-04-23 17:09:45.530
+17:09:45.530 (0x48e4) [info ] [trace] --- FuncExit, 29.0768 ms
+17:09:46.556 (0x48e4) [warn ] Both point size and pixel size set. Using pixel size.
+17:09:46.978 (0x48e4) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:09:47.100 (0x48e4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:09:47.101 (0x48e4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:09:47.349 (0x48e4) [debug] Name :  "COM5"
+17:09:47.350 (0x48e4) [debug] Name :  "COM11"
+17:09:47.350 (0x48e4) [debug] Name :  "COM4"
+17:09:47.351 (0x48e4) [debug] Name :  "COM1"
+17:09:47.351 (0x48e4) [debug] Name :  "COM2"
+17:09:47.352 (0x48e4) [debug] Name :  "COM3"
+17:09:47.352 (0x48e4) [debug] Name :  "COM6"
+17:09:47.398 (0x48e4) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:09:47.419 (0x48e4) [debug] qml: [trace]activetrue
+17:09:48.945 (0x48e4) [debug] false
+17:09:48.946 (0x48e4) [debug]  openPort is working 
+17:09:48.947 (0x48e4) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:10:17.989 (0x48e4) [debug] qml: [trace]activefalse
+17:10:18.931 (0x48e4) [debug] qml: [trace]activetrue
+17:10:20.508 (0x48e4) [info ] cols: 2
+17:10:20.511 (0x48e4) [info ] cols: 3
+17:10:25.947 (0x62ec) [info ]
+17:10:25.948 (0x62ec) [info ] ----- App init ------
+17:10:25.949 (0x62ec) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:10:25.949 (0x62ec) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:10:25.950 (0x62ec) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:10:25.950 (0x62ec) [info ] Check chinese support: 012汉字abc
+17:10:25.950 (0x62ec) [info ] ----- msAppInit: 12476972.647300, 00:20:47.11229972
+17:10:25.951 (0x62ec) [info ] [trace] --- FuncEntry
+17:10:25.952 (0x62ec) [info ] [trace]012汉字abc 
+17:10:25.952 (0x62ec) [info ] qInfo
+17:10:25.952 (0x62ec) [info ] qDebug
+17:10:25.953 (0x62ec) [info ] qWanging
+17:10:25.953 (0x62ec) [info ] QCritical
+17:10:25.953 (0x62ec) [info ] call getMs() 1000 times, 0.038200 ms
+17:10:25.960 (0x62ec) [info ] 1-1
+17:10:25.961 (0x62ec) [info ] 1-2
+17:10:25.961 (0x62ec) [info ] 2-1,汉字
+17:10:25.962 (0x62ec) [info ] 2-2,汉字
+17:10:25.962 (0x62ec) [info ] 1
+17:10:25.962 (0x62ec) [info ] 12345678901234
+17:10:25.963 (0x62ec) [info ] 12345679020032.0000000000000000
+17:10:25.963 (0x62ec) [info ] 12345678901234567168.00000000000000000000000000000000
+17:10:25.979 (0x62ec) [debug] SlBase::add( 3 + 4 ) = 7
+17:10:25.979 (0x62ec) [debug] SlBase::getTime() = 2023-04-23 17:10:25.979
+17:10:25.980 (0x62ec) [info ] [trace] --- FuncExit, 28.5327 ms
+17:10:27.061 (0x62ec) [warn ] Both point size and pixel size set. Using pixel size.
+17:10:27.500 (0x62ec) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:10:27.610 (0x62ec) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:10:27.611 (0x62ec) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:10:27.854 (0x62ec) [debug] Name :  "COM5"
+17:10:27.855 (0x62ec) [debug] Name :  "COM11"
+17:10:27.855 (0x62ec) [debug] Name :  "COM4"
+17:10:27.856 (0x62ec) [debug] Name :  "COM1"
+17:10:27.856 (0x62ec) [debug] Name :  "COM2"
+17:10:27.857 (0x62ec) [debug] Name :  "COM3"
+17:10:27.857 (0x62ec) [debug] Name :  "COM6"
+17:10:27.906 (0x62ec) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:10:27.929 (0x62ec) [debug] qml: [trace]activetrue
+17:10:29.914 (0x62ec) [debug] false
+17:10:29.915 (0x62ec) [debug]  openPort is working 
+17:10:29.916 (0x62ec) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:10:35.690 (0x5b8c) [info ]
+17:10:35.691 (0x5b8c) [info ] ----- App init ------
+17:10:35.692 (0x5b8c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:10:35.692 (0x5b8c) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:10:35.692 (0x5b8c) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:10:35.693 (0x5b8c) [info ] Check chinese support: 012汉字abc
+17:10:35.693 (0x5b8c) [info ] ----- msAppInit: 12486715.263200, 00:20:48.11238715
+17:10:35.694 (0x5b8c) [info ] [trace] --- FuncEntry
+17:10:35.694 (0x5b8c) [info ] [trace]012汉字abc 
+17:10:35.695 (0x5b8c) [info ] qInfo
+17:10:35.695 (0x5b8c) [info ] qDebug
+17:10:35.695 (0x5b8c) [info ] qWanging
+17:10:35.696 (0x5b8c) [info ] QCritical
+17:10:35.696 (0x5b8c) [info ] call getMs() 1000 times, 0.038100 ms
+17:10:35.712 (0x5b8c) [info ] 1-1
+17:10:35.712 (0x5b8c) [info ] 1-2
+17:10:35.713 (0x5b8c) [info ] 2-1,汉字
+17:10:35.713 (0x5b8c) [info ] 2-2,汉字
+17:10:35.713 (0x5b8c) [info ] 1
+17:10:35.714 (0x5b8c) [info ] 12345678901234
+17:10:35.714 (0x5b8c) [info ] 12345679020032.0000000000000000
+17:10:35.715 (0x5b8c) [info ] 12345678901234567168.00000000000000000000000000000000
+17:10:35.721 (0x5b8c) [debug] SlBase::add( 3 + 4 ) = 7
+17:10:35.721 (0x5b8c) [debug] SlBase::getTime() = 2023-04-23 17:10:35.721
+17:10:35.722 (0x5b8c) [info ] [trace] --- FuncExit, 28.0121 ms
+17:10:36.787 (0x5b8c) [warn ] Both point size and pixel size set. Using pixel size.
+17:10:37.239 (0x5b8c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:10:37.355 (0x5b8c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:10:37.355 (0x5b8c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:10:37.619 (0x5b8c) [debug] Name :  "COM5"
+17:10:37.620 (0x5b8c) [debug] Name :  "COM11"
+17:10:37.621 (0x5b8c) [debug] Name :  "COM4"
+17:10:37.621 (0x5b8c) [debug] Name :  "COM1"
+17:10:37.622 (0x5b8c) [debug] Name :  "COM2"
+17:10:37.622 (0x5b8c) [debug] Name :  "COM3"
+17:10:37.623 (0x5b8c) [debug] Name :  "COM6"
+17:10:37.678 (0x5b8c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:10:37.700 (0x5b8c) [debug] qml: [trace]activetrue
+17:10:39.321 (0x5b8c) [debug] false
+17:10:39.321 (0x5b8c) [debug]  openPort is working 
+17:10:39.323 (0x5b8c) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:10:40.537 (0x5b8c) [info ] cols: 2
+17:10:40.539 (0x5b8c) [info ] cols: 3
+17:10:40.772 (0x5b8c) [info ] cols: 4
+17:10:40.868 (0x5b8c) [info ] cols: 5
+17:10:40.985 (0x5b8c) [info ] cols: 6
+17:10:41.122 (0x5b8c) [info ] cols: 7
+17:10:41.172 (0x5b8c) [info ] cols: 8
+17:10:41.350 (0x5b8c) [info ] cols: 9
+17:10:41.429 (0x5b8c) [info ] cols: 10
+17:10:41.476 (0x5b8c) [info ] cols: 11
+17:10:41.527 (0x5b8c) [info ] cols: 12
+17:10:41.578 (0x5b8c) [info ] cols: 13
+17:10:41.630 (0x5b8c) [info ] cols: 14
+17:10:41.690 (0x5b8c) [info ] cols: 15
+17:10:41.739 (0x5b8c) [info ] cols: 16
+17:10:41.781 (0x5b8c) [info ] cols: 17
+17:10:41.825 (0x5b8c) [info ] cols: 18
+17:10:41.870 (0x5b8c) [info ] cols: 19
+17:10:41.915 (0x5b8c) [info ] cols: 20
+17:10:41.971 (0x5b8c) [info ] cols: 21
+17:10:42.047 (0x5b8c) [info ] cols: 22
+17:10:42.126 (0x5b8c) [info ] cols: 23
+17:10:42.208 (0x5b8c) [info ] cols: 24
+17:10:42.746 (0x5b8c) [info ] cols: 25
+17:10:42.913 (0x5b8c) [info ] cols: 26
+17:10:43.091 (0x5b8c) [info ] cols: 27
+17:10:43.187 (0x5b8c) [info ] cols: 28
+17:10:43.293 (0x5b8c) [info ] cols: 29
+17:10:43.495 (0x5b8c) [info ] cols: 30
+17:10:49.023 (0x5b8c) [debug] qml: [trace]activefalse
+17:11:02.151 (0x6b04) [info ]
+17:11:02.152 (0x6b04) [info ] ----- App init ------
+17:11:02.153 (0x6b04) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:11:02.153 (0x6b04) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:11:02.154 (0x6b04) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:11:02.154 (0x6b04) [info ] Check chinese support: 012汉字abc
+17:11:02.155 (0x6b04) [info ] ----- msAppInit: 12513176.775300, 00:20:50.11263176
+17:11:02.155 (0x6b04) [info ] [trace] --- FuncEntry
+17:11:02.155 (0x6b04) [info ] [trace]012汉字abc 
+17:11:02.156 (0x6b04) [info ] qInfo
+17:11:02.156 (0x6b04) [info ] qDebug
+17:11:02.157 (0x6b04) [info ] qWanging
+17:11:02.157 (0x6b04) [info ] QCritical
+17:11:02.158 (0x6b04) [info ] call getMs() 1000 times, 0.040300 ms
+17:11:02.177 (0x6b04) [info ] 1-1
+17:11:02.177 (0x6b04) [info ] 1-2
+17:11:02.178 (0x6b04) [info ] 2-1,汉字
+17:11:02.178 (0x6b04) [info ] 2-2,汉字
+17:11:02.179 (0x6b04) [info ] 1
+17:11:02.179 (0x6b04) [info ] 12345678901234
+17:11:02.180 (0x6b04) [info ] 12345679020032.0000000000000000
+17:11:02.180 (0x6b04) [info ] 12345678901234567168.00000000000000000000000000000000
+17:11:02.186 (0x6b04) [debug] SlBase::add( 3 + 4 ) = 7
+17:11:02.187 (0x6b04) [debug] SlBase::getTime() = 2023-04-23 17:11:02.187
+17:11:02.187 (0x6b04) [info ] [trace] --- FuncExit, 31.716 ms
+17:11:03.172 (0x6b04) [warn ] Both point size and pixel size set. Using pixel size.
+17:11:03.540 (0x6b04) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:11:03.651 (0x6b04) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:11:03.652 (0x6b04) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:11:03.889 (0x6b04) [debug] Name :  "COM5"
+17:11:03.890 (0x6b04) [debug] Name :  "COM11"
+17:11:03.891 (0x6b04) [debug] Name :  "COM4"
+17:11:03.891 (0x6b04) [debug] Name :  "COM1"
+17:11:03.892 (0x6b04) [debug] Name :  "COM2"
+17:11:03.892 (0x6b04) [debug] Name :  "COM3"
+17:11:03.892 (0x6b04) [debug] Name :  "COM6"
+17:11:03.932 (0x6b04) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:11:03.957 (0x6b04) [debug] qml: [trace]activetrue
+17:11:05.705 (0x6b04) [debug] false
+17:11:05.706 (0x6b04) [debug]  openPort is working 
+17:11:05.708 (0x6b04) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:11:06.420 (0x6b04) [info ] cols: 2
+17:11:06.422 (0x6b04) [info ] cols: 3
+17:11:06.509 (0x6b04) [info ] cols: 4
+17:11:06.618 (0x6b04) [info ] cols: 5
+17:11:06.728 (0x6b04) [info ] cols: 6
+17:11:06.804 (0x6b04) [info ] cols: 7
+17:11:06.906 (0x6b04) [info ] cols: 8
+17:11:06.992 (0x6b04) [info ] cols: 9
+17:11:07.053 (0x6b04) [info ] cols: 10
+17:11:07.119 (0x6b04) [info ] cols: 11
+17:11:07.187 (0x6b04) [info ] cols: 12
+17:11:07.312 (0x6b04) [info ] cols: 13
+17:11:07.459 (0x6b04) [info ] cols: 14
+17:11:07.590 (0x6b04) [info ] cols: 15
+17:11:07.661 (0x6b04) [info ] cols: 16
+17:11:07.734 (0x6b04) [info ] cols: 17
+17:11:07.810 (0x6b04) [info ] cols: 18
+17:11:07.898 (0x6b04) [info ] cols: 19
+17:11:07.964 (0x6b04) [info ] cols: 20
+17:11:08.032 (0x6b04) [info ] cols: 21
+17:11:08.110 (0x6b04) [info ] cols: 22
+17:11:08.178 (0x6b04) [info ] cols: 23
+17:11:08.228 (0x6b04) [info ] cols: 24
+17:11:08.286 (0x6b04) [info ] cols: 25
+17:11:08.346 (0x6b04) [info ] cols: 26
+17:11:08.411 (0x6b04) [info ] cols: 27
+17:11:08.779 (0x6b04) [info ] cols: 28
+17:11:08.975 (0x6b04) [info ] cols: 29
+17:11:09.122 (0x6b04) [info ] cols: 30
+17:11:09.269 (0x6b04) [info ] cols: 31
+17:11:09.440 (0x6b04) [info ] cols: 32
+17:11:09.791 (0x6b04) [info ] cols: 33
+17:11:09.871 (0x6b04) [info ] cols: 34
+17:11:09.955 (0x6b04) [info ] cols: 35
+17:11:10.045 (0x6b04) [info ] cols: 36
+17:11:10.136 (0x6b04) [info ] cols: 37
+17:11:10.204 (0x6b04) [info ] cols: 38
+17:11:10.275 (0x6b04) [info ] cols: 39
+17:11:10.349 (0x6b04) [info ] cols: 40
+17:11:10.441 (0x6b04) [info ] cols: 41
+17:11:10.528 (0x6b04) [info ] cols: 42
+17:11:10.621 (0x6b04) [info ] cols: 43
+17:11:10.687 (0x6b04) [info ] cols: 44
+17:11:10.743 (0x6b04) [info ] cols: 45
+17:11:10.801 (0x6b04) [info ] cols: 46
+17:11:10.859 (0x6b04) [info ] cols: 47
+17:11:10.918 (0x6b04) [info ] cols: 48
+17:11:11.186 (0x6b04) [info ] cols: 49
+17:11:11.262 (0x6b04) [info ] cols: 50
+17:11:11.332 (0x6b04) [info ] cols: 51
+17:11:11.405 (0x6b04) [info ] cols: 52
+17:11:11.482 (0x6b04) [info ] cols: 53
+17:11:11.544 (0x6b04) [info ] cols: 54
+17:11:11.610 (0x6b04) [info ] cols: 55
+17:11:11.677 (0x6b04) [info ] cols: 56
+17:11:11.998 (0x6b04) [info ] cols: 57
+17:11:12.068 (0x6b04) [info ] cols: 58
+17:11:12.136 (0x6b04) [info ] cols: 59
+17:11:12.208 (0x6b04) [info ] cols: 60
+17:11:12.292 (0x6b04) [info ] cols: 61
+17:11:12.366 (0x6b04) [info ] cols: 62
+17:11:12.440 (0x6b04) [info ] cols: 63
+17:11:12.516 (0x6b04) [info ] cols: 64
+17:11:12.605 (0x6b04) [info ] cols: 65
+17:11:12.658 (0x6b04) [info ] cols: 66
+17:11:12.709 (0x6b04) [info ] cols: 67
+17:11:12.763 (0x6b04) [info ] cols: 68
+17:11:12.824 (0x6b04) [info ] cols: 69
+17:11:12.875 (0x6b04) [info ] cols: 70
+17:11:12.946 (0x6b04) [info ] cols: 71
+17:11:13.002 (0x6b04) [info ] cols: 72
+17:11:13.060 (0x6b04) [info ] cols: 73
+17:11:13.122 (0x6b04) [info ] cols: 74
+17:11:13.191 (0x6b04) [info ] cols: 75
+17:11:13.247 (0x6b04) [info ] cols: 76
+17:11:13.305 (0x6b04) [info ] cols: 77
+17:11:13.365 (0x6b04) [info ] cols: 78
+17:11:13.428 (0x6b04) [info ] cols: 79
+17:11:13.487 (0x6b04) [info ] cols: 80
+17:11:13.549 (0x6b04) [info ] cols: 81
+17:11:13.615 (0x6b04) [info ] cols: 82
+17:11:13.684 (0x6b04) [info ] cols: 83
+17:11:13.746 (0x6b04) [info ] cols: 84
+17:11:13.808 (0x6b04) [info ] cols: 85
+17:11:13.870 (0x6b04) [info ] cols: 86
+17:11:13.938 (0x6b04) [info ] cols: 87
+17:11:14.330 (0x6b04) [info ] cols: 88
+17:11:14.402 (0x6b04) [info ] cols: 89
+17:11:14.475 (0x6b04) [info ] cols: 90
+17:11:14.552 (0x6b04) [info ] cols: 91
+17:11:14.635 (0x6b04) [info ] cols: 92
+17:11:14.724 (0x6b04) [info ] cols: 93
+17:11:16.384 (0x6b04) [trace] qml:
+17:11:16.427 (0x6b04) [info ] ----- msAppExit: 12527452.792300, 00:20:52.11275452
+17:11:16.428 (0x6b04) [info ] app running: 14276.017000, 00:00:01.13276
+17:11:16.429 (0x6b04) [info ] app return: 0
+17:11:16.429 (0x6b04) [info ] ----- App exit ------
+17:12:19.680 (0x2524) [info ]
+17:12:19.681 (0x2524) [info ] ----- App init ------
+17:12:19.681 (0x2524) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:12:19.682 (0x2524) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:12:19.682 (0x2524) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:12:19.683 (0x2524) [info ] Check chinese support: 012汉字abc
+17:12:19.683 (0x2524) [info ] ----- msAppInit: 12590705.149300, 00:20:58.11332705
+17:12:19.684 (0x2524) [info ] [trace] --- FuncEntry
+17:12:19.684 (0x2524) [info ] [trace]012汉字abc 
+17:12:19.685 (0x2524) [info ] qInfo
+17:12:19.685 (0x2524) [info ] qDebug
+17:12:19.685 (0x2524) [info ] qWanging
+17:12:19.686 (0x2524) [info ] QCritical
+17:12:19.686 (0x2524) [info ] call getMs() 1000 times, 0.037400 ms
+17:12:19.705 (0x2524) [info ] 1-1
+17:12:19.705 (0x2524) [info ] 1-2
+17:12:19.706 (0x2524) [info ] 2-1,汉字
+17:12:19.706 (0x2524) [info ] 2-2,汉字
+17:12:19.707 (0x2524) [info ] 1
+17:12:19.707 (0x2524) [info ] 12345678901234
+17:12:19.708 (0x2524) [info ] 12345679020032.0000000000000000
+17:12:19.708 (0x2524) [info ] 12345678901234567168.00000000000000000000000000000000
+17:12:19.715 (0x2524) [debug] SlBase::add( 3 + 4 ) = 7
+17:12:19.716 (0x2524) [debug] SlBase::getTime() = 2023-04-23 17:12:19.716
+17:12:19.716 (0x2524) [info ] [trace] --- FuncExit, 32.1086 ms
+17:12:20.724 (0x2524) [warn ] Both point size and pixel size set. Using pixel size.
+17:12:21.080 (0x2524) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:12:21.194 (0x2524) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:12:21.195 (0x2524) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:12:21.425 (0x2524) [debug] Name :  "COM5"
+17:12:21.426 (0x2524) [debug] Name :  "COM11"
+17:12:21.427 (0x2524) [debug] Name :  "COM4"
+17:12:21.427 (0x2524) [debug] Name :  "COM1"
+17:12:21.429 (0x2524) [debug] Name :  "COM2"
+17:12:21.431 (0x2524) [debug] Name :  "COM3"
+17:12:21.433 (0x2524) [debug] Name :  "COM6"
+17:12:21.476 (0x2524) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:12:21.499 (0x2524) [debug] qml: [trace]activetrue
+17:12:23.552 (0x2524) [debug] false
+17:12:23.553 (0x2524) [debug]  openPort is working 
+17:12:23.555 (0x2524) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:12:24.489 (0x2524) [info ] cols: 2
+17:12:24.492 (0x2524) [info ] cols: 3
+17:12:24.594 (0x2524) [info ] cols: 4
+17:12:24.709 (0x2524) [info ] cols: 5
+17:12:24.847 (0x2524) [info ] cols: 6
+17:12:24.919 (0x2524) [info ] cols: 7
+17:12:24.997 (0x2524) [info ] cols: 8
+17:12:25.081 (0x2524) [info ] cols: 9
+17:12:25.167 (0x2524) [info ] cols: 10
+17:12:25.245 (0x2524) [info ] cols: 11
+17:12:25.377 (0x2524) [info ] cols: 12
+17:12:25.532 (0x2524) [info ] cols: 13
+17:12:25.625 (0x2524) [info ] cols: 14
+17:12:25.721 (0x2524) [info ] cols: 15
+17:12:25.802 (0x2524) [info ] cols: 16
+17:12:25.902 (0x2524) [info ] cols: 17
+17:12:25.991 (0x2524) [info ] cols: 18
+17:12:26.097 (0x2524) [info ] cols: 19
+17:12:26.216 (0x2524) [info ] cols: 20
+17:12:26.366 (0x2524) [info ] cols: 21
+17:12:26.499 (0x2524) [info ] cols: 22
+17:12:26.629 (0x2524) [info ] cols: 23
+17:12:26.752 (0x2524) [info ] cols: 24
+17:12:26.860 (0x2524) [info ] cols: 25
+17:12:26.956 (0x2524) [info ] cols: 26
+17:12:27.131 (0x2524) [info ] cols: 27
+17:12:27.347 (0x2524) [info ] cols: 28
+17:12:27.500 (0x2524) [info ] cols: 29
+17:12:27.590 (0x2524) [info ] cols: 30
+17:12:27.695 (0x2524) [info ] cols: 31
+17:12:27.775 (0x2524) [info ] cols: 32
+17:12:27.857 (0x2524) [info ] cols: 33
+17:12:27.938 (0x2524) [info ] cols: 34
+17:12:28.033 (0x2524) [info ] cols: 35
+17:12:28.121 (0x2524) [info ] cols: 36
+17:12:28.188 (0x2524) [info ] cols: 37
+17:12:28.253 (0x2524) [info ] cols: 38
+17:12:28.323 (0x2524) [info ] cols: 39
+17:12:28.417 (0x2524) [info ] cols: 40
+17:12:28.487 (0x2524) [info ] cols: 41
+17:12:28.552 (0x2524) [info ] cols: 42
+17:12:28.627 (0x2524) [info ] cols: 43
+17:12:28.720 (0x2524) [info ] cols: 44
+17:12:28.820 (0x2524) [info ] cols: 45
+17:12:28.925 (0x2524) [info ] cols: 46
+17:12:29.020 (0x2524) [info ] cols: 47
+17:12:29.097 (0x2524) [info ] cols: 48
+17:12:29.423 (0x2524) [info ] cols: 49
+17:12:30.361 (0x2524) [debug] true
+17:12:30.361 (0x2524) [debug]  openPort is working 
+17:12:30.363 (0x2524) [debug] qml: get result:false
+17:12:31.104 (0x2524) [trace] qml:
+17:12:31.144 (0x2524) [info ] ----- msAppExit: 12602169.668300, 00:20:59.11343169
+17:12:31.144 (0x2524) [info ] app running: 11464.519000, 00:00:01.10464
+17:12:31.145 (0x2524) [info ] app return: 0
+17:12:31.145 (0x2524) [info ] ----- App exit ------
+17:14:04.295 (0x3b78) [info ]
+17:14:04.297 (0x3b78) [info ] ----- App init ------
+17:14:04.297 (0x3b78) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:14:04.298 (0x3b78) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:14:04.298 (0x3b78) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:14:04.299 (0x3b78) [info ] Check chinese support: 012汉字abc
+17:14:04.299 (0x3b78) [info ] ----- msAppInit: 12695320.321700, 00:21:09.11426320
+17:14:04.300 (0x3b78) [info ] [trace] --- FuncEntry
+17:14:04.300 (0x3b78) [info ] [trace]012汉字abc 
+17:14:04.301 (0x3b78) [info ] qInfo
+17:14:04.301 (0x3b78) [info ] qDebug
+17:14:04.302 (0x3b78) [info ] qWanging
+17:14:04.302 (0x3b78) [info ] QCritical
+17:14:04.303 (0x3b78) [info ] call getMs() 1000 times, 0.056100 ms
+17:14:04.310 (0x3b78) [info ] 1-1
+17:14:04.310 (0x3b78) [info ] 1-2
+17:14:04.311 (0x3b78) [info ] 2-1,汉字
+17:14:04.311 (0x3b78) [info ] 2-2,汉字
+17:14:04.312 (0x3b78) [info ] 1
+17:14:04.312 (0x3b78) [info ] 12345678901234
+17:14:04.313 (0x3b78) [info ] 12345679020032.0000000000000000
+17:14:04.313 (0x3b78) [info ] 12345678901234567168.00000000000000000000000000000000
+17:14:04.319 (0x3b78) [debug] SlBase::add( 3 + 4 ) = 7
+17:14:04.319 (0x3b78) [debug] SlBase::getTime() = 2023-04-23 17:14:04.319
+17:14:04.320 (0x3b78) [info ] [trace] --- FuncExit, 20.1095 ms
+17:14:05.294 (0x3b78) [warn ] Both point size and pixel size set. Using pixel size.
+17:14:05.657 (0x3b78) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:14:05.767 (0x3b78) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:14:05.768 (0x3b78) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:14:05.992 (0x3b78) [debug] Name :  "COM5"
+17:14:05.993 (0x3b78) [debug] Name :  "COM11"
+17:14:05.994 (0x3b78) [debug] Name :  "COM4"
+17:14:05.994 (0x3b78) [debug] Name :  "COM1"
+17:14:05.995 (0x3b78) [debug] Name :  "COM2"
+17:14:05.995 (0x3b78) [debug] Name :  "COM3"
+17:14:05.996 (0x3b78) [debug] Name :  "COM6"
+17:14:06.037 (0x3b78) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:14:06.058 (0x3b78) [debug] qml: [trace]activetrue
+17:14:08.120 (0x3b78) [debug] false
+17:14:08.121 (0x3b78) [debug]  openPort is working 
+17:14:08.122 (0x3b78) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:14:09.676 (0x3b78) [info ] cols: 2
+17:14:09.677 (0x3b78) [info ] cols: 3
+17:14:09.898 (0x3b78) [info ] cols: 4
+17:14:10.031 (0x3b78) [info ] cols: 5
+17:14:10.144 (0x3b78) [info ] cols: 6
+17:14:10.272 (0x3b78) [info ] cols: 7
+17:14:10.405 (0x3b78) [info ] cols: 8
+17:14:10.534 (0x3b78) [info ] cols: 9
+17:14:10.656 (0x3b78) [info ] cols: 10
+17:14:10.753 (0x3b78) [info ] cols: 11
+17:14:10.878 (0x3b78) [info ] cols: 12
+17:14:10.996 (0x3b78) [info ] cols: 13
+17:14:11.071 (0x3b78) [info ] cols: 14
+17:14:11.158 (0x3b78) [info ] cols: 15
+17:14:11.248 (0x3b78) [info ] cols: 16
+17:14:11.323 (0x3b78) [info ] cols: 17
+17:14:11.396 (0x3b78) [info ] cols: 18
+17:14:11.472 (0x3b78) [info ] cols: 19
+17:14:11.551 (0x3b78) [info ] cols: 20
+17:14:11.632 (0x3b78) [info ] cols: 21
+17:14:11.716 (0x3b78) [info ] cols: 22
+17:14:11.815 (0x3b78) [info ] cols: 23
+17:14:12.031 (0x3b78) [info ] cols: 24
+17:14:12.222 (0x3b78) [info ] cols: 25
+17:14:12.314 (0x3b78) [info ] cols: 26
+17:14:12.411 (0x3b78) [info ] cols: 27
+17:14:12.516 (0x3b78) [info ] cols: 28
+17:14:12.631 (0x3b78) [info ] cols: 29
+17:14:12.741 (0x3b78) [info ] cols: 30
+17:14:12.865 (0x3b78) [info ] cols: 31
+17:14:12.944 (0x3b78) [info ] cols: 32
+17:14:13.036 (0x3b78) [info ] cols: 33
+17:14:13.136 (0x3b78) [info ] cols: 34
+17:14:13.213 (0x3b78) [info ] cols: 35
+17:14:13.285 (0x3b78) [info ] cols: 36
+17:14:13.361 (0x3b78) [info ] cols: 37
+17:14:13.440 (0x3b78) [info ] cols: 38
+17:14:13.509 (0x3b78) [info ] cols: 39
+17:14:13.569 (0x3b78) [info ] cols: 40
+17:14:13.630 (0x3b78) [info ] cols: 41
+17:14:13.694 (0x3b78) [info ] cols: 42
+17:14:13.758 (0x3b78) [info ] cols: 43
+17:14:13.823 (0x3b78) [info ] cols: 44
+17:14:13.895 (0x3b78) [info ] cols: 45
+17:14:13.972 (0x3b78) [info ] cols: 46
+17:14:14.050 (0x3b78) [info ] cols: 47
+17:14:14.115 (0x3b78) [info ] cols: 48
+17:14:14.170 (0x3b78) [info ] cols: 49
+17:14:14.229 (0x3b78) [info ] cols: 50
+17:14:14.288 (0x3b78) [info ] cols: 51
+17:14:14.349 (0x3b78) [info ] cols: 52
+17:14:14.412 (0x3b78) [info ] cols: 53
+17:14:14.471 (0x3b78) [info ] cols: 54
+17:14:14.542 (0x3b78) [info ] cols: 55
+17:14:14.617 (0x3b78) [info ] cols: 56
+17:14:14.694 (0x3b78) [info ] cols: 57
+17:14:14.759 (0x3b78) [info ] cols: 58
+17:14:14.830 (0x3b78) [info ] cols: 59
+17:14:14.905 (0x3b78) [info ] cols: 60
+17:14:14.979 (0x3b78) [info ] cols: 61
+17:14:15.038 (0x3b78) [info ] cols: 62
+17:14:15.090 (0x3b78) [info ] cols: 63
+17:14:15.149 (0x3b78) [info ] cols: 64
+17:14:15.209 (0x3b78) [info ] cols: 65
+17:14:15.271 (0x3b78) [info ] cols: 66
+17:14:15.319 (0x3b78) [info ] cols: 67
+17:14:15.372 (0x3b78) [info ] cols: 68
+17:14:15.426 (0x3b78) [info ] cols: 69
+17:14:15.479 (0x3b78) [info ] cols: 70
+17:14:15.537 (0x3b78) [info ] cols: 71
+17:14:15.593 (0x3b78) [info ] cols: 72
+17:14:15.649 (0x3b78) [info ] cols: 73
+17:14:15.706 (0x3b78) [info ] cols: 74
+17:14:15.763 (0x3b78) [info ] cols: 75
+17:14:15.822 (0x3b78) [info ] cols: 76
+17:14:15.871 (0x3b78) [info ] cols: 77
+17:14:15.922 (0x3b78) [info ] cols: 78
+17:14:15.973 (0x3b78) [info ] cols: 79
+17:14:16.027 (0x3b78) [info ] cols: 80
+17:14:16.089 (0x3b78) [info ] cols: 81
+17:14:16.138 (0x3b78) [info ] cols: 82
+17:14:16.193 (0x3b78) [info ] cols: 83
+17:14:16.253 (0x3b78) [info ] cols: 84
+17:14:16.316 (0x3b78) [info ] cols: 85
+17:14:16.379 (0x3b78) [info ] cols: 86
+17:14:16.440 (0x3b78) [info ] cols: 87
+17:14:16.499 (0x3b78) [info ] cols: 88
+17:14:16.560 (0x3b78) [info ] cols: 89
+17:14:16.622 (0x3b78) [info ] cols: 90
+17:14:16.686 (0x3b78) [info ] cols: 91
+17:14:16.751 (0x3b78) [info ] cols: 92
+17:14:16.838 (0x3b78) [info ] cols: 93
+17:14:16.928 (0x3b78) [info ] cols: 94
+17:14:17.017 (0x3b78) [info ] cols: 95
+17:14:17.072 (0x3b78) [info ] cols: 96
+17:14:17.136 (0x3b78) [info ] cols: 97
+17:14:17.202 (0x3b78) [info ] cols: 98
+17:14:17.269 (0x3b78) [info ] cols: 99
+17:14:17.317 (0x3b78) [info ] cols: 100
+17:14:17.379 (0x3b78) [info ] cols: 101
+17:14:17.445 (0x3b78) [info ] cols: 102
+17:14:17.513 (0x3b78) [info ] cols: 103
+17:14:17.575 (0x3b78) [info ] cols: 104
+17:14:17.648 (0x3b78) [info ] cols: 105
+17:14:17.727 (0x3b78) [info ] cols: 106
+17:14:17.809 (0x3b78) [info ] cols: 107
+17:14:17.869 (0x3b78) [info ] cols: 108
+17:14:17.959 (0x3b78) [info ] cols: 109
+17:14:18.055 (0x3b78) [info ] cols: 110
+17:14:18.144 (0x3b78) [info ] cols: 111
+17:14:18.223 (0x3b78) [info ] cols: 112
+17:14:18.307 (0x3b78) [info ] cols: 113
+17:14:18.411 (0x3b78) [info ] cols: 114
+17:14:18.680 (0x3b78) [info ] cols: 115
+17:14:18.756 (0x3b78) [info ] cols: 116
+17:14:18.846 (0x3b78) [info ] cols: 117
+17:14:18.946 (0x3b78) [info ] cols: 118
+17:14:19.018 (0x3b78) [info ] cols: 119
+17:14:19.096 (0x3b78) [info ] cols: 120
+17:14:19.198 (0x3b78) [info ] cols: 121
+17:14:19.326 (0x3b78) [info ] cols: 122
+17:14:19.401 (0x3b78) [info ] cols: 123
+17:14:19.485 (0x3b78) [info ] cols: 124
+17:14:19.580 (0x3b78) [info ] cols: 125
+17:14:19.679 (0x3b78) [info ] cols: 126
+17:14:19.801 (0x3b78) [info ] cols: 127
+17:14:20.266 (0x3b78) [info ] cols: 128
+17:14:20.400 (0x3b78) [info ] cols: 129
+17:14:20.528 (0x3b78) [info ] cols: 130
+17:14:20.604 (0x3b78) [info ] cols: 131
+17:14:20.664 (0x3b78) [info ] cols: 132
+17:14:20.723 (0x3b78) [info ] cols: 133
+17:14:20.845 (0x3b78) [info ] cols: 134
+17:14:20.898 (0x3b78) [info ] cols: 135
+17:14:20.947 (0x3b78) [info ] cols: 136
+17:14:21.017 (0x3b78) [info ] cols: 137
+17:14:21.531 (0x3b78) [info ] cols: 138
+17:14:21.953 (0x3b78) [info ] cols: 139
+17:14:22.045 (0x3b78) [info ] cols: 140
+17:14:22.114 (0x3b78) [info ] cols: 141
+17:14:22.276 (0x3b78) [info ] cols: 142
+17:14:22.340 (0x3b78) [info ] cols: 143
+17:14:22.410 (0x3b78) [info ] cols: 144
+17:14:22.941 (0x3b78) [info ] cols: 145
+17:14:23.066 (0x3b78) [info ] cols: 146
+17:14:23.136 (0x3b78) [info ] cols: 147
+17:14:23.209 (0x3b78) [info ] cols: 148
+17:14:23.281 (0x3b78) [info ] cols: 149
+17:14:23.362 (0x3b78) [info ] cols: 150
+17:14:23.442 (0x3b78) [info ] cols: 151
+17:14:23.522 (0x3b78) [info ] cols: 152
+17:14:23.606 (0x3b78) [info ] cols: 153
+17:14:23.707 (0x3b78) [info ] cols: 154
+17:14:23.775 (0x3b78) [info ] cols: 155
+17:14:23.819 (0x3b78) [info ] cols: 156
+17:14:23.865 (0x3b78) [info ] cols: 157
+17:14:23.909 (0x3b78) [info ] cols: 158
+17:14:23.954 (0x3b78) [info ] cols: 159
+17:14:24.001 (0x3b78) [info ] cols: 160
+17:14:24.054 (0x3b78) [info ] cols: 161
+17:14:24.134 (0x3b78) [info ] cols: 162
+17:14:24.177 (0x3b78) [info ] cols: 163
+17:14:24.220 (0x3b78) [info ] cols: 164
+17:14:24.264 (0x3b78) [info ] cols: 165
+17:14:24.309 (0x3b78) [info ] cols: 166
+17:14:24.354 (0x3b78) [info ] cols: 167
+17:14:24.400 (0x3b78) [info ] cols: 168
+17:14:24.446 (0x3b78) [info ] cols: 169
+17:14:24.492 (0x3b78) [info ] cols: 170
+17:14:24.546 (0x3b78) [info ] cols: 171
+17:14:24.612 (0x3b78) [info ] cols: 172
+17:14:24.671 (0x3b78) [info ] cols: 173
+17:14:24.733 (0x3b78) [info ] cols: 174
+17:14:24.797 (0x3b78) [info ] cols: 175
+17:14:24.861 (0x3b78) [info ] cols: 176
+17:14:24.927 (0x3b78) [info ] cols: 177
+17:14:25.005 (0x3b78) [info ] cols: 178
+17:14:25.059 (0x3b78) [info ] cols: 179
+17:14:25.106 (0x3b78) [info ] cols: 180
+17:14:25.151 (0x3b78) [info ] cols: 181
+17:14:25.199 (0x3b78) [info ] cols: 182
+17:14:25.248 (0x3b78) [info ] cols: 183
+17:14:25.296 (0x3b78) [info ] cols: 184
+17:14:25.345 (0x3b78) [info ] cols: 185
+17:14:25.410 (0x3b78) [info ] cols: 186
+17:14:25.456 (0x3b78) [info ] cols: 187
+17:14:25.497 (0x3b78) [info ] cols: 188
+17:14:25.538 (0x3b78) [info ] cols: 189
+17:14:25.580 (0x3b78) [info ] cols: 190
+17:14:25.623 (0x3b78) [info ] cols: 191
+17:14:25.664 (0x3b78) [info ] cols: 192
+17:14:25.708 (0x3b78) [info ] cols: 193
+17:14:25.753 (0x3b78) [info ] cols: 194
+17:14:25.818 (0x3b78) [info ] cols: 195
+17:14:25.856 (0x3b78) [info ] cols: 196
+17:14:25.895 (0x3b78) [info ] cols: 197
+17:14:25.939 (0x3b78) [info ] cols: 198
+17:14:25.973 (0x3b78) [info ] cols: 199
+17:14:26.011 (0x3b78) [info ] cols: 200
+17:14:26.051 (0x3b78) [info ] cols: 201
+17:14:26.090 (0x3b78) [info ] cols: 202
+17:14:26.130 (0x3b78) [info ] cols: 203
+17:14:26.171 (0x3b78) [info ] cols: 204
+17:14:26.212 (0x3b78) [info ] cols: 205
+17:14:26.254 (0x3b78) [info ] cols: 206
+17:14:26.294 (0x3b78) [info ] cols: 207
+17:14:26.356 (0x3b78) [info ] cols: 208
+17:14:26.423 (0x3b78) [info ] cols: 209
+17:14:26.478 (0x3b78) [info ] cols: 210
+17:14:26.541 (0x3b78) [info ] cols: 211
+17:14:26.591 (0x3b78) [info ] cols: 212
+17:14:26.649 (0x3b78) [info ] cols: 213
+17:14:26.708 (0x3b78) [info ] cols: 214
+17:14:26.769 (0x3b78) [info ] cols: 215
+17:14:26.833 (0x3b78) [info ] cols: 216
+17:14:27.409 (0x3b78) [info ] cols: 217
+17:14:27.493 (0x3b78) [info ] cols: 218
+17:14:27.633 (0x3b78) [info ] cols: 219
+17:14:27.828 (0x3b78) [info ] cols: 220
+17:14:28.069 (0x3b78) [info ] cols: 221
+17:14:28.136 (0x3b78) [info ] cols: 222
+17:14:28.213 (0x3b78) [info ] cols: 223
+17:14:28.295 (0x3b78) [info ] cols: 224
+17:14:28.380 (0x3b78) [info ] cols: 225
+17:14:28.473 (0x3b78) [info ] cols: 226
+17:14:28.539 (0x3b78) [info ] cols: 227
+17:14:28.602 (0x3b78) [info ] cols: 228
+17:14:28.666 (0x3b78) [info ] cols: 229
+17:14:28.733 (0x3b78) [info ] cols: 230
+17:14:28.800 (0x3b78) [info ] cols: 231
+17:14:28.899 (0x3b78) [info ] cols: 232
+17:14:28.970 (0x3b78) [info ] cols: 233
+17:14:29.041 (0x3b78) [info ] cols: 234
+17:14:29.114 (0x3b78) [info ] cols: 235
+17:14:29.196 (0x3b78) [info ] cols: 236
+17:14:29.284 (0x3b78) [info ] cols: 237
+17:14:29.347 (0x3b78) [info ] cols: 238
+17:14:29.413 (0x3b78) [info ] cols: 239
+17:14:29.480 (0x3b78) [info ] cols: 240
+17:14:29.552 (0x3b78) [info ] cols: 241
+17:14:29.632 (0x3b78) [info ] cols: 242
+17:14:29.689 (0x3b78) [info ] cols: 243
+17:14:29.747 (0x3b78) [info ] cols: 244
+17:14:29.806 (0x3b78) [info ] cols: 245
+17:14:29.867 (0x3b78) [info ] cols: 246
+17:14:29.937 (0x3b78) [info ] cols: 247
+17:14:29.993 (0x3b78) [info ] cols: 248
+17:14:30.047 (0x3b78) [info ] cols: 249
+17:14:30.101 (0x3b78) [info ] cols: 250
+17:14:30.158 (0x3b78) [info ] cols: 251
+17:14:30.216 (0x3b78) [info ] cols: 252
+17:14:30.281 (0x3b78) [info ] cols: 253
+17:14:30.342 (0x3b78) [info ] cols: 254
+17:14:30.406 (0x3b78) [info ] cols: 255
+17:14:30.472 (0x3b78) [info ] cols: 256
+17:14:30.539 (0x3b78) [info ] cols: 257
+17:14:31.309 (0x3b78) [info ] cols: 258
+17:14:31.417 (0x3b78) [info ] cols: 259
+17:14:31.534 (0x3b78) [info ] cols: 260
+17:14:31.677 (0x3b78) [info ] cols: 261
+17:14:31.793 (0x3b78) [info ] cols: 262
+17:14:31.864 (0x3b78) [info ] cols: 263
+17:14:31.936 (0x3b78) [info ] cols: 264
+17:14:32.012 (0x3b78) [info ] cols: 265
+17:14:32.091 (0x3b78) [info ] cols: 266
+17:14:32.174 (0x3b78) [info ] cols: 267
+17:14:32.261 (0x3b78) [info ] cols: 268
+17:14:32.352 (0x3b78) [info ] cols: 269
+17:14:32.433 (0x3b78) [info ] cols: 270
+17:14:32.518 (0x3b78) [info ] cols: 271
+17:14:32.606 (0x3b78) [info ] cols: 272
+17:14:32.700 (0x3b78) [info ] cols: 273
+17:14:32.791 (0x3b78) [info ] cols: 274
+17:14:32.889 (0x3b78) [info ] cols: 275
+17:14:32.995 (0x3b78) [info ] cols: 276
+17:14:33.109 (0x3b78) [info ] cols: 277
+17:14:33.813 (0x3b78) [info ] cols: 278
+17:14:34.020 (0x3b78) [info ] cols: 279
+17:14:34.298 (0x3b78) [info ] cols: 280
+17:14:34.573 (0x3b78) [info ] cols: 281
+17:14:34.776 (0x3b78) [info ] cols: 282
+17:14:35.087 (0x3b78) [info ] cols: 283
+17:14:35.467 (0x3b78) [info ] cols: 284
+17:14:35.808 (0x3b78) [info ] cols: 285
+17:14:35.943 (0x3b78) [info ] cols: 286
+17:14:36.031 (0x3b78) [info ] cols: 287
+17:14:36.132 (0x3b78) [info ] cols: 288
+17:14:36.228 (0x3b78) [info ] cols: 289
+17:14:36.331 (0x3b78) [info ] cols: 290
+17:14:36.631 (0x3b78) [info ] cols: 291
+17:14:36.764 (0x3b78) [info ] cols: 292
+17:14:36.854 (0x3b78) [info ] cols: 293
+17:14:36.949 (0x3b78) [info ] cols: 294
+17:14:37.051 (0x3b78) [info ] cols: 295
+17:14:37.162 (0x3b78) [info ] cols: 296
+17:14:37.296 (0x3b78) [info ] cols: 297
+17:14:38.632 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:38.672 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:39.072 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:39.128 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:39.497 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+17:14:39.505 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.512 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.525 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.531 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.547 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.553 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.566 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.571 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.576 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.590 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.595 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.607 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.611 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.616 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.627 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.632 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.647 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:39.647 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+17:14:39.840 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:39.866 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:39.888 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:39.928 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:40.152 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:40.176 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:40.216 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:40.473 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:40.504 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:40.744 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:40.808 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:41.132 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:41.172 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:41.448 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:41.688 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:41.744 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:42.135 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:42.232 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:42.609 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+17:14:42.632 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.640 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.656 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.664 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.685 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.694 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.700 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.716 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.724 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.744 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.751 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.770 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.787 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.795 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.802 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.818 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.826 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.843 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.851 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.869 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.876 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.896 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.904 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.922 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.933 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.953 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.963 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.981 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:42.992 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:43.011 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:43.019 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:43.037 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:43.046 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+17:14:43.248 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:43.280 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:43.312 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:43.568 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:43.592 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:43.624 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:43.880 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:44.200 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:44.312 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:44.620 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:44.754 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:44.864 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:45.168 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:45.187 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:45.209 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:45.449 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+17:14:45.464 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.472 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.484 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.489 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.501 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.507 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.512 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.525 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.529 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.541 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.545 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.561 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.569 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.584 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.585 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.601 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:45.602 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+17:14:45.784 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:45.808 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:45.826 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:45.848 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.076 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.093 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.112 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.337 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+17:14:46.344 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.352 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.364 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.368 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.381 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.385 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.399 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.403 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.408 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.423 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.428 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.440 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+17:14:46.440 (0x3b78) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+17:14:46.616 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.633 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.643 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.664 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.688 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.881 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.898 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.918 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:46.936 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.136 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.153 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.161 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.176 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.376 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.393 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.421 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.431 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.450 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.756 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.784 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.868 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:47.983 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.096 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.212 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.376 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.393 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.411 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.418 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.434 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.443 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.459 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.640 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.657 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.675 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.685 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.701 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.711 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:48.726 (0x3b78) [debug] onWidgetMouseWheel is running 
+
+17:14:50.689 (0x3b78) [debug] true
+17:14:50.689 (0x3b78) [debug]  openPort is working 
+17:14:50.691 (0x3b78) [debug] qml: get result:false
+17:14:51.153 (0x3b78) [trace] qml:
+17:14:51.192 (0x3b78) [info ] ----- msAppExit: 12742218.120900, 00:21:13.11469218
+17:14:51.193 (0x3b78) [info ] app running: 46897.799200, 00:00:04.42897
+17:14:51.194 (0x3b78) [info ] app return: 0
+17:14:51.196 (0x3b78) [info ] ----- App exit ------
+17:15:51.824 (0x4370) [info ]
+17:15:51.825 (0x4370) [info ] ----- App init ------
+17:15:51.826 (0x4370) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:15:51.826 (0x4370) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:15:51.827 (0x4370) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:15:51.827 (0x4370) [info ] Check chinese support: 012汉字abc
+17:15:51.828 (0x4370) [info ] ----- msAppInit: 12802849.239000, 00:21:19.11523849
+17:15:51.828 (0x4370) [info ] [trace] --- FuncEntry
+17:15:51.829 (0x4370) [info ] [trace]012汉字abc 
+17:15:51.829 (0x4370) [info ] qInfo
+17:15:51.830 (0x4370) [info ] qDebug
+17:15:51.830 (0x4370) [info ] qWanging
+17:15:51.830 (0x4370) [info ] QCritical
+17:15:51.831 (0x4370) [info ] call getMs() 1000 times, 0.039100 ms
+17:15:51.849 (0x4370) [info ] 1-1
+17:15:51.850 (0x4370) [info ] 1-2
+17:15:51.850 (0x4370) [info ] 2-1,汉字
+17:15:51.850 (0x4370) [info ] 2-2,汉字
+17:15:51.851 (0x4370) [info ] 1
+17:15:51.851 (0x4370) [info ] 12345678901234
+17:15:51.851 (0x4370) [info ] 12345679020032.0000000000000000
+17:15:51.852 (0x4370) [info ] 12345678901234567168.00000000000000000000000000000000
+17:15:51.867 (0x4370) [debug] SlBase::add( 3 + 4 ) = 7
+17:15:51.867 (0x4370) [debug] SlBase::getTime() = 2023-04-23 17:15:51.867
+17:15:51.868 (0x4370) [info ] [trace] --- FuncExit, 39.4476 ms
+17:15:52.916 (0x4370) [warn ] Both point size and pixel size set. Using pixel size.
+17:15:53.276 (0x4370) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:15:53.387 (0x4370) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:15:53.387 (0x4370) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:15:53.621 (0x4370) [debug] Name :  "COM5"
+17:15:53.623 (0x4370) [debug] Name :  "COM11"
+17:15:53.624 (0x4370) [debug] Name :  "COM4"
+17:15:53.625 (0x4370) [debug] Name :  "COM1"
+17:15:53.626 (0x4370) [debug] Name :  "COM2"
+17:15:53.627 (0x4370) [debug] Name :  "COM3"
+17:15:53.627 (0x4370) [debug] Name :  "COM6"
+17:15:53.665 (0x4370) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:15:53.693 (0x4370) [debug] qml: [trace]activetrue
+17:15:55.273 (0x4370) [debug] false
+17:15:55.274 (0x4370) [debug]  openPort is working 
+17:15:55.276 (0x4370) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:15:56.531 (0x4370) [info ] cols: 2
+17:15:56.534 (0x4370) [info ] cols: 3
+17:15:56.609 (0x4370) [info ] cols: 4
+17:15:56.704 (0x4370) [info ] cols: 5
+17:15:56.799 (0x4370) [info ] cols: 6
+17:15:56.879 (0x4370) [info ] cols: 7
+17:15:56.966 (0x4370) [info ] cols: 8
+17:15:57.264 (0x4370) [info ] cols: 9
+17:15:57.655 (0x4370) [info ] cols: 10
+17:15:57.774 (0x4370) [info ] cols: 11
+17:15:57.910 (0x4370) [info ] cols: 12
+17:15:58.072 (0x4370) [info ] cols: 13
+17:15:58.423 (0x4370) [info ] cols: 14
+17:15:58.522 (0x4370) [info ] cols: 15
+17:15:58.637 (0x4370) [info ] cols: 16
+17:15:58.926 (0x4370) [info ] cols: 17
+17:15:59.234 (0x4370) [info ] cols: 18
+17:15:59.366 (0x4370) [info ] cols: 19
+17:15:59.737 (0x4370) [info ] cols: 20
+17:15:59.905 (0x4370) [info ] cols: 21
+17:16:00.076 (0x4370) [info ] cols: 22
+17:16:00.349 (0x4370) [info ] cols: 23
+17:16:00.632 (0x4370) [info ] cols: 24
+17:16:01.347 (0x4370) [info ] cols: 25
+17:16:01.594 (0x4370) [info ] cols: 26
+17:16:04.325 (0x4370) [debug] qml: [trace]activefalse
+17:16:05.296 (0x4370) [info ] cols: 27
+17:17:18.610 (0x67d8) [info ]
+17:17:18.612 (0x67d8) [info ] ----- App init ------
+17:17:18.612 (0x67d8) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:17:18.612 (0x67d8) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:17:18.613 (0x67d8) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:17:18.613 (0x67d8) [info ] Check chinese support: 012汉字abc
+17:17:18.614 (0x67d8) [info ] ----- msAppInit: 12889636.185800, 00:21:28.11601636
+17:17:18.614 (0x67d8) [info ] [trace] --- FuncEntry
+17:17:18.615 (0x67d8) [info ] [trace]012汉字abc 
+17:17:18.615 (0x67d8) [info ] qInfo
+17:17:18.616 (0x67d8) [info ] qDebug
+17:17:18.616 (0x67d8) [info ] qWanging
+17:17:18.617 (0x67d8) [info ] QCritical
+17:17:18.617 (0x67d8) [info ] call getMs() 1000 times, 0.038100 ms
+17:17:18.634 (0x67d8) [info ] 1-1
+17:17:18.634 (0x67d8) [info ] 1-2
+17:17:18.635 (0x67d8) [info ] 2-1,汉字
+17:17:18.635 (0x67d8) [info ] 2-2,汉字
+17:17:18.636 (0x67d8) [info ] 1
+17:17:18.636 (0x67d8) [info ] 12345678901234
+17:17:18.636 (0x67d8) [info ] 12345679020032.0000000000000000
+17:17:18.637 (0x67d8) [info ] 12345678901234567168.00000000000000000000000000000000
+17:17:18.643 (0x67d8) [debug] SlBase::add( 3 + 4 ) = 7
+17:17:18.643 (0x67d8) [debug] SlBase::getTime() = 2023-04-23 17:17:18.643
+17:17:18.644 (0x67d8) [info ] [trace] --- FuncExit, 29.4123 ms
+17:17:19.649 (0x67d8) [warn ] Both point size and pixel size set. Using pixel size.
+17:17:20.008 (0x67d8) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:17:20.117 (0x67d8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:17:20.118 (0x67d8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:17:20.332 (0x67d8) [debug] Name :  "COM5"
+17:17:20.333 (0x67d8) [debug] Name :  "COM11"
+17:17:20.334 (0x67d8) [debug] Name :  "COM4"
+17:17:20.335 (0x67d8) [debug] Name :  "COM1"
+17:17:20.335 (0x67d8) [debug] Name :  "COM2"
+17:17:20.336 (0x67d8) [debug] Name :  "COM3"
+17:17:20.336 (0x67d8) [debug] Name :  "COM6"
+17:17:20.384 (0x67d8) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:17:20.405 (0x67d8) [debug] qml: [trace]activetrue
+17:17:22.153 (0x67d8) [debug] false
+17:17:22.154 (0x67d8) [debug]  openPort is working 
+17:17:22.155 (0x67d8) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:17:31.949 (0x6174) [info ]
+17:17:31.951 (0x6174) [info ] ----- App init ------
+17:17:31.951 (0x6174) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:17:31.952 (0x6174) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:17:31.952 (0x6174) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:17:31.953 (0x6174) [info ] Check chinese support: 012汉字abc
+17:17:31.953 (0x6174) [info ] ----- msAppInit: 12902974.490300, 00:21:29.11613974
+17:17:31.954 (0x6174) [info ] [trace] --- FuncEntry
+17:17:31.955 (0x6174) [info ] [trace]012汉字abc 
+17:17:31.955 (0x6174) [info ] qInfo
+17:17:31.956 (0x6174) [info ] qDebug
+17:17:31.956 (0x6174) [info ] qWanging
+17:17:31.957 (0x6174) [info ] QCritical
+17:17:31.957 (0x6174) [info ] call getMs() 1000 times, 0.038900 ms
+17:17:31.976 (0x6174) [info ] 1-1
+17:17:31.977 (0x6174) [info ] 1-2
+17:17:31.977 (0x6174) [info ] 2-1,汉字
+17:17:31.977 (0x6174) [info ] 2-2,汉字
+17:17:31.978 (0x6174) [info ] 1
+17:17:31.978 (0x6174) [info ] 12345678901234
+17:17:31.979 (0x6174) [info ] 12345679020032.0000000000000000
+17:17:31.979 (0x6174) [info ] 12345678901234567168.00000000000000000000000000000000
+17:17:31.985 (0x6174) [debug] SlBase::add( 3 + 4 ) = 7
+17:17:31.985 (0x6174) [debug] SlBase::getTime() = 2023-04-23 17:17:31.985
+17:17:31.986 (0x6174) [info ] [trace] --- FuncExit, 31.3092 ms
+17:17:33.043 (0x6174) [warn ] Both point size and pixel size set. Using pixel size.
+17:17:33.458 (0x6174) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:17:33.571 (0x6174) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:17:33.571 (0x6174) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:17:33.835 (0x6174) [debug] Name :  "COM5"
+17:17:33.837 (0x6174) [debug] Name :  "COM11"
+17:17:33.837 (0x6174) [debug] Name :  "COM4"
+17:17:33.838 (0x6174) [debug] Name :  "COM1"
+17:17:33.838 (0x6174) [debug] Name :  "COM2"
+17:17:33.839 (0x6174) [debug] Name :  "COM3"
+17:17:33.839 (0x6174) [debug] Name :  "COM6"
+17:17:33.883 (0x6174) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:17:33.910 (0x6174) [debug] qml: [trace]activetrue
+17:17:35.584 (0x6174) [debug] false
+17:17:35.585 (0x6174) [debug]  openPort is working 
+17:17:35.587 (0x6174) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:17:36.505 (0x6174) [info ] cols: 2
+17:17:36.508 (0x6174) [info ] cols: 3
+17:17:36.582 (0x6174) [info ] cols: 4
+17:17:36.663 (0x6174) [info ] cols: 5
+17:17:36.747 (0x6174) [info ] cols: 6
+17:17:36.848 (0x6174) [info ] cols: 7
+17:17:36.986 (0x6174) [info ] cols: 8
+17:17:37.107 (0x6174) [info ] cols: 9
+17:17:37.225 (0x6174) [info ] cols: 10
+17:17:37.321 (0x6174) [info ] cols: 11
+17:17:37.426 (0x6174) [info ] cols: 12
+17:17:37.531 (0x6174) [info ] cols: 13
+17:17:37.603 (0x6174) [info ] cols: 14
+17:17:37.678 (0x6174) [info ] cols: 15
+17:17:37.758 (0x6174) [info ] cols: 16
+17:17:37.831 (0x6174) [info ] cols: 17
+17:17:37.908 (0x6174) [info ] cols: 18
+17:17:37.990 (0x6174) [info ] cols: 19
+17:17:38.090 (0x6174) [info ] cols: 20
+17:17:38.253 (0x6174) [info ] cols: 21
+17:17:38.383 (0x6174) [info ] cols: 22
+17:17:38.481 (0x6174) [info ] cols: 23
+17:17:38.588 (0x6174) [info ] cols: 24
+17:17:38.679 (0x6174) [info ] cols: 25
+17:17:38.773 (0x6174) [info ] cols: 26
+17:17:38.877 (0x6174) [info ] cols: 27
+17:17:39.000 (0x6174) [info ] cols: 28
+17:17:39.230 (0x6174) [info ] cols: 29
+17:17:39.351 (0x6174) [info ] cols: 30
+17:17:39.490 (0x6174) [info ] cols: 31
+17:17:40.197 (0x6174) [info ] cols: 32
+17:17:40.293 (0x6174) [info ] cols: 33
+17:17:40.586 (0x6174) [info ] cols: 34
+17:17:40.727 (0x6174) [info ] cols: 35
+17:17:41.069 (0x6174) [info ] cols: 36
+17:17:41.189 (0x6174) [info ] cols: 37
+17:17:41.301 (0x6174) [info ] cols: 38
+17:17:41.476 (0x6174) [info ] cols: 39
+17:17:41.602 (0x6174) [info ] cols: 40
+17:17:41.703 (0x6174) [info ] cols: 41
+17:17:41.811 (0x6174) [info ] cols: 42
+17:17:42.077 (0x6174) [info ] cols: 43
+17:17:42.185 (0x6174) [info ] cols: 44
+17:17:42.296 (0x6174) [info ] cols: 45
+17:17:42.381 (0x6174) [info ] cols: 46
+17:17:42.527 (0x6174) [info ] cols: 47
+17:17:42.607 (0x6174) [info ] cols: 48
+17:17:42.721 (0x6174) [info ] cols: 49
+17:17:42.843 (0x6174) [info ] cols: 50
+17:17:42.909 (0x6174) [info ] cols: 51
+17:17:42.979 (0x6174) [info ] cols: 52
+17:17:43.051 (0x6174) [info ] cols: 53
+17:17:43.125 (0x6174) [info ] cols: 54
+17:17:43.190 (0x6174) [info ] cols: 55
+17:17:43.258 (0x6174) [info ] cols: 56
+17:17:43.328 (0x6174) [info ] cols: 57
+17:17:43.402 (0x6174) [info ] cols: 58
+17:17:43.466 (0x6174) [info ] cols: 59
+17:17:43.536 (0x6174) [info ] cols: 60
+17:17:43.607 (0x6174) [info ] cols: 61
+17:17:43.680 (0x6174) [info ] cols: 62
+17:17:44.025 (0x6174) [info ] cols: 63
+17:17:44.073 (0x6174) [info ] cols: 64
+17:17:44.128 (0x6174) [info ] cols: 65
+17:17:44.276 (0x6174) [info ] cols: 66
+17:17:44.322 (0x6174) [info ] cols: 67
+17:17:44.365 (0x6174) [info ] cols: 68
+17:17:44.415 (0x6174) [info ] cols: 69
+17:17:44.504 (0x6174) [info ] cols: 70
+17:17:44.585 (0x6174) [info ] cols: 71
+17:17:44.769 (0x6174) [info ] cols: 72
+17:17:46.481 (0x6174) [debug] true
+17:17:46.482 (0x6174) [debug]  openPort is working 
+17:17:46.483 (0x6174) [debug] qml: get result:false
+17:17:47.209 (0x6174) [trace] qml:
+17:17:47.250 (0x6174) [info ] ----- msAppExit: 12918276.155600, 00:21:31.11627276
+17:17:47.251 (0x6174) [info ] app running: 15301.665300, 00:00:01.14301
+17:17:47.251 (0x6174) [info ] app return: 0
+17:17:47.251 (0x6174) [info ] ----- App exit ------
+17:20:58.275 (0x5174) [info ]
+17:20:58.277 (0x5174) [info ] ----- App init ------
+17:20:58.278 (0x5174) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:20:58.278 (0x5174) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:20:58.279 (0x5174) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:20:58.279 (0x5174) [info ] Check chinese support: 012汉字abc
+17:20:58.280 (0x5174) [info ] ----- msAppInit: 13109301.082400, 00:21:50.11799301
+17:20:58.280 (0x5174) [info ] [trace] --- FuncEntry
+17:20:58.281 (0x5174) [info ] [trace]012汉字abc 
+17:20:58.281 (0x5174) [info ] qInfo
+17:20:58.282 (0x5174) [info ] qDebug
+17:20:58.282 (0x5174) [info ] qWanging
+17:20:58.283 (0x5174) [info ] QCritical
+17:20:58.283 (0x5174) [info ] call getMs() 1000 times, 0.038400 ms
+17:20:58.301 (0x5174) [info ] 1-1
+17:20:58.302 (0x5174) [info ] 1-2
+17:20:58.302 (0x5174) [info ] 2-1,汉字
+17:20:58.303 (0x5174) [info ] 2-2,汉字
+17:20:58.303 (0x5174) [info ] 1
+17:20:58.304 (0x5174) [info ] 12345678901234
+17:20:58.304 (0x5174) [info ] 12345679020032.0000000000000000
+17:20:58.305 (0x5174) [info ] 12345678901234567168.00000000000000000000000000000000
+17:20:58.311 (0x5174) [debug] SlBase::add( 3 + 4 ) = 7
+17:20:58.311 (0x5174) [debug] SlBase::getTime() = 2023-04-23 17:20:58.311
+17:20:58.312 (0x5174) [info ] [trace] --- FuncExit, 30.4655 ms
+17:20:59.396 (0x5174) [warn ] Both point size and pixel size set. Using pixel size.
+17:20:59.766 (0x5174) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:20:59.871 (0x5174) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:20:59.871 (0x5174) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:21:00.099 (0x5174) [debug] Name :  "COM5"
+17:21:00.101 (0x5174) [debug] Name :  "COM11"
+17:21:00.102 (0x5174) [debug] Name :  "COM4"
+17:21:00.102 (0x5174) [debug] Name :  "COM1"
+17:21:00.103 (0x5174) [debug] Name :  "COM2"
+17:21:00.103 (0x5174) [debug] Name :  "COM3"
+17:21:00.104 (0x5174) [debug] Name :  "COM6"
+17:21:00.162 (0x5174) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:21:00.187 (0x5174) [debug] qml: [trace]activetrue
+17:21:01.770 (0x5174) [debug] false
+17:21:01.771 (0x5174) [debug]  openPort is working 
+17:21:01.772 (0x5174) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:21:02.701 (0x5174) [info ] cols: 2
+17:21:02.704 (0x5174) [info ] cols: 3
+17:21:02.818 (0x5174) [info ] cols: 4
+17:21:02.967 (0x5174) [info ] cols: 5
+17:21:03.054 (0x5174) [info ] cols: 6
+17:21:03.144 (0x5174) [info ] cols: 7
+17:21:03.241 (0x5174) [info ] cols: 8
+17:21:03.313 (0x5174) [info ] cols: 9
+17:21:03.396 (0x5174) [info ] cols: 10
+17:21:03.482 (0x5174) [info ] cols: 11
+17:21:03.576 (0x5174) [info ] cols: 12
+17:21:03.670 (0x5174) [info ] cols: 13
+17:21:03.733 (0x5174) [info ] cols: 14
+17:21:03.800 (0x5174) [info ] cols: 15
+17:21:03.870 (0x5174) [info ] cols: 16
+17:21:03.938 (0x5174) [info ] cols: 17
+17:21:04.016 (0x5174) [info ] cols: 18
+17:21:04.079 (0x5174) [info ] cols: 19
+17:21:04.141 (0x5174) [info ] cols: 20
+17:21:04.190 (0x5174) [info ] cols: 21
+17:21:04.248 (0x5174) [info ] cols: 22
+17:21:04.313 (0x5174) [info ] cols: 23
+17:21:04.387 (0x5174) [info ] cols: 24
+17:21:04.466 (0x5174) [info ] cols: 25
+17:21:04.550 (0x5174) [info ] cols: 26
+17:21:04.644 (0x5174) [info ] cols: 27
+17:21:04.729 (0x5174) [info ] cols: 28
+17:21:04.840 (0x5174) [info ] cols: 29
+17:21:05.157 (0x5174) [info ] cols: 30
+17:21:05.220 (0x5174) [info ] cols: 31
+17:21:05.291 (0x5174) [info ] cols: 32
+17:21:05.360 (0x5174) [info ] cols: 33
+17:21:05.427 (0x5174) [info ] cols: 34
+17:21:05.493 (0x5174) [info ] cols: 35
+17:21:05.559 (0x5174) [info ] cols: 36
+17:21:05.614 (0x5174) [info ] cols: 37
+17:21:05.670 (0x5174) [info ] cols: 38
+17:21:05.720 (0x5174) [info ] cols: 39
+17:21:05.767 (0x5174) [info ] cols: 40
+17:21:05.815 (0x5174) [info ] cols: 41
+17:21:05.862 (0x5174) [info ] cols: 42
+17:21:05.910 (0x5174) [info ] cols: 43
+17:21:05.963 (0x5174) [info ] cols: 44
+17:21:06.017 (0x5174) [info ] cols: 45
+17:21:06.072 (0x5174) [info ] cols: 46
+17:21:06.128 (0x5174) [info ] cols: 47
+17:21:06.189 (0x5174) [info ] cols: 48
+17:21:06.239 (0x5174) [info ] cols: 49
+17:21:06.278 (0x5174) [info ] cols: 50
+17:21:06.322 (0x5174) [info ] cols: 51
+17:21:06.376 (0x5174) [info ] cols: 52
+17:21:06.731 (0x5174) [info ] cols: 53
+17:21:06.819 (0x5174) [info ] cols: 54
+17:21:06.894 (0x5174) [info ] cols: 55
+17:21:06.955 (0x5174) [info ] cols: 56
+17:21:07.011 (0x5174) [info ] cols: 57
+17:21:07.058 (0x5174) [info ] cols: 58
+17:21:07.106 (0x5174) [info ] cols: 59
+17:21:07.167 (0x5174) [info ] cols: 60
+17:21:07.211 (0x5174) [info ] cols: 61
+17:21:07.252 (0x5174) [info ] cols: 62
+17:21:07.299 (0x5174) [info ] cols: 63
+17:21:07.347 (0x5174) [info ] cols: 64
+17:21:07.394 (0x5174) [info ] cols: 65
+17:21:07.444 (0x5174) [info ] cols: 66
+17:21:07.498 (0x5174) [info ] cols: 67
+17:21:07.618 (0x5174) [info ] cols: 68
+17:21:07.695 (0x5174) [info ] cols: 69
+17:21:07.744 (0x5174) [info ] cols: 70
+17:21:07.794 (0x5174) [info ] cols: 71
+17:21:07.843 (0x5174) [info ] cols: 72
+17:21:07.904 (0x5174) [info ] cols: 73
+17:21:07.972 (0x5174) [info ] cols: 74
+17:21:08.035 (0x5174) [info ] cols: 75
+17:21:08.097 (0x5174) [info ] cols: 76
+17:21:08.159 (0x5174) [info ] cols: 77
+17:21:08.217 (0x5174) [info ] cols: 78
+17:21:08.278 (0x5174) [info ] cols: 79
+17:21:08.343 (0x5174) [info ] cols: 80
+17:21:08.417 (0x5174) [info ] cols: 81
+17:21:08.551 (0x5174) [info ] cols: 82
+17:21:08.637 (0x5174) [info ] cols: 83
+17:21:08.678 (0x5174) [info ] cols: 84
+17:21:08.717 (0x5174) [info ] cols: 85
+17:21:08.758 (0x5174) [info ] cols: 86
+17:21:08.799 (0x5174) [info ] cols: 87
+17:21:08.841 (0x5174) [info ] cols: 88
+17:21:08.890 (0x5174) [info ] cols: 89
+17:21:08.929 (0x5174) [info ] cols: 90
+17:21:08.986 (0x5174) [info ] cols: 91
+17:21:09.025 (0x5174) [info ] cols: 92
+17:21:09.073 (0x5174) [info ] cols: 93
+17:21:09.121 (0x5174) [info ] cols: 94
+17:21:09.170 (0x5174) [info ] cols: 95
+17:21:09.227 (0x5174) [info ] cols: 96
+17:21:09.271 (0x5174) [info ] cols: 97
+17:21:09.310 (0x5174) [info ] cols: 98
+17:21:09.351 (0x5174) [info ] cols: 99
+17:21:09.392 (0x5174) [info ] cols: 100
+17:21:09.438 (0x5174) [info ] cols: 101
+17:21:09.487 (0x5174) [info ] cols: 102
+17:21:09.536 (0x5174) [info ] cols: 103
+17:21:09.587 (0x5174) [info ] cols: 104
+17:21:09.640 (0x5174) [info ] cols: 105
+17:21:09.687 (0x5174) [info ] cols: 106
+17:21:09.739 (0x5174) [info ] cols: 107
+17:21:09.787 (0x5174) [info ] cols: 108
+17:21:09.839 (0x5174) [info ] cols: 109
+17:21:09.888 (0x5174) [info ] cols: 110
+17:21:09.938 (0x5174) [info ] cols: 111
+17:21:09.996 (0x5174) [info ] cols: 112
+17:21:10.061 (0x5174) [info ] cols: 113
+17:21:10.142 (0x5174) [info ] cols: 114
+17:21:12.217 (0x5174) [debug] true
+17:21:12.217 (0x5174) [debug]  openPort is working 
+17:21:12.219 (0x5174) [debug] qml: get result:false
+17:21:13.001 (0x5174) [trace] qml:
+17:21:13.041 (0x5174) [info ] ----- msAppExit: 13124066.995000, 00:21:52.11812066
+17:21:13.042 (0x5174) [info ] app running: 14765.912600, 00:00:01.13765
+17:21:13.043 (0x5174) [info ] app return: 0
+17:21:13.044 (0x5174) [info ] ----- App exit ------
+17:24:56.626 (0x1ac8) [info ]
+17:24:56.628 (0x1ac8) [info ] ----- App init ------
+17:24:56.628 (0x1ac8) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:24:56.629 (0x1ac8) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:24:56.629 (0x1ac8) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:24:56.630 (0x1ac8) [info ] Check chinese support: 012汉字abc
+17:24:56.630 (0x1ac8) [info ] ----- msAppInit: 13347651.725500, 00:22:14.12013651
+17:24:56.631 (0x1ac8) [info ] [trace] --- FuncEntry
+17:24:56.631 (0x1ac8) [info ] [trace]012汉字abc 
+17:24:56.632 (0x1ac8) [info ] qInfo
+17:24:56.632 (0x1ac8) [info ] qDebug
+17:24:56.632 (0x1ac8) [info ] qWanging
+17:24:56.633 (0x1ac8) [info ] QCritical
+17:24:56.633 (0x1ac8) [info ] call getMs() 1000 times, 0.035300 ms
+17:24:56.642 (0x1ac8) [info ] 1-1
+17:24:56.643 (0x1ac8) [info ] 1-2
+17:24:56.643 (0x1ac8) [info ] 2-1,汉字
+17:24:56.644 (0x1ac8) [info ] 2-2,汉字
+17:24:56.644 (0x1ac8) [info ] 1
+17:24:56.645 (0x1ac8) [info ] 12345678901234
+17:24:56.645 (0x1ac8) [info ] 12345679020032.0000000000000000
+17:24:56.646 (0x1ac8) [info ] 12345678901234567168.00000000000000000000000000000000
+17:24:56.652 (0x1ac8) [debug] SlBase::add( 3 + 4 ) = 7
+17:24:56.652 (0x1ac8) [debug] SlBase::getTime() = 2023-04-23 17:24:56.652
+17:24:56.653 (0x1ac8) [info ] [trace] --- FuncExit, 22.0013 ms
+17:24:57.631 (0x1ac8) [warn ] Both point size and pixel size set. Using pixel size.
+17:24:57.992 (0x1ac8) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:24:58.103 (0x1ac8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:24:58.104 (0x1ac8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:24:58.323 (0x1ac8) [debug] Name :  "COM5"
+17:24:58.324 (0x1ac8) [debug] Name :  "COM11"
+17:24:58.325 (0x1ac8) [debug] Name :  "COM4"
+17:24:58.326 (0x1ac8) [debug] Name :  "COM1"
+17:24:58.326 (0x1ac8) [debug] Name :  "COM2"
+17:24:58.327 (0x1ac8) [debug] Name :  "COM3"
+17:24:58.327 (0x1ac8) [debug] Name :  "COM6"
+17:24:58.374 (0x1ac8) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:24:58.395 (0x1ac8) [debug] qml: [trace]activetrue
+17:25:01.434 (0x1ac8) [debug] false
+17:25:01.434 (0x1ac8) [debug]  openPort is working 
+17:25:01.436 (0x1ac8) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:25:03.140 (0x1ac8) [info ] cols: 2
+17:25:03.142 (0x1ac8) [info ] cols: 3
+17:25:03.602 (0x1ac8) [info ] cols: 4
+17:25:03.948 (0x1ac8) [info ] cols: 5
+17:25:04.352 (0x1ac8) [info ] cols: 6
+17:25:04.713 (0x1ac8) [info ] cols: 7
+17:25:04.932 (0x1ac8) [info ] cols: 8
+17:25:05.388 (0x1ac8) [info ] cols: 9
+17:25:06.031 (0x1ac8) [info ] cols: 10
+17:25:06.719 (0x1ac8) [info ] cols: 11
+17:25:07.741 (0x1ac8) [info ] cols: 12
+17:25:07.984 (0x1ac8) [info ] cols: 13
+17:25:08.465 (0x1ac8) [info ] cols: 14
+17:25:08.835 (0x1ac8) [info ] cols: 15
+17:25:09.170 (0x1ac8) [info ] cols: 16
+17:25:09.658 (0x1ac8) [info ] cols: 17
+17:25:09.900 (0x1ac8) [info ] cols: 18
+17:25:10.350 (0x1ac8) [info ] cols: 19
+17:25:10.574 (0x1ac8) [info ] cols: 20
+17:25:10.836 (0x1ac8) [info ] cols: 21
+17:25:11.057 (0x1ac8) [info ] cols: 22
+17:25:11.338 (0x1ac8) [info ] cols: 23
+17:25:11.520 (0x1ac8) [info ] cols: 24
+17:25:11.779 (0x1ac8) [info ] cols: 25
+17:25:11.939 (0x1ac8) [info ] cols: 26
+17:25:12.252 (0x1ac8) [info ] cols: 27
+17:25:12.394 (0x1ac8) [info ] cols: 28
+17:25:12.582 (0x1ac8) [info ] cols: 29
+17:25:12.713 (0x1ac8) [info ] cols: 30
+17:25:12.834 (0x1ac8) [info ] cols: 31
+17:25:12.972 (0x1ac8) [info ] cols: 32
+17:25:13.073 (0x1ac8) [info ] cols: 33
+17:25:13.180 (0x1ac8) [info ] cols: 34
+17:25:13.296 (0x1ac8) [info ] cols: 35
+17:25:13.388 (0x1ac8) [info ] cols: 36
+17:25:13.497 (0x1ac8) [info ] cols: 37
+17:25:13.623 (0x1ac8) [info ] cols: 38
+17:25:13.758 (0x1ac8) [info ] cols: 39
+17:25:13.890 (0x1ac8) [info ] cols: 40
+17:25:14.014 (0x1ac8) [info ] cols: 41
+17:25:14.126 (0x1ac8) [info ] cols: 42
+17:25:14.253 (0x1ac8) [info ] cols: 43
+17:25:14.384 (0x1ac8) [info ] cols: 44
+17:25:15.958 (0x1ac8) [debug] true
+17:25:15.958 (0x1ac8) [debug]  openPort is working 
+17:25:15.959 (0x1ac8) [debug] qml: get result:false
+17:25:16.497 (0x1ac8) [trace] qml:
+17:25:16.546 (0x1ac8) [info ] ----- msAppExit: 13367571.119400, 00:22:16.12031571
+17:25:16.546 (0x1ac8) [info ] app running: 19919.393900, 00:00:01.18919
+17:25:16.547 (0x1ac8) [info ] app return: 0
+17:25:16.547 (0x1ac8) [info ] ----- App exit ------
+17:28:15.025 (0x25c8) [info ]
+17:28:15.026 (0x25c8) [info ] ----- App init ------
+17:28:15.027 (0x25c8) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:28:15.028 (0x25c8) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:28:15.028 (0x25c8) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:28:15.028 (0x25c8) [info ] Check chinese support: 012汉字abc
+17:28:15.028 (0x25c8) [info ] ----- msAppInit: 13546050.856600, 00:22:34.12192050
+17:28:15.029 (0x25c8) [info ] [trace] --- FuncEntry
+17:28:15.029 (0x25c8) [info ] [trace]012汉字abc 
+17:28:15.029 (0x25c8) [info ] qInfo
+17:28:15.030 (0x25c8) [info ] qDebug
+17:28:15.031 (0x25c8) [info ] qWanging
+17:28:15.031 (0x25c8) [info ] QCritical
+17:28:15.031 (0x25c8) [info ] call getMs() 1000 times, 0.031900 ms
+17:28:15.056 (0x25c8) [info ] 1-1
+17:28:15.057 (0x25c8) [info ] 1-2
+17:28:15.057 (0x25c8) [info ] 2-1,汉字
+17:28:15.058 (0x25c8) [info ] 2-2,汉字
+17:28:15.058 (0x25c8) [info ] 1
+17:28:15.058 (0x25c8) [info ] 12345678901234
+17:28:15.058 (0x25c8) [info ] 12345679020032.0000000000000000
+17:28:15.059 (0x25c8) [info ] 12345678901234567168.00000000000000000000000000000000
+17:28:15.068 (0x25c8) [debug] SlBase::add( 3 + 4 ) = 7
+17:28:15.068 (0x25c8) [debug] SlBase::getTime() = 2023-04-23 17:28:15.068
+17:28:15.069 (0x25c8) [info ] [trace] --- FuncExit, 39.6708 ms
+17:28:16.065 (0x25c8) [warn ] Both point size and pixel size set. Using pixel size.
+17:28:16.423 (0x25c8) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:28:16.539 (0x25c8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:28:16.540 (0x25c8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:28:16.773 (0x25c8) [debug] Name :  "COM5"
+17:28:16.774 (0x25c8) [debug] Name :  "COM11"
+17:28:16.775 (0x25c8) [debug] Name :  "COM4"
+17:28:16.775 (0x25c8) [debug] Name :  "COM1"
+17:28:16.776 (0x25c8) [debug] Name :  "COM2"
+17:28:16.776 (0x25c8) [debug] Name :  "COM3"
+17:28:16.777 (0x25c8) [debug] Name :  "COM6"
+17:28:16.822 (0x25c8) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:28:16.845 (0x25c8) [debug] qml: [trace]activetrue
+17:28:20.025 (0x25c8) [debug] false
+17:28:20.026 (0x25c8) [debug]  openPort is working 
+17:28:20.028 (0x25c8) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:28:21.844 (0x25c8) [info ] cols: 2
+17:28:21.847 (0x25c8) [info ] cols: 3
+17:28:22.049 (0x25c8) [info ] cols: 4
+17:28:22.229 (0x25c8) [info ] cols: 5
+17:28:22.427 (0x25c8) [info ] cols: 6
+17:28:22.544 (0x25c8) [info ] cols: 7
+17:28:22.663 (0x25c8) [info ] cols: 8
+17:28:22.826 (0x25c8) [info ] cols: 9
+17:28:22.997 (0x25c8) [info ] cols: 10
+17:28:23.155 (0x25c8) [info ] cols: 11
+17:28:23.256 (0x25c8) [info ] cols: 12
+17:28:23.372 (0x25c8) [info ] cols: 13
+17:28:23.458 (0x25c8) [info ] cols: 14
+17:28:23.545 (0x25c8) [info ] cols: 15
+17:28:23.636 (0x25c8) [info ] cols: 16
+17:28:23.715 (0x25c8) [info ] cols: 17
+17:28:23.800 (0x25c8) [info ] cols: 18
+17:28:23.888 (0x25c8) [info ] cols: 19
+17:28:23.963 (0x25c8) [info ] cols: 20
+17:28:24.030 (0x25c8) [info ] cols: 21
+17:28:24.099 (0x25c8) [info ] cols: 22
+17:28:24.171 (0x25c8) [info ] cols: 23
+17:28:24.228 (0x25c8) [info ] cols: 24
+17:28:24.290 (0x25c8) [info ] cols: 25
+17:28:24.354 (0x25c8) [info ] cols: 26
+17:28:24.419 (0x25c8) [info ] cols: 27
+17:28:24.494 (0x25c8) [info ] cols: 28
+17:28:24.586 (0x25c8) [info ] cols: 29
+17:28:24.682 (0x25c8) [info ] cols: 30
+17:28:24.752 (0x25c8) [info ] cols: 31
+17:28:24.823 (0x25c8) [info ] cols: 32
+17:28:24.898 (0x25c8) [info ] cols: 33
+17:28:24.975 (0x25c8) [info ] cols: 34
+17:28:25.035 (0x25c8) [info ] cols: 35
+17:28:25.103 (0x25c8) [info ] cols: 36
+17:28:25.175 (0x25c8) [info ] cols: 37
+17:28:25.247 (0x25c8) [info ] cols: 38
+17:28:25.324 (0x25c8) [info ] cols: 39
+17:28:25.406 (0x25c8) [info ] cols: 40
+17:28:25.487 (0x25c8) [info ] cols: 41
+17:28:25.575 (0x25c8) [info ] cols: 42
+17:28:25.695 (0x25c8) [info ] cols: 43
+17:28:26.977 (0x25c8) [debug] true
+17:28:26.978 (0x25c8) [debug]  openPort is working 
+17:28:26.979 (0x25c8) [debug] qml: get result:false
+17:28:27.529 (0x25c8) [trace] qml:
+17:28:27.571 (0x25c8) [info ] ----- msAppExit: 13558597.122900, 00:22:35.12203597
+17:28:27.572 (0x25c8) [info ] app running: 12546.266300, 00:00:01.11546
+17:28:27.572 (0x25c8) [info ] app return: 0
+17:28:27.573 (0x25c8) [info ] ----- App exit ------
+17:28:37.774 (0x3670) [info ]
+17:28:37.776 (0x3670) [info ] ----- App init ------
+17:28:37.776 (0x3670) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:28:37.777 (0x3670) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:28:37.777 (0x3670) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:28:37.778 (0x3670) [info ] Check chinese support: 012汉字abc
+17:28:37.778 (0x3670) [info ] ----- msAppInit: 13568800.448800, 00:22:36.12212800
+17:28:37.778 (0x3670) [info ] [trace] --- FuncEntry
+17:28:37.779 (0x3670) [info ] [trace]012汉字abc 
+17:28:37.779 (0x3670) [info ] qInfo
+17:28:37.780 (0x3670) [info ] qDebug
+17:28:37.780 (0x3670) [info ] qWanging
+17:28:37.780 (0x3670) [info ] QCritical
+17:28:37.781 (0x3670) [info ] call getMs() 1000 times, 0.040800 ms
+17:28:37.799 (0x3670) [info ] 1-1
+17:28:37.800 (0x3670) [info ] 1-2
+17:28:37.800 (0x3670) [info ] 2-1,汉字
+17:28:37.801 (0x3670) [info ] 2-2,汉字
+17:28:37.801 (0x3670) [info ] 1
+17:28:37.802 (0x3670) [info ] 12345678901234
+17:28:37.802 (0x3670) [info ] 12345679020032.0000000000000000
+17:28:37.803 (0x3670) [info ] 12345678901234567168.00000000000000000000000000000000
+17:28:37.808 (0x3670) [debug] SlBase::add( 3 + 4 ) = 7
+17:28:37.809 (0x3670) [debug] SlBase::getTime() = 2023-04-23 17:28:37.809
+17:28:37.809 (0x3670) [info ] [trace] --- FuncExit, 30.1526 ms
+17:28:38.828 (0x3670) [warn ] Both point size and pixel size set. Using pixel size.
+17:28:39.191 (0x3670) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:28:39.311 (0x3670) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:28:39.312 (0x3670) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:28:39.538 (0x3670) [debug] Name :  "COM5"
+17:28:39.540 (0x3670) [debug] Name :  "COM11"
+17:28:39.542 (0x3670) [debug] Name :  "COM4"
+17:28:39.542 (0x3670) [debug] Name :  "COM1"
+17:28:39.543 (0x3670) [debug] Name :  "COM2"
+17:28:39.543 (0x3670) [debug] Name :  "COM3"
+17:28:39.544 (0x3670) [debug] Name :  "COM6"
+17:28:39.581 (0x3670) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:28:39.606 (0x3670) [debug] qml: [trace]activetrue
+17:28:41.178 (0x3670) [debug] false
+17:28:41.179 (0x3670) [debug]  openPort is working 
+17:28:41.180 (0x3670) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:28:42.053 (0x3670) [info ] cols: 2
+17:28:42.055 (0x3670) [info ] cols: 3
+17:28:42.190 (0x3670) [info ] cols: 4
+17:28:42.292 (0x3670) [info ] cols: 5
+17:28:42.416 (0x3670) [info ] cols: 6
+17:28:42.525 (0x3670) [info ] cols: 7
+17:28:42.611 (0x3670) [info ] cols: 8
+17:28:42.708 (0x3670) [info ] cols: 9
+17:28:42.768 (0x3670) [info ] cols: 10
+17:28:42.829 (0x3670) [info ] cols: 11
+17:28:42.892 (0x3670) [info ] cols: 12
+17:28:42.971 (0x3670) [info ] cols: 13
+17:28:43.045 (0x3670) [info ] cols: 14
+17:28:43.120 (0x3670) [info ] cols: 15
+17:28:43.204 (0x3670) [info ] cols: 16
+17:28:43.271 (0x3670) [info ] cols: 17
+17:28:43.339 (0x3670) [info ] cols: 18
+17:28:43.427 (0x3670) [info ] cols: 19
+17:28:43.489 (0x3670) [info ] cols: 20
+17:28:43.552 (0x3670) [info ] cols: 21
+17:28:43.617 (0x3670) [info ] cols: 22
+17:28:43.690 (0x3670) [info ] cols: 23
+17:28:43.760 (0x3670) [info ] cols: 24
+17:28:43.833 (0x3670) [info ] cols: 25
+17:28:43.902 (0x3670) [info ] cols: 26
+17:28:43.964 (0x3670) [info ] cols: 27
+17:28:44.029 (0x3670) [info ] cols: 28
+17:28:44.101 (0x3670) [info ] cols: 29
+17:28:44.160 (0x3670) [info ] cols: 30
+17:28:44.222 (0x3670) [info ] cols: 31
+17:28:45.361 (0x3670) [debug] true
+17:28:45.362 (0x3670) [debug]  openPort is working 
+17:28:45.363 (0x3670) [debug] qml: get result:false
+17:28:46.225 (0x3670) [trace] qml:
+17:28:46.270 (0x3670) [info ] ----- msAppExit: 13577295.339100, 00:22:37.12220295
+17:28:46.270 (0x3670) [info ] app running: 8494.890300, 00:00:00.8494
+17:28:46.271 (0x3670) [info ] app return: 0
+17:28:46.271 (0x3670) [info ] ----- App exit ------
+17:31:34.804 (0x0848) [info ]
+17:31:34.806 (0x0848) [info ] ----- App init ------
+17:31:34.806 (0x0848) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:31:34.807 (0x0848) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:31:34.807 (0x0848) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:31:34.808 (0x0848) [info ] Check chinese support: 012汉字abc
+17:31:34.808 (0x0848) [info ] ----- msAppInit: 13745828.697600, 00:22:54.12371828
+17:31:34.809 (0x0848) [info ] [trace] --- FuncEntry
+17:31:34.809 (0x0848) [info ] [trace]012汉字abc 
+17:31:34.809 (0x0848) [info ] qInfo
+17:31:34.810 (0x0848) [info ] qDebug
+17:31:34.810 (0x0848) [info ] qWanging
+17:31:34.811 (0x0848) [info ] QCritical
+17:31:34.811 (0x0848) [info ] call getMs() 1000 times, 0.035800 ms
+17:31:34.829 (0x0848) [info ] 1-1
+17:31:34.829 (0x0848) [info ] 1-2
+17:31:34.829 (0x0848) [info ] 2-1,汉字
+17:31:34.830 (0x0848) [info ] 2-2,汉字
+17:31:34.830 (0x0848) [info ] 1
+17:31:34.831 (0x0848) [info ] 12345678901234
+17:31:34.831 (0x0848) [info ] 12345679020032.0000000000000000
+17:31:34.832 (0x0848) [info ] 12345678901234567168.00000000000000000000000000000000
+17:31:34.838 (0x0848) [debug] SlBase::add( 3 + 4 ) = 7
+17:31:34.838 (0x0848) [debug] SlBase::getTime() = 2023-04-23 17:31:34.838
+17:31:34.838 (0x0848) [info ] [trace] --- FuncExit, 30.0264 ms
+17:31:35.852 (0x0848) [warn ] Both point size and pixel size set. Using pixel size.
+17:31:36.224 (0x0848) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:31:36.334 (0x0848) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:31:36.335 (0x0848) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:31:36.555 (0x0848) [debug] Name :  "COM5"
+17:31:36.556 (0x0848) [debug] Name :  "COM11"
+17:31:36.557 (0x0848) [debug] Name :  "COM4"
+17:31:36.557 (0x0848) [debug] Name :  "COM1"
+17:31:36.558 (0x0848) [debug] Name :  "COM2"
+17:31:36.558 (0x0848) [debug] Name :  "COM3"
+17:31:36.559 (0x0848) [debug] Name :  "COM6"
+17:31:36.600 (0x0848) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:31:36.625 (0x0848) [debug] qml: [trace]activetrue
+17:31:38.753 (0x0848) [debug] false
+17:31:38.754 (0x0848) [debug]  openPort is working 
+17:31:38.755 (0x0848) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:31:39.834 (0x0848) [info ] cols: 2
+17:31:39.836 (0x0848) [info ] cols: 3
+17:31:40.012 (0x0848) [info ] cols: 4
+17:31:40.266 (0x0848) [info ] cols: 5
+17:31:40.536 (0x0848) [info ] cols: 6
+17:31:40.638 (0x0848) [info ] cols: 7
+17:31:40.763 (0x0848) [info ] cols: 8
+17:31:40.906 (0x0848) [info ] cols: 9
+17:31:41.007 (0x0848) [info ] cols: 10
+17:31:41.134 (0x0848) [info ] cols: 11
+17:31:41.247 (0x0848) [info ] cols: 12
+17:31:41.382 (0x0848) [info ] cols: 13
+17:31:41.538 (0x0848) [info ] cols: 14
+17:31:41.664 (0x0848) [info ] cols: 15
+17:31:41.812 (0x0848) [info ] cols: 16
+17:31:41.925 (0x0848) [info ] cols: 17
+17:31:42.032 (0x0848) [info ] cols: 18
+17:31:42.150 (0x0848) [info ] cols: 19
+17:31:42.277 (0x0848) [info ] cols: 20
+17:31:42.456 (0x0848) [info ] cols: 21
+17:31:42.571 (0x0848) [info ] cols: 22
+17:31:42.707 (0x0848) [info ] cols: 23
+17:31:42.867 (0x0848) [info ] cols: 24
+17:31:43.008 (0x0848) [info ] cols: 25
+17:31:43.209 (0x0848) [info ] cols: 26
+17:31:43.321 (0x0848) [info ] cols: 27
+17:31:43.448 (0x0848) [info ] cols: 28
+17:31:43.562 (0x0848) [info ] cols: 29
+17:31:43.691 (0x0848) [info ] cols: 30
+17:31:43.858 (0x0848) [info ] cols: 31
+17:31:43.949 (0x0848) [info ] cols: 32
+17:31:44.054 (0x0848) [info ] cols: 33
+17:31:44.171 (0x0848) [info ] cols: 34
+17:31:44.263 (0x0848) [info ] cols: 35
+17:31:44.361 (0x0848) [info ] cols: 36
+17:31:44.467 (0x0848) [info ] cols: 37
+17:31:44.549 (0x0848) [info ] cols: 38
+17:31:44.646 (0x0848) [info ] cols: 39
+17:31:44.752 (0x0848) [info ] cols: 40
+17:31:44.828 (0x0848) [info ] cols: 41
+17:31:44.904 (0x0848) [info ] cols: 42
+17:31:44.985 (0x0848) [info ] cols: 43
+17:31:45.073 (0x0848) [info ] cols: 44
+17:31:45.194 (0x0848) [info ] cols: 45
+17:31:45.343 (0x0848) [info ] cols: 46
+17:31:45.443 (0x0848) [info ] cols: 47
+17:31:45.553 (0x0848) [info ] cols: 48
+17:31:45.672 (0x0848) [info ] cols: 49
+17:31:45.764 (0x0848) [info ] cols: 50
+17:31:45.910 (0x0848) [info ] cols: 51
+17:31:46.040 (0x0848) [info ] cols: 52
+17:31:46.118 (0x0848) [info ] cols: 53
+17:31:46.211 (0x0848) [info ] cols: 54
+17:31:46.307 (0x0848) [info ] cols: 55
+17:31:46.373 (0x0848) [info ] cols: 56
+17:31:46.455 (0x0848) [info ] cols: 57
+17:31:46.540 (0x0848) [info ] cols: 58
+17:31:46.615 (0x0848) [info ] cols: 59
+17:31:46.673 (0x0848) [info ] cols: 60
+17:31:46.744 (0x0848) [info ] cols: 61
+17:31:46.818 (0x0848) [info ] cols: 62
+17:31:46.893 (0x0848) [info ] cols: 63
+17:31:46.949 (0x0848) [info ] cols: 64
+17:31:47.017 (0x0848) [info ] cols: 65
+17:31:47.087 (0x0848) [info ] cols: 66
+17:31:47.160 (0x0848) [info ] cols: 67
+17:31:47.229 (0x0848) [info ] cols: 68
+17:31:47.287 (0x0848) [info ] cols: 69
+17:31:47.346 (0x0848) [info ] cols: 70
+17:31:47.406 (0x0848) [info ] cols: 71
+17:31:47.469 (0x0848) [info ] cols: 72
+17:31:47.541 (0x0848) [info ] cols: 73
+17:31:47.625 (0x0848) [info ] cols: 74
+17:31:47.713 (0x0848) [info ] cols: 75
+17:31:47.780 (0x0848) [info ] cols: 76
+17:31:47.851 (0x0848) [info ] cols: 77
+17:31:47.924 (0x0848) [info ] cols: 78
+17:31:47.991 (0x0848) [info ] cols: 79
+17:31:48.076 (0x0848) [info ] cols: 80
+17:31:48.166 (0x0848) [info ] cols: 81
+17:31:48.239 (0x0848) [info ] cols: 82
+17:31:48.323 (0x0848) [info ] cols: 83
+17:31:48.411 (0x0848) [info ] cols: 84
+17:31:48.485 (0x0848) [info ] cols: 85
+17:31:48.560 (0x0848) [info ] cols: 86
+17:31:48.640 (0x0848) [info ] cols: 87
+17:31:48.717 (0x0848) [info ] cols: 88
+17:31:48.799 (0x0848) [info ] cols: 89
+17:31:48.881 (0x0848) [info ] cols: 90
+17:31:48.944 (0x0848) [info ] cols: 91
+17:31:49.009 (0x0848) [info ] cols: 92
+17:31:49.076 (0x0848) [info ] cols: 93
+17:31:49.144 (0x0848) [info ] cols: 94
+17:31:49.215 (0x0848) [info ] cols: 95
+17:31:49.288 (0x0848) [info ] cols: 96
+17:31:49.363 (0x0848) [info ] cols: 97
+17:31:49.441 (0x0848) [info ] cols: 98
+17:31:49.522 (0x0848) [info ] cols: 99
+17:31:49.608 (0x0848) [info ] cols: 100
+17:31:49.697 (0x0848) [info ] cols: 101
+17:31:49.792 (0x0848) [info ] cols: 102
+17:31:49.894 (0x0848) [info ] cols: 103
+17:31:50.004 (0x0848) [info ] cols: 104
+17:31:50.057 (0x0848) [debug] true
+17:31:50.058 (0x0848) [debug]  openPort is working 
+17:31:50.059 (0x0848) [debug] qml: get result:false
+17:31:50.681 (0x0848) [trace] qml:
+17:31:50.719 (0x0848) [info ] ----- msAppExit: 13761744.888200, 00:22:55.12386744
+17:31:50.719 (0x0848) [info ] app running: 15916.190600, 00:00:01.14916
+17:31:50.721 (0x0848) [info ] app return: 0
+17:31:50.721 (0x0848) [info ] ----- App exit ------
+17:32:05.950 (0x5b54) [info ]
+17:32:05.952 (0x5b54) [info ] ----- App init ------
+17:32:05.952 (0x5b54) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:32:05.953 (0x5b54) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:32:05.953 (0x5b54) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:32:05.954 (0x5b54) [info ] Check chinese support: 012汉字abc
+17:32:05.954 (0x5b54) [info ] ----- msAppInit: 13776975.510400, 00:22:57.12399975
+17:32:05.954 (0x5b54) [info ] [trace] --- FuncEntry
+17:32:05.955 (0x5b54) [info ] [trace]012汉字abc 
+17:32:05.955 (0x5b54) [info ] qInfo
+17:32:05.956 (0x5b54) [info ] qDebug
+17:32:05.956 (0x5b54) [info ] qWanging
+17:32:05.956 (0x5b54) [info ] QCritical
+17:32:05.957 (0x5b54) [info ] call getMs() 1000 times, 0.032100 ms
+17:32:05.974 (0x5b54) [info ] 1-1
+17:32:05.975 (0x5b54) [info ] 1-2
+17:32:05.975 (0x5b54) [info ] 2-1,汉字
+17:32:05.975 (0x5b54) [info ] 2-2,汉字
+17:32:05.976 (0x5b54) [info ] 1
+17:32:05.976 (0x5b54) [info ] 12345678901234
+17:32:05.977 (0x5b54) [info ] 12345679020032.0000000000000000
+17:32:05.977 (0x5b54) [info ] 12345678901234567168.00000000000000000000000000000000
+17:32:05.983 (0x5b54) [debug] SlBase::add( 3 + 4 ) = 7
+17:32:05.983 (0x5b54) [debug] SlBase::getTime() = 2023-04-23 17:32:05.983
+17:32:05.984 (0x5b54) [info ] [trace] --- FuncExit, 29.6943 ms
+17:32:07.011 (0x5b54) [warn ] Both point size and pixel size set. Using pixel size.
+17:32:07.382 (0x5b54) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:32:07.493 (0x5b54) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:32:07.494 (0x5b54) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:32:07.734 (0x5b54) [debug] Name :  "COM5"
+17:32:07.735 (0x5b54) [debug] Name :  "COM11"
+17:32:07.735 (0x5b54) [debug] Name :  "COM4"
+17:32:07.736 (0x5b54) [debug] Name :  "COM1"
+17:32:07.736 (0x5b54) [debug] Name :  "COM2"
+17:32:07.737 (0x5b54) [debug] Name :  "COM3"
+17:32:07.737 (0x5b54) [debug] Name :  "COM6"
+17:32:07.785 (0x5b54) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:32:07.807 (0x5b54) [debug] qml: [trace]activetrue
+17:32:09.346 (0x5b54) [debug] false
+17:32:09.347 (0x5b54) [debug]  openPort is working 
+17:32:09.349 (0x5b54) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:32:10.112 (0x5b54) [info ] cols: 2
+17:32:10.115 (0x5b54) [info ] cols: 3
+17:32:10.179 (0x5b54) [info ] cols: 4
+17:32:10.245 (0x5b54) [info ] cols: 5
+17:32:10.315 (0x5b54) [info ] cols: 6
+17:32:10.394 (0x5b54) [info ] cols: 7
+17:32:10.466 (0x5b54) [info ] cols: 8
+17:32:10.514 (0x5b54) [info ] cols: 9
+17:32:10.567 (0x5b54) [info ] cols: 10
+17:32:10.614 (0x5b54) [info ] cols: 11
+17:32:10.665 (0x5b54) [info ] cols: 12
+17:32:10.715 (0x5b54) [info ] cols: 13
+17:32:10.774 (0x5b54) [info ] cols: 14
+17:32:10.832 (0x5b54) [info ] cols: 15
+17:32:10.892 (0x5b54) [info ] cols: 16
+17:32:10.954 (0x5b54) [info ] cols: 17
+17:32:11.017 (0x5b54) [info ] cols: 18
+17:32:11.112 (0x5b54) [info ] cols: 19
+17:32:11.182 (0x5b54) [info ] cols: 20
+17:32:11.251 (0x5b54) [info ] cols: 21
+17:32:11.323 (0x5b54) [info ] cols: 22
+17:32:11.398 (0x5b54) [info ] cols: 23
+17:32:11.466 (0x5b54) [info ] cols: 24
+17:32:11.525 (0x5b54) [info ] cols: 25
+17:32:11.587 (0x5b54) [info ] cols: 26
+17:32:11.650 (0x5b54) [info ] cols: 27
+17:32:11.714 (0x5b54) [info ] cols: 28
+17:32:11.773 (0x5b54) [info ] cols: 29
+17:32:11.835 (0x5b54) [info ] cols: 30
+17:32:11.898 (0x5b54) [info ] cols: 31
+17:32:11.956 (0x5b54) [info ] cols: 32
+17:32:12.003 (0x5b54) [info ] cols: 33
+17:32:12.050 (0x5b54) [info ] cols: 34
+17:32:12.097 (0x5b54) [info ] cols: 35
+17:32:12.145 (0x5b54) [info ] cols: 36
+17:32:12.200 (0x5b54) [info ] cols: 37
+17:32:12.255 (0x5b54) [info ] cols: 38
+17:32:12.315 (0x5b54) [info ] cols: 39
+17:32:12.370 (0x5b54) [info ] cols: 40
+17:32:12.421 (0x5b54) [info ] cols: 41
+17:32:12.471 (0x5b54) [info ] cols: 42
+17:32:12.521 (0x5b54) [info ] cols: 43
+17:32:12.574 (0x5b54) [info ] cols: 44
+17:32:12.634 (0x5b54) [info ] cols: 45
+17:32:12.696 (0x5b54) [info ] cols: 46
+17:32:12.758 (0x5b54) [info ] cols: 47
+17:32:12.803 (0x5b54) [info ] cols: 48
+17:32:12.847 (0x5b54) [info ] cols: 49
+17:32:12.891 (0x5b54) [info ] cols: 50
+17:32:12.936 (0x5b54) [info ] cols: 51
+17:32:12.982 (0x5b54) [info ] cols: 52
+17:32:13.031 (0x5b54) [info ] cols: 53
+17:32:13.080 (0x5b54) [info ] cols: 54
+17:32:13.129 (0x5b54) [info ] cols: 55
+17:32:13.181 (0x5b54) [info ] cols: 56
+17:32:13.227 (0x5b54) [info ] cols: 57
+17:32:13.273 (0x5b54) [info ] cols: 58
+17:32:13.320 (0x5b54) [info ] cols: 59
+17:32:13.367 (0x5b54) [info ] cols: 60
+17:32:13.416 (0x5b54) [info ] cols: 61
+17:32:13.465 (0x5b54) [info ] cols: 62
+17:32:13.515 (0x5b54) [info ] cols: 63
+17:32:13.554 (0x5b54) [info ] cols: 64
+17:32:13.602 (0x5b54) [info ] cols: 65
+17:32:13.663 (0x5b54) [info ] cols: 66
+17:32:13.715 (0x5b54) [info ] cols: 67
+17:32:13.763 (0x5b54) [info ] cols: 68
+17:32:13.814 (0x5b54) [info ] cols: 69
+17:32:13.864 (0x5b54) [info ] cols: 70
+17:32:13.916 (0x5b54) [info ] cols: 71
+17:32:13.967 (0x5b54) [info ] cols: 72
+17:32:14.022 (0x5b54) [info ] cols: 73
+17:32:14.076 (0x5b54) [info ] cols: 74
+17:32:14.149 (0x5b54) [info ] cols: 75
+17:32:14.205 (0x5b54) [info ] cols: 76
+17:32:14.263 (0x5b54) [info ] cols: 77
+17:32:14.300 (0x5b54) [info ] cols: 78
+17:32:14.344 (0x5b54) [info ] cols: 79
+17:32:14.388 (0x5b54) [info ] cols: 80
+17:32:14.434 (0x5b54) [info ] cols: 81
+17:32:14.480 (0x5b54) [info ] cols: 82
+17:32:14.526 (0x5b54) [info ] cols: 83
+17:32:14.573 (0x5b54) [info ] cols: 84
+17:32:14.621 (0x5b54) [info ] cols: 85
+17:32:14.669 (0x5b54) [info ] cols: 86
+17:32:14.719 (0x5b54) [info ] cols: 87
+17:32:14.769 (0x5b54) [info ] cols: 88
+17:32:14.820 (0x5b54) [info ] cols: 89
+17:32:14.871 (0x5b54) [info ] cols: 90
+17:32:14.923 (0x5b54) [info ] cols: 91
+17:32:14.976 (0x5b54) [info ] cols: 92
+17:32:15.030 (0x5b54) [info ] cols: 93
+17:32:15.085 (0x5b54) [info ] cols: 94
+17:32:15.141 (0x5b54) [info ] cols: 95
+17:32:15.198 (0x5b54) [info ] cols: 96
+17:32:15.256 (0x5b54) [info ] cols: 97
+17:32:15.316 (0x5b54) [info ] cols: 98
+17:32:15.377 (0x5b54) [info ] cols: 99
+17:32:15.439 (0x5b54) [info ] cols: 100
+17:32:15.503 (0x5b54) [info ] cols: 101
+17:32:15.505 (0x5b54) [debug] true
+17:32:15.506 (0x5b54) [debug]  openPort is working 
+17:32:15.507 (0x5b54) [debug] qml: get result:false
+17:32:16.266 (0x5b54) [trace] qml:
+17:32:16.311 (0x5b54) [info ] ----- msAppExit: 13787336.887600, 00:22:58.12409336
+17:32:16.312 (0x5b54) [info ] app running: 10361.377200, 00:00:01.9361
+17:32:16.313 (0x5b54) [info ] app return: 0
+17:32:16.313 (0x5b54) [info ] ----- App exit ------
+17:32:50.718 (0x32c4) [info ]
+17:32:50.720 (0x32c4) [info ] ----- App init ------
+17:32:50.720 (0x32c4) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:32:50.721 (0x32c4) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:32:50.721 (0x32c4) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:32:50.721 (0x32c4) [info ] Check chinese support: 012汉字abc
+17:32:50.722 (0x32c4) [info ] ----- msAppInit: 13821743.465200, 00:23:01.12440743
+17:32:50.723 (0x32c4) [info ] [trace] --- FuncEntry
+17:32:50.723 (0x32c4) [info ] [trace]012汉字abc 
+17:32:50.723 (0x32c4) [info ] qInfo
+17:32:50.724 (0x32c4) [info ] qDebug
+17:32:50.724 (0x32c4) [info ] qWanging
+17:32:50.725 (0x32c4) [info ] QCritical
+17:32:50.725 (0x32c4) [info ] call getMs() 1000 times, 0.035300 ms
+17:32:50.742 (0x32c4) [info ] 1-1
+17:32:50.743 (0x32c4) [info ] 1-2
+17:32:50.744 (0x32c4) [info ] 2-1,汉字
+17:32:50.744 (0x32c4) [info ] 2-2,汉字
+17:32:50.744 (0x32c4) [info ] 1
+17:32:50.745 (0x32c4) [info ] 12345678901234
+17:32:50.745 (0x32c4) [info ] 12345679020032.0000000000000000
+17:32:50.746 (0x32c4) [info ] 12345678901234567168.00000000000000000000000000000000
+17:32:50.752 (0x32c4) [debug] SlBase::add( 3 + 4 ) = 7
+17:32:50.753 (0x32c4) [debug] SlBase::getTime() = 2023-04-23 17:32:50.753
+17:32:50.753 (0x32c4) [info ] [trace] --- FuncExit, 31.8497 ms
+17:32:51.737 (0x32c4) [warn ] Both point size and pixel size set. Using pixel size.
+17:32:52.105 (0x32c4) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:32:52.218 (0x32c4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:32:52.218 (0x32c4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:32:52.436 (0x32c4) [debug] Name :  "COM5"
+17:32:52.437 (0x32c4) [debug] Name :  "COM11"
+17:32:52.437 (0x32c4) [debug] Name :  "COM4"
+17:32:52.438 (0x32c4) [debug] Name :  "COM1"
+17:32:52.438 (0x32c4) [debug] Name :  "COM2"
+17:32:52.439 (0x32c4) [debug] Name :  "COM3"
+17:32:52.439 (0x32c4) [debug] Name :  "COM6"
+17:32:52.483 (0x32c4) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:32:52.509 (0x32c4) [debug] qml: [trace]activetrue
+17:32:54.153 (0x32c4) [debug] false
+17:32:54.154 (0x32c4) [debug]  openPort is working 
+17:32:54.155 (0x32c4) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:32:55.836 (0x32c4) [info ] cols: 2
+17:32:55.839 (0x32c4) [info ] cols: 3
+17:32:55.895 (0x32c4) [info ] cols: 4
+17:32:55.965 (0x32c4) [info ] cols: 5
+17:32:56.037 (0x32c4) [info ] cols: 6
+17:32:56.113 (0x32c4) [info ] cols: 7
+17:32:56.184 (0x32c4) [info ] cols: 8
+17:32:56.260 (0x32c4) [info ] cols: 9
+17:32:56.340 (0x32c4) [info ] cols: 10
+17:32:56.403 (0x32c4) [info ] cols: 11
+17:32:56.460 (0x32c4) [info ] cols: 12
+17:32:56.521 (0x32c4) [info ] cols: 13
+17:32:56.572 (0x32c4) [info ] cols: 14
+17:32:56.627 (0x32c4) [info ] cols: 15
+17:32:56.684 (0x32c4) [info ] cols: 16
+17:32:56.729 (0x32c4) [info ] cols: 17
+17:32:56.776 (0x32c4) [info ] cols: 18
+17:32:56.823 (0x32c4) [info ] cols: 19
+17:32:56.872 (0x32c4) [info ] cols: 20
+17:32:56.933 (0x32c4) [info ] cols: 21
+17:32:56.988 (0x32c4) [info ] cols: 22
+17:32:57.043 (0x32c4) [info ] cols: 23
+17:32:57.099 (0x32c4) [info ] cols: 24
+17:32:57.165 (0x32c4) [info ] cols: 25
+17:32:57.220 (0x32c4) [info ] cols: 26
+17:32:57.273 (0x32c4) [info ] cols: 27
+17:32:57.329 (0x32c4) [info ] cols: 28
+17:32:57.385 (0x32c4) [info ] cols: 29
+17:32:57.450 (0x32c4) [info ] cols: 30
+17:32:57.521 (0x32c4) [info ] cols: 31
+17:32:57.595 (0x32c4) [info ] cols: 32
+17:32:57.719 (0x32c4) [info ] cols: 33
+17:32:57.851 (0x32c4) [info ] cols: 34
+17:32:57.908 (0x32c4) [info ] cols: 35
+17:32:57.972 (0x32c4) [info ] cols: 36
+17:32:58.022 (0x32c4) [info ] cols: 37
+17:32:58.083 (0x32c4) [info ] cols: 38
+17:32:58.142 (0x32c4) [info ] cols: 39
+17:32:58.202 (0x32c4) [info ] cols: 40
+17:32:58.262 (0x32c4) [info ] cols: 41
+17:32:58.322 (0x32c4) [info ] cols: 42
+17:32:58.379 (0x32c4) [info ] cols: 43
+17:32:58.442 (0x32c4) [info ] cols: 44
+17:32:58.536 (0x32c4) [info ] cols: 45
+17:32:59.937 (0x32c4) [debug] true
+17:32:59.938 (0x32c4) [debug]  openPort is working 
+17:32:59.939 (0x32c4) [debug] qml: get result:false
+17:33:00.417 (0x32c4) [trace] qml:
+17:33:00.457 (0x32c4) [info ] ----- msAppExit: 13831482.237900, 00:23:02.12449482
+17:33:00.457 (0x32c4) [info ] app running: 9738.772700, 00:00:00.9738
+17:33:00.458 (0x32c4) [info ] app return: 0
+17:33:00.458 (0x32c4) [info ] ----- App exit ------
+17:36:53.274 (0x32ec) [info ]
+17:36:53.276 (0x32ec) [info ] ----- App init ------
+17:36:53.276 (0x32ec) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:36:53.277 (0x32ec) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:36:53.277 (0x32ec) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:36:53.277 (0x32ec) [info ] Check chinese support: 012汉字abc
+17:36:53.278 (0x32ec) [info ] ----- msAppInit: 14064299.290600, 00:23:26.12658299
+17:36:53.278 (0x32ec) [info ] [trace] --- FuncEntry
+17:36:53.279 (0x32ec) [info ] [trace]012汉字abc 
+17:36:53.279 (0x32ec) [info ] qInfo
+17:36:53.280 (0x32ec) [info ] qDebug
+17:36:53.280 (0x32ec) [info ] qWanging
+17:36:53.281 (0x32ec) [info ] QCritical
+17:36:53.281 (0x32ec) [info ] call getMs() 1000 times, 0.038900 ms
+17:36:53.299 (0x32ec) [info ] 1-1
+17:36:53.299 (0x32ec) [info ] 1-2
+17:36:53.300 (0x32ec) [info ] 2-1,汉字
+17:36:53.300 (0x32ec) [info ] 2-2,汉字
+17:36:53.301 (0x32ec) [info ] 1
+17:36:53.301 (0x32ec) [info ] 12345678901234
+17:36:53.302 (0x32ec) [info ] 12345679020032.0000000000000000
+17:36:53.302 (0x32ec) [info ] 12345678901234567168.00000000000000000000000000000000
+17:36:53.309 (0x32ec) [debug] SlBase::add( 3 + 4 ) = 7
+17:36:53.309 (0x32ec) [debug] SlBase::getTime() = 2023-04-23 17:36:53.309
+17:36:53.310 (0x32ec) [info ] [trace] --- FuncExit, 31.0588 ms
+17:36:54.342 (0x32ec) [warn ] Both point size and pixel size set. Using pixel size.
+17:36:54.710 (0x32ec) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:36:54.826 (0x32ec) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:36:54.826 (0x32ec) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:36:55.058 (0x32ec) [debug] Name :  "COM5"
+17:36:55.058 (0x32ec) [debug] Name :  "COM11"
+17:36:55.059 (0x32ec) [debug] Name :  "COM4"
+17:36:55.059 (0x32ec) [debug] Name :  "COM1"
+17:36:55.060 (0x32ec) [debug] Name :  "COM2"
+17:36:55.060 (0x32ec) [debug] Name :  "COM3"
+17:36:55.061 (0x32ec) [debug] Name :  "COM6"
+17:36:55.105 (0x32ec) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:36:55.126 (0x32ec) [debug] qml: [trace]activetrue
+17:36:56.961 (0x32ec) [debug] false
+17:36:56.962 (0x32ec) [debug]  openPort is working 
+17:36:56.963 (0x32ec) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:36:58.310 (0x32ec) [info ] cols: 2
+17:36:58.313 (0x32ec) [info ] cols: 3
+17:36:58.518 (0x32ec) [info ] cols: 4
+17:36:58.700 (0x32ec) [info ] cols: 5
+17:36:58.875 (0x32ec) [info ] cols: 6
+17:36:59.038 (0x32ec) [info ] cols: 7
+17:36:59.271 (0x32ec) [info ] cols: 8
+17:36:59.396 (0x32ec) [info ] cols: 9
+17:36:59.509 (0x32ec) [info ] cols: 10
+17:36:59.622 (0x32ec) [info ] cols: 11
+17:36:59.713 (0x32ec) [info ] cols: 12
+17:36:59.815 (0x32ec) [info ] cols: 13
+17:36:59.950 (0x32ec) [info ] cols: 14
+17:37:00.040 (0x32ec) [info ] cols: 15
+17:37:00.140 (0x32ec) [info ] cols: 16
+17:37:00.289 (0x32ec) [info ] cols: 17
+17:37:00.422 (0x32ec) [info ] cols: 18
+17:37:00.544 (0x32ec) [info ] cols: 19
+17:37:00.679 (0x32ec) [info ] cols: 20
+17:37:00.775 (0x32ec) [info ] cols: 21
+17:37:00.891 (0x32ec) [info ] cols: 22
+17:37:01.029 (0x32ec) [info ] cols: 23
+17:37:01.098 (0x32ec) [info ] cols: 24
+17:37:01.168 (0x32ec) [info ] cols: 25
+17:37:01.242 (0x32ec) [info ] cols: 26
+17:37:01.318 (0x32ec) [info ] cols: 27
+17:37:01.414 (0x32ec) [info ] cols: 28
+17:37:01.480 (0x32ec) [info ] cols: 29
+17:37:01.548 (0x32ec) [info ] cols: 30
+17:37:01.618 (0x32ec) [info ] cols: 31
+17:37:01.692 (0x32ec) [info ] cols: 32
+17:37:01.785 (0x32ec) [info ] cols: 33
+17:37:01.853 (0x32ec) [info ] cols: 34
+17:37:01.923 (0x32ec) [info ] cols: 35
+17:37:01.997 (0x32ec) [info ] cols: 36
+17:37:02.089 (0x32ec) [info ] cols: 37
+17:37:02.162 (0x32ec) [info ] cols: 38
+17:37:02.239 (0x32ec) [info ] cols: 39
+17:37:02.329 (0x32ec) [info ] cols: 40
+17:37:02.394 (0x32ec) [info ] cols: 41
+17:37:02.458 (0x32ec) [info ] cols: 42
+17:37:02.524 (0x32ec) [info ] cols: 43
+17:37:02.614 (0x32ec) [info ] cols: 44
+17:37:02.670 (0x32ec) [info ] cols: 45
+17:37:02.729 (0x32ec) [info ] cols: 46
+17:37:02.779 (0x32ec) [info ] cols: 47
+17:37:02.835 (0x32ec) [info ] cols: 48
+17:37:02.900 (0x32ec) [info ] cols: 49
+17:37:02.948 (0x32ec) [info ] cols: 50
+17:37:02.997 (0x32ec) [info ] cols: 51
+17:37:03.046 (0x32ec) [info ] cols: 52
+17:37:03.097 (0x32ec) [info ] cols: 53
+17:37:03.163 (0x32ec) [info ] cols: 54
+17:37:03.218 (0x32ec) [info ] cols: 55
+17:37:03.271 (0x32ec) [info ] cols: 56
+17:37:03.329 (0x32ec) [info ] cols: 57
+17:37:03.380 (0x32ec) [info ] cols: 58
+17:37:03.444 (0x32ec) [info ] cols: 59
+17:37:03.516 (0x32ec) [info ] cols: 60
+17:37:03.587 (0x32ec) [info ] cols: 61
+17:37:03.661 (0x32ec) [info ] cols: 62
+17:37:03.743 (0x32ec) [info ] cols: 63
+17:37:03.820 (0x32ec) [info ] cols: 64
+17:37:03.898 (0x32ec) [info ] cols: 65
+17:37:03.979 (0x32ec) [info ] cols: 66
+17:37:04.069 (0x32ec) [info ] cols: 67
+17:37:04.146 (0x32ec) [info ] cols: 68
+17:37:04.226 (0x32ec) [info ] cols: 69
+17:37:04.345 (0x32ec) [info ] cols: 70
+17:37:04.532 (0x32ec) [info ] cols: 71
+17:37:04.719 (0x32ec) [info ] cols: 72
+17:37:04.974 (0x32ec) [info ] cols: 73
+17:37:05.690 (0x32ec) [debug] true
+17:37:05.691 (0x32ec) [debug]  openPort is working 
+17:37:05.692 (0x32ec) [debug] qml: get result:false
+17:37:06.325 (0x32ec) [trace] qml:
+17:37:06.380 (0x32ec) [info ] ----- msAppExit: 14077405.612900, 00:23:27.12670405
+17:37:06.380 (0x32ec) [info ] app running: 13106.322300, 00:00:01.12106
+17:37:06.381 (0x32ec) [info ] app return: 0
+17:37:06.381 (0x32ec) [info ] ----- App exit ------
+17:37:30.672 (0x07d8) [info ]
+17:37:30.673 (0x07d8) [info ] ----- App init ------
+17:37:30.674 (0x07d8) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:37:30.674 (0x07d8) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:37:30.674 (0x07d8) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:37:30.675 (0x07d8) [info ] Check chinese support: 012汉字abc
+17:37:30.675 (0x07d8) [info ] ----- msAppInit: 14101697.486200, 00:23:29.12692697
+17:37:30.676 (0x07d8) [info ] [trace] --- FuncEntry
+17:37:30.676 (0x07d8) [info ] [trace]012汉字abc 
+17:37:30.677 (0x07d8) [info ] qInfo
+17:37:30.677 (0x07d8) [info ] qDebug
+17:37:30.677 (0x07d8) [info ] qWanging
+17:37:30.678 (0x07d8) [info ] QCritical
+17:37:30.678 (0x07d8) [info ] call getMs() 1000 times, 0.040600 ms
+17:37:30.694 (0x07d8) [info ] 1-1
+17:37:30.694 (0x07d8) [info ] 1-2
+17:37:30.695 (0x07d8) [info ] 2-1,汉字
+17:37:30.695 (0x07d8) [info ] 2-2,汉字
+17:37:30.696 (0x07d8) [info ] 1
+17:37:30.696 (0x07d8) [info ] 12345678901234
+17:37:30.696 (0x07d8) [info ] 12345679020032.0000000000000000
+17:37:30.697 (0x07d8) [info ] 12345678901234567168.00000000000000000000000000000000
+17:37:30.702 (0x07d8) [debug] SlBase::add( 3 + 4 ) = 7
+17:37:30.702 (0x07d8) [debug] SlBase::getTime() = 2023-04-23 17:37:30.702
+17:37:30.703 (0x07d8) [info ] [trace] --- FuncExit, 27.224 ms
+17:37:31.899 (0x07d8) [warn ] Both point size and pixel size set. Using pixel size.
+17:37:32.346 (0x07d8) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:37:32.464 (0x07d8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:37:32.465 (0x07d8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:37:32.723 (0x07d8) [debug] Name :  "COM5"
+17:37:32.725 (0x07d8) [debug] Name :  "COM11"
+17:37:32.726 (0x07d8) [debug] Name :  "COM4"
+17:37:32.726 (0x07d8) [debug] Name :  "COM1"
+17:37:32.727 (0x07d8) [debug] Name :  "COM2"
+17:37:32.728 (0x07d8) [debug] Name :  "COM3"
+17:37:32.728 (0x07d8) [debug] Name :  "COM6"
+17:37:32.785 (0x07d8) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:37:32.810 (0x07d8) [debug] qml: [trace]activetrue
+17:37:34.906 (0x07d8) [debug] false
+17:37:34.906 (0x07d8) [debug]  openPort is working 
+17:37:34.908 (0x07d8) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:37:35.928 (0x07d8) [info ] cols: 2
+17:37:35.930 (0x07d8) [info ] cols: 3
+17:37:36.144 (0x07d8) [info ] cols: 4
+17:37:36.289 (0x07d8) [info ] cols: 5
+17:37:36.488 (0x07d8) [info ] cols: 6
+17:37:36.772 (0x07d8) [info ] cols: 7
+17:37:36.987 (0x07d8) [info ] cols: 8
+17:37:37.489 (0x07d8) [info ] cols: 9
+17:37:37.817 (0x07d8) [info ] cols: 10
+17:37:38.505 (0x07d8) [info ] cols: 11
+17:37:39.712 (0x07d8) [info ] cols: 12
+17:37:42.788 (0x07d8) [info ] cols: 13
+17:37:45.212 (0x07d8) [info ] cols: 14
+17:37:45.977 (0x07d8) [info ] cols: 15
+17:37:47.341 (0x07d8) [info ] cols: 16
+17:37:48.210 (0x07d8) [info ] cols: 17
+17:37:49.560 (0x07d8) [info ] cols: 18
+17:37:51.689 (0x07d8) [debug] true
+17:37:51.690 (0x07d8) [debug]  openPort is working 
+17:37:51.691 (0x07d8) [debug] qml: get result:false
+17:37:52.114 (0x07d8) [trace] qml:
+17:37:52.151 (0x07d8) [info ] ----- msAppExit: 14123177.187600, 00:23:31.12712177
+17:37:52.151 (0x07d8) [info ] app running: 21479.701400, 00:00:02.19479
+17:37:52.152 (0x07d8) [info ] app return: 0
+17:37:52.152 (0x07d8) [info ] ----- App exit ------
+17:39:28.929 (0x5ab8) [info ]
+17:39:28.931 (0x5ab8) [info ] ----- App init ------
+17:39:28.931 (0x5ab8) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:39:28.932 (0x5ab8) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:39:28.932 (0x5ab8) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:39:28.932 (0x5ab8) [info ] Check chinese support: 012汉字abc
+17:39:28.933 (0x5ab8) [info ] ----- msAppInit: 14219954.985100, 00:23:41.12798954
+17:39:28.933 (0x5ab8) [info ] [trace] --- FuncEntry
+17:39:28.934 (0x5ab8) [info ] [trace]012汉字abc 
+17:39:28.934 (0x5ab8) [info ] qInfo
+17:39:28.935 (0x5ab8) [info ] qDebug
+17:39:28.935 (0x5ab8) [info ] qWanging
+17:39:28.936 (0x5ab8) [info ] QCritical
+17:39:28.936 (0x5ab8) [info ] call getMs() 1000 times, 0.042300 ms
+17:39:28.954 (0x5ab8) [info ] 1-1
+17:39:28.955 (0x5ab8) [info ] 1-2
+17:39:28.955 (0x5ab8) [info ] 2-1,汉字
+17:39:28.956 (0x5ab8) [info ] 2-2,汉字
+17:39:28.956 (0x5ab8) [info ] 1
+17:39:28.957 (0x5ab8) [info ] 12345678901234
+17:39:28.957 (0x5ab8) [info ] 12345679020032.0000000000000000
+17:39:28.958 (0x5ab8) [info ] 12345678901234567168.00000000000000000000000000000000
+17:39:28.963 (0x5ab8) [debug] SlBase::add( 3 + 4 ) = 7
+17:39:28.964 (0x5ab8) [debug] SlBase::getTime() = 2023-04-23 17:39:28.964
+17:39:28.964 (0x5ab8) [info ] [trace] --- FuncExit, 31.309 ms
+17:39:30.105 (0x5ab8) [warn ] Both point size and pixel size set. Using pixel size.
+17:39:30.463 (0x5ab8) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:39:30.573 (0x5ab8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:39:30.573 (0x5ab8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:39:30.804 (0x5ab8) [debug] Name :  "COM5"
+17:39:30.807 (0x5ab8) [debug] Name :  "COM11"
+17:39:30.808 (0x5ab8) [debug] Name :  "COM4"
+17:39:30.809 (0x5ab8) [debug] Name :  "COM1"
+17:39:30.809 (0x5ab8) [debug] Name :  "COM2"
+17:39:30.810 (0x5ab8) [debug] Name :  "COM3"
+17:39:30.810 (0x5ab8) [debug] Name :  "COM6"
+17:39:30.857 (0x5ab8) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:39:30.882 (0x5ab8) [debug] qml: [trace]activetrue
+17:39:32.561 (0x5ab8) [debug] false
+17:39:32.562 (0x5ab8) [debug]  openPort is working 
+17:39:32.563 (0x5ab8) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:39:33.504 (0x5ab8) [info ] cols: 2
+17:39:33.506 (0x5ab8) [info ] cols: 3
+17:39:33.670 (0x5ab8) [info ] cols: 4
+17:39:33.913 (0x5ab8) [info ] cols: 5
+17:39:34.114 (0x5ab8) [info ] cols: 6
+17:39:34.273 (0x5ab8) [info ] cols: 7
+17:39:34.472 (0x5ab8) [info ] cols: 8
+17:39:34.648 (0x5ab8) [info ] cols: 9
+17:39:34.760 (0x5ab8) [info ] cols: 10
+17:39:34.905 (0x5ab8) [info ] cols: 11
+17:39:35.060 (0x5ab8) [info ] cols: 12
+17:39:35.302 (0x5ab8) [info ] cols: 13
+17:39:35.448 (0x5ab8) [info ] cols: 14
+17:39:35.604 (0x5ab8) [info ] cols: 15
+17:39:35.743 (0x5ab8) [info ] cols: 16
+17:39:35.864 (0x5ab8) [info ] cols: 17
+17:39:35.969 (0x5ab8) [info ] cols: 18
+17:39:36.083 (0x5ab8) [info ] cols: 19
+17:39:36.184 (0x5ab8) [info ] cols: 20
+17:39:36.293 (0x5ab8) [info ] cols: 21
+17:39:36.416 (0x5ab8) [info ] cols: 22
+17:39:36.516 (0x5ab8) [info ] cols: 23
+17:39:36.648 (0x5ab8) [info ] cols: 24
+17:39:36.763 (0x5ab8) [info ] cols: 25
+17:39:36.878 (0x5ab8) [info ] cols: 26
+17:39:37.010 (0x5ab8) [info ] cols: 27
+17:39:37.073 (0x5ab8) [info ] cols: 28
+17:39:37.152 (0x5ab8) [info ] cols: 29
+17:39:37.235 (0x5ab8) [info ] cols: 30
+17:39:37.309 (0x5ab8) [info ] cols: 31
+17:39:37.368 (0x5ab8) [info ] cols: 32
+17:39:37.430 (0x5ab8) [info ] cols: 33
+17:39:37.506 (0x5ab8) [info ] cols: 34
+17:39:37.612 (0x5ab8) [info ] cols: 35
+17:39:37.728 (0x5ab8) [info ] cols: 36
+17:39:37.855 (0x5ab8) [info ] cols: 37
+17:39:37.998 (0x5ab8) [info ] cols: 38
+17:39:38.167 (0x5ab8) [info ] cols: 39
+17:39:38.382 (0x5ab8) [info ] cols: 40
+17:39:38.430 (0x5ab8) [debug] true
+17:39:38.431 (0x5ab8) [debug]  openPort is working 
+17:39:38.432 (0x5ab8) [debug] qml: get result:false
+17:39:39.114 (0x5ab8) [trace] qml:
+17:39:39.910 (0x5ab8) [info ] ----- msAppExit: 14230935.801800, 00:23:42.12808935
+17:39:39.910 (0x5ab8) [info ] app running: 10980.816700, 00:00:01.9980
+17:39:39.911 (0x5ab8) [info ] app return: 0
+17:39:39.911 (0x5ab8) [info ] ----- App exit ------
