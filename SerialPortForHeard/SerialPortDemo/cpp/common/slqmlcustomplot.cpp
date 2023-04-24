@@ -231,24 +231,6 @@ void CustomColorMap::updatePlot()
         keySize += (newCols / 10) + 1;
         mapData->setKeySize( keySize + 1 );
 
-        //{
-        //    //QVector<double> positions;
-        //    //int skip = qMax( 1, newCols / 20 );
-        //    //for ( int i = 0; i < newCols; i += skip )
-        //    //{
-        //    //    //positions.append( i + 0.5 );
-        //    //    distance.append(QString::number(i));
-        //    //}
-
-        //    distance.append(QString::number(m_px));
-        //    QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
-        //    xTicker->setTicks(labelPositions(distance, 0.5), distance);
-        //    xTicker->setSubTickCount(1);
-        //    /*xTicker->setTicks( positions, labels );
-        //    xTicker->setSubTickCount( 1 );*/
-        //    plot->xAxis->setTicker( xTicker );
-        //}
-
         // refill
         for ( int i = 0; i < newCols; i++ )
         {
@@ -256,8 +238,6 @@ void CustomColorMap::updatePlot()
             {
                 mapData->setCell( i, j, data[j][i] );
             }
-            m_px++;
-            distance.append(QString::number(m_px));
         }
         currCols = newCols;
     }
@@ -271,14 +251,27 @@ void CustomColorMap::updatePlot()
                 mapData->setCell(currCols, j, data[j][currCols]);
             }
             currCols++;
-            m_px++;
-            distance.append(QString::number(m_px));
-
         }
 
     }
 
-    updateXAxisSpacing();
+    {
+        QVector<QString> label;
+        QVector<double> positions;
+        int skip = qMax( 1, newCols / 20 );
+        for ( int i = 0; i < newCols; i += skip )
+        {
+            positions.append( i + 0.5 );
+            label.append(QString::number(i));
+        }
+
+        QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
+        xTicker->setTicks( positions, label );
+        xTicker->setSubTickCount( 1 );
+        plot->xAxis->setTicker( xTicker );
+    }
+
+   // updateXAxisSpacing();
     
     mapData->setKeyRange(QCPRange(0.5, 0.5 + keySize));
     plot->xAxis->setRange(0, newCols - 1);
