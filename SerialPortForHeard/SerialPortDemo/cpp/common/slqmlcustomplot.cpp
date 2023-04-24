@@ -255,6 +255,7 @@ void CustomColorMap::updatePlot()
 
     }
 
+    //x轴标签更新
     {
         QVector<QString> label;
         QVector<double> positions;
@@ -334,13 +335,35 @@ void CustomColorMap::onWidgetMouseWheel(QWheelEvent* event)
     }
     newVisibleLabels = qBound(1, newVisibleLabels, distance.size());
 
-    if (newVisibleLabels != m_visibleLabels)
+
+    //x轴标签更新
     {
-        m_visibleLabels = newVisibleLabels;
-        plot->xAxis->range();
-        updateXAxisSpacing();
+        SINGAL_SCAN_LINE& scanLine = m_repeateScanLines[m_currScanLine];
+        QVector<SINGAL_CHANEL_DATA>& data = scanLine.tenChanelData;
+        int newCols = data[0].size();
+        QVector<QString> label;
+        QVector<double> positions;
+        int skip = qMax( 1, newCols / newVisibleLabels );
+        for ( int i = 0; i < newCols; i += skip )
+        {
+            positions.append( i + 0.5 );
+            label.append(QString::number(i));
+        }
+
+        QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
+        xTicker->setTicks( positions, label );
+        xTicker->setSubTickCount( 1 );
+        plot->xAxis->setTicker( xTicker );
         plot->replot();
     }
+
+//    if (newVisibleLabels != m_visibleLabels)
+//    {
+//        m_visibleLabels = newVisibleLabels;r
+//        plot->xAxis->range();
+//        updateXAxisSpacing();
+//        plot->replot();
+//    }
 }
 
 

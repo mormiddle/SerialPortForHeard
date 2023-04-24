@@ -108,7 +108,7 @@ void MySerialPort::readData_slot()
                 }
                 for (int i = 0; i < m_chanelPerScanLine; i++)
                 {
-                    int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
+                    int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
 
                     firstScanData[i].push_back(value);
                 }
@@ -122,7 +122,7 @@ void MySerialPort::readData_slot()
 
             for (int i = 0; i < m_chanelPerScanLine; i++)
             {
-                int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
+                int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
 
                 signalScanTenChanelData[i].push_back(value);
             }
