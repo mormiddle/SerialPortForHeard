@@ -776,3 +776,134 @@
 14:43:59.962 (0x07e4) [info ] app running: 16100.321600, 00:00:01.15100
 14:43:59.962 (0x07e4) [info ] app return: 0
 14:43:59.963 (0x07e4) [info ] ----- App exit ------
+15:40:29.297 (0x67c4) [info ]
+15:40:29.299 (0x67c4) [info ] ----- App init ------
+15:40:29.299 (0x67c4) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+15:40:29.299 (0x67c4) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+15:40:29.300 (0x67c4) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+15:40:29.300 (0x67c4) [info ] Check chinese support: 012汉字abc
+15:40:29.300 (0x67c4) [info ] ----- msAppInit: 266285835.321900, 07:23:40.239665835
+15:40:29.301 (0x67c4) [info ] [trace] --- FuncEntry
+15:40:29.301 (0x67c4) [info ] [trace]012汉字abc 
+15:40:29.301 (0x67c4) [info ] qInfo
+15:40:29.302 (0x67c4) [info ] qDebug
+15:40:29.302 (0x67c4) [info ] qWanging
+15:40:29.302 (0x67c4) [info ] QCritical
+15:40:29.302 (0x67c4) [info ] call getMs() 1000 times, 0.029400 ms
+15:40:29.307 (0x67c4) [info ] 1-1
+15:40:29.307 (0x67c4) [info ] 1-2
+15:40:29.308 (0x67c4) [info ] 2-1,汉字
+15:40:29.308 (0x67c4) [info ] 2-2,汉字
+15:40:29.308 (0x67c4) [info ] 1
+15:40:29.309 (0x67c4) [info ] 12345678901234
+15:40:29.309 (0x67c4) [info ] 12345679020032.0000000000000000
+15:40:29.309 (0x67c4) [info ] 12345678901234567168.00000000000000000000000000000000
+15:40:29.313 (0x67c4) [debug] SlBase::add( 3 + 4 ) = 7
+15:40:29.313 (0x67c4) [debug] SlBase::getTime() = 2023-04-26 15:40:29.313
+15:40:29.314 (0x67c4) [info ] [trace] --- FuncExit, 12.7184 ms
+15:40:30.978 (0x67c4) [warn ] Both point size and pixel size set. Using pixel size.
+15:40:31.351 (0x67c4) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+15:40:31.445 (0x67c4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+15:40:31.445 (0x67c4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+15:40:31.530 (0x67c4) [debug] Name :  "COM5"
+15:40:31.531 (0x67c4) [debug] Name :  "COM11"
+15:40:31.531 (0x67c4) [debug] Name :  "COM4"
+15:40:31.531 (0x67c4) [debug] Name :  "COM1"
+15:40:31.532 (0x67c4) [debug] Name :  "COM2"
+15:40:31.532 (0x67c4) [debug] Name :  "COM3"
+15:40:31.532 (0x67c4) [debug] Name :  "COM6"
+15:40:31.567 (0x67c4) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+15:40:31.586 (0x67c4) [debug] qml: [trace]activetrue
+15:40:34.776 (0x67c4) [debug] false
+15:40:34.776 (0x67c4) [debug]  openPort is working 
+15:40:34.778 (0x67c4) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+15:40:36.806 (0x67c4) [info ] cols: 2
+15:40:36.808 (0x67c4) [info ] cols: 3
+15:40:36.928 (0x67c4) [info ] cols: 4
+15:40:37.032 (0x67c4) [info ] cols: 5
+15:40:37.123 (0x67c4) [info ] cols: 6
+15:40:37.170 (0x67c4) [info ] cols: 7
+15:40:37.226 (0x67c4) [info ] cols: 8
+15:40:37.283 (0x67c4) [info ] cols: 9
+15:40:37.349 (0x67c4) [info ] cols: 10
+15:40:37.404 (0x67c4) [info ] cols: 11
+15:40:37.456 (0x67c4) [info ] cols: 12
+15:40:37.510 (0x67c4) [info ] cols: 13
+15:40:37.565 (0x67c4) [info ] cols: 14
+15:40:37.614 (0x67c4) [info ] cols: 15
+15:40:37.662 (0x67c4) [info ] cols: 16
+15:40:37.711 (0x67c4) [info ] cols: 17
+15:40:37.761 (0x67c4) [info ] cols: 18
+15:40:37.812 (0x67c4) [info ] cols: 19
+15:40:37.870 (0x67c4) [info ] cols: 20
+15:40:37.923 (0x67c4) [info ] cols: 21
+15:40:37.980 (0x67c4) [info ] cols: 22
+15:40:38.038 (0x67c4) [info ] cols: 23
+15:40:38.097 (0x67c4) [info ] cols: 24
+15:40:38.132 (0x67c4) [info ] cols: 25
+15:40:38.184 (0x67c4) [info ] cols: 26
+15:40:38.237 (0x67c4) [info ] cols: 27
+15:40:38.298 (0x67c4) [info ] cols: 28
+15:40:38.333 (0x67c4) [info ] cols: 29
+15:40:38.376 (0x67c4) [info ] cols: 30
+15:40:38.421 (0x67c4) [info ] cols: 31
+15:40:38.466 (0x67c4) [info ] cols: 32
+15:40:38.511 (0x67c4) [info ] cols: 33
+15:40:38.557 (0x67c4) [info ] cols: 34
+15:40:38.608 (0x67c4) [info ] cols: 35
+15:40:38.662 (0x67c4) [info ] cols: 36
+15:40:38.719 (0x67c4) [info ] cols: 37
+15:40:38.776 (0x67c4) [info ] cols: 38
+15:40:38.818 (0x67c4) [info ] cols: 39
+15:40:38.861 (0x67c4) [info ] cols: 40
+15:40:38.903 (0x67c4) [info ] cols: 41
+15:40:38.949 (0x67c4) [info ] cols: 42
+15:40:38.999 (0x67c4) [info ] cols: 43
+15:40:39.047 (0x67c4) [info ] cols: 44
+15:40:39.097 (0x67c4) [info ] cols: 45
+15:40:39.147 (0x67c4) [info ] cols: 46
+15:40:39.237 (0x67c4) [info ] cols: 47
+15:40:39.351 (0x67c4) [info ] cols: 48
+15:40:39.449 (0x67c4) [info ] cols: 49
+15:40:39.496 (0x67c4) [info ] cols: 50
+15:40:39.570 (0x67c4) [info ] cols: 51
+15:40:39.661 (0x67c4) [info ] cols: 52
+15:40:39.710 (0x67c4) [info ] cols: 53
+15:40:39.748 (0x67c4) [info ] cols: 54
+15:40:39.784 (0x67c4) [info ] cols: 55
+15:40:39.822 (0x67c4) [info ] cols: 56
+15:40:39.859 (0x67c4) [info ] cols: 57
+15:40:39.897 (0x67c4) [info ] cols: 58
+15:40:39.946 (0x67c4) [info ] cols: 59
+15:40:39.995 (0x67c4) [info ] cols: 60
+15:40:40.046 (0x67c4) [info ] cols: 61
+15:40:40.096 (0x67c4) [info ] cols: 62
+15:40:40.146 (0x67c4) [info ] cols: 63
+15:40:40.195 (0x67c4) [info ] cols: 64
+15:40:40.258 (0x67c4) [info ] cols: 65
+15:40:40.324 (0x67c4) [info ] cols: 66
+15:40:40.371 (0x67c4) [info ] cols: 67
+15:40:40.415 (0x67c4) [info ] cols: 68
+15:40:40.461 (0x67c4) [info ] cols: 69
+15:40:40.506 (0x67c4) [info ] cols: 70
+15:40:40.553 (0x67c4) [info ] cols: 71
+15:40:40.596 (0x67c4) [info ] cols: 72
+15:40:40.645 (0x67c4) [info ] cols: 73
+15:40:40.696 (0x67c4) [info ] cols: 74
+15:40:40.751 (0x67c4) [info ] cols: 75
+15:40:40.797 (0x67c4) [info ] cols: 76
+15:40:40.847 (0x67c4) [info ] cols: 77
+15:40:40.898 (0x67c4) [info ] cols: 78
+15:40:40.932 (0x67c4) [info ] cols: 79
+15:40:40.978 (0x67c4) [info ] cols: 80
+15:40:41.023 (0x67c4) [info ] cols: 81
+15:40:41.073 (0x67c4) [info ] cols: 82
+15:40:41.123 (0x67c4) [info ] cols: 83
+15:40:41.127 (0x67c4) [debug] true
+15:40:41.128 (0x67c4) [debug]  openPort is working 
+15:40:41.129 (0x67c4) [debug] qml: get result:false
+15:40:41.675 (0x67c4) [trace] qml:
+15:40:41.705 (0x67c4) [info ] ----- msAppExit: 266298243.710500, 07:23:41.239677243
+15:40:41.706 (0x67c4) [info ] app running: 12408.388600, 00:00:01.11408
+15:40:41.706 (0x67c4) [info ] app return: 0
+15:40:41.706 (0x67c4) [info ] ----- App exit ------

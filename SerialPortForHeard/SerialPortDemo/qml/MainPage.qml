@@ -123,11 +123,6 @@ Page{
             id: bottom_main
             anchors.fill: parent
         }
-
-
     }
-
-
-
 
 }

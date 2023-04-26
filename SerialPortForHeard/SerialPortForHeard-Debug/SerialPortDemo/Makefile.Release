@@ -335,7 +335,6 @@ release\qrc_js.cpp: ..\..\SerialPortDemo\qrc\js.qrc \
 release\qrc_qml.cpp: ..\..\SerialPortDemo\qrc\qml.qrc \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\rcc.exe \
 		..\..\SerialPortDemo\qml\BottomMain.qml \
-		..\..\SerialPortDemo\qml\ColorMap.qml \
 		..\..\SerialPortDemo\qml\MainPage.qml \
 		..\..\SerialPortDemo\qml\RightMain.qml \
 		..\..\SerialPortDemo\qml\LeftMain.qml \
