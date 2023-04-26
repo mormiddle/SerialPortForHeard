@@ -4,7 +4,5 @@ import CustomPlot 1.0
 
 Item {
 
-
-
-
+    //删除之后有影响
 }

@@ -1,0 +1,42 @@
+10:00:43.965 (0x05f0) [info ]
+10:00:43.966 (0x05f0) [info ] ----- App init ------
+10:00:43.966 (0x05f0) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+10:00:43.966 (0x05f0) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+10:00:43.967 (0x05f0) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+10:00:43.967 (0x05f0) [info ] Check chinese support: 012汉字abc
+10:00:43.967 (0x05f0) [info ] ----- msAppInit: 159500472.703300, 04:25:45.143555472
+10:00:43.968 (0x05f0) [info ] [trace] --- FuncEntry
+10:00:43.968 (0x05f0) [info ] [trace]012汉字abc 
+10:00:43.968 (0x05f0) [info ] qInfo
+10:00:43.969 (0x05f0) [info ] qDebug
+10:00:43.969 (0x05f0) [info ] qWanging
+10:00:43.969 (0x05f0) [info ] QCritical
+10:00:43.969 (0x05f0) [info ] call getMs() 1000 times, 0.028700 ms
+10:00:43.974 (0x05f0) [info ] 1-1
+10:00:43.974 (0x05f0) [info ] 1-2
+10:00:43.974 (0x05f0) [info ] 2-1,汉字
+10:00:43.975 (0x05f0) [info ] 2-2,汉字
+10:00:43.975 (0x05f0) [info ] 1
+10:00:43.975 (0x05f0) [info ] 12345678901234
+10:00:43.975 (0x05f0) [info ] 12345679020032.0000000000000000
+10:00:43.976 (0x05f0) [info ] 12345678901234567168.00000000000000000000000000000000
+10:00:43.979 (0x05f0) [debug] SlBase::add( 3 + 4 ) = 7
+10:00:43.979 (0x05f0) [debug] SlBase::getTime() = 2023-04-25 10:00:43.979
+10:00:43.980 (0x05f0) [info ] [trace] --- FuncExit, 11.9723 ms
+10:00:44.703 (0x05f0) [warn ] Both point size and pixel size set. Using pixel size.
+10:00:45.045 (0x05f0) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+10:00:45.192 (0x05f0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+10:00:45.193 (0x05f0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+10:00:45.361 (0x05f0) [debug] Name :  "COM5"
+10:00:45.365 (0x05f0) [debug] Name :  "COM4"
+10:00:45.367 (0x05f0) [debug] Name :  "COM1"
+10:00:45.367 (0x05f0) [debug] Name :  "COM2"
+10:00:45.367 (0x05f0) [debug] Name :  "COM3"
+10:00:45.368 (0x05f0) [debug] Name :  "COM6"
+10:00:45.418 (0x05f0) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+10:00:45.455 (0x05f0) [debug] qml: [trace]activetrue
+10:01:02.018 (0x05f0) [trace] qml:
+10:01:02.492 (0x05f0) [info ] ----- msAppExit: 159518999.419000, 04:25:47.143571999
+10:01:02.492 (0x05f0) [info ] app running: 18526.715700, 00:00:01.17526
+10:01:02.492 (0x05f0) [info ] app return: 0
+10:01:02.493 (0x05f0) [info ] ----- App exit ------

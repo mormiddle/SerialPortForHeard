@@ -152,9 +152,6 @@ void MySerialPort::readData_slot()
     }
     start = 0;
 
-    //测试数据传输，将其显示出来
-    //showData(checkedData);
-
 
 }
 
@@ -186,20 +183,6 @@ quint8 MySerialPort::CRC8(QByteArray buffer, int start, int length)
        }
        return crc;
 }
-
-//void MySerialPort::showData(QVector<QVector<double>>& checkedData)
-//{
-//    //默认为HEX
-//    QString str;
-//    for (const auto& vec : checkedData) { // 遍历每个 vector
-//        for (const auto& val : vec) { // 遍历 vector 中的每个元素
-//            str += QString::number(val) + " ";
-//        }
-//        str += "\n"; // 每个 vector 后添加换行符
-//    }
-
-//    emit displayRecDataSignal( str );
-//}
 
 int MySerialPort::toIntData(quint8 lowByte, quint8 highByte)
 {

@@ -48,7 +48,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     cpp/common/AppInfo.h \
-    cpp/common/EnumParameter.h \
     cpp/common/Globals.h \
     cpp/common/MySerialport.h \
     cpp/common/SwitchPage.h \
