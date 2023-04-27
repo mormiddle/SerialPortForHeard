@@ -5,11 +5,13 @@ import QtQuick.Layouts 1.12
 Button{
     id: control;
     text: qsTr("Button")
-    font.pixelSize: 12
+    font.pixelSize: 20
 //    implicitWidth: 150
-//    implicitHeight: 30
+    implicitHeight: 50
     Layout.fillWidth: true
-    Layout.fillHeight: true
+    Layout.fillHeight: false
+    font.family: "Helvetica"
+    font.bold: true
 
 
     contentItem: Text {
