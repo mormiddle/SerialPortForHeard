@@ -213,7 +213,7 @@ void CustomColorMap::updatePlot()
     }
 
     // new cols append ?
-    SINGAL_SCAN_LINE& scanLine = m_repeateScanLines[m_currScanLine];
+    SINGAL_SCAN_LINE& scanLine = m_repeateScanLines[m_repeateScanLineNum];
     QVector<SINGAL_CHANEL_DATA>& data = scanLine.tenChanelData;
     int& currCols = scanLine.cols;
     int newCols = data[0].size();
@@ -338,7 +338,7 @@ void CustomColorMap::onWidgetMouseWheel(QWheelEvent* event)
 
     //x轴标签更新
     {
-        SINGAL_SCAN_LINE& scanLine = m_repeateScanLines[m_currScanLine];
+        SINGAL_SCAN_LINE& scanLine = m_repeateScanLines[m_repeateScanLineNum];
         QVector<SINGAL_CHANEL_DATA>& data = scanLine.tenChanelData;
         int newCols = data[0].size();
         QVector<QString> label;

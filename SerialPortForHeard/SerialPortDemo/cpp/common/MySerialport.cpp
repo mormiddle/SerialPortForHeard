@@ -7,7 +7,7 @@ int count = 0;
 MySerialPort::MySerialPort(QObject *parent) : QObject(parent)
 {
     myPort = new QSerialPort;
-    m_currScanLine = 0;
+    m_repeateScanLineNum = 0;
 
 }
 
@@ -79,6 +79,7 @@ void MySerialPort::readData_slot()
 
     buffer.append(buff);//缓存数据
 
+
     int count = buffer.count();
     int bytesIgnored = 0;
 
@@ -94,15 +95,15 @@ void MySerialPort::readData_slot()
             ++start;
             ++bytesIgnored;
             continue;
-        }
 
+        }
 
         //appen data
         {
             if( m_repeateScanLines.size() == 0)
             {
                 m_repeateScanLines = QVector<SINGAL_SCAN_LINE>(1);
-                QVector<SINGAL_CHANEL_DATA>& firstScanData = m_repeateScanLines[m_currScanLine].tenChanelData;
+                QVector<SINGAL_CHANEL_DATA>& firstScanData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
                 for (int i = 0; i < m_chanelPerScanLine; i++) {
                     firstScanData.push_back(SINGAL_CHANEL_DATA());
                 }
@@ -117,7 +118,7 @@ void MySerialPort::readData_slot()
             }
 
 
-            QVector<SINGAL_CHANEL_DATA>& signalScanTenChanelData = m_repeateScanLines[m_currScanLine].tenChanelData;
+            QVector<SINGAL_CHANEL_DATA>& signalScanTenChanelData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
             
 
             for (int i = 0; i < m_chanelPerScanLine; i++)

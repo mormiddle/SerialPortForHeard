@@ -13,5 +13,5 @@ typedef struct {
 } SINGAL_SCAN_LINE;
 
 extern  QVector<SINGAL_SCAN_LINE>		m_repeateScanLines;
-extern  int								m_currScanLine;
+extern  int								m_repeateScanLineNum;
 	

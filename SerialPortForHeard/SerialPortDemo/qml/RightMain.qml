@@ -8,10 +8,7 @@ Item {
     id: root
     anchors.fill: parent
 
-    property var choosedAisle: 0
     signal sendSettingInfoSignal(int state)
-    //signal clearSignal()
-    signal senChooseAisleSignal( var value)
 
     function setModel(s){
         myModel.append({s})

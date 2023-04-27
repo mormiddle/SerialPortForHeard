@@ -907,3 +907,466 @@
 15:40:41.706 (0x67c4) [info ] app running: 12408.388600, 00:00:01.11408
 15:40:41.706 (0x67c4) [info ] app return: 0
 15:40:41.706 (0x67c4) [info ] ----- App exit ------
+16:25:47.893 (0x4598) [info ]
+16:25:47.895 (0x4598) [info ] ----- App init ------
+16:25:47.895 (0x4598) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:25:47.895 (0x4598) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+16:25:47.896 (0x4598) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+16:25:47.896 (0x4598) [info ] Check chinese support: 012汉字abc
+16:25:47.896 (0x4598) [info ] ----- msAppInit: 269004431.101100, 07:28:12.242112431
+16:25:47.896 (0x4598) [info ] [trace] --- FuncEntry
+16:25:47.897 (0x4598) [info ] [trace]012汉字abc 
+16:25:47.897 (0x4598) [info ] qInfo
+16:25:47.897 (0x4598) [info ] qDebug
+16:25:47.898 (0x4598) [info ] qWanging
+16:25:47.898 (0x4598) [info ] QCritical
+16:25:47.898 (0x4598) [info ] call getMs() 1000 times, 0.029600 ms
+16:25:47.910 (0x4598) [info ] 1-1
+16:25:47.911 (0x4598) [info ] 1-2
+16:25:47.911 (0x4598) [info ] 2-1,汉字
+16:25:47.911 (0x4598) [info ] 2-2,汉字
+16:25:47.912 (0x4598) [info ] 1
+16:25:47.912 (0x4598) [info ] 12345678901234
+16:25:47.912 (0x4598) [info ] 12345679020032.0000000000000000
+16:25:47.912 (0x4598) [info ] 12345678901234567168.00000000000000000000000000000000
+16:25:47.916 (0x4598) [debug] SlBase::add( 3 + 4 ) = 7
+16:25:47.917 (0x4598) [debug] SlBase::getTime() = 2023-04-26 16:25:47.917
+16:25:47.917 (0x4598) [info ] [trace] --- FuncExit, 21.4086 ms
+16:25:48.658 (0x4598) [warn ] Both point size and pixel size set. Using pixel size.
+16:25:49.021 (0x4598) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:25:49.114 (0x4598) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:25:49.115 (0x4598) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:25:49.314 (0x4598) [debug] Name :  "COM5"
+16:25:49.314 (0x4598) [debug] Name :  "COM11"
+16:25:49.315 (0x4598) [debug] Name :  "COM4"
+16:25:49.315 (0x4598) [debug] Name :  "COM1"
+16:25:49.315 (0x4598) [debug] Name :  "COM2"
+16:25:49.316 (0x4598) [debug] Name :  "COM3"
+16:25:49.316 (0x4598) [debug] Name :  "COM6"
+16:25:49.363 (0x4598) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:25:49.393 (0x4598) [debug] qml: [trace]activetrue
+16:25:51.532 (0x4598) [debug] false
+16:25:51.532 (0x4598) [debug]  openPort is working 
+16:25:51.534 (0x4598) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+16:25:51.608 (0x4598) [info ] cols: 2
+16:25:51.610 (0x4598) [info ] cols: 3
+16:25:51.649 (0x4598) [info ] cols: 4
+16:25:51.688 (0x4598) [info ] cols: 5
+16:25:51.727 (0x4598) [info ] cols: 6
+16:25:51.766 (0x4598) [info ] cols: 7
+16:25:51.806 (0x4598) [info ] cols: 8
+16:25:51.849 (0x4598) [info ] cols: 9
+16:25:51.886 (0x4598) [info ] cols: 10
+16:25:51.927 (0x4598) [info ] cols: 11
+16:25:51.968 (0x4598) [info ] cols: 12
+16:25:52.009 (0x4598) [info ] cols: 13
+16:25:52.051 (0x4598) [info ] cols: 14
+16:25:52.100 (0x4598) [info ] cols: 15
+16:25:52.135 (0x4598) [info ] cols: 16
+16:25:52.178 (0x4598) [info ] cols: 17
+16:25:52.221 (0x4598) [info ] cols: 18
+16:25:52.265 (0x4598) [info ] cols: 19
+16:25:52.309 (0x4598) [info ] cols: 20
+16:25:52.354 (0x4598) [info ] cols: 21
+16:25:52.402 (0x4598) [info ] cols: 22
+16:25:52.452 (0x4598) [info ] cols: 23
+16:25:52.621 (0x4598) [info ] cols: 24
+16:25:52.666 (0x4598) [info ] cols: 25
+16:25:52.704 (0x4598) [info ] cols: 26
+16:25:52.741 (0x4598) [info ] cols: 27
+16:25:52.779 (0x4598) [info ] cols: 28
+16:25:52.817 (0x4598) [info ] cols: 29
+16:25:52.856 (0x4598) [info ] cols: 30
+16:25:52.908 (0x4598) [info ] cols: 31
+16:25:52.957 (0x4598) [info ] cols: 32
+16:25:52.984 (0x4598) [info ] cols: 33
+16:25:53.023 (0x4598) [info ] cols: 34
+16:25:53.062 (0x4598) [info ] cols: 35
+16:25:53.105 (0x4598) [info ] cols: 36
+16:25:53.154 (0x4598) [info ] cols: 37
+16:25:53.189 (0x4598) [info ] cols: 38
+16:25:53.229 (0x4598) [info ] cols: 39
+16:25:53.268 (0x4598) [info ] cols: 40
+16:25:53.308 (0x4598) [info ] cols: 41
+16:25:53.351 (0x4598) [info ] cols: 42
+16:25:53.404 (0x4598) [info ] cols: 43
+16:25:53.430 (0x4598) [info ] cols: 44
+16:25:53.466 (0x4598) [info ] cols: 45
+16:25:53.503 (0x4598) [info ] cols: 46
+16:25:53.552 (0x4598) [info ] cols: 47
+16:25:53.578 (0x4598) [info ] cols: 48
+16:25:53.631 (0x4598) [info ] cols: 49
+16:25:53.665 (0x4598) [info ] cols: 50
+16:25:53.704 (0x4598) [info ] cols: 51
+16:25:53.735 (0x4598) [info ] cols: 52
+16:25:53.770 (0x4598) [info ] cols: 53
+16:25:53.805 (0x4598) [info ] cols: 54
+16:25:53.861 (0x4598) [info ] cols: 55
+16:25:53.902 (0x4598) [info ] cols: 56
+16:25:53.923 (0x4598) [info ] cols: 57
+16:25:53.955 (0x4598) [info ] cols: 58
+16:25:53.986 (0x4598) [info ] cols: 59
+16:25:54.019 (0x4598) [info ] cols: 60
+16:25:54.053 (0x4598) [info ] cols: 61
+16:25:54.088 (0x4598) [info ] cols: 62
+16:25:54.139 (0x4598) [info ] cols: 63
+16:25:54.176 (0x4598) [info ] cols: 64
+16:25:54.213 (0x4598) [info ] cols: 65
+16:25:54.253 (0x4598) [info ] cols: 66
+16:25:54.289 (0x4598) [info ] cols: 67
+16:25:54.327 (0x4598) [info ] cols: 68
+16:25:54.374 (0x4598) [info ] cols: 69
+16:25:54.410 (0x4598) [info ] cols: 70
+16:25:54.451 (0x4598) [info ] cols: 71
+16:25:54.479 (0x4598) [info ] cols: 72
+16:25:54.515 (0x4598) [info ] cols: 73
+16:25:54.553 (0x4598) [info ] cols: 74
+16:25:54.586 (0x4598) [info ] cols: 75
+16:25:54.622 (0x4598) [info ] cols: 76
+16:25:54.732 (0x4598) [info ] cols: 77
+16:25:55.333 (0x4598) [info ] cols: 78
+16:25:55.459 (0x4598) [info ] cols: 79
+16:25:55.603 (0x4598) [info ] cols: 80
+16:25:55.688 (0x4598) [info ] cols: 81
+16:25:55.774 (0x4598) [info ] cols: 82
+16:25:55.885 (0x4598) [info ] cols: 83
+16:25:55.940 (0x4598) [info ] cols: 84
+16:25:55.987 (0x4598) [info ] cols: 85
+16:25:56.035 (0x4598) [info ] cols: 86
+16:25:56.084 (0x4598) [info ] cols: 87
+16:25:56.134 (0x4598) [info ] cols: 88
+16:25:56.184 (0x4598) [info ] cols: 89
+16:25:56.258 (0x4598) [info ] cols: 90
+16:25:56.303 (0x4598) [info ] cols: 91
+16:25:56.334 (0x4598) [info ] cols: 92
+16:25:56.373 (0x4598) [info ] cols: 93
+16:25:56.411 (0x4598) [info ] cols: 94
+16:25:56.455 (0x4598) [info ] cols: 95
+16:25:56.489 (0x4598) [info ] cols: 96
+16:25:56.528 (0x4598) [info ] cols: 97
+16:25:56.568 (0x4598) [info ] cols: 98
+16:25:56.615 (0x4598) [info ] cols: 99
+16:25:56.957 (0x4598) [info ] cols: 100
+16:25:57.015 (0x4598) [info ] cols: 101
+16:25:57.068 (0x4598) [info ] cols: 102
+16:25:57.122 (0x4598) [info ] cols: 103
+16:25:57.177 (0x4598) [info ] cols: 104
+16:25:57.232 (0x4598) [info ] cols: 105
+16:25:57.289 (0x4598) [info ] cols: 106
+16:25:57.350 (0x4598) [info ] cols: 107
+16:25:57.405 (0x4598) [info ] cols: 108
+16:25:57.520 (0x4598) [info ] cols: 109
+16:25:57.590 (0x4598) [info ] cols: 110
+16:25:57.661 (0x4598) [info ] cols: 111
+16:25:57.735 (0x4598) [info ] cols: 112
+16:25:57.811 (0x4598) [info ] cols: 113
+16:25:57.897 (0x4598) [info ] cols: 114
+16:25:57.954 (0x4598) [info ] cols: 115
+16:25:57.988 (0x4598) [info ] cols: 116
+16:25:58.033 (0x4598) [info ] cols: 117
+16:25:58.078 (0x4598) [info ] cols: 118
+16:25:58.124 (0x4598) [info ] cols: 119
+16:25:58.170 (0x4598) [info ] cols: 120
+16:25:58.216 (0x4598) [info ] cols: 121
+16:25:58.264 (0x4598) [info ] cols: 122
+16:25:58.311 (0x4598) [info ] cols: 123
+16:25:58.360 (0x4598) [info ] cols: 124
+16:25:58.409 (0x4598) [info ] cols: 125
+16:25:58.459 (0x4598) [info ] cols: 126
+16:25:58.509 (0x4598) [info ] cols: 127
+16:25:58.561 (0x4598) [info ] cols: 128
+16:25:58.613 (0x4598) [info ] cols: 129
+16:25:58.668 (0x4598) [info ] cols: 130
+16:25:59.149 (0x4598) [info ] cols: 131
+16:25:59.233 (0x4598) [info ] cols: 132
+16:25:59.358 (0x4598) [info ] cols: 133
+16:25:59.802 (0x4598) [info ] cols: 134
+16:25:59.899 (0x4598) [info ] cols: 135
+16:25:59.980 (0x4598) [info ] cols: 136
+16:26:00.095 (0x4598) [info ] cols: 137
+16:26:00.138 (0x4598) [info ] cols: 138
+16:26:00.179 (0x4598) [info ] cols: 139
+16:26:00.221 (0x4598) [info ] cols: 140
+16:26:00.263 (0x4598) [info ] cols: 141
+16:26:00.306 (0x4598) [info ] cols: 142
+16:26:00.353 (0x4598) [info ] cols: 143
+16:26:00.403 (0x4598) [info ] cols: 144
+16:26:00.472 (0x4598) [info ] cols: 145
+16:26:00.510 (0x4598) [info ] cols: 146
+16:26:00.550 (0x4598) [info ] cols: 147
+16:26:00.590 (0x4598) [info ] cols: 148
+16:26:00.629 (0x4598) [info ] cols: 149
+16:26:00.669 (0x4598) [info ] cols: 150
+16:26:00.712 (0x4598) [info ] cols: 151
+16:26:00.762 (0x4598) [info ] cols: 152
+16:26:00.814 (0x4598) [info ] cols: 153
+16:26:00.867 (0x4598) [info ] cols: 154
+16:26:00.920 (0x4598) [info ] cols: 155
+16:26:00.976 (0x4598) [info ] cols: 156
+16:26:01.025 (0x4598) [info ] cols: 157
+16:26:01.065 (0x4598) [info ] cols: 158
+16:26:01.107 (0x4598) [info ] cols: 159
+16:26:01.152 (0x4598) [info ] cols: 160
+16:26:01.190 (0x4598) [info ] cols: 161
+16:26:01.233 (0x4598) [info ] cols: 162
+16:26:01.288 (0x4598) [info ] cols: 163
+16:26:01.322 (0x4598) [info ] cols: 164
+16:26:01.356 (0x4598) [info ] cols: 165
+16:26:01.390 (0x4598) [info ] cols: 166
+16:26:01.425 (0x4598) [info ] cols: 167
+16:26:01.459 (0x4598) [info ] cols: 168
+16:26:01.501 (0x4598) [info ] cols: 169
+16:26:01.550 (0x4598) [info ] cols: 170
+16:26:01.581 (0x4598) [info ] cols: 171
+16:26:01.621 (0x4598) [info ] cols: 172
+16:26:01.660 (0x4598) [info ] cols: 173
+16:26:01.701 (0x4598) [info ] cols: 174
+16:26:01.752 (0x4598) [info ] cols: 175
+16:26:01.781 (0x4598) [info ] cols: 176
+16:26:01.822 (0x4598) [info ] cols: 177
+16:26:01.876 (0x4598) [info ] cols: 178
+16:26:01.912 (0x4598) [info ] cols: 179
+16:26:01.951 (0x4598) [info ] cols: 180
+16:26:01.977 (0x4598) [info ] cols: 181
+16:26:02.011 (0x4598) [info ] cols: 182
+16:26:02.051 (0x4598) [info ] cols: 183
+16:26:02.079 (0x4598) [info ] cols: 184
+16:26:02.113 (0x4598) [info ] cols: 185
+16:26:02.150 (0x4598) [info ] cols: 186
+16:26:02.201 (0x4598) [info ] cols: 187
+16:26:02.235 (0x4598) [info ] cols: 188
+16:26:02.277 (0x4598) [info ] cols: 189
+16:26:02.318 (0x4598) [info ] cols: 190
+16:26:02.360 (0x4598) [info ] cols: 191
+16:26:02.406 (0x4598) [info ] cols: 192
+16:26:02.452 (0x4598) [info ] cols: 193
+16:26:02.508 (0x4598) [info ] cols: 194
+16:26:02.553 (0x4598) [info ] cols: 195
+16:26:02.601 (0x4598) [info ] cols: 196
+16:26:02.652 (0x4598) [info ] cols: 197
+16:26:02.702 (0x4598) [info ] cols: 198
+16:26:02.752 (0x4598) [info ] cols: 199
+16:26:02.790 (0x4598) [info ] cols: 200
+16:26:02.840 (0x4598) [info ] cols: 201
+16:26:02.899 (0x4598) [info ] cols: 202
+16:26:02.950 (0x4598) [info ] cols: 203
+16:26:02.989 (0x4598) [info ] cols: 204
+16:26:03.033 (0x4598) [info ] cols: 205
+16:26:03.075 (0x4598) [info ] cols: 206
+16:26:03.119 (0x4598) [info ] cols: 207
+16:26:03.163 (0x4598) [info ] cols: 208
+16:26:03.207 (0x4598) [info ] cols: 209
+16:26:03.252 (0x4598) [info ] cols: 210
+16:26:03.302 (0x4598) [info ] cols: 211
+16:26:03.351 (0x4598) [info ] cols: 212
+16:26:03.391 (0x4598) [info ] cols: 213
+16:26:03.439 (0x4598) [info ] cols: 214
+16:26:03.488 (0x4598) [info ] cols: 215
+16:26:03.682 (0x4598) [info ] cols: 216
+16:26:03.755 (0x4598) [info ] cols: 217
+16:26:03.802 (0x4598) [info ] cols: 218
+16:26:03.834 (0x4598) [info ] cols: 219
+16:26:03.873 (0x4598) [info ] cols: 220
+16:26:03.914 (0x4598) [info ] cols: 221
+16:26:03.954 (0x4598) [info ] cols: 222
+16:26:04.007 (0x4598) [info ] cols: 223
+16:26:04.072 (0x4598) [info ] cols: 224
+16:26:04.122 (0x4598) [info ] cols: 225
+16:26:04.174 (0x4598) [info ] cols: 226
+16:26:04.227 (0x4598) [info ] cols: 227
+16:26:04.287 (0x4598) [info ] cols: 228
+16:26:04.358 (0x4598) [info ] cols: 229
+16:26:04.418 (0x4598) [info ] cols: 230
+16:26:04.481 (0x4598) [info ] cols: 231
+16:26:04.546 (0x4598) [info ] cols: 232
+16:26:04.616 (0x4598) [info ] cols: 233
+16:26:04.662 (0x4598) [info ] cols: 234
+16:26:04.709 (0x4598) [info ] cols: 235
+16:26:04.756 (0x4598) [info ] cols: 236
+16:26:04.804 (0x4598) [info ] cols: 237
+16:26:04.856 (0x4598) [info ] cols: 238
+16:26:04.903 (0x4598) [info ] cols: 239
+16:26:04.952 (0x4598) [info ] cols: 240
+16:26:05.002 (0x4598) [info ] cols: 241
+16:26:05.040 (0x4598) [info ] cols: 242
+16:26:05.103 (0x4598) [info ] cols: 243
+16:26:05.132 (0x4598) [info ] cols: 244
+16:26:05.173 (0x4598) [info ] cols: 245
+16:26:05.212 (0x4598) [info ] cols: 246
+16:26:05.253 (0x4598) [info ] cols: 247
+16:26:05.301 (0x4598) [info ] cols: 248
+16:26:05.352 (0x4598) [info ] cols: 249
+16:26:05.387 (0x4598) [info ] cols: 250
+16:26:05.432 (0x4598) [info ] cols: 251
+16:26:05.478 (0x4598) [info ] cols: 252
+16:26:05.524 (0x4598) [info ] cols: 253
+16:26:05.570 (0x4598) [info ] cols: 254
+16:26:05.784 (0x4598) [info ] cols: 255
+16:26:06.089 (0x4598) [info ] cols: 256
+16:26:06.297 (0x4598) [info ] cols: 257
+16:26:06.360 (0x4598) [info ] cols: 258
+16:26:06.422 (0x4598) [info ] cols: 259
+16:26:06.487 (0x4598) [info ] cols: 260
+16:26:06.553 (0x4598) [info ] cols: 261
+16:26:06.620 (0x4598) [info ] cols: 262
+16:26:06.668 (0x4598) [info ] cols: 263
+16:26:06.718 (0x4598) [info ] cols: 264
+16:26:06.768 (0x4598) [info ] cols: 265
+16:26:06.818 (0x4598) [info ] cols: 266
+16:26:06.870 (0x4598) [info ] cols: 267
+16:26:06.923 (0x4598) [info ] cols: 268
+16:26:06.967 (0x4598) [info ] cols: 269
+16:26:07.010 (0x4598) [info ] cols: 270
+16:26:07.055 (0x4598) [info ] cols: 271
+16:26:07.104 (0x4598) [info ] cols: 272
+16:26:07.154 (0x4598) [info ] cols: 273
+16:26:07.204 (0x4598) [info ] cols: 274
+16:26:07.237 (0x4598) [info ] cols: 275
+16:26:07.281 (0x4598) [info ] cols: 276
+16:26:07.326 (0x4598) [info ] cols: 277
+16:26:07.370 (0x4598) [info ] cols: 278
+16:26:07.436 (0x4598) [info ] cols: 279
+16:26:07.503 (0x4598) [info ] cols: 280
+16:26:07.577 (0x4598) [info ] cols: 281
+16:26:07.654 (0x4598) [info ] cols: 282
+16:26:07.776 (0x4598) [info ] cols: 283
+16:26:08.248 (0x4598) [info ] cols: 284
+16:26:08.589 (0x4598) [info ] cols: 285
+16:26:08.676 (0x4598) [info ] cols: 286
+16:26:08.779 (0x4598) [info ] cols: 287
+16:26:08.872 (0x4598) [info ] cols: 288
+16:26:08.978 (0x4598) [info ] cols: 289
+16:26:09.102 (0x4598) [info ] cols: 290
+16:26:09.252 (0x4598) [info ] cols: 291
+16:26:09.390 (0x4598) [info ] cols: 292
+16:26:09.561 (0x4598) [info ] cols: 293
+16:26:09.774 (0x4598) [info ] cols: 294
+16:26:10.231 (0x4598) [info ] cols: 295
+16:26:11.147 (0x4598) [debug] true
+16:26:11.148 (0x4598) [debug]  openPort is working 
+16:26:11.149 (0x4598) [debug] qml: get result:false
+16:26:14.735 (0x4598) [trace] qml:
+16:26:14.769 (0x4598) [info ] ----- msAppExit: 269031306.306400, 07:28:15.242136306
+16:26:14.769 (0x4598) [info ] app running: 26875.205300, 00:00:02.24875
+16:26:14.769 (0x4598) [info ] app return: 0
+16:26:14.770 (0x4598) [info ] ----- App exit ------
+16:26:22.229 (0x55ac) [info ]
+16:26:22.230 (0x55ac) [info ] ----- App init ------
+16:26:22.231 (0x55ac) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:26:22.231 (0x55ac) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+16:26:22.231 (0x55ac) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+16:26:22.232 (0x55ac) [info ] Check chinese support: 012汉字abc
+16:26:22.232 (0x55ac) [info ] ----- msAppInit: 269038766.855000, 07:28:15.242143766
+16:26:22.233 (0x55ac) [info ] [trace] --- FuncEntry
+16:26:22.233 (0x55ac) [info ] [trace]012汉字abc 
+16:26:22.233 (0x55ac) [info ] qInfo
+16:26:22.233 (0x55ac) [info ] qDebug
+16:26:22.234 (0x55ac) [info ] qWanging
+16:26:22.234 (0x55ac) [info ] QCritical
+16:26:22.234 (0x55ac) [info ] call getMs() 1000 times, 0.029400 ms
+16:26:22.249 (0x55ac) [info ] 1-1
+16:26:22.249 (0x55ac) [info ] 1-2
+16:26:22.249 (0x55ac) [info ] 2-1,汉字
+16:26:22.249 (0x55ac) [info ] 2-2,汉字
+16:26:22.250 (0x55ac) [info ] 1
+16:26:22.250 (0x55ac) [info ] 12345678901234
+16:26:22.250 (0x55ac) [info ] 12345679020032.0000000000000000
+16:26:22.251 (0x55ac) [info ] 12345678901234567168.00000000000000000000000000000000
+16:26:22.255 (0x55ac) [debug] SlBase::add( 3 + 4 ) = 7
+16:26:22.255 (0x55ac) [debug] SlBase::getTime() = 2023-04-26 16:26:22.255
+16:26:22.255 (0x55ac) [info ] [trace] --- FuncExit, 23.0002 ms
+16:26:22.992 (0x55ac) [warn ] Both point size and pixel size set. Using pixel size.
+16:26:23.338 (0x55ac) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:26:23.433 (0x55ac) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:26:23.433 (0x55ac) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:26:23.646 (0x55ac) [debug] Name :  "COM5"
+16:26:23.647 (0x55ac) [debug] Name :  "COM11"
+16:26:23.647 (0x55ac) [debug] Name :  "COM4"
+16:26:23.647 (0x55ac) [debug] Name :  "COM1"
+16:26:23.648 (0x55ac) [debug] Name :  "COM2"
+16:26:23.648 (0x55ac) [debug] Name :  "COM3"
+16:26:23.649 (0x55ac) [debug] Name :  "COM6"
+16:26:23.700 (0x55ac) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:26:23.729 (0x55ac) [debug] qml: [trace]activetrue
+16:26:25.412 (0x55ac) [debug] false
+16:26:25.412 (0x55ac) [debug]  openPort is working 
+16:26:25.414 (0x55ac) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+16:26:27.564 (0x55ac) [info ] cols: 2
+16:26:27.566 (0x55ac) [info ] cols: 3
+16:26:27.639 (0x55ac) [info ] cols: 4
+16:26:27.708 (0x55ac) [info ] cols: 5
+16:26:27.780 (0x55ac) [info ] cols: 6
+16:26:27.852 (0x55ac) [info ] cols: 7
+16:26:27.928 (0x55ac) [info ] cols: 8
+16:26:28.010 (0x55ac) [info ] cols: 9
+16:26:28.108 (0x55ac) [info ] cols: 10
+16:26:28.196 (0x55ac) [info ] cols: 11
+16:26:28.282 (0x55ac) [info ] cols: 12
+16:26:28.362 (0x55ac) [info ] cols: 13
+16:26:28.434 (0x55ac) [info ] cols: 14
+16:26:28.503 (0x55ac) [info ] cols: 15
+16:26:28.589 (0x55ac) [info ] cols: 16
+16:26:29.707 (0x55ac) [info ] cols: 17
+16:26:29.767 (0x55ac) [info ] cols: 18
+16:26:29.831 (0x55ac) [info ] cols: 19
+16:26:29.882 (0x55ac) [info ] cols: 20
+16:26:29.942 (0x55ac) [info ] cols: 21
+16:26:29.998 (0x55ac) [info ] cols: 22
+16:26:30.055 (0x55ac) [info ] cols: 23
+16:26:30.118 (0x55ac) [info ] cols: 24
+16:26:30.192 (0x55ac) [info ] cols: 25
+16:26:30.359 (0x55ac) [info ] cols: 26
+16:26:30.573 (0x55ac) [info ] cols: 27
+16:26:31.493 (0x55ac) [info ] cols: 28
+16:26:31.796 (0x55ac) [info ] cols: 29
+16:26:34.323 (0x55ac) [info ] cols: 30
+16:26:35.041 (0x55ac) [info ] cols: 31
+16:26:35.477 (0x55ac) [info ] cols: 32
+16:26:35.823 (0x55ac) [info ] cols: 33
+16:26:35.936 (0x55ac) [info ] cols: 34
+16:26:36.661 (0x55ac) [info ] cols: 35
+16:26:37.105 (0x55ac) [info ] cols: 36
+16:26:37.300 (0x55ac) [info ] cols: 37
+16:26:37.489 (0x55ac) [info ] cols: 38
+16:26:37.955 (0x55ac) [info ] cols: 39
+16:26:38.170 (0x55ac) [info ] cols: 40
+16:26:38.329 (0x55ac) [info ] cols: 41
+16:26:38.483 (0x55ac) [info ] cols: 42
+16:26:38.888 (0x55ac) [info ] cols: 43
+16:26:39.010 (0x55ac) [info ] cols: 44
+16:26:39.467 (0x55ac) [info ] cols: 45
+16:26:39.780 (0x55ac) [info ] cols: 46
+16:26:40.080 (0x55ac) [info ] cols: 47
+16:26:40.234 (0x55ac) [info ] cols: 48
+16:26:40.396 (0x55ac) [info ] cols: 49
+16:26:40.491 (0x55ac) [info ] cols: 50
+16:26:40.586 (0x55ac) [info ] cols: 51
+16:26:40.696 (0x55ac) [info ] cols: 52
+16:26:40.804 (0x55ac) [info ] cols: 53
+16:26:40.904 (0x55ac) [info ] cols: 54
+16:26:41.031 (0x55ac) [info ] cols: 55
+16:26:41.198 (0x55ac) [info ] cols: 56
+16:26:41.368 (0x55ac) [info ] cols: 57
+16:26:41.540 (0x55ac) [info ] cols: 58
+16:26:42.171 (0x55ac) [info ] cols: 59
+16:26:42.717 (0x55ac) [info ] cols: 60
+16:26:42.797 (0x55ac) [info ] cols: 61
+16:26:46.471 (0x55ac) [info ] cols: 62
+16:26:46.771 (0x55ac) [info ] cols: 63
+16:26:47.161 (0x55ac) [info ] cols: 64
+16:26:47.667 (0x55ac) [info ] cols: 65
+16:26:47.862 (0x55ac) [info ] cols: 66
+16:26:48.215 (0x55ac) [info ] cols: 67
+16:26:51.123 (0x55ac) [info ] cols: 68
+16:26:51.215 (0x55ac) [info ] cols: 69
+16:26:51.319 (0x55ac) [info ] cols: 70
+16:26:51.410 (0x55ac) [info ] cols: 71
+16:26:51.611 (0x55ac) [info ] cols: 72
+16:26:52.748 (0x55ac) [debug] true
+16:26:52.748 (0x55ac) [debug]  openPort is working 
+16:26:52.750 (0x55ac) [debug] qml: get result:false
+16:26:53.501 (0x55ac) [trace] qml:
+16:26:53.532 (0x55ac) [info ] ----- msAppExit: 269070070.133800, 07:28:18.242172070
+16:26:53.533 (0x55ac) [info ] app running: 31303.278800, 00:00:03.28303
+16:26:53.533 (0x55ac) [info ] app return: 0
+16:26:53.533 (0x55ac) [info ] ----- App exit ------

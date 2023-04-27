@@ -1,0 +1,910 @@
+13:51:32.347 (0x481c) [info ]
+13:51:32.350 (0x481c) [info ] ----- App init ------
+13:51:32.350 (0x481c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+13:51:32.351 (0x481c) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+13:51:32.351 (0x481c) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+13:51:32.351 (0x481c) [info ] Check chinese support: 012汉字abc
+13:51:32.352 (0x481c) [info ] ----- msAppInit: 346155631.981000, 09:36:45.311550631
+13:51:32.353 (0x481c) [info ] [trace] --- FuncEntry
+13:51:32.353 (0x481c) [info ] [trace]012汉字abc 
+13:51:32.354 (0x481c) [info ] qInfo
+13:51:32.354 (0x481c) [info ] qDebug
+13:51:32.354 (0x481c) [info ] qWanging
+13:51:32.354 (0x481c) [info ] QCritical
+13:51:32.355 (0x481c) [info ] call getMs() 1000 times, 0.044200 ms
+13:51:32.361 (0x481c) [info ] 1-1
+13:51:32.362 (0x481c) [info ] 1-2
+13:51:32.363 (0x481c) [info ] 2-1,汉字
+13:51:32.363 (0x481c) [info ] 2-2,汉字
+13:51:32.364 (0x481c) [info ] 1
+13:51:32.364 (0x481c) [info ] 12345678901234
+13:51:32.365 (0x481c) [info ] 12345679020032.0000000000000000
+13:51:32.365 (0x481c) [info ] 12345678901234567168.00000000000000000000000000000000
+13:51:32.373 (0x481c) [debug] SlBase::add( 3 + 4 ) = 7
+13:51:32.374 (0x481c) [debug] SlBase::getTime() = 2023-04-27 13:51:32.374
+13:51:32.374 (0x481c) [info ] [trace] --- FuncExit, 22.2587 ms
+13:51:39.961 (0x481c) [warn ] Both point size and pixel size set. Using pixel size.
+13:51:40.562 (0x481c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+13:51:43.067 (0x481c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+13:51:43.068 (0x481c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+13:51:43.196 (0x481c) [debug] Name :  "COM5"
+13:51:43.197 (0x481c) [debug] Name :  "COM4"
+13:51:43.198 (0x481c) [debug] Name :  "COM1"
+13:51:43.199 (0x481c) [debug] Name :  "COM2"
+13:51:43.199 (0x481c) [debug] Name :  "COM3"
+13:51:43.200 (0x481c) [debug] Name :  "COM6"
+13:51:43.275 (0x481c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:01:23.356 (0x481c) [debug] qml: [trace]activetrue
+14:01:23.360 (0x481c) [debug] void __cdecl SlQmlCustomPlot::mousePressEvent(class QMouseEvent *)
+14:01:23.365 (0x481c) [debug] void __cdecl SlQmlCustomPlot::mouseMoveEvent(class QMouseEvent *)
+14:01:23.366 (0x481c) [debug] void __cdecl SlQmlCustomPlot::mouseReleaseEvent(class QMouseEvent *)
+14:01:24.075 (0x481c) [debug] onWidgetMouseWheel is running 
+
+14:01:24.076 (0x481c) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore/qvector.h, line 463
+14:01:24.110 (0x481c) [debug] qml: [trace]activefalse
+14:01:31.344 (0x2b04) [info ]
+14:01:31.346 (0x2b04) [info ] ----- App init ------
+14:01:31.347 (0x2b04) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:01:31.347 (0x2b04) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:01:31.347 (0x2b04) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:01:31.348 (0x2b04) [info ] Check chinese support: 012汉字abc
+14:01:31.348 (0x2b04) [info ] ----- msAppInit: 346754629.528900, 09:37:45.312089629
+14:01:31.349 (0x2b04) [info ] [trace] --- FuncEntry
+14:01:31.349 (0x2b04) [info ] [trace]012汉字abc 
+14:01:31.350 (0x2b04) [info ] qInfo
+14:01:31.350 (0x2b04) [info ] qDebug
+14:01:31.351 (0x2b04) [info ] qWanging
+14:01:31.351 (0x2b04) [info ] QCritical
+14:01:31.352 (0x2b04) [info ] call getMs() 1000 times, 0.040000 ms
+14:01:31.367 (0x2b04) [info ] 1-1
+14:01:31.368 (0x2b04) [info ] 1-2
+14:01:31.368 (0x2b04) [info ] 2-1,汉字
+14:01:31.369 (0x2b04) [info ] 2-2,汉字
+14:01:31.369 (0x2b04) [info ] 1
+14:01:31.370 (0x2b04) [info ] 12345678901234
+14:01:31.370 (0x2b04) [info ] 12345679020032.0000000000000000
+14:01:31.371 (0x2b04) [info ] 12345678901234567168.00000000000000000000000000000000
+14:01:31.375 (0x2b04) [debug] SlBase::add( 3 + 4 ) = 7
+14:01:31.375 (0x2b04) [debug] SlBase::getTime() = 2023-04-27 14:01:31.375
+14:01:31.376 (0x2b04) [info ] [trace] --- FuncExit, 27.4263 ms
+14:01:32.655 (0x2b04) [warn ] Both point size and pixel size set. Using pixel size.
+14:01:33.254 (0x2b04) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:01:33.411 (0x2b04) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:01:33.412 (0x2b04) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:01:33.711 (0x2b04) [debug] Name :  "COM5"
+14:01:33.712 (0x2b04) [debug] Name :  "COM4"
+14:01:33.713 (0x2b04) [debug] Name :  "COM1"
+14:01:33.714 (0x2b04) [debug] Name :  "COM2"
+14:01:33.715 (0x2b04) [debug] Name :  "COM3"
+14:01:33.715 (0x2b04) [debug] Name :  "COM6"
+14:01:33.793 (0x2b04) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:01:33.829 (0x2b04) [debug] qml: [trace]activetrue
+14:01:37.526 (0x2b04) [trace] qml:
+14:01:37.596 (0x2b04) [info ] ----- msAppExit: 346760882.334400, 09:37:45.312095882
+14:01:37.597 (0x2b04) [info ] app running: 6252.805500, 00:00:00.6252
+14:01:37.598 (0x2b04) [info ] app return: 0
+14:01:37.599 (0x2b04) [info ] ----- App exit ------
+14:01:48.260 (0x1594) [info ]
+14:01:48.262 (0x1594) [info ] ----- App init ------
+14:01:48.262 (0x1594) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:01:48.263 (0x1594) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:01:48.263 (0x1594) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:01:48.264 (0x1594) [info ] Check chinese support: 012汉字abc
+14:01:48.264 (0x1594) [info ] ----- msAppInit: 346771545.083200, 09:37:46.312105545
+14:01:48.265 (0x1594) [info ] [trace] --- FuncEntry
+14:01:48.265 (0x1594) [info ] [trace]012汉字abc 
+14:01:48.266 (0x1594) [info ] qInfo
+14:01:48.266 (0x1594) [info ] qDebug
+14:01:48.267 (0x1594) [info ] qWanging
+14:01:48.267 (0x1594) [info ] QCritical
+14:01:48.268 (0x1594) [info ] call getMs() 1000 times, 0.039200 ms
+14:01:48.283 (0x1594) [info ] 1-1
+14:01:48.284 (0x1594) [info ] 1-2
+14:01:48.284 (0x1594) [info ] 2-1,汉字
+14:01:48.284 (0x1594) [info ] 2-2,汉字
+14:01:48.285 (0x1594) [info ] 1
+14:01:48.285 (0x1594) [info ] 12345678901234
+14:01:48.285 (0x1594) [info ] 12345679020032.0000000000000000
+14:01:48.286 (0x1594) [info ] 12345678901234567168.00000000000000000000000000000000
+14:01:48.290 (0x1594) [debug] SlBase::add( 3 + 4 ) = 7
+14:01:48.291 (0x1594) [debug] SlBase::getTime() = 2023-04-27 14:01:48.291
+14:01:48.291 (0x1594) [info ] [trace] --- FuncExit, 25.9962 ms
+14:01:49.332 (0x1594) [warn ] Both point size and pixel size set. Using pixel size.
+14:01:49.805 (0x1594) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:01:49.936 (0x1594) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:01:49.936 (0x1594) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:01:50.257 (0x1594) [debug] Name :  "COM5"
+14:01:50.259 (0x1594) [debug] Name :  "COM11"
+14:01:50.259 (0x1594) [debug] Name :  "COM4"
+14:01:50.259 (0x1594) [debug] Name :  "COM1"
+14:01:50.260 (0x1594) [debug] Name :  "COM2"
+14:01:50.260 (0x1594) [debug] Name :  "COM3"
+14:01:50.261 (0x1594) [debug] Name :  "COM6"
+14:01:50.347 (0x1594) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:01:50.391 (0x1594) [debug] qml: [trace]activetrue
+14:01:52.599 (0x1594) [debug] false
+14:01:52.601 (0x1594) [debug]  openPort is working 
+14:01:52.605 (0x1594) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+14:01:54.059 (0x1594) [debug] Read data:  "290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001ff"
+14:01:54.060 (0x1594) [debug] Buffer before appending:  ""
+14:01:54.060 (0x1594) [debug] Buffer after appending:  "290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001ff"
+14:01:54.061 (0x1594) [debug] Read data:  "fe0002fffe0002fffec180"
+14:01:54.062 (0x1594) [debug] Buffer before appending:  "290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001ff"
+14:01:54.062 (0x1594) [debug] Buffer after appending:  "290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffec180"
+14:01:54.360 (0x1594) [debug] Read data:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0001fffe0002fffe0001"
+14:01:54.360 (0x1594) [debug] Buffer before appending:  "290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffec180"
+14:01:54.361 (0x1594) [debug] Buffer after appending:  "290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffec180aa290003fffe0001fffe0002fffe0002fffe0001fffe0001fffe0002fffe0001"
+14:01:54.361 (0x1594) [debug] "14:1:54.361 0 frames received, 32 bytes ignored"
+14:01:54.362 (0x1594) [debug] Read data:  "fffe0002fffe0002fffdb580"
+14:01:54.363 (0x1594) [debug] Buffer before appending:  "fe0002fffe0002fffec180aa290003fffe0001fffe0002fffe0002fffe0001fffe0001fffe0002fffe0001"
+14:01:54.363 (0x1594) [debug] Buffer after appending:  "fe0002fffe0002fffec180aa290003fffe0001fffe0002fffe0002fffe0001fffe0001fffe0002fffe0001fffe0002fffe0002fffdb580"
+14:01:54.850 (0x1594) [debug] Read data:  "aa290004fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:01:54.850 (0x1594) [debug] Buffer before appending:  "fe0002fffe0002fffec180aa290003fffe0001fffe0002fffe0002fffe0001fffe0001fffe0002fffe0001fffe0002fffe0002fffdb580"
+14:01:54.851 (0x1594) [debug] Buffer after appending:  "fe0002fffe0002fffec180aa290003fffe0001fffe0002fffe0002fffe0001fffe0001fffe0002fffe0001fffe0002fffe0002fffdb580aa290004fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:01:54.852 (0x1594) [info ] cols: 2
+14:01:54.852 (0x1594) [debug] Read data:  "fffe0002fffe0002fffe5680"
+14:01:54.853 (0x1594) [debug] Buffer before appending:  "aa290004fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:01:54.853 (0x1594) [debug] Buffer after appending:  "aa290004fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe5680"
+14:01:54.854 (0x1594) [info ] cols: 3
+14:01:56.258 (0x1594) [debug] qml: [trace]activefalse
+14:02:10.678 (0x1594) [debug] qml: [trace]activetrue
+14:02:12.075 (0x1594) [trace] qml:
+14:02:12.126 (0x1594) [info ] ----- msAppExit: 346795411.995500, 09:37:49.312126411
+14:02:12.127 (0x1594) [info ] app running: 23866.912300, 00:00:02.21866
+14:02:12.128 (0x1594) [info ] app return: 0
+14:02:12.129 (0x1594) [info ] ----- App exit ------
+14:19:43.913 (0x4d4c) [info ]
+14:19:43.915 (0x4d4c) [info ] ----- App init ------
+14:19:43.915 (0x4d4c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:19:43.916 (0x4d4c) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:19:43.916 (0x4d4c) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:19:43.916 (0x4d4c) [info ] Check chinese support: 012汉字abc
+14:19:43.917 (0x4d4c) [info ] ----- msAppInit: 347847198.095600, 09:39:34.313073198
+14:19:43.917 (0x4d4c) [info ] [trace] --- FuncEntry
+14:19:43.918 (0x4d4c) [info ] [trace]012汉字abc 
+14:19:43.918 (0x4d4c) [info ] qInfo
+14:19:43.919 (0x4d4c) [info ] qDebug
+14:19:43.919 (0x4d4c) [info ] qWanging
+14:19:43.919 (0x4d4c) [info ] QCritical
+14:19:43.919 (0x4d4c) [info ] call getMs() 1000 times, 0.038600 ms
+14:19:43.927 (0x4d4c) [info ] 1-1
+14:19:43.927 (0x4d4c) [info ] 1-2
+14:19:43.928 (0x4d4c) [info ] 2-1,汉字
+14:19:43.928 (0x4d4c) [info ] 2-2,汉字
+14:19:43.929 (0x4d4c) [info ] 1
+14:19:43.929 (0x4d4c) [info ] 12345678901234
+14:19:43.929 (0x4d4c) [info ] 12345679020032.0000000000000000
+14:19:43.930 (0x4d4c) [info ] 12345678901234567168.00000000000000000000000000000000
+14:19:43.936 (0x4d4c) [debug] SlBase::add( 3 + 4 ) = 7
+14:19:43.937 (0x4d4c) [debug] SlBase::getTime() = 2023-04-27 14:19:43.937
+14:19:43.937 (0x4d4c) [info ] [trace] --- FuncExit, 20.2068 ms
+14:19:44.894 (0x4d4c) [warn ] Both point size and pixel size set. Using pixel size.
+14:19:45.351 (0x4d4c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:19:45.473 (0x4d4c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:19:45.473 (0x4d4c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:19:45.753 (0x4d4c) [debug] Name :  "COM5"
+14:19:45.754 (0x4d4c) [debug] Name :  "COM11"
+14:19:45.755 (0x4d4c) [debug] Name :  "COM4"
+14:19:45.755 (0x4d4c) [debug] Name :  "COM1"
+14:19:45.756 (0x4d4c) [debug] Name :  "COM2"
+14:19:45.756 (0x4d4c) [debug] Name :  "COM3"
+14:19:45.757 (0x4d4c) [debug] Name :  "COM6"
+14:19:45.836 (0x4d4c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:19:45.875 (0x4d4c) [debug] qml: [trace]activetrue
+14:19:48.316 (0x4d4c) [debug] false
+14:19:48.317 (0x4d4c) [debug]  openPort is working 
+14:19:48.318 (0x4d4c) [debug] "COM1" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+14:19:49.262 (0x4d4c) [debug] qml: [trace]activefalse
+14:19:50.557 (0x4d4c) [debug] Read data:  "aa290004fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002ffff3c80"
+14:19:50.558 (0x4d4c) [debug] Buffer before appending:  ""
+14:19:50.559 (0x4d4c) [debug] Buffer after appending:  "aa290004fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002ffff3c80"
+14:19:50.559 (0x4d4c) [debug]  crc8 is checked
+14:21:06.080 (0x4d4c) [debug] qml: [trace]activetrue
+14:21:08.207 (0x4d4c) [debug] qml: [trace]activefalse
+14:21:17.100 (0x4d4c) [debug] Read data:  "aa290004fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002ffff3c80"
+14:21:17.100 (0x4d4c) [debug] Buffer before appending:  "aa290004fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002ffff3c80"
+14:21:17.101 (0x4d4c) [debug] Buffer after appending:  "aa290004fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002ffff3c80aa290004fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002ffff3c80"
+14:21:17.101 (0x4d4c) [debug]  crc8 is checked
+14:21:17.102 (0x4d4c) [info ] cols: 2
+14:21:17.102 (0x4d4c) [debug]  crc8 is checked
+14:21:17.102 (0x4d4c) [info ] cols: 3
+14:21:51.252 (0x4d4c) [debug] Read data:  "aa290004fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002ffff3c80"
+14:21:51.253 (0x4d4c) [debug] Buffer before appending:  ""
+14:21:51.253 (0x4d4c) [debug] Buffer after appending:  "aa290004fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002ffff3c80"
+14:21:51.254 (0x4d4c) [debug]  crc8 is checked
+14:21:51.254 (0x4d4c) [info ] cols: 4
+14:22:15.719 (0x4d4c) [debug] qml: [trace]activetrue
+14:22:17.158 (0x4d4c) [debug] true
+14:22:17.159 (0x4d4c) [debug]  openPort is working 
+14:22:17.162 (0x4d4c) [debug] qml: get result:false
+14:22:17.619 (0x4d4c) [trace] qml:
+14:22:17.669 (0x4d4c) [info ] ----- msAppExit: 348000954.981300, 09:39:49.313211954
+14:22:17.670 (0x4d4c) [info ] app running: 153756.885700, 00:00:15.138756
+14:22:17.670 (0x4d4c) [info ] app return: 0
+14:22:17.671 (0x4d4c) [info ] ----- App exit ------
+14:22:46.627 (0x3754) [info ]
+14:22:46.629 (0x3754) [info ] ----- App init ------
+14:22:46.629 (0x3754) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:22:46.630 (0x3754) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:22:46.630 (0x3754) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:22:46.631 (0x3754) [info ] Check chinese support: 012汉字abc
+14:22:46.631 (0x3754) [info ] ----- msAppInit: 348029912.846800, 09:39:52.313237912
+14:22:46.631 (0x3754) [info ] [trace] --- FuncEntry
+14:22:46.632 (0x3754) [info ] [trace]012汉字abc 
+14:22:46.632 (0x3754) [info ] qInfo
+14:22:46.633 (0x3754) [info ] qDebug
+14:22:46.633 (0x3754) [info ] qWanging
+14:22:46.633 (0x3754) [info ] QCritical
+14:22:46.634 (0x3754) [info ] call getMs() 1000 times, 0.036400 ms
+14:22:46.649 (0x3754) [info ] 1-1
+14:22:46.650 (0x3754) [info ] 1-2
+14:22:46.650 (0x3754) [info ] 2-1,汉字
+14:22:46.650 (0x3754) [info ] 2-2,汉字
+14:22:46.651 (0x3754) [info ] 1
+14:22:46.651 (0x3754) [info ] 12345678901234
+14:22:46.652 (0x3754) [info ] 12345679020032.0000000000000000
+14:22:46.652 (0x3754) [info ] 12345678901234567168.00000000000000000000000000000000
+14:22:46.661 (0x3754) [debug] SlBase::add( 3 + 4 ) = 7
+14:22:46.662 (0x3754) [debug] SlBase::getTime() = 2023-04-27 14:22:46.662
+14:22:46.662 (0x3754) [info ] [trace] --- FuncExit, 30.6832 ms
+14:22:47.692 (0x3754) [warn ] Both point size and pixel size set. Using pixel size.
+14:22:48.192 (0x3754) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:22:48.314 (0x3754) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:22:48.315 (0x3754) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:22:48.589 (0x3754) [debug] Name :  "COM5"
+14:22:48.592 (0x3754) [debug] Name :  "COM11"
+14:22:48.593 (0x3754) [debug] Name :  "COM4"
+14:22:48.594 (0x3754) [debug] Name :  "COM1"
+14:22:48.596 (0x3754) [debug] Name :  "COM2"
+14:22:48.596 (0x3754) [debug] Name :  "COM3"
+14:22:48.596 (0x3754) [debug] Name :  "COM6"
+14:22:48.669 (0x3754) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:22:48.703 (0x3754) [debug] qml: [trace]activetrue
+14:22:51.300 (0x3754) [debug] false
+14:22:51.301 (0x3754) [debug]  openPort is working 
+14:22:51.302 (0x3754) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+14:22:53.159 (0x3754) [debug] Read data:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:22:53.160 (0x3754) [debug] Buffer before appending:  ""
+14:22:53.161 (0x3754) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:22:53.162 (0x3754) [debug] Read data:  "fffe0002fffe0003fffe7180"
+14:22:53.163 (0x3754) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:22:53.164 (0x3754) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0003fffe7180"
+14:22:53.164 (0x3754) [debug]  crc8 is checked
+14:22:54.016 (0x3754) [debug] Read data:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:22:54.017 (0x3754) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0003fffe7180"
+14:22:54.017 (0x3754) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0003fffe7180aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:22:54.017 (0x3754) [debug]  crc8 is checked
+14:22:54.018 (0x3754) [info ] cols: 2
+14:22:54.018 (0x3754) [debug] Read data:  "fffe0002fffe0002fffee080"
+14:22:54.019 (0x3754) [debug] Buffer before appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:22:54.019 (0x3754) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffee080"
+14:22:54.019 (0x3754) [debug]  crc8 is checked
+14:22:54.020 (0x3754) [info ] cols: 3
+14:22:56.041 (0x3754) [debug] Read data:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:22:56.042 (0x3754) [debug] Buffer before appending:  ""
+14:22:56.042 (0x3754) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:22:56.043 (0x3754) [debug] Read data:  "fffe0002fffe0002fffe1a80"
+14:22:56.044 (0x3754) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:22:56.044 (0x3754) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe1a80"
+14:22:56.044 (0x3754) [debug]  crc8 is checked
+14:22:56.044 (0x3754) [info ] cols: 4
+14:22:57.228 (0x3754) [debug] true
+14:22:57.229 (0x3754) [debug]  openPort is working 
+14:22:57.229 (0x3754) [debug] qml: get result:false
+14:22:57.796 (0x3754) [trace] qml:
+14:22:57.846 (0x3754) [info ] ----- msAppExit: 348041131.999000, 09:39:53.313248131
+14:22:57.847 (0x3754) [info ] app running: 11219.152200, 00:00:01.10219
+14:22:57.848 (0x3754) [info ] app return: 0
+14:22:57.848 (0x3754) [info ] ----- App exit ------
+14:26:14.112 (0x62c4) [info ]
+14:26:14.115 (0x62c4) [info ] ----- App init ------
+14:26:14.115 (0x62c4) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:26:14.115 (0x62c4) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:26:14.115 (0x62c4) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:26:14.115 (0x62c4) [info ] Check chinese support: 012汉字abc
+14:26:14.115 (0x62c4) [info ] ----- msAppInit: 348237397.044900, 09:40:13.313424397
+14:26:14.116 (0x62c4) [info ] [trace] --- FuncEntry
+14:26:14.116 (0x62c4) [info ] [trace]012汉字abc 
+14:26:14.117 (0x62c4) [info ] qInfo
+14:26:14.117 (0x62c4) [info ] qDebug
+14:26:14.117 (0x62c4) [info ] qWanging
+14:26:14.118 (0x62c4) [info ] QCritical
+14:26:14.118 (0x62c4) [info ] call getMs() 1000 times, 0.034000 ms
+14:26:14.135 (0x62c4) [info ] 1-1
+14:26:14.136 (0x62c4) [info ] 1-2
+14:26:14.136 (0x62c4) [info ] 2-1,汉字
+14:26:14.136 (0x62c4) [info ] 2-2,汉字
+14:26:14.137 (0x62c4) [info ] 1
+14:26:14.137 (0x62c4) [info ] 12345678901234
+14:26:14.138 (0x62c4) [info ] 12345679020032.0000000000000000
+14:26:14.138 (0x62c4) [info ] 12345678901234567168.00000000000000000000000000000000
+14:26:14.144 (0x62c4) [debug] SlBase::add( 3 + 4 ) = 7
+14:26:14.145 (0x62c4) [debug] SlBase::getTime() = 2023-04-27 14:26:14.145
+14:26:14.146 (0x62c4) [info ] [trace] --- FuncExit, 28.7761 ms
+14:26:15.070 (0x62c4) [warn ] Both point size and pixel size set. Using pixel size.
+14:26:15.505 (0x62c4) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:26:15.624 (0x62c4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:26:15.625 (0x62c4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:26:15.872 (0x62c4) [debug] Name :  "COM5"
+14:26:15.873 (0x62c4) [debug] Name :  "COM11"
+14:26:15.874 (0x62c4) [debug] Name :  "COM4"
+14:26:15.874 (0x62c4) [debug] Name :  "COM1"
+14:26:15.875 (0x62c4) [debug] Name :  "COM2"
+14:26:15.875 (0x62c4) [debug] Name :  "COM3"
+14:26:15.876 (0x62c4) [debug] Name :  "COM6"
+14:26:15.942 (0x62c4) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:26:15.978 (0x62c4) [debug] qml: [trace]activetrue
+14:26:18.544 (0x62c4) [debug] false
+14:26:18.544 (0x62c4) [debug]  openPort is working 
+14:26:18.546 (0x62c4) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+14:26:19.372 (0x62c4) [debug] qml: [trace]activefalse
+14:26:19.901 (0x62c4) [debug] Read data:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0003fffe0002"
+14:26:19.902 (0x62c4) [debug] Buffer before appending:  ""
+14:26:19.902 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0003fffe0002"
+14:26:19.903 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffeaf80"
+14:26:19.903 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0003fffe0002"
+14:26:19.904 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0003fffe0002fffe0002fffe0002fffeaf80"
+14:26:19.904 (0x62c4) [debug]  crc8 is checked
+14:26:20.860 (0x62c4) [debug] Read data:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:20.860 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0003fffe0002fffe0002fffe0002fffeaf80"
+14:26:20.861 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0003fffe0002fffe0002fffe0002fffeaf80aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:20.861 (0x62c4) [debug]  crc8 is checked
+14:26:20.861 (0x62c4) [info ] cols: 2
+14:26:20.862 (0x62c4) [debug] Read data:  "fffe0002fffe0003fffe8b80"
+14:26:20.863 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:20.863 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0003fffe8b80"
+14:26:20.863 (0x62c4) [debug]  crc8 is checked
+14:26:20.864 (0x62c4) [info ] cols: 3
+14:26:21.404 (0x62c4) [debug] Read data:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:21.404 (0x62c4) [debug] Buffer before appending:  ""
+14:26:21.405 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:21.406 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffee080"
+14:26:21.407 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:21.407 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffee080"
+14:26:21.407 (0x62c4) [debug]  crc8 is checked
+14:26:21.408 (0x62c4) [info ] cols: 4
+14:26:21.845 (0x62c4) [debug] Read data:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:21.846 (0x62c4) [debug] Buffer before appending:  ""
+14:26:21.846 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:21.848 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffee080"
+14:26:21.848 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:21.848 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffee080"
+14:26:21.849 (0x62c4) [debug]  crc8 is checked
+14:26:21.849 (0x62c4) [info ] cols: 5
+14:26:22.209 (0x62c4) [debug] Read data:  "aa290003fffd0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.210 (0x62c4) [debug] Buffer before appending:  ""
+14:26:22.210 (0x62c4) [debug] Buffer after appending:  "aa290003fffd0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.212 (0x62c4) [debug] Read data:  "fffe0002fffe0003fffe1d80"
+14:26:22.213 (0x62c4) [debug] Buffer before appending:  "aa290003fffd0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.213 (0x62c4) [debug] Buffer after appending:  "aa290003fffd0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0003fffe1d80"
+14:26:22.213 (0x62c4) [debug]  crc8 is checked
+14:26:22.214 (0x62c4) [info ] cols: 6
+14:26:22.327 (0x62c4) [debug] Read data:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.327 (0x62c4) [debug] Buffer before appending:  ""
+14:26:22.328 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.329 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffee080"
+14:26:22.330 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.330 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffee080"
+14:26:22.330 (0x62c4) [debug]  crc8 is checked
+14:26:22.330 (0x62c4) [info ] cols: 7
+14:26:22.723 (0x62c4) [debug] Read data:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.724 (0x62c4) [debug] Buffer before appending:  ""
+14:26:22.725 (0x62c4) [debug] Buffer after appending:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.726 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe6f80"
+14:26:22.727 (0x62c4) [debug] Buffer before appending:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.727 (0x62c4) [debug] Buffer after appending:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe6f80"
+14:26:22.728 (0x62c4) [debug]  crc8 is checked
+14:26:22.728 (0x62c4) [info ] cols: 8
+14:26:22.873 (0x62c4) [debug] Read data:  "aa290003fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.874 (0x62c4) [debug] Buffer before appending:  ""
+14:26:22.875 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.876 (0x62c4) [debug] Read data:  "fffe0002fffe0003fffe1c80"
+14:26:22.876 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:22.876 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0003fffe1c80"
+14:26:22.877 (0x62c4) [debug]  crc8 is checked
+14:26:22.877 (0x62c4) [info ] cols: 9
+14:26:23.038 (0x62c4) [debug] Read data:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.039 (0x62c4) [debug] Buffer before appending:  ""
+14:26:23.039 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.041 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe1a80"
+14:26:23.041 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.041 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe1a80"
+14:26:23.042 (0x62c4) [debug]  crc8 is checked
+14:26:23.042 (0x62c4) [info ] cols: 10
+14:26:23.173 (0x62c4) [debug] Read data:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.174 (0x62c4) [debug] Buffer before appending:  ""
+14:26:23.174 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.175 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe1a80"
+14:26:23.176 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.176 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe1a80"
+14:26:23.176 (0x62c4) [debug]  crc8 is checked
+14:26:23.177 (0x62c4) [info ] cols: 11
+14:26:23.560 (0x62c4) [debug] Read data:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.561 (0x62c4) [debug] Buffer before appending:  ""
+14:26:23.561 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.563 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffde980"
+14:26:23.564 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.564 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffde980"
+14:26:23.564 (0x62c4) [debug]  crc8 is checked
+14:26:23.564 (0x62c4) [info ] cols: 12
+14:26:23.649 (0x62c4) [debug] Read data:  "aa290003fffe0001fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.650 (0x62c4) [debug] Buffer before appending:  ""
+14:26:23.650 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.652 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffd8480"
+14:26:23.653 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0001fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.653 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffd8480"
+14:26:23.653 (0x62c4) [debug]  crc8 is checked
+14:26:23.654 (0x62c4) [info ] cols: 13
+14:26:23.746 (0x62c4) [debug] Read data:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001"
+14:26:23.747 (0x62c4) [debug] Buffer before appending:  ""
+14:26:23.747 (0x62c4) [debug] Buffer after appending:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001"
+14:26:23.749 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe4e80"
+14:26:23.749 (0x62c4) [debug] Buffer before appending:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001"
+14:26:23.750 (0x62c4) [debug] Buffer after appending:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe4e80"
+14:26:23.750 (0x62c4) [debug]  crc8 is checked
+14:26:23.750 (0x62c4) [info ] cols: 14
+14:26:23.842 (0x62c4) [debug] Read data:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.843 (0x62c4) [debug] Buffer before appending:  ""
+14:26:23.843 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.845 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe1a80"
+14:26:23.845 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.845 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe1a80"
+14:26:23.846 (0x62c4) [debug]  crc8 is checked
+14:26:23.846 (0x62c4) [info ] cols: 15
+14:26:23.924 (0x62c4) [debug] Read data:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.924 (0x62c4) [debug] Buffer before appending:  ""
+14:26:23.925 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.926 (0x62c4) [debug] Read data:  "fffe0003fffe0002fffec580"
+14:26:23.927 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:23.927 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0003fffe0002fffec580"
+14:26:23.927 (0x62c4) [debug]  crc8 is checked
+14:26:23.928 (0x62c4) [info ] cols: 16
+14:26:24.009 (0x62c4) [debug] Read data:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.010 (0x62c4) [debug] Buffer before appending:  ""
+14:26:24.010 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.012 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffee080"
+14:26:24.012 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.013 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffee080"
+14:26:24.013 (0x62c4) [debug]  crc8 is checked
+14:26:24.013 (0x62c4) [info ] cols: 17
+14:26:24.160 (0x62c4) [debug] Read data:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.160 (0x62c4) [debug] Buffer before appending:  ""
+14:26:24.161 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.162 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe1a80"
+14:26:24.163 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.163 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe1a80"
+14:26:24.164 (0x62c4) [debug]  crc8 is checked
+14:26:24.164 (0x62c4) [info ] cols: 18
+14:26:24.457 (0x62c4) [debug] Read data:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.458 (0x62c4) [debug] Buffer before appending:  ""
+14:26:24.458 (0x62c4) [debug] Buffer after appending:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.460 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe6f80"
+14:26:24.460 (0x62c4) [debug] Buffer before appending:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.460 (0x62c4) [debug] Buffer after appending:  "aa290003ffff0001fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe6f80"
+14:26:24.461 (0x62c4) [debug]  crc8 is checked
+14:26:24.461 (0x62c4) [info ] cols: 19
+14:26:24.516 (0x62c4) [debug] Read data:  "aa290003fffe0001fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.516 (0x62c4) [debug] Buffer before appending:  ""
+14:26:24.517 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.518 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe8d80"
+14:26:24.519 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0001fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.519 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0001fffe0003fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe8d80"
+14:26:24.519 (0x62c4) [debug]  crc8 is checked
+14:26:24.520 (0x62c4) [info ] cols: 20
+14:26:24.577 (0x62c4) [debug] Read data:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.578 (0x62c4) [debug] Buffer before appending:  ""
+14:26:24.578 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.580 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe1a80"
+14:26:24.580 (0x62c4) [debug] Buffer before appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.581 (0x62c4) [debug] Buffer after appending:  "aa290003fffe0002fffe0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe1a80"
+14:26:24.581 (0x62c4) [debug]  crc8 is checked
+14:26:24.581 (0x62c4) [info ] cols: 21
+14:26:24.644 (0x62c4) [debug] Read data:  "aa290002fffe0001ffff0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.644 (0x62c4) [debug] Buffer before appending:  ""
+14:26:24.645 (0x62c4) [debug] Buffer after appending:  "aa290002fffe0001ffff0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.646 (0x62c4) [debug] Read data:  "fffe0002fffe0002fffe8980"
+14:26:24.647 (0x62c4) [debug] Buffer before appending:  "aa290002fffe0001ffff0002fffe0002fffe0001fffe0002fffe0002fffe0002"
+14:26:24.647 (0x62c4) [debug] Buffer after appending:  "aa290002fffe0001ffff0002fffe0002fffe0001fffe0002fffe0002fffe0002fffe0002fffe0002fffe8980"
+14:26:24.648 (0x62c4) [debug]  crc8 is checked
+14:26:24.648 (0x62c4) [info ] cols: 22
+14:26:25.831 (0x62c4) [debug] qml: [trace]activetrue
+14:26:26.644 (0x62c4) [debug] true
+14:26:26.645 (0x62c4) [debug]  openPort is working 
+14:26:26.646 (0x62c4) [debug] qml: get result:false
+14:26:27.076 (0x62c4) [trace] qml:
+14:26:27.128 (0x62c4) [info ] ----- msAppExit: 348250413.594500, 09:40:14.313436413
+14:26:27.129 (0x62c4) [info ] app running: 13016.549600, 00:00:01.12016
+14:26:27.130 (0x62c4) [info ] app return: 0
+14:26:27.130 (0x62c4) [info ] ----- App exit ------
+14:26:46.523 (0x114c) [info ]
+14:26:46.525 (0x114c) [info ] ----- App init ------
+14:26:46.525 (0x114c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:26:46.526 (0x114c) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:26:46.526 (0x114c) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:26:46.526 (0x114c) [info ] Check chinese support: 012汉字abc
+14:26:46.527 (0x114c) [info ] ----- msAppInit: 348269809.111000, 09:40:16.313453809
+14:26:46.527 (0x114c) [info ] [trace] --- FuncEntry
+14:26:46.527 (0x114c) [info ] [trace]012汉字abc 
+14:26:46.528 (0x114c) [info ] qInfo
+14:26:46.528 (0x114c) [info ] qDebug
+14:26:46.529 (0x114c) [info ] qWanging
+14:26:46.529 (0x114c) [info ] QCritical
+14:26:46.529 (0x114c) [info ] call getMs() 1000 times, 0.033100 ms
+14:26:46.534 (0x114c) [info ] 1-1
+14:26:46.535 (0x114c) [info ] 1-2
+14:26:46.535 (0x114c) [info ] 2-1,汉字
+14:26:46.535 (0x114c) [info ] 2-2,汉字
+14:26:46.536 (0x114c) [info ] 1
+14:26:46.536 (0x114c) [info ] 12345678901234
+14:26:46.536 (0x114c) [info ] 12345679020032.0000000000000000
+14:26:46.537 (0x114c) [info ] 12345678901234567168.00000000000000000000000000000000
+14:26:46.541 (0x114c) [debug] SlBase::add( 3 + 4 ) = 7
+14:26:46.542 (0x114c) [debug] SlBase::getTime() = 2023-04-27 14:26:46.542
+14:26:46.543 (0x114c) [info ] [trace] --- FuncExit, 15.3066 ms
+14:26:47.591 (0x114c) [warn ] Both point size and pixel size set. Using pixel size.
+14:26:48.016 (0x114c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:26:48.136 (0x114c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:26:48.137 (0x114c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:26:48.440 (0x114c) [debug] Name :  "COM5"
+14:26:48.442 (0x114c) [debug] Name :  "COM11"
+14:26:48.443 (0x114c) [debug] Name :  "COM4"
+14:26:48.444 (0x114c) [debug] Name :  "COM1"
+14:26:48.445 (0x114c) [debug] Name :  "COM2"
+14:26:48.445 (0x114c) [debug] Name :  "COM3"
+14:26:48.446 (0x114c) [debug] Name :  "COM6"
+14:26:48.540 (0x114c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:26:48.571 (0x114c) [debug] qml: [trace]activetrue
+14:26:51.108 (0x114c) [debug] false
+14:26:51.109 (0x114c) [debug]  openPort is working 
+14:26:51.111 (0x114c) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+14:26:51.516 (0x114c) [debug] qml: [trace]activefalse
+14:26:53.818 (0x114c) [info ] cols: 2
+14:26:53.820 (0x114c) [info ] cols: 3
+14:26:54.163 (0x114c) [info ] cols: 4
+14:26:54.507 (0x114c) [info ] cols: 5
+14:26:54.667 (0x114c) [info ] cols: 6
+14:26:54.828 (0x114c) [info ] cols: 7
+14:26:54.909 (0x114c) [info ] cols: 8
+14:26:54.994 (0x114c) [info ] cols: 9
+14:26:55.084 (0x114c) [info ] cols: 10
+14:26:55.169 (0x114c) [info ] cols: 11
+14:26:55.259 (0x114c) [info ] cols: 12
+14:26:55.338 (0x114c) [info ] cols: 13
+14:26:55.404 (0x114c) [info ] cols: 14
+14:26:55.471 (0x114c) [info ] cols: 15
+14:26:55.542 (0x114c) [info ] cols: 16
+14:26:55.616 (0x114c) [info ] cols: 17
+14:26:55.694 (0x114c) [info ] cols: 18
+14:26:55.775 (0x114c) [info ] cols: 19
+14:26:55.842 (0x114c) [info ] cols: 20
+14:26:55.901 (0x114c) [info ] cols: 21
+14:26:55.961 (0x114c) [info ] cols: 22
+14:26:56.025 (0x114c) [info ] cols: 23
+14:26:56.088 (0x114c) [info ] cols: 24
+14:26:56.156 (0x114c) [info ] cols: 25
+14:26:56.229 (0x114c) [info ] cols: 26
+14:26:56.298 (0x114c) [info ] cols: 27
+14:26:56.366 (0x114c) [info ] cols: 28
+14:26:56.438 (0x114c) [info ] cols: 29
+14:26:56.513 (0x114c) [info ] cols: 30
+14:26:56.587 (0x114c) [info ] cols: 31
+14:26:56.638 (0x114c) [info ] cols: 32
+14:26:56.687 (0x114c) [info ] cols: 33
+14:26:56.742 (0x114c) [info ] cols: 34
+14:26:56.799 (0x114c) [info ] cols: 35
+14:26:56.850 (0x114c) [info ] cols: 36
+14:26:56.903 (0x114c) [info ] cols: 37
+14:26:56.955 (0x114c) [info ] cols: 38
+14:26:57.011 (0x114c) [info ] cols: 39
+14:26:57.073 (0x114c) [info ] cols: 40
+14:26:57.139 (0x114c) [info ] cols: 41
+14:26:57.200 (0x114c) [info ] cols: 42
+14:26:57.287 (0x114c) [info ] cols: 43
+14:26:57.351 (0x114c) [info ] cols: 44
+14:26:57.415 (0x114c) [info ] cols: 45
+14:26:57.484 (0x114c) [info ] cols: 46
+14:26:57.542 (0x114c) [info ] cols: 47
+14:26:57.606 (0x114c) [info ] cols: 48
+14:26:57.669 (0x114c) [info ] cols: 49
+14:26:57.734 (0x114c) [info ] cols: 50
+14:26:57.789 (0x114c) [info ] cols: 51
+14:26:57.856 (0x114c) [info ] cols: 52
+14:26:57.910 (0x114c) [info ] cols: 53
+14:26:57.964 (0x114c) [info ] cols: 54
+14:26:58.037 (0x114c) [info ] cols: 55
+14:26:58.085 (0x114c) [info ] cols: 56
+14:26:58.141 (0x114c) [info ] cols: 57
+14:26:58.192 (0x114c) [info ] cols: 58
+14:26:58.248 (0x114c) [info ] cols: 59
+14:26:58.334 (0x114c) [info ] cols: 60
+14:26:58.407 (0x114c) [info ] cols: 61
+14:26:58.484 (0x114c) [info ] cols: 62
+14:26:58.550 (0x114c) [info ] cols: 63
+14:26:58.601 (0x114c) [info ] cols: 64
+14:26:58.654 (0x114c) [info ] cols: 65
+14:26:58.710 (0x114c) [info ] cols: 66
+14:26:58.796 (0x114c) [info ] cols: 67
+14:27:10.244 (0x114c) [trace] qml:
+14:27:10.289 (0x114c) [info ] ----- msAppExit: 348293574.803400, 09:40:18.313475574
+14:27:10.291 (0x114c) [info ] app running: 23765.692400, 00:00:02.21765
+14:27:10.291 (0x114c) [info ] app return: 0
+14:27:10.292 (0x114c) [info ] ----- App exit ------
+14:27:11.997 (0x4314) [info ]
+14:27:11.999 (0x4314) [info ] ----- App init ------
+14:27:12.000 (0x4314) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:27:12.000 (0x4314) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:27:12.001 (0x4314) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:27:12.001 (0x4314) [info ] Check chinese support: 012汉字abc
+14:27:12.001 (0x4314) [info ] ----- msAppInit: 348295282.705500, 09:40:19.313476282
+14:27:12.002 (0x4314) [info ] [trace] --- FuncEntry
+14:27:12.002 (0x4314) [info ] [trace]012汉字abc 
+14:27:12.003 (0x4314) [info ] qInfo
+14:27:12.003 (0x4314) [info ] qDebug
+14:27:12.003 (0x4314) [info ] qWanging
+14:27:12.004 (0x4314) [info ] QCritical
+14:27:12.004 (0x4314) [info ] call getMs() 1000 times, 0.034100 ms
+14:27:12.011 (0x4314) [info ] 1-1
+14:27:12.012 (0x4314) [info ] 1-2
+14:27:12.012 (0x4314) [info ] 2-1,汉字
+14:27:12.013 (0x4314) [info ] 2-2,汉字
+14:27:12.013 (0x4314) [info ] 1
+14:27:12.013 (0x4314) [info ] 12345678901234
+14:27:12.014 (0x4314) [info ] 12345679020032.0000000000000000
+14:27:12.014 (0x4314) [info ] 12345678901234567168.00000000000000000000000000000000
+14:27:12.020 (0x4314) [debug] SlBase::add( 3 + 4 ) = 7
+14:27:12.021 (0x4314) [debug] SlBase::getTime() = 2023-04-27 14:27:12.020
+14:27:12.021 (0x4314) [info ] [trace] --- FuncExit, 19.5189 ms
+14:27:12.958 (0x4314) [warn ] Both point size and pixel size set. Using pixel size.
+14:27:13.378 (0x4314) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:27:13.505 (0x4314) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:27:13.506 (0x4314) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:27:13.823 (0x4314) [debug] Name :  "COM5"
+14:27:13.824 (0x4314) [debug] Name :  "COM11"
+14:27:13.826 (0x4314) [debug] Name :  "COM4"
+14:27:13.829 (0x4314) [debug] Name :  "COM1"
+14:27:13.832 (0x4314) [debug] Name :  "COM2"
+14:27:13.833 (0x4314) [debug] Name :  "COM3"
+14:27:13.834 (0x4314) [debug] Name :  "COM6"
+14:27:13.943 (0x4314) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:27:13.978 (0x4314) [debug] qml: [trace]activetrue
+14:27:16.093 (0x4314) [debug] false
+14:27:16.094 (0x4314) [debug]  openPort is working 
+14:27:16.094 (0x4314) [debug] "COM1" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+14:27:17.110 (0x4314) [debug] qml: [trace]activefalse
+14:27:20.348 (0x4314) [info ] cols: 2
+14:27:20.349 (0x4314) [info ] cols: 3
+14:27:20.350 (0x4314) [debug] "14:27:20.350 2 frames received, 45 bytes ignored"
+14:27:21.988 (0x4314) [info ] cols: 4
+14:27:21.989 (0x4314) [debug] "14:27:21.989 1 frames received, 44 bytes ignored"
+14:27:22.440 (0x4314) [info ] cols: 5
+14:27:22.441 (0x4314) [debug] "14:27:22.441 1 frames received, 44 bytes ignored"
+14:27:22.829 (0x4314) [info ] cols: 6
+14:27:22.830 (0x4314) [debug] "14:27:22.830 1 frames received, 44 bytes ignored"
+14:27:23.116 (0x4314) [info ] cols: 7
+14:27:23.117 (0x4314) [debug] "14:27:23.117 1 frames received, 44 bytes ignored"
+14:27:23.360 (0x4314) [info ] cols: 8
+14:27:23.361 (0x4314) [debug] "14:27:23.361 1 frames received, 44 bytes ignored"
+14:27:23.624 (0x4314) [info ] cols: 9
+14:27:23.624 (0x4314) [debug] "14:27:23.624 1 frames received, 44 bytes ignored"
+14:27:24.036 (0x4314) [info ] cols: 10
+14:27:24.037 (0x4314) [debug] "14:27:24.37 1 frames received, 44 bytes ignored"
+14:27:24.236 (0x4314) [info ] cols: 11
+14:27:24.237 (0x4314) [debug] "14:27:24.237 1 frames received, 44 bytes ignored"
+14:27:24.432 (0x4314) [info ] cols: 12
+14:27:24.433 (0x4314) [debug] "14:27:24.433 1 frames received, 44 bytes ignored"
+14:27:24.623 (0x4314) [info ] cols: 13
+14:27:24.624 (0x4314) [debug] "14:27:24.624 1 frames received, 44 bytes ignored"
+14:27:24.809 (0x4314) [info ] cols: 14
+14:27:24.809 (0x4314) [debug] "14:27:24.809 1 frames received, 44 bytes ignored"
+14:27:24.964 (0x4314) [info ] cols: 15
+14:27:24.965 (0x4314) [debug] "14:27:24.965 1 frames received, 44 bytes ignored"
+14:27:25.108 (0x4314) [info ] cols: 16
+14:27:25.109 (0x4314) [debug] "14:27:25.109 1 frames received, 44 bytes ignored"
+14:27:25.284 (0x4314) [info ] cols: 17
+14:27:25.285 (0x4314) [debug] "14:27:25.285 1 frames received, 44 bytes ignored"
+14:27:25.412 (0x4314) [info ] cols: 18
+14:27:25.413 (0x4314) [debug] "14:27:25.413 1 frames received, 44 bytes ignored"
+14:27:25.547 (0x4314) [info ] cols: 19
+14:27:25.548 (0x4314) [debug] "14:27:25.548 1 frames received, 44 bytes ignored"
+14:27:25.718 (0x4314) [info ] cols: 20
+14:27:25.718 (0x4314) [debug] "14:27:25.718 1 frames received, 44 bytes ignored"
+14:27:25.884 (0x4314) [info ] cols: 21
+14:27:25.885 (0x4314) [debug] "14:27:25.885 1 frames received, 44 bytes ignored"
+14:27:26.060 (0x4314) [info ] cols: 22
+14:27:26.061 (0x4314) [debug] "14:27:26.61 1 frames received, 44 bytes ignored"
+14:27:28.548 (0x4314) [info ] cols: 23
+14:27:28.549 (0x4314) [debug] "14:27:28.549 1 frames received, 44 bytes ignored"
+14:27:28.740 (0x4314) [info ] cols: 24
+14:27:28.741 (0x4314) [debug] "14:27:28.741 1 frames received, 44 bytes ignored"
+14:27:29.004 (0x4314) [info ] cols: 25
+14:27:29.005 (0x4314) [debug] "14:27:29.5 1 frames received, 44 bytes ignored"
+14:27:29.196 (0x4314) [info ] cols: 26
+14:27:29.197 (0x4314) [debug] "14:27:29.196 1 frames received, 44 bytes ignored"
+14:27:29.373 (0x4314) [info ] cols: 27
+14:27:29.373 (0x4314) [debug] "14:27:29.373 1 frames received, 44 bytes ignored"
+14:27:29.516 (0x4314) [info ] cols: 28
+14:27:29.517 (0x4314) [debug] "14:27:29.517 1 frames received, 44 bytes ignored"
+14:27:37.687 (0x4314) [debug] qml: [trace]activetrue
+14:27:38.771 (0x4314) [trace] qml:
+14:27:38.846 (0x4314) [info ] ----- msAppExit: 348322131.680600, 09:40:21.313501131
+14:27:38.847 (0x4314) [info ] app running: 26848.975100, 00:00:02.24848
+14:27:38.848 (0x4314) [info ] app return: 0
+14:27:38.850 (0x4314) [info ] ----- App exit ------
+14:39:16.939 (0x4528) [info ]
+14:39:16.941 (0x4528) [info ] ----- App init ------
+14:39:16.941 (0x4528) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:39:16.941 (0x4528) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:39:16.942 (0x4528) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:39:16.942 (0x4528) [info ] Check chinese support: 012汉字abc
+14:39:16.943 (0x4528) [info ] ----- msAppInit: 349020223.928800, 09:41:31.314129223
+14:39:16.944 (0x4528) [info ] [trace] --- FuncEntry
+14:39:16.944 (0x4528) [info ] [trace]012汉字abc 
+14:39:16.945 (0x4528) [info ] qInfo
+14:39:16.945 (0x4528) [info ] qDebug
+14:39:16.946 (0x4528) [info ] qWanging
+14:39:16.946 (0x4528) [info ] QCritical
+14:39:16.946 (0x4528) [info ] call getMs() 1000 times, 0.034300 ms
+14:39:16.951 (0x4528) [info ] 1-1
+14:39:16.951 (0x4528) [info ] 1-2
+14:39:16.952 (0x4528) [info ] 2-1,汉字
+14:39:16.952 (0x4528) [info ] 2-2,汉字
+14:39:16.953 (0x4528) [info ] 1
+14:39:16.953 (0x4528) [info ] 12345678901234
+14:39:16.953 (0x4528) [info ] 12345679020032.0000000000000000
+14:39:16.954 (0x4528) [info ] 12345678901234567168.00000000000000000000000000000000
+14:39:16.959 (0x4528) [debug] SlBase::add( 3 + 4 ) = 7
+14:39:16.959 (0x4528) [debug] SlBase::getTime() = 2023-04-27 14:39:16.959
+14:39:16.960 (0x4528) [info ] [trace] --- FuncExit, 16.8477 ms
+14:39:17.994 (0x4528) [warn ] Both point size and pixel size set. Using pixel size.
+14:39:18.452 (0x4528) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:39:18.571 (0x4528) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:39:18.572 (0x4528) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:39:18.839 (0x4528) [debug] Name :  "COM5"
+14:39:18.840 (0x4528) [debug] Name :  "COM11"
+14:39:18.841 (0x4528) [debug] Name :  "COM4"
+14:39:18.842 (0x4528) [debug] Name :  "COM1"
+14:39:18.843 (0x4528) [debug] Name :  "COM2"
+14:39:18.843 (0x4528) [debug] Name :  "COM3"
+14:39:18.844 (0x4528) [debug] Name :  "COM6"
+14:39:18.924 (0x4528) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:39:18.960 (0x4528) [debug] qml: [trace]activetrue
+14:39:22.920 (0x4528) [trace] qml:
+14:39:22.974 (0x4528) [info ] ----- msAppExit: 349026260.213500, 09:41:32.314134260
+14:39:22.975 (0x4528) [info ] app running: 6036.284700, 00:00:00.6036
+14:39:22.976 (0x4528) [info ] app return: 0
+14:39:22.976 (0x4528) [info ] ----- App exit ------
+14:41:43.040 (0x5fa8) [info ]
+14:41:43.042 (0x5fa8) [info ] ----- App init ------
+14:41:43.042 (0x5fa8) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:41:43.043 (0x5fa8) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+14:41:43.043 (0x5fa8) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard-Debug/SerialPortDemo
+14:41:43.044 (0x5fa8) [info ] Check chinese support: 012汉字abc
+14:41:43.044 (0x5fa8) [info ] ----- msAppInit: 349166326.047200, 09:41:46.314260326
+14:41:43.045 (0x5fa8) [info ] [trace] --- FuncEntry
+14:41:43.045 (0x5fa8) [info ] [trace]012汉字abc 
+14:41:43.045 (0x5fa8) [info ] qInfo
+14:41:43.046 (0x5fa8) [info ] qDebug
+14:41:43.046 (0x5fa8) [info ] qWanging
+14:41:43.046 (0x5fa8) [info ] QCritical
+14:41:43.047 (0x5fa8) [info ] call getMs() 1000 times, 0.034200 ms
+14:41:43.052 (0x5fa8) [info ] 1-1
+14:41:43.053 (0x5fa8) [info ] 1-2
+14:41:43.053 (0x5fa8) [info ] 2-1,汉字
+14:41:43.054 (0x5fa8) [info ] 2-2,汉字
+14:41:43.054 (0x5fa8) [info ] 1
+14:41:43.054 (0x5fa8) [info ] 12345678901234
+14:41:43.055 (0x5fa8) [info ] 12345679020032.0000000000000000
+14:41:43.055 (0x5fa8) [info ] 12345678901234567168.00000000000000000000000000000000
+14:41:43.059 (0x5fa8) [debug] SlBase::add( 3 + 4 ) = 7
+14:41:43.060 (0x5fa8) [debug] SlBase::getTime() = 2023-04-27 14:41:43.060
+14:41:43.060 (0x5fa8) [info ] [trace] --- FuncExit, 16.149 ms
+14:41:44.026 (0x5fa8) [warn ] Both point size and pixel size set. Using pixel size.
+14:41:44.545 (0x5fa8) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:41:44.668 (0x5fa8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:41:44.669 (0x5fa8) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:41:44.972 (0x5fa8) [debug] Name :  "COM5"
+14:41:44.973 (0x5fa8) [debug] Name :  "COM11"
+14:41:44.974 (0x5fa8) [debug] Name :  "COM4"
+14:41:44.974 (0x5fa8) [debug] Name :  "COM1"
+14:41:44.975 (0x5fa8) [debug] Name :  "COM2"
+14:41:44.976 (0x5fa8) [debug] Name :  "COM3"
+14:41:44.976 (0x5fa8) [debug] Name :  "COM6"
+14:41:45.052 (0x5fa8) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:41:45.083 (0x5fa8) [debug] qml: [trace]activetrue
+14:41:51.640 (0x5fa8) [debug] false
+14:41:51.641 (0x5fa8) [debug]  openPort is working 
+14:41:51.642 (0x5fa8) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+14:41:53.513 (0x5fa8) [info ] cols: 2
+14:41:53.516 (0x5fa8) [info ] cols: 3
+14:41:53.626 (0x5fa8) [info ] cols: 4
+14:41:53.737 (0x5fa8) [info ] cols: 5
+14:41:53.787 (0x5fa8) [info ] cols: 6
+14:41:53.856 (0x5fa8) [info ] cols: 7
+14:41:53.928 (0x5fa8) [info ] cols: 8
+14:41:53.996 (0x5fa8) [info ] cols: 9
+14:41:54.031 (0x5fa8) [info ] cols: 10
+14:41:54.068 (0x5fa8) [info ] cols: 11
+14:41:54.114 (0x5fa8) [info ] cols: 12
+14:41:54.139 (0x5fa8) [info ] cols: 13
+14:41:54.175 (0x5fa8) [info ] cols: 14
+14:41:54.214 (0x5fa8) [info ] cols: 15
+14:41:54.264 (0x5fa8) [info ] cols: 16
+14:41:54.292 (0x5fa8) [info ] cols: 17
+14:41:54.324 (0x5fa8) [info ] cols: 18
+14:41:54.366 (0x5fa8) [info ] cols: 19
+14:41:54.390 (0x5fa8) [info ] cols: 20
+14:41:54.423 (0x5fa8) [info ] cols: 21
+14:41:54.468 (0x5fa8) [info ] cols: 22
+14:41:54.520 (0x5fa8) [info ] cols: 23
+14:41:54.597 (0x5fa8) [info ] cols: 24
+14:41:54.687 (0x5fa8) [info ] cols: 25
+14:41:54.780 (0x5fa8) [info ] cols: 26
+14:41:55.081 (0x5fa8) [info ] cols: 27
+14:41:55.121 (0x5fa8) [info ] cols: 28
+14:41:55.171 (0x5fa8) [info ] cols: 29
+14:41:55.220 (0x5fa8) [info ] cols: 30
+14:41:55.243 (0x5fa8) [info ] cols: 31
+14:41:55.285 (0x5fa8) [info ] cols: 32
+14:41:55.327 (0x5fa8) [info ] cols: 33
+14:41:55.379 (0x5fa8) [info ] cols: 34
+14:41:55.420 (0x5fa8) [info ] cols: 35
+14:41:55.472 (0x5fa8) [info ] cols: 36
+14:41:55.493 (0x5fa8) [info ] cols: 37
+14:41:55.531 (0x5fa8) [info ] cols: 38
+14:41:55.572 (0x5fa8) [info ] cols: 39
+14:41:55.619 (0x5fa8) [info ] cols: 40
+14:41:55.666 (0x5fa8) [info ] cols: 41
+14:41:55.685 (0x5fa8) [info ] cols: 42
+14:41:55.718 (0x5fa8) [info ] cols: 43
+14:41:55.764 (0x5fa8) [info ] cols: 44
+14:41:55.784 (0x5fa8) [info ] cols: 45
+14:41:55.818 (0x5fa8) [info ] cols: 46
+14:41:55.868 (0x5fa8) [info ] cols: 47
+14:41:55.887 (0x5fa8) [info ] cols: 48
+14:41:55.932 (0x5fa8) [info ] cols: 49
+14:41:55.972 (0x5fa8) [info ] cols: 50
+14:41:56.018 (0x5fa8) [info ] cols: 51
+14:41:56.066 (0x5fa8) [info ] cols: 52
+14:41:56.093 (0x5fa8) [info ] cols: 53
+14:41:56.158 (0x5fa8) [info ] cols: 54
+14:41:56.191 (0x5fa8) [info ] cols: 55
+14:41:56.226 (0x5fa8) [info ] cols: 56
+14:41:56.273 (0x5fa8) [info ] cols: 57
+14:41:56.289 (0x5fa8) [info ] cols: 58
+14:41:56.326 (0x5fa8) [info ] cols: 59
+14:41:56.374 (0x5fa8) [info ] cols: 60
+14:41:56.395 (0x5fa8) [info ] cols: 61
+14:41:56.432 (0x5fa8) [info ] cols: 62
+14:41:56.476 (0x5fa8) [info ] cols: 63
+14:41:56.517 (0x5fa8) [info ] cols: 64
+14:41:56.543 (0x5fa8) [info ] cols: 65
+14:41:56.581 (0x5fa8) [info ] cols: 66
+14:41:56.627 (0x5fa8) [info ] cols: 67
+14:41:56.665 (0x5fa8) [info ] cols: 68
+14:41:56.697 (0x5fa8) [info ] cols: 69
+14:41:56.730 (0x5fa8) [info ] cols: 70
+14:41:56.769 (0x5fa8) [info ] cols: 71
+14:41:56.795 (0x5fa8) [info ] cols: 72
+14:41:56.827 (0x5fa8) [info ] cols: 73
+14:41:56.880 (0x5fa8) [info ] cols: 74
+14:41:56.923 (0x5fa8) [info ] cols: 75
+14:41:56.968 (0x5fa8) [info ] cols: 76
+14:41:56.987 (0x5fa8) [info ] cols: 77
+14:41:57.022 (0x5fa8) [info ] cols: 78
+14:41:57.065 (0x5fa8) [info ] cols: 79
+14:41:57.098 (0x5fa8) [info ] cols: 80
+14:41:57.423 (0x5fa8) [info ] cols: 81
+14:41:57.490 (0x5fa8) [info ] cols: 82
+14:41:57.559 (0x5fa8) [info ] cols: 83
+14:41:57.629 (0x5fa8) [info ] cols: 84
+14:41:57.704 (0x5fa8) [info ] cols: 85
+14:41:57.779 (0x5fa8) [info ] cols: 86
+14:41:57.859 (0x5fa8) [info ] cols: 87
+14:41:57.876 (0x5fa8) [debug] true
+14:41:57.877 (0x5fa8) [debug]  openPort is working 
+14:41:57.878 (0x5fa8) [debug] qml: get result:false
+14:41:58.592 (0x5fa8) [trace] qml:
+14:41:58.653 (0x5fa8) [info ] ----- msAppExit: 349181938.811700, 09:41:47.314274938
+14:41:58.654 (0x5fa8) [info ] app running: 15612.764500, 00:00:01.14612
+14:41:58.655 (0x5fa8) [info ] app return: 0
+14:41:58.655 (0x5fa8) [info ] ----- App exit ------
