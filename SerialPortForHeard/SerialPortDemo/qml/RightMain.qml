@@ -11,6 +11,8 @@ Item {
     property int repeateScanLineNum: 1
     property bool isStart: true
     signal sendSettingInfoSignal(int state)
+    signal sendrepeateScanLineNum( int value)
+    signal sendSerPortStart( bool value)
 
     function setModel(s){
         myModel.append({s})
@@ -67,12 +69,12 @@ Item {
                btnStation = !btnStation
                if( sp_obj.readIsMyPortOpen() ) {
                    emit: sendSettingInfoSignal(0)
-//                   timer.stop()
+                   timer.stop()
                    //customPlotTimer.stop()
                }
                else {
                    emit: sendSettingInfoSignal(1)
-                   //timer.start()
+                   timer.start()
                    //customPlotTimer.start()
                }
 
@@ -85,12 +87,13 @@ Item {
            text: "开始第1次探测"
            onClicked: {
                if (isStart) {
-                   timer.start()
                    text = "结束第" + repeateScanLineNum + "次探测";
+                   emit: sendrepeateScanLineNum( repeateScanLineNum  - 1 )
+                   emit: sendSerPortStart( isStart )
                } else {
-                   timer.stop()
                    repeateScanLineNum += 1;
                    text = "开始第" + repeateScanLineNum + "次探测";
+                   emit: sendSerPortStart( isStart)
                }
                isStart = !isStart;
            }

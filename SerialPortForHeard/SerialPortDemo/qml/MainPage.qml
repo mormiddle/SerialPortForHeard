@@ -17,11 +17,19 @@ Page{
         var value=state+'/'+right_main.getSetting()
         sp_obj.openPort(value)
     }
+    function setSerPortStart( start ) {
+        sp_obj.setScanIsStart(start)
+    }
+    function setRepeateScanLineNum( value ) {
+        sp_obj.setRepeateScanLineNum(value)
+    }
 
     Component.onCompleted: {
         sp_obj.portNameSignal.connect(setPortName)
         sp_obj.initPort()
         right_main.sendSettingInfoSignal.connect(sendSetting)
+        right_main.sendrepeateScanLineNum.connect(setRepeateScanLineNum)
+        right_main.sendSerPortStart.connect(setSerPortStart)
 
     }
 

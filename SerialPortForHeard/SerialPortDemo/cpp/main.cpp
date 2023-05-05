@@ -27,22 +27,22 @@ int main(int argc, char *argv[])
     SlLog::purgeExpiredFiles();
 
     //tets
-    if( 1 )
-    {
-        SlLog_logFunc();
-        SlLog_trace( "012汉字abc ");
+//    if( 1 )
+//    {
+//        SlLog_logFunc();
+//        SlLog_trace( "012汉字abc ");
 
-        SlLog::test();
-        SlTime::test();
-        SlIni::test();
+//        SlLog::test();
+//        SlTime::test();
+//        SlIni::test();
 
-        //SlBase
-        {
-            SlBase slb;
-            qDebug( "SlBase::add( 3 + 4 ) = %d", slb.add(3, 4) );
-            qDebug( "SlBase::getTime() = %s", slb.getTime().toUtf8().data() );
-        }
-    }
+//        //SlBase
+//        {
+//            SlBase slb;
+//            qDebug( "SlBase::add( 3 + 4 ) = %d", slb.add(3, 4) );
+//            qDebug( "SlBase::getTime() = %s", slb.getTime().toUtf8().data() );
+//        }
+//    }
 
     //engine
     QQmlApplicationEngine engine;

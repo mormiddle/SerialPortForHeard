@@ -24,6 +24,8 @@ public:
     QByteArray buffer;
     int start = 0;
     int framesReceived = 0;
+    bool scanIsStart = false;
+    int repeateScanLineNum = m_repeateScanLineNum;
 signals:
     void portNameSignal(QString portName);
     void displayRecDataSignal( QString );
@@ -39,6 +41,9 @@ public slots:
     quint8 CRC8(QByteArray buffer, int start, int length);
     //void showData(QVector<QVector<double>>&);
     int toIntData(quint8 lowByte, quint8 highByte);
+    Q_INVOKABLE void setScanIsStart(bool start);
+    Q_INVOKABLE void setRepeateScanLineNum(int value);
+
 
 };
 

@@ -26,7 +26,7 @@ void MySerialPort::initPort()
 {
     foreach( const QSerialPortInfo &info, QSerialPortInfo::availablePorts() )
     {
-        qDebug() << "Name : " << info.portName();
+        //qDebug() << "Name : " << info.portName();
         emit portNameSignal( info.portName() );
     }
     myPort->setBaudRate(115200);
@@ -46,14 +46,12 @@ void MySerialPort::openPort( QString value)
     {
         //设置串口名字
         myPort->setPortName( port );
-        if( myPort->open( QIODevice::ReadWrite ) )
-        {
+        if( myPort->open( QIODevice::ReadWrite ) ) {
             connect( myPort, &QSerialPort::readyRead, this, &MySerialPort::readData_slot );
             qDebug() << myPort->portName() << myPort->baudRate() << myPort->dataBits()
                      << myPort->parity() << myPort->stopBits();
         }
-        else
-        {
+        else {
 
         }
     }
@@ -73,6 +71,18 @@ void MySerialPort::readData_slot()
     if( num == 0) {
         return;
     }
+
+    if( scanIsStart )
+    {
+       m_repeateScanLineNum = repeateScanLineNum;
+       qDebug() << "sacnIsStart: " << scanIsStart;
+       qDebug() << "m_repeateScanLineNum: " << m_repeateScanLineNum;
+    }
+    else {
+        qDebug() << "sacnIsStart: " << scanIsStart;
+        return;
+    }
+
 
     QByteArray buff;
     buff = myPort->readAll();
@@ -107,8 +117,7 @@ void MySerialPort::readData_slot()
                 for (int i = 0; i < m_chanelPerScanLine; i++) {
                     firstScanData.push_back(SINGAL_CHANEL_DATA());
                 }
-                for (int i = 0; i < m_chanelPerScanLine; i++)
-                {
+                for (int i = 0; i < m_chanelPerScanLine; i++) {
                     int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
 
                     firstScanData[i].push_back(value);
@@ -117,12 +126,29 @@ void MySerialPort::readData_slot()
                 return;
             }
 
+            if( m_repeateScanLines.size() != m_repeateScanLineNum + 1)
+            {
+                m_repeateScanLines.push_back(SINGAL_SCAN_LINE());
+                QVector<SINGAL_CHANEL_DATA>& firstScanData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
+                for (int i = 0; i < m_chanelPerScanLine; i++) {
+                    firstScanData.push_back(SINGAL_CHANEL_DATA());
+                }
+                for (int i = 0; i < m_chanelPerScanLine; i++) {
+                    int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
+
+                    firstScanData[i].push_back(value);
+                }
+
+                return;
+
+            }
+
+
 
             QVector<SINGAL_CHANEL_DATA>& signalScanTenChanelData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
             
 
-            for (int i = 0; i < m_chanelPerScanLine; i++)
-            {
+            for (int i = 0; i < m_chanelPerScanLine; i++){
                 int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
 
                 signalScanTenChanelData[i].push_back(value);
@@ -135,14 +161,15 @@ void MySerialPort::readData_slot()
         start += 44;
         ++framesReceived;
 
-}
+    }
+
     if( bytesIgnored > 0) {
         QDateTime dt = QDateTime::currentDateTime();
         qDebug() << QString("%1:%2:%3.%4 %5 frames received, %6 bytes ignored")
                             .arg(dt.time().hour()).arg(dt.time().minute())
                             .arg(dt.time().second()).arg(dt.time().msec())
                             .arg(framesReceived).arg(bytesIgnored);
-                framesReceived = 0;
+        framesReceived = 0;
     }
 
     if( start < count ) {
@@ -166,23 +193,23 @@ quint8 MySerialPort::CRC8(QByteArray buffer, int start, int length)
 {
     quint8 crc = 0; // Initial value
 
-       for (int j = start; j < start + length; j++)
+    for (int j = start; j < start + length; j++)
+    {
+       crc ^= buffer[j];
+       for (int i = 0; i < 8; i++)
        {
-           crc ^= buffer[j];
-           for (int i = 0; i < 8; i++)
+           if ((crc & 0x80) != 0)
            {
-               if ((crc & 0x80) != 0)
-               {
-                   crc <<= 1;
-                   crc ^= 0x07;
-               }
-               else
-               {
-                   crc <<= 1;
-               }
+               crc <<= 1;
+               crc ^= 0x07;
+           }
+           else
+           {
+               crc <<= 1;
            }
        }
-       return crc;
+    }
+    return crc;
 }
 
 int MySerialPort::toIntData(quint8 lowByte, quint8 highByte)
@@ -190,6 +217,16 @@ int MySerialPort::toIntData(quint8 lowByte, quint8 highByte)
     qint16 rawValue = (qint16)((highByte << 8) | lowByte); // convert to signed short
     int signedValue = static_cast<int>(rawValue); // convert to signed int
     return signedValue;
+}
+
+void MySerialPort::setScanIsStart(bool start)
+{
+    scanIsStart = start;
+}
+
+void MySerialPort::setRepeateScanLineNum(int value)
+{
+    repeateScanLineNum = value;
 }
 
 

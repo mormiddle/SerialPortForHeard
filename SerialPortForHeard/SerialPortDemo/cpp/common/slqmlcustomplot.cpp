@@ -357,21 +357,7 @@ void CustomColorMap::onWidgetMouseWheel(QWheelEvent* event)
         plot->replot();
     }
 
-//    if (newVisibleLabels != m_visibleLabels)
-//    {
-//        m_visibleLabels = newVisibleLabels;r
-//        plot->xAxis->range();
-//        updateXAxisSpacing();
-//        plot->replot();
-//    }
+
 }
-
-
-
-
-
-
-
-
 
 
