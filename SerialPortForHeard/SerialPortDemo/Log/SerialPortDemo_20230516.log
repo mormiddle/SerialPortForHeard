@@ -1,0 +1,645 @@
+10:04:18.726 (0x3c6c) [info ]
+10:04:18.728 (0x3c6c) [info ] ----- App init ------
+10:04:18.728 (0x3c6c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+10:04:18.729 (0x3c6c) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+10:04:18.729 (0x3c6c) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+10:04:18.730 (0x3c6c) [info ] Check chinese support: 012汉字abc
+10:04:18.731 (0x3c6c) [info ] ----- msAppInit: 601395315.164400, 16:42:01.541274315
+10:04:20.256 (0x3c6c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+10:04:20.390 (0x3c6c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+10:04:20.390 (0x3c6c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+10:04:20.704 (0x3c6c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+10:04:20.728 (0x3c6c) [debug] qml: [trace]activetrue
+10:04:22.896 (0x3c6c) [debug] false
+10:04:22.897 (0x3c6c) [debug]  openPort is working 
+10:04:22.899 (0x3c6c) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+10:04:25.048 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.048 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.050 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.050 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.412 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.413 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.413 (0x3c6c) [info ] cols: 2
+10:04:25.414 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.415 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.415 (0x3c6c) [info ] cols: 3
+10:04:25.474 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.475 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.476 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.476 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.477 (0x3c6c) [info ] cols: 4
+10:04:25.536 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.537 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.539 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.539 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.540 (0x3c6c) [info ] cols: 5
+10:04:25.600 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.601 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.602 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.603 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.603 (0x3c6c) [info ] cols: 6
+10:04:25.668 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.669 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.671 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.671 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.672 (0x3c6c) [info ] cols: 7
+10:04:25.772 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.772 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.774 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.774 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.775 (0x3c6c) [info ] cols: 8
+10:04:25.838 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.839 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.840 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.841 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.841 (0x3c6c) [info ] cols: 9
+10:04:25.906 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.907 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.909 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.909 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.910 (0x3c6c) [info ] cols: 10
+10:04:25.977 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.977 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.979 (0x3c6c) [debug] sacnIsStart:  true
+10:04:25.980 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:25.980 (0x3c6c) [info ] cols: 11
+10:04:26.046 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.046 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.049 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.049 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.050 (0x3c6c) [info ] cols: 12
+10:04:26.107 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.107 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.109 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.110 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.110 (0x3c6c) [info ] cols: 13
+10:04:26.170 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.170 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.171 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.171 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.172 (0x3c6c) [info ] cols: 14
+10:04:26.232 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.232 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.234 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.235 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.235 (0x3c6c) [info ] cols: 15
+10:04:26.316 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.317 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.319 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.319 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.320 (0x3c6c) [info ] cols: 16
+10:04:26.421 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.421 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.423 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.423 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.424 (0x3c6c) [info ] cols: 17
+10:04:26.528 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.528 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.530 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.531 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.531 (0x3c6c) [info ] cols: 18
+10:04:26.744 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.744 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.746 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.746 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.746 (0x3c6c) [info ] cols: 19
+10:04:26.874 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.874 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.877 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.877 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.878 (0x3c6c) [info ] cols: 20
+10:04:26.925 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.926 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.928 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.928 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.929 (0x3c6c) [info ] cols: 21
+10:04:26.988 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.989 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.991 (0x3c6c) [debug] sacnIsStart:  true
+10:04:26.991 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:26.991 (0x3c6c) [info ] cols: 22
+10:04:27.055 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.055 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.058 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.058 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.059 (0x3c6c) [info ] cols: 23
+10:04:27.133 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.133 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.135 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.136 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.137 (0x3c6c) [info ] cols: 24
+10:04:27.185 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.185 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.187 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.188 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.189 (0x3c6c) [info ] cols: 25
+10:04:27.241 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.242 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.244 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.244 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.245 (0x3c6c) [info ] cols: 26
+10:04:27.299 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.300 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.302 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.302 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.303 (0x3c6c) [info ] cols: 27
+10:04:27.385 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.385 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.387 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.387 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.387 (0x3c6c) [info ] cols: 28
+10:04:27.439 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.440 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.442 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.442 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.442 (0x3c6c) [info ] cols: 29
+10:04:27.497 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.498 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.500 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.500 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.501 (0x3c6c) [info ] cols: 30
+10:04:27.555 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.556 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.558 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.558 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.559 (0x3c6c) [info ] cols: 31
+10:04:27.621 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.621 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.622 (0x3c6c) [info ] cols: 32
+10:04:27.683 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.684 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.686 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.687 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.687 (0x3c6c) [info ] cols: 33
+10:04:27.734 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.735 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.737 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.738 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.739 (0x3c6c) [info ] cols: 34
+10:04:27.786 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.787 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.788 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.789 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.789 (0x3c6c) [info ] cols: 35
+10:04:27.837 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.838 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.839 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.840 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.840 (0x3c6c) [info ] cols: 36
+10:04:27.891 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.891 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.893 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.893 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.894 (0x3c6c) [info ] cols: 37
+10:04:27.944 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.944 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.947 (0x3c6c) [debug] sacnIsStart:  true
+10:04:27.947 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:27.948 (0x3c6c) [info ] cols: 38
+10:04:28.025 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.025 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.028 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.028 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.028 (0x3c6c) [info ] cols: 39
+10:04:28.108 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.108 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.110 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.110 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.111 (0x3c6c) [info ] cols: 40
+10:04:28.197 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.198 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.200 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.200 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.201 (0x3c6c) [info ] cols: 41
+10:04:28.293 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.294 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.296 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.296 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.297 (0x3c6c) [info ] cols: 42
+10:04:28.378 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.378 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.380 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.380 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.381 (0x3c6c) [info ] cols: 43
+10:04:28.438 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.439 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.441 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.441 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.442 (0x3c6c) [info ] cols: 44
+10:04:28.502 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.503 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.506 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.507 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.507 (0x3c6c) [info ] cols: 45
+10:04:28.570 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.571 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.572 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.573 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.574 (0x3c6c) [info ] cols: 46
+10:04:28.946 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.947 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.949 (0x3c6c) [debug] sacnIsStart:  true
+10:04:28.949 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:28.950 (0x3c6c) [info ] cols: 47
+10:04:29.049 (0x3c6c) [debug] sacnIsStart:  true
+10:04:29.050 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:29.052 (0x3c6c) [debug] sacnIsStart:  true
+10:04:29.052 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:29.052 (0x3c6c) [info ] cols: 48
+10:04:29.135 (0x3c6c) [debug] sacnIsStart:  true
+10:04:29.135 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:29.137 (0x3c6c) [debug] sacnIsStart:  true
+10:04:29.137 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:29.138 (0x3c6c) [info ] cols: 49
+10:04:29.287 (0x3c6c) [debug] sacnIsStart:  true
+10:04:29.288 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:29.289 (0x3c6c) [debug] sacnIsStart:  true
+10:04:29.290 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:29.290 (0x3c6c) [info ] cols: 50
+10:04:29.814 (0x3c6c) [debug] sacnIsStart:  true
+10:04:29.814 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:29.816 (0x3c6c) [debug] sacnIsStart:  true
+10:04:29.816 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:29.816 (0x3c6c) [info ] cols: 51
+10:04:30.244 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.245 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.246 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.247 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.247 (0x3c6c) [info ] cols: 52
+10:04:30.480 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.480 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.482 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.483 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.483 (0x3c6c) [info ] cols: 53
+10:04:30.559 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.559 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.561 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.561 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.562 (0x3c6c) [info ] cols: 54
+10:04:30.649 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.650 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.652 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.652 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.652 (0x3c6c) [info ] cols: 55
+10:04:30.761 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.761 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.763 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.763 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.764 (0x3c6c) [info ] cols: 56
+10:04:30.891 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.891 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.893 (0x3c6c) [debug] sacnIsStart:  true
+10:04:30.894 (0x3c6c) [debug] m_repeateScanLineNum:  0
+10:04:30.894 (0x3c6c) [info ] cols: 57
+10:04:32.090 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.091 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.093 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.093 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.241 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.241 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.242 (0x3c6c) [info ] cols: 2
+10:04:32.243 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.243 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.244 (0x3c6c) [info ] cols: 3
+10:04:32.449 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.449 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.451 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.451 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.452 (0x3c6c) [info ] cols: 4
+10:04:32.623 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.623 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.625 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.626 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.627 (0x3c6c) [info ] cols: 5
+10:04:32.875 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.876 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.878 (0x3c6c) [debug] sacnIsStart:  true
+10:04:32.878 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:32.878 (0x3c6c) [info ] cols: 6
+10:04:33.082 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.082 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.084 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.084 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.085 (0x3c6c) [info ] cols: 7
+10:04:33.188 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.189 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.190 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.191 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.191 (0x3c6c) [info ] cols: 8
+10:04:33.320 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.321 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.323 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.323 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.324 (0x3c6c) [info ] cols: 9
+10:04:33.439 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.440 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.442 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.442 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.443 (0x3c6c) [info ] cols: 10
+10:04:33.556 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.557 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.559 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.559 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.559 (0x3c6c) [info ] cols: 11
+10:04:33.678 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.678 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.680 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.681 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.681 (0x3c6c) [info ] cols: 12
+10:04:33.763 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.763 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.765 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.765 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.766 (0x3c6c) [info ] cols: 13
+10:04:33.876 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.877 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.879 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.879 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.879 (0x3c6c) [info ] cols: 14
+10:04:33.954 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.954 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.957 (0x3c6c) [debug] sacnIsStart:  true
+10:04:33.957 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:33.958 (0x3c6c) [info ] cols: 15
+10:04:34.044 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.045 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.047 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.047 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.047 (0x3c6c) [info ] cols: 16
+10:04:34.165 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.166 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.168 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.169 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.169 (0x3c6c) [info ] cols: 17
+10:04:34.221 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.222 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.223 (0x3c6c) [info ] cols: 18
+10:04:34.275 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.276 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.278 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.278 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.278 (0x3c6c) [info ] cols: 19
+10:04:34.339 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.340 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.341 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.342 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.342 (0x3c6c) [info ] cols: 20
+10:04:34.405 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.406 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.407 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.407 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.407 (0x3c6c) [info ] cols: 21
+10:04:34.446 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.446 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.448 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.449 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.449 (0x3c6c) [info ] cols: 22
+10:04:34.492 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.493 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.495 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.496 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.496 (0x3c6c) [info ] cols: 23
+10:04:34.539 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.540 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.542 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.542 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.543 (0x3c6c) [info ] cols: 24
+10:04:34.588 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.588 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.590 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.591 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.591 (0x3c6c) [info ] cols: 25
+10:04:34.638 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.638 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.640 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.640 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.641 (0x3c6c) [info ] cols: 26
+10:04:34.689 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.690 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.692 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.693 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.693 (0x3c6c) [info ] cols: 27
+10:04:34.735 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.735 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.738 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.738 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.738 (0x3c6c) [info ] cols: 28
+10:04:34.782 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.783 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.785 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.785 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.785 (0x3c6c) [info ] cols: 29
+10:04:34.830 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.831 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.833 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.834 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.834 (0x3c6c) [info ] cols: 30
+10:04:34.880 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.881 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.882 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.883 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.883 (0x3c6c) [info ] cols: 31
+10:04:34.942 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.943 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.945 (0x3c6c) [debug] sacnIsStart:  true
+10:04:34.946 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:34.947 (0x3c6c) [info ] cols: 32
+10:04:35.000 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.000 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.002 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.003 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.003 (0x3c6c) [info ] cols: 33
+10:04:35.059 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.059 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.061 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.062 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.062 (0x3c6c) [info ] cols: 34
+10:04:35.124 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.125 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.125 (0x3c6c) [info ] cols: 35
+10:04:35.215 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.216 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.218 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.218 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.218 (0x3c6c) [info ] cols: 36
+10:04:35.274 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.275 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.275 (0x3c6c) [info ] cols: 37
+10:04:35.304 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.304 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.307 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.307 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.308 (0x3c6c) [info ] cols: 38
+10:04:35.350 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.351 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.352 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.352 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.353 (0x3c6c) [info ] cols: 39
+10:04:35.396 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.396 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.397 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.398 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.398 (0x3c6c) [info ] cols: 40
+10:04:35.443 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.444 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.445 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.446 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.447 (0x3c6c) [info ] cols: 41
+10:04:35.504 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.505 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.507 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.507 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.507 (0x3c6c) [info ] cols: 42
+10:04:35.553 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.553 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.555 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.556 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.556 (0x3c6c) [info ] cols: 43
+10:04:35.604 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.605 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.606 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.607 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.607 (0x3c6c) [info ] cols: 44
+10:04:35.655 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.655 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.658 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.658 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.659 (0x3c6c) [info ] cols: 45
+10:04:35.707 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.707 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.721 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.722 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.723 (0x3c6c) [info ] cols: 46
+10:04:35.772 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.772 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.773 (0x3c6c) [info ] cols: 47
+10:04:35.824 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.825 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.825 (0x3c6c) [info ] cols: 48
+10:04:35.884 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.884 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.886 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.887 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.887 (0x3c6c) [info ] cols: 49
+10:04:35.949 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.950 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.952 (0x3c6c) [debug] sacnIsStart:  true
+10:04:35.952 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:35.952 (0x3c6c) [info ] cols: 50
+10:04:36.015 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.016 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.018 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.018 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.018 (0x3c6c) [info ] cols: 51
+10:04:36.097 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.098 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.099 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.100 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.100 (0x3c6c) [info ] cols: 52
+10:04:36.152 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.152 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.154 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.155 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.155 (0x3c6c) [info ] cols: 53
+10:04:36.222 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.222 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.223 (0x3c6c) [info ] cols: 54
+10:04:36.272 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.273 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.274 (0x3c6c) [info ] cols: 55
+10:04:36.341 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.342 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.344 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.344 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.345 (0x3c6c) [info ] cols: 56
+10:04:36.403 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.403 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.405 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.405 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.406 (0x3c6c) [info ] cols: 57
+10:04:36.449 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.450 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.452 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.452 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.453 (0x3c6c) [info ] cols: 58
+10:04:36.497 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.498 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.499 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.500 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.500 (0x3c6c) [info ] cols: 59
+10:04:36.545 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.546 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.547 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.548 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.548 (0x3c6c) [info ] cols: 60
+10:04:36.594 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.595 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.596 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.597 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.597 (0x3c6c) [info ] cols: 61
+10:04:36.654 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.654 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.656 (0x3c6c) [debug] sacnIsStart:  true
+10:04:36.657 (0x3c6c) [debug] m_repeateScanLineNum:  1
+10:04:36.657 (0x3c6c) [info ] cols: 62
+10:04:38.084 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.084 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.086 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.087 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.142 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.142 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.143 (0x3c6c) [info ] cols: 2
+10:04:38.144 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.145 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.145 (0x3c6c) [info ] cols: 3
+10:04:38.201 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.201 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.203 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.203 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.204 (0x3c6c) [info ] cols: 4
+10:04:38.269 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.270 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.270 (0x3c6c) [info ] cols: 5
+10:04:38.319 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.320 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.322 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.322 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.323 (0x3c6c) [info ] cols: 6
+10:04:38.486 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.487 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.489 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.489 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.490 (0x3c6c) [info ] cols: 7
+10:04:38.567 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.567 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.568 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.569 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.569 (0x3c6c) [info ] cols: 8
+10:04:38.691 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.692 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.694 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.694 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.695 (0x3c6c) [info ] cols: 9
+10:04:38.796 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.797 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.799 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.799 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.799 (0x3c6c) [info ] cols: 10
+10:04:38.874 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.874 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.876 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.877 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.877 (0x3c6c) [info ] cols: 11
+10:04:38.958 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.959 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.961 (0x3c6c) [debug] sacnIsStart:  true
+10:04:38.961 (0x3c6c) [debug] m_repeateScanLineNum:  2
+10:04:38.962 (0x3c6c) [info ] cols: 12
+10:04:40.068 (0x3c6c) [debug] true
+10:04:40.069 (0x3c6c) [debug]  openPort is working 
+10:04:40.070 (0x3c6c) [debug] qml: get result:false
+10:04:40.549 (0x3c6c) [trace] qml:
+10:04:40.631 (0x3c6c) [info ] ----- msAppExit: 601417220.694400, 16:42:03.541294220
+10:04:40.632 (0x3c6c) [info ] app running: 21905.530000, 00:00:02.19905
+10:04:40.633 (0x3c6c) [info ] app return: 0
+10:04:40.634 (0x3c6c) [info ] ----- App exit ------

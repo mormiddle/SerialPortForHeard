@@ -55,10 +55,6 @@ HEADERS += \
     cpp/common/slqmlcustomplot.h
 
 
-
-QMAKE_CXXFLAGS += /source-charset:utf-8 /execution-charset:utf-8
-
-
 win32:CONFIG(release, debug|release): LIBS += -L$$OUT_PWD/../SlBase/release/ -lSlBase
 else:win32:CONFIG(debug, debug|release): LIBS += -L$$OUT_PWD/../SlBase/debug/ -lSlBase
 

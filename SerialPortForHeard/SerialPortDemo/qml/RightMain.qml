@@ -88,7 +88,7 @@ Item {
            onClicked: {
                if (isStart) {
                    text = "结束第" + repeateScanLineNum + "次探测";
-                   emit: sendrepeateScanLineNum( repeateScanLineNum  - 1 )
+                   emit: sendrepeateScanLineNum( repeateScanLineNum - 1)
                    emit: sendSerPortStart( isStart )
                } else {
                    repeateScanLineNum += 1;

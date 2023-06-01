@@ -52,8 +52,6 @@
         <file>../images/menu/menu_play.png</file>
         <file>../images/menu/menu_remote_assitant.png</file>
         <file>../images/menu/menu_video.png</file>
-        <file>../images/menu/平板校正.png</file>
-        <file>../images/menu/平板校正正常.png</file>
         <file>../images/middle/middle_ruler.png</file>
         <file>../images/other/actualView.PNG</file>
         <file>../images/other/autoFit.PNG</file>
@@ -64,9 +62,6 @@
         <file>../images/other/reset.png</file>
         <file>../images/other/saveas.png</file>
         <file>../images/other/tools.png</file>
-        <file>../images/other/点灰度.png</file>
-        <file>../images/other/负片.png</file>
-        <file>../images/other/刷新.png</file>
         <file>../images/right/right_angle.png</file>
         <file>../images/right/right_api_1.png</file>
         <file>../images/right/right_api_2.png</file>

@@ -70,9 +70,6 @@
     <QtMoc Include="cpp\common\AppInfo.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="cpp\common\EnumParameter.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <ClInclude Include="cpp\common\Globals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -90,8 +87,6 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    
-    
     
     
     
@@ -149,9 +144,6 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="qml\basic\CheckBox.qml">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="qml\ColorMap.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="qml\basic\ComboBox.qml">

@@ -1,0 +1,630 @@
+11:40:01.117 (0x141c) [info ]
+11:40:01.122 (0x141c) [info ] ----- App init ------
+11:40:01.123 (0x141c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+11:40:01.124 (0x141c) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+11:40:01.124 (0x141c) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo
+11:40:01.125 (0x141c) [info ] Check chinese support: 012汉字abc
+11:40:01.125 (0x141c) [info ] ----- msAppInit: 1685331601117.876953, [1950]00:43:35.725530629
+11:40:03.898 (0x141c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+11:40:04.924 (0x141c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+11:40:04.925 (0x141c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+11:40:05.127 (0x141c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+11:40:05.147 (0x141c) [debug] qml: [trace]activetrue
+11:40:07.990 (0x141c) [debug] onWidgetMouseWheel is running 
+
+11:40:07.991 (0x141c) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\mingw73_32\include/QtCore/qvector.h, line 463
+13:37:38.348 (0x2f60) [info ]
+13:37:38.349 (0x2f60) [info ] ----- App init ------
+13:37:38.350 (0x2f60) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+13:37:38.350 (0x2f60) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+13:37:38.350 (0x2f60) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo
+13:37:38.350 (0x2f60) [info ] Check chinese support: 012汉字abc
+13:37:38.351 (0x2f60) [info ] ----- msAppInit: 1685338658348.400146, [1950]00:55:20.731882860
+13:37:39.116 (0x2f60) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+13:37:39.153 (0x2f60) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+13:37:39.153 (0x2f60) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+13:37:39.360 (0x2f60) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+13:37:39.379 (0x2f60) [debug] qml: [trace]activetrue
+13:37:43.916 (0x2f60) [debug] false
+13:37:43.916 (0x2f60) [debug]  openPort is working 
+13:37:44.720 (0x2f60) [debug] "COM5" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+13:37:50.225 (0x2f60) [debug] true
+13:37:50.226 (0x2f60) [debug]  openPort is working 
+13:37:50.227 (0x2f60) [debug] qml: get result:false
+13:37:51.512 (0x2f60) [debug] false
+13:37:51.513 (0x2f60) [debug]  openPort is working 
+13:37:51.514 (0x2f60) [debug] "COM3" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+13:37:51.609 (0x2f60) [debug] sacnIsStart:  false
+13:37:51.609 (0x2f60) [debug] sacnIsStart:  false
+13:37:51.611 (0x2f60) [debug] sacnIsStart:  false
+13:37:51.612 (0x2f60) [debug] sacnIsStart:  false
+13:37:51.871 (0x2f60) [debug] sacnIsStart:  false
+13:37:51.872 (0x2f60) [debug] sacnIsStart:  false
+13:37:51.874 (0x2f60) [debug] sacnIsStart:  false
+13:37:51.874 (0x2f60) [debug] sacnIsStart:  false
+13:37:52.039 (0x2f60) [debug] sacnIsStart:  false
+13:37:52.039 (0x2f60) [debug] sacnIsStart:  false
+13:37:52.041 (0x2f60) [debug] sacnIsStart:  false
+13:37:52.041 (0x2f60) [debug] sacnIsStart:  false
+13:37:53.348 (0x2f60) [trace] qml:
+13:37:53.384 (0x2f60) [info ] ----- msAppExit: 1685338673384.326904, [1950]00:55:22.731895896
+13:37:53.385 (0x2f60) [info ] app running: 15035.926758, 00:00:01.14035
+13:37:53.386 (0x2f60) [info ] app return: 0
+13:37:53.387 (0x2f60) [info ] ----- App exit ------
+13:38:07.508 (0x44c4) [info ]
+13:38:07.510 (0x44c4) [info ] ----- App init ------
+13:38:07.511 (0x44c4) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+13:38:07.511 (0x44c4) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+13:38:07.511 (0x44c4) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo
+13:38:07.511 (0x44c4) [info ] Check chinese support: 012汉字abc
+13:38:07.512 (0x44c4) [info ] ----- msAppInit: 1685338687507.070801, [1950]00:55:23.731909019
+13:38:08.725 (0x5b38) [debug] QML Debugger: Waiting for connection on port 56255...
+13:38:13.933 (0x44c4) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+13:38:16.102 (0x44c4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+13:38:16.103 (0x44c4) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+13:38:20.352 (0x44c4) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+13:38:20.378 (0x44c4) [debug] qml: [trace]activetrue
+13:38:23.690 (0x44c4) [debug] false
+13:38:23.691 (0x44c4) [debug]  openPort is working 
+13:38:24.477 (0x44c4) [debug] "COM5" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+13:38:30.457 (0x44c4) [trace] qml:
+13:38:30.490 (0x44c4) [info ] ----- msAppExit: 1685338710490.161377, [1950]00:55:26.731929002
+13:38:30.493 (0x44c4) [info ] app running: 22983.090576, 00:00:02.20983
+13:38:30.494 (0x44c4) [info ] app return: 0
+13:38:30.496 (0x44c4) [info ] ----- App exit ------
+13:43:18.161 (0x4588) [info ]
+13:43:18.161 (0x4588) [info ] ----- App init ------
+13:43:18.161 (0x4588) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+13:43:18.162 (0x4588) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+13:43:18.162 (0x4588) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo
+13:43:18.162 (0x4588) [info ] Check chinese support: 012汉字abc
+13:43:18.162 (0x4588) [info ] ----- msAppInit: 1685338998160.239258, [1950]00:55:54.732188672
+13:43:18.899 (0x4588) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+13:43:18.936 (0x4588) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+13:43:18.937 (0x4588) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+13:43:19.153 (0x4588) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+13:43:19.180 (0x4588) [debug] qml: [trace]activetrue
+13:43:19.394 (0x4588) [debug] virtual void SlQmlCustomPlot::mousePressEvent(QMouseEvent*)
+13:43:19.395 (0x4588) [debug] virtual void SlQmlCustomPlot::mouseReleaseEvent(QMouseEvent*)
+13:43:21.433 (0x4588) [debug] false
+13:43:21.434 (0x4588) [debug]  openPort is working 
+13:43:21.435 (0x4588) [debug] "COM3" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+13:43:23.344 (0x4588) [debug] sacnIsStart:  true
+13:43:23.345 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.347 (0x4588) [debug] sacnIsStart:  true
+13:43:23.347 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.495 (0x4588) [debug] sacnIsStart:  true
+13:43:23.495 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.496 (0x4588) [info ] cols: 2
+13:43:23.497 (0x4588) [debug] sacnIsStart:  true
+13:43:23.498 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.498 (0x4588) [info ] cols: 3
+13:43:23.583 (0x4588) [debug] sacnIsStart:  true
+13:43:23.583 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.585 (0x4588) [debug] sacnIsStart:  true
+13:43:23.585 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.586 (0x4588) [info ] cols: 4
+13:43:23.683 (0x4588) [debug] sacnIsStart:  true
+13:43:23.683 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.685 (0x4588) [debug] sacnIsStart:  true
+13:43:23.685 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.686 (0x4588) [info ] cols: 5
+13:43:23.775 (0x4588) [debug] sacnIsStart:  true
+13:43:23.776 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.778 (0x4588) [debug] sacnIsStart:  true
+13:43:23.778 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.778 (0x4588) [info ] cols: 6
+13:43:23.830 (0x4588) [debug] sacnIsStart:  true
+13:43:23.831 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.832 (0x4588) [debug] sacnIsStart:  true
+13:43:23.832 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.833 (0x4588) [info ] cols: 7
+13:43:23.884 (0x4588) [debug] sacnIsStart:  true
+13:43:23.884 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.886 (0x4588) [debug] sacnIsStart:  true
+13:43:23.887 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.887 (0x4588) [info ] cols: 8
+13:43:23.938 (0x4588) [debug] sacnIsStart:  true
+13:43:23.939 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.941 (0x4588) [debug] sacnIsStart:  true
+13:43:23.941 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.941 (0x4588) [info ] cols: 9
+13:43:23.998 (0x4588) [debug] sacnIsStart:  true
+13:43:23.999 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:23.999 (0x4588) [info ] cols: 10
+13:43:24.040 (0x4588) [debug] sacnIsStart:  true
+13:43:24.041 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.047 (0x4588) [debug] sacnIsStart:  true
+13:43:24.048 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.048 (0x4588) [info ] cols: 11
+13:43:24.085 (0x4588) [debug] sacnIsStart:  true
+13:43:24.085 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.087 (0x4588) [debug] sacnIsStart:  true
+13:43:24.088 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.088 (0x4588) [info ] cols: 12
+13:43:24.129 (0x4588) [debug] sacnIsStart:  true
+13:43:24.129 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.132 (0x4588) [debug] sacnIsStart:  true
+13:43:24.132 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.132 (0x4588) [info ] cols: 13
+13:43:24.174 (0x4588) [debug] sacnIsStart:  true
+13:43:24.174 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.176 (0x4588) [debug] sacnIsStart:  true
+13:43:24.176 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.177 (0x4588) [info ] cols: 14
+13:43:24.219 (0x4588) [debug] sacnIsStart:  true
+13:43:24.220 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.222 (0x4588) [debug] sacnIsStart:  true
+13:43:24.223 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.224 (0x4588) [info ] cols: 15
+13:43:24.276 (0x4588) [debug] sacnIsStart:  true
+13:43:24.276 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.278 (0x4588) [debug] sacnIsStart:  true
+13:43:24.279 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.279 (0x4588) [info ] cols: 16
+13:43:24.311 (0x4588) [debug] sacnIsStart:  true
+13:43:24.311 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.313 (0x4588) [debug] sacnIsStart:  true
+13:43:24.313 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.314 (0x4588) [info ] cols: 17
+13:43:24.349 (0x4588) [debug] sacnIsStart:  true
+13:43:24.349 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.349 (0x4588) [info ] cols: 18
+13:43:24.378 (0x4588) [debug] sacnIsStart:  true
+13:43:24.378 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.380 (0x4588) [debug] sacnIsStart:  true
+13:43:24.381 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.381 (0x4588) [info ] cols: 19
+13:43:24.412 (0x4588) [debug] sacnIsStart:  true
+13:43:24.412 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.414 (0x4588) [debug] sacnIsStart:  true
+13:43:24.414 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.415 (0x4588) [info ] cols: 20
+13:43:24.450 (0x4588) [debug] sacnIsStart:  true
+13:43:24.450 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.450 (0x4588) [info ] cols: 21
+13:43:24.480 (0x4588) [debug] sacnIsStart:  true
+13:43:24.480 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.482 (0x4588) [debug] sacnIsStart:  true
+13:43:24.483 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.483 (0x4588) [info ] cols: 22
+13:43:24.514 (0x4588) [debug] sacnIsStart:  true
+13:43:24.514 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.516 (0x4588) [debug] sacnIsStart:  true
+13:43:24.517 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.517 (0x4588) [info ] cols: 23
+13:43:24.549 (0x4588) [debug] sacnIsStart:  true
+13:43:24.549 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.551 (0x4588) [debug] sacnIsStart:  true
+13:43:24.552 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.553 (0x4588) [info ] cols: 24
+13:43:24.584 (0x4588) [debug] sacnIsStart:  true
+13:43:24.584 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.586 (0x4588) [debug] sacnIsStart:  true
+13:43:24.586 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.587 (0x4588) [info ] cols: 25
+13:43:24.619 (0x4588) [debug] sacnIsStart:  true
+13:43:24.619 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.621 (0x4588) [debug] sacnIsStart:  true
+13:43:24.622 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.623 (0x4588) [info ] cols: 26
+13:43:24.653 (0x4588) [debug] sacnIsStart:  true
+13:43:24.655 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.658 (0x4588) [debug] sacnIsStart:  true
+13:43:24.662 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.663 (0x4588) [info ] cols: 27
+13:43:24.689 (0x4588) [debug] sacnIsStart:  true
+13:43:24.691 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.693 (0x4588) [debug] sacnIsStart:  true
+13:43:24.693 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.694 (0x4588) [info ] cols: 28
+13:43:24.729 (0x4588) [debug] sacnIsStart:  true
+13:43:24.729 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.731 (0x4588) [debug] sacnIsStart:  true
+13:43:24.732 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.732 (0x4588) [info ] cols: 29
+13:43:24.796 (0x4588) [debug] sacnIsStart:  true
+13:43:24.797 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.799 (0x4588) [debug] sacnIsStart:  true
+13:43:24.799 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.799 (0x4588) [info ] cols: 30
+13:43:24.864 (0x4588) [debug] sacnIsStart:  true
+13:43:24.866 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.868 (0x4588) [debug] sacnIsStart:  true
+13:43:24.869 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.869 (0x4588) [info ] cols: 31
+13:43:24.933 (0x4588) [debug] sacnIsStart:  true
+13:43:24.933 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.935 (0x4588) [debug] sacnIsStart:  true
+13:43:24.936 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:24.936 (0x4588) [info ] cols: 32
+13:43:25.003 (0x4588) [debug] sacnIsStart:  true
+13:43:25.004 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.007 (0x4588) [debug] sacnIsStart:  true
+13:43:25.008 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.010 (0x4588) [info ] cols: 33
+13:43:25.089 (0x4588) [debug] sacnIsStart:  true
+13:43:25.091 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.093 (0x4588) [debug] sacnIsStart:  true
+13:43:25.094 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.094 (0x4588) [info ] cols: 34
+13:43:25.156 (0x4588) [debug] sacnIsStart:  true
+13:43:25.159 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.161 (0x4588) [info ] cols: 35
+13:43:25.210 (0x4588) [debug] sacnIsStart:  true
+13:43:25.210 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.211 (0x4588) [debug] sacnIsStart:  true
+13:43:25.212 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.212 (0x4588) [info ] cols: 36
+13:43:25.270 (0x4588) [debug] sacnIsStart:  true
+13:43:25.270 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.273 (0x4588) [debug] sacnIsStart:  true
+13:43:25.274 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.274 (0x4588) [info ] cols: 37
+13:43:25.340 (0x4588) [debug] sacnIsStart:  true
+13:43:25.342 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.343 (0x4588) [debug] sacnIsStart:  true
+13:43:25.344 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.345 (0x4588) [info ] cols: 38
+13:43:25.389 (0x4588) [debug] sacnIsStart:  true
+13:43:25.391 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.392 (0x4588) [debug] sacnIsStart:  true
+13:43:25.393 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.394 (0x4588) [info ] cols: 39
+13:43:25.435 (0x4588) [debug] sacnIsStart:  true
+13:43:25.435 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.438 (0x4588) [debug] sacnIsStart:  true
+13:43:25.438 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.440 (0x4588) [info ] cols: 40
+13:43:25.481 (0x4588) [debug] sacnIsStart:  true
+13:43:25.481 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.483 (0x4588) [debug] sacnIsStart:  true
+13:43:25.483 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.484 (0x4588) [info ] cols: 41
+13:43:25.528 (0x4588) [debug] sacnIsStart:  true
+13:43:25.528 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.530 (0x4588) [debug] sacnIsStart:  true
+13:43:25.531 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.531 (0x4588) [info ] cols: 42
+13:43:25.574 (0x4588) [debug] sacnIsStart:  true
+13:43:25.575 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.577 (0x4588) [debug] sacnIsStart:  true
+13:43:25.577 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.578 (0x4588) [info ] cols: 43
+13:43:25.635 (0x4588) [debug] sacnIsStart:  true
+13:43:25.635 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.637 (0x4588) [debug] sacnIsStart:  true
+13:43:25.638 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.639 (0x4588) [info ] cols: 44
+13:43:25.679 (0x4588) [debug] sacnIsStart:  true
+13:43:25.680 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.682 (0x4588) [debug] sacnIsStart:  true
+13:43:25.682 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.683 (0x4588) [info ] cols: 45
+13:43:25.724 (0x4588) [debug] sacnIsStart:  true
+13:43:25.724 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.726 (0x4588) [debug] sacnIsStart:  true
+13:43:25.727 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.728 (0x4588) [info ] cols: 46
+13:43:25.769 (0x4588) [debug] sacnIsStart:  true
+13:43:25.769 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.772 (0x4588) [debug] sacnIsStart:  true
+13:43:25.773 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.774 (0x4588) [info ] cols: 47
+13:43:25.814 (0x4588) [debug] sacnIsStart:  true
+13:43:25.815 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.817 (0x4588) [debug] sacnIsStart:  true
+13:43:25.817 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.817 (0x4588) [info ] cols: 48
+13:43:25.861 (0x4588) [debug] sacnIsStart:  true
+13:43:25.862 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.864 (0x4588) [debug] sacnIsStart:  true
+13:43:25.864 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.864 (0x4588) [info ] cols: 49
+13:43:25.921 (0x4588) [debug] sacnIsStart:  true
+13:43:25.922 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.924 (0x4588) [debug] sacnIsStart:  true
+13:43:25.925 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.925 (0x4588) [info ] cols: 50
+13:43:25.967 (0x4588) [debug] sacnIsStart:  true
+13:43:25.968 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.970 (0x4588) [debug] sacnIsStart:  true
+13:43:25.970 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:25.971 (0x4588) [info ] cols: 51
+13:43:26.013 (0x4588) [debug] sacnIsStart:  true
+13:43:26.013 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.015 (0x4588) [debug] sacnIsStart:  true
+13:43:26.016 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.016 (0x4588) [info ] cols: 52
+13:43:26.059 (0x4588) [debug] sacnIsStart:  true
+13:43:26.061 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.061 (0x4588) [debug] sacnIsStart:  true
+13:43:26.061 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.062 (0x4588) [info ] cols: 53
+13:43:26.106 (0x4588) [debug] sacnIsStart:  true
+13:43:26.108 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.109 (0x4588) [debug] sacnIsStart:  true
+13:43:26.110 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.111 (0x4588) [info ] cols: 54
+13:43:26.152 (0x4588) [debug] sacnIsStart:  true
+13:43:26.152 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.155 (0x4588) [debug] sacnIsStart:  true
+13:43:26.159 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.161 (0x4588) [info ] cols: 55
+13:43:26.213 (0x4588) [debug] sacnIsStart:  true
+13:43:26.214 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.216 (0x4588) [debug] sacnIsStart:  true
+13:43:26.216 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.216 (0x4588) [info ] cols: 56
+13:43:26.258 (0x4588) [debug] sacnIsStart:  true
+13:43:26.259 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.261 (0x4588) [debug] sacnIsStart:  true
+13:43:26.261 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.261 (0x4588) [info ] cols: 57
+13:43:26.300 (0x4588) [debug] sacnIsStart:  true
+13:43:26.300 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.300 (0x4588) [info ] cols: 58
+13:43:26.334 (0x4588) [debug] sacnIsStart:  true
+13:43:26.335 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.337 (0x4588) [debug] sacnIsStart:  true
+13:43:26.338 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.338 (0x4588) [info ] cols: 59
+13:43:26.373 (0x4588) [debug] sacnIsStart:  true
+13:43:26.374 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.376 (0x4588) [debug] sacnIsStart:  true
+13:43:26.376 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.376 (0x4588) [info ] cols: 60
+13:43:26.413 (0x4588) [debug] sacnIsStart:  true
+13:43:26.413 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.415 (0x4588) [debug] sacnIsStart:  true
+13:43:26.416 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.416 (0x4588) [info ] cols: 61
+13:43:26.452 (0x4588) [debug] sacnIsStart:  true
+13:43:26.453 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.457 (0x4588) [debug] sacnIsStart:  true
+13:43:26.458 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.459 (0x4588) [info ] cols: 62
+13:43:26.500 (0x4588) [debug] sacnIsStart:  true
+13:43:26.500 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.501 (0x4588) [info ] cols: 63
+13:43:26.549 (0x4588) [debug] sacnIsStart:  true
+13:43:26.550 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.550 (0x4588) [info ] cols: 64
+13:43:26.583 (0x4588) [debug] sacnIsStart:  true
+13:43:26.583 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.585 (0x4588) [debug] sacnIsStart:  true
+13:43:26.585 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.586 (0x4588) [info ] cols: 65
+13:43:26.620 (0x4588) [debug] sacnIsStart:  true
+13:43:26.620 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.623 (0x4588) [debug] sacnIsStart:  true
+13:43:26.623 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.624 (0x4588) [info ] cols: 66
+13:43:26.658 (0x4588) [debug] sacnIsStart:  true
+13:43:26.658 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.660 (0x4588) [debug] sacnIsStart:  true
+13:43:26.660 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.661 (0x4588) [info ] cols: 67
+13:43:26.698 (0x4588) [debug] sacnIsStart:  true
+13:43:26.699 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.699 (0x4588) [info ] cols: 68
+13:43:26.734 (0x4588) [debug] sacnIsStart:  true
+13:43:26.734 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.736 (0x4588) [debug] sacnIsStart:  true
+13:43:26.737 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.737 (0x4588) [info ] cols: 69
+13:43:26.773 (0x4588) [debug] sacnIsStart:  true
+13:43:26.774 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.775 (0x4588) [debug] sacnIsStart:  true
+13:43:26.776 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.776 (0x4588) [info ] cols: 70
+13:43:26.811 (0x4588) [debug] sacnIsStart:  true
+13:43:26.812 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.814 (0x4588) [debug] sacnIsStart:  true
+13:43:26.814 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.814 (0x4588) [info ] cols: 71
+13:43:26.850 (0x4588) [debug] sacnIsStart:  true
+13:43:26.851 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.853 (0x4588) [debug] sacnIsStart:  true
+13:43:26.854 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.856 (0x4588) [info ] cols: 72
+13:43:26.890 (0x4588) [debug] sacnIsStart:  true
+13:43:26.890 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.892 (0x4588) [debug] sacnIsStart:  true
+13:43:26.893 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.893 (0x4588) [info ] cols: 73
+13:43:26.930 (0x4588) [debug] sacnIsStart:  true
+13:43:26.931 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.933 (0x4588) [debug] sacnIsStart:  true
+13:43:26.933 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.933 (0x4588) [info ] cols: 74
+13:43:26.972 (0x4588) [debug] sacnIsStart:  true
+13:43:26.974 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.975 (0x4588) [debug] sacnIsStart:  true
+13:43:26.975 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:26.975 (0x4588) [info ] cols: 75
+13:43:27.016 (0x4588) [debug] sacnIsStart:  true
+13:43:27.016 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.018 (0x4588) [debug] sacnIsStart:  true
+13:43:27.018 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.018 (0x4588) [info ] cols: 76
+13:43:27.061 (0x4588) [debug] sacnIsStart:  true
+13:43:27.061 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.063 (0x4588) [debug] sacnIsStart:  true
+13:43:27.064 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.064 (0x4588) [info ] cols: 77
+13:43:27.107 (0x4588) [debug] sacnIsStart:  true
+13:43:27.108 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.108 (0x4588) [debug] sacnIsStart:  true
+13:43:27.109 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.109 (0x4588) [info ] cols: 78
+13:43:27.153 (0x4588) [debug] sacnIsStart:  true
+13:43:27.156 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.158 (0x4588) [debug] sacnIsStart:  true
+13:43:27.158 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.159 (0x4588) [info ] cols: 79
+13:43:27.202 (0x4588) [debug] sacnIsStart:  true
+13:43:27.202 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.205 (0x4588) [debug] sacnIsStart:  true
+13:43:27.209 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.211 (0x4588) [info ] cols: 80
+13:43:27.253 (0x4588) [debug] sacnIsStart:  true
+13:43:27.253 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.256 (0x4588) [debug] sacnIsStart:  true
+13:43:27.258 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.259 (0x4588) [info ] cols: 81
+13:43:27.308 (0x4588) [debug] sacnIsStart:  true
+13:43:27.309 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.310 (0x4588) [debug] sacnIsStart:  true
+13:43:27.310 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.310 (0x4588) [info ] cols: 82
+13:43:27.374 (0x4588) [debug] sacnIsStart:  true
+13:43:27.375 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.377 (0x4588) [debug] sacnIsStart:  true
+13:43:27.377 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.377 (0x4588) [info ] cols: 83
+13:43:27.491 (0x4588) [debug] sacnIsStart:  true
+13:43:27.491 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.493 (0x4588) [debug] sacnIsStart:  true
+13:43:27.493 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.494 (0x4588) [info ] cols: 84
+13:43:27.761 (0x4588) [debug] sacnIsStart:  true
+13:43:27.762 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.764 (0x4588) [debug] sacnIsStart:  true
+13:43:27.764 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.764 (0x4588) [info ] cols: 85
+13:43:27.828 (0x4588) [debug] sacnIsStart:  true
+13:43:27.829 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.831 (0x4588) [debug] sacnIsStart:  true
+13:43:27.832 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.832 (0x4588) [info ] cols: 86
+13:43:27.878 (0x4588) [debug] sacnIsStart:  true
+13:43:27.878 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.880 (0x4588) [debug] sacnIsStart:  true
+13:43:27.880 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.880 (0x4588) [info ] cols: 87
+13:43:27.928 (0x4588) [debug] sacnIsStart:  true
+13:43:27.929 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.931 (0x4588) [debug] sacnIsStart:  true
+13:43:27.931 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.932 (0x4588) [info ] cols: 88
+13:43:27.978 (0x4588) [debug] sacnIsStart:  true
+13:43:27.979 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.981 (0x4588) [debug] sacnIsStart:  true
+13:43:27.981 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:27.981 (0x4588) [info ] cols: 89
+13:43:28.030 (0x4588) [debug] sacnIsStart:  true
+13:43:28.030 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.032 (0x4588) [debug] sacnIsStart:  true
+13:43:28.033 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.033 (0x4588) [info ] cols: 90
+13:43:28.082 (0x4588) [debug] sacnIsStart:  true
+13:43:28.082 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.084 (0x4588) [debug] sacnIsStart:  true
+13:43:28.084 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.085 (0x4588) [info ] cols: 91
+13:43:28.134 (0x4588) [debug] sacnIsStart:  true
+13:43:28.135 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.137 (0x4588) [debug] sacnIsStart:  true
+13:43:28.137 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.138 (0x4588) [info ] cols: 92
+13:43:28.205 (0x4588) [debug] sacnIsStart:  true
+13:43:28.207 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.209 (0x4588) [debug] sacnIsStart:  true
+13:43:28.211 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.211 (0x4588) [info ] cols: 93
+13:43:28.275 (0x4588) [debug] sacnIsStart:  true
+13:43:28.275 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.277 (0x4588) [debug] sacnIsStart:  true
+13:43:28.278 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.278 (0x4588) [info ] cols: 94
+13:43:28.344 (0x4588) [debug] sacnIsStart:  true
+13:43:28.345 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.347 (0x4588) [debug] sacnIsStart:  true
+13:43:28.347 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.347 (0x4588) [info ] cols: 95
+13:43:28.415 (0x4588) [debug] sacnIsStart:  true
+13:43:28.416 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.418 (0x4588) [debug] sacnIsStart:  true
+13:43:28.419 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.420 (0x4588) [info ] cols: 96
+13:43:28.488 (0x4588) [debug] sacnIsStart:  true
+13:43:28.490 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.492 (0x4588) [debug] sacnIsStart:  true
+13:43:28.493 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.494 (0x4588) [info ] cols: 97
+13:43:28.564 (0x4588) [debug] sacnIsStart:  true
+13:43:28.565 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.567 (0x4588) [debug] sacnIsStart:  true
+13:43:28.567 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.567 (0x4588) [info ] cols: 98
+13:43:28.651 (0x4588) [debug] sacnIsStart:  true
+13:43:28.651 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.653 (0x4588) [debug] sacnIsStart:  true
+13:43:28.653 (0x4588) [debug] m_repeateScanLineNum:  0
+13:43:28.654 (0x4588) [info ] cols: 99
+13:43:29.934 (0x4588) [debug] sacnIsStart:  false
+13:43:29.936 (0x4588) [debug] sacnIsStart:  false
+13:43:29.992 (0x4588) [debug] sacnIsStart:  false
+13:43:29.995 (0x4588) [debug] sacnIsStart:  false
+13:43:30.035 (0x4588) [debug] sacnIsStart:  false
+13:43:30.038 (0x4588) [debug] sacnIsStart:  false
+13:43:30.078 (0x4588) [debug] sacnIsStart:  false
+13:43:30.080 (0x4588) [debug] sacnIsStart:  false
+13:43:30.121 (0x4588) [debug] sacnIsStart:  false
+13:43:30.123 (0x4588) [debug] sacnIsStart:  false
+13:43:30.164 (0x4588) [debug] sacnIsStart:  false
+13:43:30.167 (0x4588) [debug] sacnIsStart:  false
+13:43:30.208 (0x4588) [debug] sacnIsStart:  false
+13:43:30.211 (0x4588) [debug] sacnIsStart:  false
+13:43:30.252 (0x4588) [debug] sacnIsStart:  false
+13:43:30.254 (0x4588) [debug] sacnIsStart:  false
+13:43:30.297 (0x4588) [debug] sacnIsStart:  false
+13:43:30.299 (0x4588) [debug] sacnIsStart:  false
+13:43:30.342 (0x4588) [debug] sacnIsStart:  false
+13:43:30.344 (0x4588) [debug] sacnIsStart:  false
+13:43:30.387 (0x4588) [debug] sacnIsStart:  false
+13:43:30.390 (0x4588) [debug] sacnIsStart:  false
+13:43:30.438 (0x4588) [debug] sacnIsStart:  false
+13:43:30.440 (0x4588) [debug] sacnIsStart:  false
+13:43:30.502 (0x4588) [debug] sacnIsStart:  false
+13:43:30.505 (0x4588) [debug] sacnIsStart:  false
+13:43:30.542 (0x4588) [debug] sacnIsStart:  false
+13:43:30.544 (0x4588) [debug] sacnIsStart:  false
+13:43:30.579 (0x4588) [debug] sacnIsStart:  false
+13:43:30.582 (0x4588) [debug] sacnIsStart:  false
+13:43:30.617 (0x4588) [debug] sacnIsStart:  false
+13:43:30.620 (0x4588) [debug] sacnIsStart:  false
+13:43:30.655 (0x4588) [debug] sacnIsStart:  false
+13:43:30.658 (0x4588) [debug] sacnIsStart:  false
+13:43:30.694 (0x4588) [debug] sacnIsStart:  false
+13:43:30.696 (0x4588) [debug] sacnIsStart:  false
+13:43:30.732 (0x4588) [debug] sacnIsStart:  false
+13:43:30.734 (0x4588) [debug] sacnIsStart:  false
+13:43:30.771 (0x4588) [debug] sacnIsStart:  false
+13:43:30.773 (0x4588) [debug] sacnIsStart:  false
+13:43:30.810 (0x4588) [debug] sacnIsStart:  false
+13:43:30.812 (0x4588) [debug] sacnIsStart:  false
+13:43:30.852 (0x4588) [debug] sacnIsStart:  false
+13:43:30.854 (0x4588) [debug] sacnIsStart:  false
+13:43:30.893 (0x4588) [debug] sacnIsStart:  false
+13:43:30.895 (0x4588) [debug] sacnIsStart:  false
+13:43:30.929 (0x4588) [debug] sacnIsStart:  false
+13:43:30.931 (0x4588) [debug] sacnIsStart:  false
+13:43:30.966 (0x4588) [debug] sacnIsStart:  false
+13:43:30.969 (0x4588) [debug] sacnIsStart:  false
+13:43:31.003 (0x4588) [debug] sacnIsStart:  false
+13:43:31.005 (0x4588) [debug] sacnIsStart:  false
+13:43:31.040 (0x4588) [debug] sacnIsStart:  false
+13:43:31.043 (0x4588) [debug] sacnIsStart:  false
+13:43:31.078 (0x4588) [debug] sacnIsStart:  false
+13:43:31.080 (0x4588) [debug] sacnIsStart:  false
+13:43:31.116 (0x4588) [debug] sacnIsStart:  false
+13:43:31.118 (0x4588) [debug] sacnIsStart:  false
+13:43:31.158 (0x4588) [debug] sacnIsStart:  false
+13:43:31.160 (0x4588) [debug] sacnIsStart:  false
+13:43:32.328 (0x4588) [trace] qml:
+13:43:32.346 (0x4588) [info ] ----- msAppExit: 1685339012346.202881, [1950]00:55:56.732200858
+13:43:32.347 (0x4588) [info ] app running: 14185.963623, 00:00:01.13185
+13:43:32.347 (0x4588) [info ] app return: 0
+13:43:32.348 (0x4588) [info ] ----- App exit ------

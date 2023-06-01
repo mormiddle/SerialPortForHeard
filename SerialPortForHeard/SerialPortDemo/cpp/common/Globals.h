@@ -8,10 +8,13 @@ extern  int m_chanelPerScanLine;
 typedef QVector<int>			SINGAL_CHANEL_DATA;
 
 typedef struct {
-	int								cols;
-    QVector<SINGAL_CHANEL_DATA>		tenChanelData;
+    int								cols = 0;
+    int                             rows = 0;
+    QVector<SINGAL_CHANEL_DATA>		ChanelData;
 } SINGAL_SCAN_LINE;
 
-extern  QVector<SINGAL_SCAN_LINE>		m_repeateScanLines;
+extern SINGAL_SCAN_LINE             m_repeateScanLines;
+
+//extern  QVector<SINGAL_SCAN_LINE>		m_repeateScanLines;
 extern  int								m_repeateScanLineNum;
 	

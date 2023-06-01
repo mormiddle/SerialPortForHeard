@@ -35,8 +35,6 @@ HEADERS += \
     cpp/SlStr.h \
     cpp/SlTime.h
 
-QMAKE_CXXFLAGS += /source-charset:utf-8 /execution-charset:utf-8
-
 # Default rules for deployment.
 unix {
     target.path = /usr/lib

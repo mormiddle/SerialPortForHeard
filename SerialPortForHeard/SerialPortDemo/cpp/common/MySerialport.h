@@ -25,7 +25,6 @@ public:
     int start = 0;
     int framesReceived = 0;
     bool scanIsStart = false;
-    int repeateScanLineNum = m_repeateScanLineNum;
 signals:
     void portNameSignal(QString portName);
     void displayRecDataSignal( QString );

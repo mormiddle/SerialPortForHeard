@@ -146,16 +146,6 @@
       
       
     </QtMoc>
-    <QtMoc Include="cpp\common\EnumParameter.h">
-      
-      
-      
-      
-      
-      
-      
-      
-    </QtMoc>
     <ClInclude Include="cpp\common\Globals.h" />
     <QtMoc Include="cpp\common\MySerialport.h">
       
@@ -205,8 +195,6 @@
     
     
     
-    
-    
     <CustomBuild Include="debug\moc_predefs.h.cbt">
       <FileType>Document</FileType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
@@ -248,7 +236,6 @@
     <None Include="qml\basic\Button.qml" />
     <None Include="qml\basic\ButtonToolTip.qml" />
     <None Include="qml\basic\CheckBox.qml" />
-    <None Include="qml\ColorMap.qml" />
     <None Include="qml\basic\ComboBox.qml" />
     <None Include="qml\basic\Dialog.qml" />
     <None Include="images\other\File1.png" />

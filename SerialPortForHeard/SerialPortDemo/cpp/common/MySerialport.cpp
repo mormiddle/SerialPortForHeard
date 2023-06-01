@@ -72,16 +72,16 @@ void MySerialPort::readData_slot()
         return;
     }
 
-    if( scanIsStart )
-    {
-       m_repeateScanLineNum = repeateScanLineNum;
-       qDebug() << "sacnIsStart: " << scanIsStart;
-       qDebug() << "m_repeateScanLineNum: " << m_repeateScanLineNum;
-    }
-    else {
-        qDebug() << "sacnIsStart: " << scanIsStart;
-        return;
-    }
+//    if( scanIsStart )
+//    {
+//       m_repeateScanLineNum = repeateScanLineNum;
+//       qDebug() << "sacnIsStart: " << scanIsStart;
+//       qDebug() << "m_repeateScanLineNum: " << m_repeateScanLineNum;
+//    }
+//    else {
+//        qDebug() << "sacnIsStart: " << scanIsStart;
+//        return;
+//    }
 
 
     QByteArray buff;
@@ -110,52 +110,93 @@ void MySerialPort::readData_slot()
 
         //appen data
         {
-            if( m_repeateScanLines.size() == 0)
+            if ( m_repeateScanLines.ChanelData.size() == 0)
             {
-                m_repeateScanLines = QVector<SINGAL_SCAN_LINE>(1);
-                QVector<SINGAL_CHANEL_DATA>& firstScanData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
-                for (int i = 0; i < m_chanelPerScanLine; i++) {
-                    firstScanData.push_back(SINGAL_CHANEL_DATA());
-                }
-                for (int i = 0; i < m_chanelPerScanLine; i++) {
-                    int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
-
-                    firstScanData[i].push_back(value);
+                for ( int i = 0; i < m_chanelPerScanLine; ++i){
+                    m_repeateScanLines.ChanelData.push_back(SINGAL_CHANEL_DATA());
                 }
 
-                return;
-            }
-
-            if( m_repeateScanLines.size() != m_repeateScanLineNum + 1)
-            {
-                m_repeateScanLines.push_back(SINGAL_SCAN_LINE());
-                QVector<SINGAL_CHANEL_DATA>& firstScanData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
-                for (int i = 0; i < m_chanelPerScanLine; i++) {
-                    firstScanData.push_back(SINGAL_CHANEL_DATA());
-                }
-                for (int i = 0; i < m_chanelPerScanLine; i++) {
-                    int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
-
-                    firstScanData[i].push_back(value);
-                }
-
-                return;
-
+//                int value = 0;
+//                for ( int i = 0; i < m_chanelPerScanLine; ++i){
+//                    value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
+//                    m_repeateScanLines.ChanelData[i].push_back(value);
+//                }
             }
 
 
+            if (m_repeateScanLineNum > m_repeateScanLines.rows) {
+                // 如果需要，就添加新的数据行
+                for (int j = 0; j < (m_repeateScanLineNum - m_repeateScanLines.rows); ++j) {
+                    // 为每个新的数据行添加 m_chanelPerScanLine 个 SINGAL_CHANEL_DATA
+                    for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                        m_repeateScanLines.ChanelData.push_back(SINGAL_CHANEL_DATA());
+                    }
+                }
+                // 更新 rows 的值以反映新添加的数据行
+                m_repeateScanLines.rows = m_repeateScanLineNum;
+            }
 
-            QVector<SINGAL_CHANEL_DATA>& signalScanTenChanelData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
+            if (m_repeateScanLines.ChanelData.size() == (m_repeateScanLineNum + 1)*10) {
+                // 然后像以前一样处理数据
+                int value = 0;
+                for (int i = m_repeateScanLineNum*10; i < m_repeateScanLineNum*10 + m_chanelPerScanLine; ++i) {
+                    value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
+                    m_repeateScanLines.ChanelData[i].push_back(value);
+                }
+            }
+
+
+
+        }
+
+
+//        {
+//            if( m_repeateScanLines.size() == 0)
+//            {
+//                m_repeateScanLines = QVector<SINGAL_SCAN_LINE>(1);
+//                QVector<SINGAL_CHANEL_DATA>& firstScanData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
+//                for (int i = 0; i < m_chanelPerScanLine; i++) {
+//                    firstScanData.push_back(SINGAL_CHANEL_DATA());
+//                }
+//                for (int i = 0; i < m_chanelPerScanLine; i++) {
+//                    int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
+
+//                    firstScanData[i].push_back(value);
+//                }
+
+//                return;
+//            }
+
+//            if( m_repeateScanLines.size() != m_repeateScanLineNum + 1)
+//            {
+//                m_repeateScanLines.push_back(SINGAL_SCAN_LINE());
+//                QVector<SINGAL_CHANEL_DATA>& firstScanData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
+//                for (int i = 0; i < m_chanelPerScanLine; i++) {
+//                    firstScanData.push_back(SINGAL_CHANEL_DATA());
+//                }
+//                for (int i = 0; i < m_chanelPerScanLine; i++) {
+//                    int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
+
+//                    firstScanData[i].push_back(value);
+//                }
+
+//                return;
+
+//            }
+
+
+
+//            QVector<SINGAL_CHANEL_DATA>& signalScanTenChanelData = m_repeateScanLines[m_repeateScanLineNum].tenChanelData;
             
 
-            for (int i = 0; i < m_chanelPerScanLine; i++){
-                int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
+//            for (int i = 0; i < m_chanelPerScanLine; i++){
+//                int value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
 
-                signalScanTenChanelData[i].push_back(value);
-            }
+//                signalScanTenChanelData[i].push_back(value);
+//            }
 
-            qInfo("cols: %d", signalScanTenChanelData[0].size());
-        }
+//            qInfo("cols: %d", signalScanTenChanelData[0].size());
+//        }
 
 
         start += 44;
@@ -226,25 +267,7 @@ void MySerialPort::setScanIsStart(bool start)
 
 void MySerialPort::setRepeateScanLineNum(int value)
 {
-    repeateScanLineNum = value;
+    m_repeateScanLineNum = value;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

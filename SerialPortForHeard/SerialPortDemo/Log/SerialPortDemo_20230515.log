@@ -1,0 +1,196 @@
+17:28:41.207 (0x00ac) [info ]
+17:28:41.222 (0x00ac) [info ] ----- App init ------
+17:28:41.231 (0x00ac) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:28:41.233 (0x00ac) [info ] Exe file: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo/debug/SerialPortDemo.exe
+17:28:41.234 (0x00ac) [info ] App path: E:/BaiduSyncdisk/SACAR/SerialPortForHeard/SerialPortForHeard/SerialPortForHeard/SerialPortDemo
+17:28:41.235 (0x00ac) [info ] Check chinese support: 012汉字abc
+17:28:41.236 (0x00ac) [info ] ----- msAppInit: 541655876.038600, 15:02:29.487506876
+17:28:43.486 (0x00ac) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:28:43.688 (0x00ac) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+17:28:43.689 (0x00ac) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+17:28:44.065 (0x00ac) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:28:44.091 (0x00ac) [debug] qml: [trace]activetrue
+17:28:46.283 (0x00ac) [debug] false
+17:28:46.283 (0x00ac) [debug]  openPort is working 
+17:28:46.285 (0x00ac) [debug] "COM11" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+17:28:48.435 (0x00ac) [debug] sacnIsStart:  true
+17:28:48.435 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:48.437 (0x00ac) [debug] sacnIsStart:  true
+17:28:48.437 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:48.680 (0x00ac) [debug] sacnIsStart:  true
+17:28:48.680 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:48.681 (0x00ac) [info ] cols: 2
+17:28:48.682 (0x00ac) [debug] sacnIsStart:  true
+17:28:48.683 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:48.683 (0x00ac) [info ] cols: 3
+17:28:48.936 (0x00ac) [debug] sacnIsStart:  true
+17:28:48.937 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:48.939 (0x00ac) [debug] sacnIsStart:  true
+17:28:48.939 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:48.940 (0x00ac) [info ] cols: 4
+17:28:49.009 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.010 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.012 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.012 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.013 (0x00ac) [info ] cols: 5
+17:28:49.084 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.085 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.087 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.087 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.087 (0x00ac) [info ] cols: 6
+17:28:49.179 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.180 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.182 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.183 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.183 (0x00ac) [info ] cols: 7
+17:28:49.231 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.232 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.234 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.234 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.234 (0x00ac) [info ] cols: 8
+17:28:49.290 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.291 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.292 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.292 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.293 (0x00ac) [info ] cols: 9
+17:28:49.353 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.353 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.354 (0x00ac) [info ] cols: 10
+17:28:49.414 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.415 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.417 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.417 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.418 (0x00ac) [info ] cols: 11
+17:28:49.472 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.473 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.475 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.475 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.475 (0x00ac) [info ] cols: 12
+17:28:49.535 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.536 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.538 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.538 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.539 (0x00ac) [info ] cols: 13
+17:28:49.604 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.605 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.606 (0x00ac) [info ] cols: 14
+17:28:49.668 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.668 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.670 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.670 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.671 (0x00ac) [info ] cols: 15
+17:28:49.758 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.759 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.761 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.761 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.761 (0x00ac) [info ] cols: 16
+17:28:49.825 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.826 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.828 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.828 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.828 (0x00ac) [info ] cols: 17
+17:28:49.891 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.892 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.894 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.894 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.895 (0x00ac) [info ] cols: 18
+17:28:49.959 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.960 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.961 (0x00ac) [debug] sacnIsStart:  true
+17:28:49.961 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:49.962 (0x00ac) [info ] cols: 19
+17:28:50.042 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.043 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.045 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.045 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.045 (0x00ac) [info ] cols: 20
+17:28:50.079 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.079 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.082 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.082 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.083 (0x00ac) [info ] cols: 21
+17:28:50.117 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.118 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.120 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.120 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.120 (0x00ac) [info ] cols: 22
+17:28:50.156 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.157 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.158 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.159 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.159 (0x00ac) [info ] cols: 23
+17:28:50.205 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.206 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.206 (0x00ac) [info ] cols: 24
+17:28:50.233 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.233 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.235 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.236 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.236 (0x00ac) [info ] cols: 25
+17:28:50.274 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.275 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.276 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.277 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.277 (0x00ac) [info ] cols: 26
+17:28:50.334 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.335 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.337 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.337 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.337 (0x00ac) [info ] cols: 27
+17:28:50.378 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.379 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.381 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.382 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.382 (0x00ac) [info ] cols: 28
+17:28:50.423 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.423 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.425 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.426 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.426 (0x00ac) [info ] cols: 29
+17:28:50.468 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.469 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.470 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.471 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.471 (0x00ac) [info ] cols: 30
+17:28:50.513 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.514 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.516 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.517 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.517 (0x00ac) [info ] cols: 31
+17:28:50.559 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.560 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.562 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.562 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.563 (0x00ac) [info ] cols: 32
+17:28:50.606 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.607 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.609 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.609 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.609 (0x00ac) [info ] cols: 33
+17:28:50.662 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.662 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.664 (0x00ac) [debug] sacnIsStart:  true
+17:28:50.665 (0x00ac) [debug] m_repeateScanLineNum:  0
+17:28:50.665 (0x00ac) [info ] cols: 34
+17:28:52.114 (0x00ac) [debug] sacnIsStart:  true
+17:28:52.114 (0x00ac) [debug] m_repeateScanLineNum:  1
+17:28:52.117 (0x00ac) [debug] sacnIsStart:  true
+17:28:52.117 (0x00ac) [debug] m_repeateScanLineNum:  1
+17:28:52.154 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.191 (0x00ac) [debug] qml: [trace]activefalse
+17:28:52.211 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.237 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.289 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.338 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.387 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.437 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.488 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.537 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.587 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.637 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.687 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.740 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.788 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.837 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.886 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463
+17:28:52.937 (0x00ac) [fatal] ASSERT failure in QVector<T>::operator[]: "index out of range", file D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvector.h, line 463

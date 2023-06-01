@@ -57,6 +57,7 @@ public:
     Q_INVOKABLE void updatePlot();
     void updateXAxisSpacing();
     void onWidgetMouseWheel(QWheelEvent* event);//设置滚轮所发和拖拽
+    void updateYAxisRange(int newSize);//更新y轴数据范围
 };
 
 #endif // SLQMLCUSTOMPLOT_H
