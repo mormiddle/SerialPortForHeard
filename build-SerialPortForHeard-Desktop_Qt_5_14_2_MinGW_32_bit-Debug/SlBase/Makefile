@@ -247,7 +247,7 @@ Makefile: ../../SerialPortForHeard/SlBase/SlBase.pro D:/Qt/Qt5.14.2/5.14.2/mingw
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/qt_config.prf \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/win32-g++/qmake.conf \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/spec_post.prf \
-		.qmake.stash \
+		../.qmake.stash \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/exclusive_builds.prf \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/toolchain.prf \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/default_pre.prf \
@@ -450,7 +450,7 @@ D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/qt_functions.prf:
 D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/qt_config.prf:
 D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/win32-g++/qmake.conf:
 D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/spec_post.prf:
-.qmake.stash:
+../.qmake.stash:
 D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/exclusive_builds.prf:
 D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/toolchain.prf:
 D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/default_pre.prf:
@@ -485,7 +485,7 @@ all: debug-all release-all  FORCE
 clean: debug-clean release-clean  FORCE
 distclean: debug-distclean release-distclean  FORCE
 	-$(DEL_FILE) Makefile
-	-$(DEL_FILE) .qmake.stash libSlBase.a
+	-$(DEL_FILE) libSlBase.a
 
 debug-mocclean:
 	$(MAKE) -f $(MAKEFILE).Debug mocclean

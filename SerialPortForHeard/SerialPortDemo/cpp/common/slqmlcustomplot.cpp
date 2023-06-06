@@ -209,7 +209,7 @@ void CustomColorMap::updatePlot()
 //    {
 //        return;
 //    }
-    if ( m_repeateScanLines.ChanelData.size() == 0)
+    if ( m_repeateScanLines.ChanelData.size() != (m_repeateScanLineNum + 1)*10)
     {
         return;
     }
@@ -225,7 +225,7 @@ void CustomColorMap::updatePlot()
     SINGAL_SCAN_LINE& scanLine = m_repeateScanLines;
     QVector<SINGAL_CHANEL_DATA>& data = scanLine.ChanelData;
     int& currCols = scanLine.cols;
-    int newCols = data[0].size();
+    int newCols = data[m_repeateScanLineNum*10].size();
     if (currCols == newCols)
     {
         return;
@@ -389,6 +389,57 @@ void CustomColorMap::updateYAxisRange(int newSize)
     int currentXSize = heatmap->data()->keySize();
     heatmap->data()->setSize(currentXSize, newSize);
     heatmap->data()->setRange(QCPRange(0.5, currentXSize - 0.5), QCPRange(0.5, newSize - 0.5));
+
+
+    // 补充原有的图像
+    QCPColorMapData* mapData = heatmap->data();
+    SINGAL_SCAN_LINE& scanLine = m_repeateScanLines;
+    QVector<SINGAL_CHANEL_DATA>& data = scanLine.ChanelData;
+
+    int keySize = mapData->keySize();
+    int valueSize = mapData->valueSize();
+    int maxcols = 0;
+    for (int i = 0; i < m_repeateScanLines.ChanelData.size(); ++i) {
+        if( m_repeateScanLines.ChanelData[i].size() > maxcols)
+            maxcols = m_repeateScanLines.ChanelData[i].size();
+    }
+
+    {
+        // refill
+        keySize += (maxcols / 10) + 1;
+        mapData->setKeySize( keySize + 1 );
+        for ( int i = 0; i < maxcols; i++ )
+        {
+            for ( int j = 0; j < valueSize -10 ; j++ )
+            {
+                mapData->setCell( i, j, data[j][i] );
+            }
+        }
+
+    }
+
+
+    //x轴标签更新
+    {
+        QVector<QString> label;
+        QVector<double> positions;
+        int skip = qMax( 1, maxcols / 20 );
+        for ( int i = 0; i < maxcols; i += skip )
+        {
+            positions.append( i + 0.5 );
+            label.append(QString::number(i));
+        }
+
+        QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
+        xTicker->setTicks( positions, label );
+        xTicker->setSubTickCount( 1 );
+        plot->xAxis->setTicker( xTicker );
+    }
+
+   // updateXAxisSpacing();
+
+    mapData->setKeyRange(QCPRange(0.5, 0.5 + keySize));
+    plot->xAxis->setRange(0, maxcols - 1);
 
     // 重新绘制图像
     plot->replot();

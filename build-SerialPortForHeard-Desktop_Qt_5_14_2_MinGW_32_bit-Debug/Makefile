@@ -41,54 +41,54 @@ SUBTARGETS    =  \
 
 sub-SerialPortDemo-qmake_all:  FORCE
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
+	cd SerialPortDemo\ && $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 	cd SerialPortDemo\ && $(MAKE) -f Makefile qmake_all
 sub-SerialPortDemo: FORCE
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile
 sub-SerialPortDemo-make_first: FORCE
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
 sub-SerialPortDemo-all: FORCE
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
 sub-SerialPortDemo-clean: FORCE
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
 sub-SerialPortDemo-distclean: FORCE
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
 sub-SerialPortDemo-install_subtargets: FORCE
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
 sub-SerialPortDemo-uninstall_subtargets: FORCE
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
 sub-SlBase-qmake_all:  FORCE
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
+	cd SlBase\ && $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 	cd SlBase\ && $(MAKE) -f Makefile qmake_all
 sub-SlBase: FORCE
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile
 sub-SlBase-make_first: FORCE
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
 sub-SlBase-all: FORCE
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
 sub-SlBase-clean: FORCE
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
 sub-SlBase-distclean: FORCE
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
 sub-SlBase-install_subtargets: FORCE
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
 sub-SlBase-uninstall_subtargets: FORCE
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
 
 Makefile: ../SerialPortForHeard/SerialPortForHeard.pro D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/win32-g++/qmake.conf D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/features/spec_pre.prf \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/qdevice.pri \
@@ -497,34 +497,34 @@ uninstall_subtargets: sub-SerialPortDemo-uninstall_subtargets sub-SlBase-uninsta
 
 sub-SerialPortDemo-debug:
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile debug
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile debug
 sub-SlBase-debug:
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile debug
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile debug
 debug: sub-SerialPortDemo-debug sub-SlBase-debug
 
 sub-SerialPortDemo-release:
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile release
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile release
 sub-SlBase-release:
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile release
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile release
 release: sub-SerialPortDemo-release sub-SlBase-release
 
 sub-SerialPortDemo-check:
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile check
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile check
 sub-SlBase-check:
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile check
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile check
 check: sub-SerialPortDemo-check sub-SlBase-check
 
 sub-SerialPortDemo-benchmark:
 	@if not exist SerialPortDemo\ mkdir SerialPortDemo\ & if not exist SerialPortDemo\ exit 1
-	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile benchmark
+	cd SerialPortDemo\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SerialPortDemo\SerialPortDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile benchmark
 sub-SlBase-benchmark:
 	@if not exist SlBase\ mkdir SlBase\ & if not exist SlBase\ exit 1
-	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile benchmark
+	cd SlBase\ && ( if not exist Makefile $(QMAKE) -o Makefile E:\BaiduSyncdisk\Project\Code\SACAR\SerialPortForHeard\SerialPortForHeard\SerialPortForHeard\SlBase\SlBase.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile benchmark
 benchmark: sub-SerialPortDemo-benchmark sub-SlBase-benchmark
 install:install_subtargets  FORCE
 

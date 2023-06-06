@@ -1,0 +1,230 @@
+16:27:53.633 (0x485c) [info ]
+16:27:53.635 (0x485c) [info ] ----- App init ------
+16:27:53.635 (0x485c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:27:53.636 (0x485c) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+16:27:53.636 (0x485c) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/SerialPortDemo
+16:27:53.636 (0x485c) [info ] Check chinese support: 012汉字abc
+16:27:53.636 (0x485c) [info ] ----- msAppInit: 1686040073633.679688, [1950]20:24:01.1363177145
+16:27:54.261 (0x485c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:27:54.290 (0x485c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:27:54.291 (0x485c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/mingw73_32/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:27:54.434 (0x485c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:27:54.447 (0x485c) [debug] qml: [trace]activetrue
+16:27:57.971 (0x485c) [debug] false
+16:27:57.972 (0x485c) [debug]  openPort is working 
+16:27:57.974 (0x485c) [debug] "COM3" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+16:27:59.217 (0x485c) [debug] sacnIsStart:  false
+16:27:59.218 (0x485c) [debug] sacnIsStart:  false
+16:27:59.278 (0x485c) [debug] sacnIsStart:  false
+16:27:59.280 (0x485c) [debug] sacnIsStart:  false
+16:27:59.524 (0x485c) [debug] sacnIsStart:  false
+16:27:59.526 (0x485c) [debug] sacnIsStart:  false
+16:27:59.598 (0x485c) [debug] sacnIsStart:  false
+16:27:59.600 (0x485c) [debug] sacnIsStart:  false
+16:27:59.681 (0x485c) [debug] sacnIsStart:  false
+16:27:59.683 (0x485c) [debug] sacnIsStart:  false
+16:27:59.776 (0x485c) [debug] sacnIsStart:  false
+16:27:59.779 (0x485c) [debug] sacnIsStart:  false
+16:28:00.247 (0x485c) [debug] sacnIsStart:  true
+16:28:00.248 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.250 (0x485c) [debug] sacnIsStart:  true
+16:28:00.251 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.276 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 0
+16:28:00.278 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 1
+16:28:00.279 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 2
+16:28:00.280 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 3
+16:28:00.282 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 4
+16:28:00.283 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 5
+16:28:00.284 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 6
+16:28:00.284 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 7
+16:28:00.284 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 8
+16:28:00.285 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 2 9
+16:28:00.285 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 0
+16:28:00.285 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 1
+16:28:00.285 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 2
+16:28:00.286 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 3
+16:28:00.286 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 4
+16:28:00.286 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 5
+16:28:00.287 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 6
+16:28:00.287 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 7
+16:28:00.287 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 8
+16:28:00.287 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 3 9
+16:28:00.288 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 0
+16:28:00.288 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 1
+16:28:00.288 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 2
+16:28:00.289 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 3
+16:28:00.289 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 4
+16:28:00.289 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 5
+16:28:00.289 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 6
+16:28:00.290 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 7
+16:28:00.290 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 8
+16:28:00.290 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 9
+16:28:00.290 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 0
+16:28:00.290 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 1
+16:28:00.291 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 2
+16:28:00.291 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 3
+16:28:00.291 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 4
+16:28:00.291 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 5
+16:28:00.292 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 6
+16:28:00.292 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 7
+16:28:00.292 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 8
+16:28:00.292 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 9
+16:28:00.292 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 0
+16:28:00.293 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 1
+16:28:00.293 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 2
+16:28:00.293 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 3
+16:28:00.293 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 4
+16:28:00.294 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 5
+16:28:00.294 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 6
+16:28:00.294 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 7
+16:28:00.294 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 8
+16:28:00.294 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 9
+16:28:00.345 (0x485c) [debug] sacnIsStart:  true
+16:28:00.345 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.347 (0x485c) [debug] sacnIsStart:  true
+16:28:00.347 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.375 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 0
+16:28:00.376 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 1
+16:28:00.376 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 2
+16:28:00.377 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 3
+16:28:00.377 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 4
+16:28:00.378 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 5
+16:28:00.379 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 6
+16:28:00.379 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 7
+16:28:00.379 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 8
+16:28:00.380 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 4 9
+16:28:00.380 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 0
+16:28:00.380 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 1
+16:28:00.380 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 2
+16:28:00.381 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 3
+16:28:00.381 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 4
+16:28:00.381 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 5
+16:28:00.382 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 6
+16:28:00.382 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 7
+16:28:00.382 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 8
+16:28:00.382 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 5 9
+16:28:00.383 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 0
+16:28:00.383 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 1
+16:28:00.384 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 2
+16:28:00.384 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 3
+16:28:00.384 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 4
+16:28:00.384 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 5
+16:28:00.384 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 6
+16:28:00.385 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 7
+16:28:00.385 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 8
+16:28:00.385 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 9
+16:28:00.385 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 0
+16:28:00.386 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 1
+16:28:00.386 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 2
+16:28:00.386 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 3
+16:28:00.386 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 4
+16:28:00.386 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 5
+16:28:00.387 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 6
+16:28:00.387 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 7
+16:28:00.387 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 8
+16:28:00.387 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 9
+16:28:00.457 (0x485c) [debug] sacnIsStart:  true
+16:28:00.457 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.460 (0x485c) [debug] sacnIsStart:  true
+16:28:00.460 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.476 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 0
+16:28:00.477 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 1
+16:28:00.478 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 2
+16:28:00.479 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 3
+16:28:00.481 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 4
+16:28:00.481 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 5
+16:28:00.481 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 6
+16:28:00.481 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 7
+16:28:00.481 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 8
+16:28:00.481 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 6 9
+16:28:00.481 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 0
+16:28:00.481 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 1
+16:28:00.482 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 2
+16:28:00.482 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 3
+16:28:00.482 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 4
+16:28:00.482 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 5
+16:28:00.483 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 6
+16:28:00.483 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 7
+16:28:00.483 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 8
+16:28:00.483 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 7 9
+16:28:00.483 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 0
+16:28:00.484 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 1
+16:28:00.484 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 2
+16:28:00.484 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 3
+16:28:00.484 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 4
+16:28:00.485 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 5
+16:28:00.485 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 6
+16:28:00.485 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 7
+16:28:00.486 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 8
+16:28:00.486 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 8 9
+16:28:00.563 (0x485c) [debug] sacnIsStart:  true
+16:28:00.563 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.565 (0x485c) [debug] sacnIsStart:  true
+16:28:00.565 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.576 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 0
+16:28:00.576 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 1
+16:28:00.577 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 2
+16:28:00.577 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 3
+16:28:00.577 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 4
+16:28:00.578 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 5
+16:28:00.578 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 6
+16:28:00.579 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 7
+16:28:00.579 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 8
+16:28:00.579 (0x485c) [debug] void QCPColorMapData::setCell(int, int, double) index out of bounds: 9 9
+16:28:00.630 (0x485c) [debug] sacnIsStart:  true
+16:28:00.630 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.632 (0x485c) [debug] sacnIsStart:  true
+16:28:00.632 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.722 (0x485c) [debug] sacnIsStart:  true
+16:28:00.722 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.724 (0x485c) [debug] sacnIsStart:  true
+16:28:00.724 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.807 (0x485c) [debug] sacnIsStart:  true
+16:28:00.808 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.809 (0x485c) [debug] sacnIsStart:  true
+16:28:00.810 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.869 (0x485c) [debug] sacnIsStart:  true
+16:28:00.869 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.871 (0x485c) [debug] sacnIsStart:  true
+16:28:00.871 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.926 (0x485c) [debug] sacnIsStart:  true
+16:28:00.926 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.928 (0x485c) [debug] sacnIsStart:  true
+16:28:00.928 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:00.999 (0x485c) [debug] sacnIsStart:  true
+16:28:01.000 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.044 (0x485c) [debug] sacnIsStart:  true
+16:28:01.044 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.046 (0x485c) [debug] sacnIsStart:  true
+16:28:01.047 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.106 (0x485c) [debug] sacnIsStart:  true
+16:28:01.107 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.109 (0x485c) [debug] sacnIsStart:  true
+16:28:01.109 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.152 (0x485c) [debug] sacnIsStart:  true
+16:28:01.152 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.154 (0x485c) [debug] sacnIsStart:  true
+16:28:01.154 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.210 (0x485c) [debug] sacnIsStart:  true
+16:28:01.210 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.213 (0x485c) [debug] sacnIsStart:  true
+16:28:01.213 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.279 (0x485c) [debug] sacnIsStart:  true
+16:28:01.279 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.281 (0x485c) [debug] sacnIsStart:  true
+16:28:01.281 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.383 (0x485c) [debug] sacnIsStart:  true
+16:28:01.384 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:01.386 (0x485c) [debug] sacnIsStart:  true
+16:28:01.386 (0x485c) [debug] m_repeateScanLineNum:  0
+16:28:02.022 (0x485c) [debug] sacnIsStart:  false
+16:28:02.024 (0x485c) [debug] sacnIsStart:  false
+16:28:02.094 (0x485c) [debug] sacnIsStart:  false
+16:28:02.096 (0x485c) [debug] sacnIsStart:  false
+16:28:02.177 (0x485c) [debug] sacnIsStart:  false
+16:28:02.179 (0x485c) [debug] sacnIsStart:  false
+16:28:03.340 (0x485c) [trace] qml:
+16:28:03.357 (0x485c) [info ] ----- msAppExit: 1686040083357.056396, [1950]20:24:02.1363185869
+16:28:03.358 (0x485c) [info ] app running: 9723.376709, 00:00:00.9723
+16:28:03.359 (0x485c) [info ] app return: 0
+16:28:03.359 (0x485c) [info ] ----- App exit ------

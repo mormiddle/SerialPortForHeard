@@ -72,16 +72,16 @@ void MySerialPort::readData_slot()
         return;
     }
 
-//    if( scanIsStart )
-//    {
-//       m_repeateScanLineNum = repeateScanLineNum;
-//       qDebug() << "sacnIsStart: " << scanIsStart;
-//       qDebug() << "m_repeateScanLineNum: " << m_repeateScanLineNum;
-//    }
-//    else {
-//        qDebug() << "sacnIsStart: " << scanIsStart;
-//        return;
-//    }
+    if( scanIsStart )
+    {
+       m_repeateScanLineNum = repeateScanLineNum;
+       qDebug() << "sacnIsStart: " << scanIsStart;
+       qDebug() << "m_repeateScanLineNum: " << m_repeateScanLineNum;
+    }
+    else {
+        qDebug() << "sacnIsStart: " << scanIsStart;
+        return;
+    }
 
 
     QByteArray buff;
@@ -116,11 +116,6 @@ void MySerialPort::readData_slot()
                     m_repeateScanLines.ChanelData.push_back(SINGAL_CHANEL_DATA());
                 }
 
-//                int value = 0;
-//                for ( int i = 0; i < m_chanelPerScanLine; ++i){
-//                    value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
-//                    m_repeateScanLines.ChanelData[i].push_back(value);
-//                }
             }
 
 
@@ -267,7 +262,8 @@ void MySerialPort::setScanIsStart(bool start)
 
 void MySerialPort::setRepeateScanLineNum(int value)
 {
-    m_repeateScanLineNum = value;
+    repeateScanLineNum = value;
+    m_repeateScanLines.cols = 0;
 }
 
 

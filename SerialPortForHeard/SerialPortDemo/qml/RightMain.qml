@@ -100,6 +100,16 @@ Item {
 
        }
 
+       Basic.Button {
+           id: dataSaveBtn
+           width: parent.width
+           text: "数据保存"
+           onClicked: {
+
+           }
+
+       }
+
        Timer {
            id: timer
            interval: 50
