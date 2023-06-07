@@ -75,11 +75,11 @@ void MySerialPort::readData_slot()
     if( scanIsStart )
     {
        m_repeateScanLineNum = repeateScanLineNum;
-       qDebug() << "sacnIsStart: " << scanIsStart;
-       qDebug() << "m_repeateScanLineNum: " << m_repeateScanLineNum;
+//       qDebug() << "sacnIsStart: " << scanIsStart;
+//       qDebug() << "m_repeateScanLineNum: " << m_repeateScanLineNum;
     }
     else {
-        qDebug() << "sacnIsStart: " << scanIsStart;
+//        qDebug() << "sacnIsStart: " << scanIsStart;
         return;
     }
 
@@ -115,31 +115,22 @@ void MySerialPort::readData_slot()
                 for ( int i = 0; i < m_chanelPerScanLine; ++i){
                     m_repeateScanLines.ChanelData.push_back(SINGAL_CHANEL_DATA());
                 }
-
-            }
-
-
-            if (m_repeateScanLineNum > m_repeateScanLines.rows) {
-                // 如果需要，就添加新的数据行
-                for (int j = 0; j < (m_repeateScanLineNum - m_repeateScanLines.rows); ++j) {
-                    // 为每个新的数据行添加 m_chanelPerScanLine 个 SINGAL_CHANEL_DATA
-                    for (int i = 0; i < m_chanelPerScanLine; ++i) {
-                        m_repeateScanLines.ChanelData.push_back(SINGAL_CHANEL_DATA());
-                    }
-                }
-                // 更新 rows 的值以反映新添加的数据行
-                m_repeateScanLines.rows = m_repeateScanLineNum;
-            }
-
-            if (m_repeateScanLines.ChanelData.size() == (m_repeateScanLineNum + 1)*10) {
-                // 然后像以前一样处理数据
                 int value = 0;
-                for (int i = m_repeateScanLineNum*10; i < m_repeateScanLineNum*10 + m_chanelPerScanLine; ++i) {
-                    value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]) - 256;
+                for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                    value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
                     m_repeateScanLines.ChanelData[i].push_back(value);
                 }
+                return;
+
             }
 
+
+            // 然后像以前一样处理数据
+            int value = 0;
+            for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
+                m_repeateScanLines.ChanelData[i].push_back(value);
+            }
 
 
         }
@@ -263,7 +254,7 @@ void MySerialPort::setScanIsStart(bool start)
 void MySerialPort::setRepeateScanLineNum(int value)
 {
     repeateScanLineNum = value;
-    m_repeateScanLines.cols = 0;
+    m_repeateScanLines.repeateTimes.push_back(m_repeateScanLines.cols);
 }
 
 

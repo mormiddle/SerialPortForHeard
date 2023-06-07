@@ -9,7 +9,7 @@ typedef QVector<int>			SINGAL_CHANEL_DATA;
 
 typedef struct {
     int								cols = 0;
-    int                             rows = 0;
+    QVector<int>                    repeateTimes;
     QVector<SINGAL_CHANEL_DATA>		ChanelData;
 } SINGAL_SCAN_LINE;
 

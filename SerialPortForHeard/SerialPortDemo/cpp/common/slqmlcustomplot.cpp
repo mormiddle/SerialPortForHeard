@@ -205,27 +205,22 @@ void CustomColorMap::initCustomPlot()
 
 void CustomColorMap::updatePlot()
 {
-//    if (m_repeateScanLines.size() == 0)
-//    {
-//        return;
-//    }
-    if ( m_repeateScanLines.ChanelData.size() != (m_repeateScanLineNum + 1)*10)
+    if (m_repeateScanLines.ChanelData.size() == 0)
     {
         return;
     }
 
-
     QCustomPlot* plot = getPlot();
     QCPColorMapData* mapData = heatmap->data();
-    if( mapData->valueSize() / 10 != m_repeateScanLineNum + 1 ) {
-        updateYAxisRange((m_repeateScanLineNum + 1) * 10 );
-    }
+//    if( mapData->valueSize() / 10 != m_repeateScanLineNum + 1 ) {
+//        //updateYAxisRange((m_repeateScanLineNum + 1) * 10 );
+//    }
 
     // new cols append ?
     SINGAL_SCAN_LINE& scanLine = m_repeateScanLines;
     QVector<SINGAL_CHANEL_DATA>& data = scanLine.ChanelData;
     int& currCols = scanLine.cols;
-    int newCols = data[m_repeateScanLineNum*10].size();
+    int newCols = data[0].size();
     if (currCols == newCols)
     {
         return;
@@ -366,83 +361,83 @@ void CustomColorMap::onWidgetMouseWheel(QWheelEvent* event)
 
 }
 
-void CustomColorMap::updateYAxisRange(int newSize)
-{
-    QCustomPlot *plot = getPlot();
+//void CustomColorMap::updateYAxisRange(int newSize)
+//{
+//    QCustomPlot *plot = getPlot();
 
-    // 更新y轴范围
-    plot->yAxis->setRange(0, newSize);
+//    // 更新y轴范围
+//    plot->yAxis->setRange(0, newSize);
 
-    // 更新y轴标签
-    QVector<QString> newAisle;
-    for (int i = 0; i < newSize; ++i) {
-        newAisle.append(QStringLiteral("通道%1").arg(i + 1));
-    }
+//    // 更新y轴标签
+//    QVector<QString> newAisle;
+//    for (int i = 0; i < newSize; ++i) {
+//        newAisle.append(QStringLiteral("通道%1").arg(i + 1));
+//    }
 
-    QSharedPointer<QCPAxisTickerText> yTicker(new QCPAxisTickerText);
-    yTicker->setTicks(labelPositions(newAisle, 0.5), newAisle);
-    yTicker->setSubTickCount(1);
-    plot->yAxis->setTicker(yTicker);
-
-
-    // 更新 heatmap 数据的大小
-    int currentXSize = heatmap->data()->keySize();
-    heatmap->data()->setSize(currentXSize, newSize);
-    heatmap->data()->setRange(QCPRange(0.5, currentXSize - 0.5), QCPRange(0.5, newSize - 0.5));
+//    QSharedPointer<QCPAxisTickerText> yTicker(new QCPAxisTickerText);
+//    yTicker->setTicks(labelPositions(newAisle, 0.5), newAisle);
+//    yTicker->setSubTickCount(1);
+//    plot->yAxis->setTicker(yTicker);
 
 
-    // 补充原有的图像
-    QCPColorMapData* mapData = heatmap->data();
-    SINGAL_SCAN_LINE& scanLine = m_repeateScanLines;
-    QVector<SINGAL_CHANEL_DATA>& data = scanLine.ChanelData;
-
-    int keySize = mapData->keySize();
-    int valueSize = mapData->valueSize();
-    int maxcols = 0;
-    for (int i = 0; i < m_repeateScanLines.ChanelData.size(); ++i) {
-        if( m_repeateScanLines.ChanelData[i].size() > maxcols)
-            maxcols = m_repeateScanLines.ChanelData[i].size();
-    }
-
-    {
-        // refill
-        keySize += (maxcols / 10) + 1;
-        mapData->setKeySize( keySize + 1 );
-        for ( int i = 0; i < maxcols; i++ )
-        {
-            for ( int j = 0; j < valueSize -10 ; j++ )
-            {
-                mapData->setCell( i, j, data[j][i] );
-            }
-        }
-
-    }
+//    // 更新 heatmap 数据的大小
+//    int currentXSize = heatmap->data()->keySize();
+//    heatmap->data()->setSize(currentXSize, newSize);
+//    heatmap->data()->setRange(QCPRange(0.5, currentXSize - 0.5), QCPRange(0.5, newSize - 0.5));
 
 
-    //x轴标签更新
-    {
-        QVector<QString> label;
-        QVector<double> positions;
-        int skip = qMax( 1, maxcols / 20 );
-        for ( int i = 0; i < maxcols; i += skip )
-        {
-            positions.append( i + 0.5 );
-            label.append(QString::number(i));
-        }
+//    // 补充原有的图像
+//    QCPColorMapData* mapData = heatmap->data();
+//    SINGAL_SCAN_LINE& scanLine = m_repeateScanLines;
+//    QVector<SINGAL_CHANEL_DATA>& data = scanLine.ChanelData;
 
-        QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
-        xTicker->setTicks( positions, label );
-        xTicker->setSubTickCount( 1 );
-        plot->xAxis->setTicker( xTicker );
-    }
+//    int keySize = mapData->keySize();
+//    int valueSize = mapData->valueSize();
+//    int maxcols = 0;
+//    for (int i = 0; i < m_repeateScanLines.ChanelData.size(); ++i) {
+//        if( m_repeateScanLines.ChanelData[i].size() > maxcols)
+//            maxcols = m_repeateScanLines.ChanelData[i].size();
+//    }
 
-   // updateXAxisSpacing();
+//    {
+//        // refill
+//        keySize += (maxcols / 10) + 1;
+//        mapData->setKeySize( keySize + 1 );
+//        for ( int i = 0; i < maxcols; i++ )
+//        {
+//            for ( int j = 0; j < valueSize -10 ; j++ )
+//            {
+//                mapData->setCell( i, j, data[j][i] );
+//            }
+//        }
 
-    mapData->setKeyRange(QCPRange(0.5, 0.5 + keySize));
-    plot->xAxis->setRange(0, maxcols - 1);
+//    }
 
-    // 重新绘制图像
-    plot->replot();
-}
+
+//    //x轴标签更新
+//    {
+//        QVector<QString> label;
+//        QVector<double> positions;
+//        int skip = qMax( 1, maxcols / 20 );
+//        for ( int i = 0; i < maxcols; i += skip )
+//        {
+//            positions.append( i + 0.5 );
+//            label.append(QString::number(i));
+//        }
+
+//        QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
+//        xTicker->setTicks( positions, label );
+//        xTicker->setSubTickCount( 1 );
+//        plot->xAxis->setTicker( xTicker );
+//    }
+
+//   // updateXAxisSpacing();
+
+//    mapData->setKeyRange(QCPRange(0.5, 0.5 + keySize));
+//    plot->xAxis->setRange(0, maxcols - 1);
+
+//    // 重新绘制图像
+//    plot->replot();
+//}
 
 
