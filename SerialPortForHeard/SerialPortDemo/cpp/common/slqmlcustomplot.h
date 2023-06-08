@@ -55,6 +55,8 @@ public:
     explicit CustomColorMap(QQuickItem* parent = nullptr);
     Q_INVOKABLE void initCustomPlot();
     Q_INVOKABLE void updatePlot();
+    Q_INVOKABLE void initSaveCustomPlot();
+    Q_INVOKABLE void updateSavePlot();
     void updateXAxisSpacing();
     void onWidgetMouseWheel(QWheelEvent* event);//设置滚轮所发和拖拽
 //    void updateYAxisRange(int newSize);//更新y轴数据范围

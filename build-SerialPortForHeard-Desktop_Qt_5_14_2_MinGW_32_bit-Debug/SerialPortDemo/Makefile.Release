@@ -255,6 +255,7 @@ release/qrc_qml.cpp: ../../SerialPortForHeard/SerialPortDemo/qrc/qml.qrc \
 		../../SerialPortForHeard/SerialPortDemo/qml/LoginPage.qml \
 		../../SerialPortForHeard/SerialPortDemo/qml/MiddleMain.qml \
 		../../SerialPortForHeard/SerialPortDemo/qml/TopMain.qml \
+		../../SerialPortForHeard/SerialPortDemo/qml/SaveData.qml \
 		../../SerialPortForHeard/SerialPortDemo/qml/main.qml \
 		../../SerialPortForHeard/SerialPortDemo/qml/alert/error.qml \
 		../../SerialPortForHeard/SerialPortDemo/qml/alert/null.qml \

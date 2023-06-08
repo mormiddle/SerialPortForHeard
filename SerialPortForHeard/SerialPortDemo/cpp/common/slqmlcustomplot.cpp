@@ -281,6 +281,127 @@ void CustomColorMap::updatePlot()
     update();
 }
 
+void CustomColorMap::initSaveCustomPlot()
+{
+    updateCustomPlotSize();
+
+    QCustomPlot *plot = getPlot();
+    int colsNum = m_saveScanLines.ChanelData[0].size();
+    int rowsNum = m_saveScanLines.ChanelData.size();
+    plot->setInteractions(QCP::iRangeDrag | QCP::iRangeZoom | QCP::iSelectPlottables);//只有这样还无法触发缩放机制
+    plot->axisRect()->setRangeDrag(Qt::Horizontal);
+    plot->axisRect()->setRangeZoom(Qt::Horizontal);
+    connect(plot, &QCustomPlot::afterReplot, this, &CustomColorMap::onCustomReplot);//要将重绘信号和重绘函数连接起来
+    connect(plot, &QCustomPlot::mouseWheel, this, &CustomColorMap::onWidgetMouseWheel);
+
+    heatmap = new QCPColorMap(plot->xAxis, plot->yAxis);  // 构造一个颜色图
+    if ( m_saveScanLines.ChanelData.size() == 0) {
+        heatmap->data()->setSize(distance.size(), aisle.size());
+        heatmap->data()->setRange(QCPRange(0.5, distance.size() - 0.5), QCPRange(0.5, aisle.size() - 0.5));
+    }
+    else {
+        heatmap->data()->setSize( colsNum, rowsNum);   // 设置颜色图数据维度，其内部维护着一个一维数组（一般表现为二维数组），这里可以理解为有多少个小方块
+        heatmap->data()->setRange(QCPRange(0.5, colsNum - 0.5), QCPRange(0.5, rowsNum - 0.5));  // 颜色图在x、y轴上的范围
+    }
+
+    // 设置轴的显示，这里使用文字轴，如果这部分还不会的请看 QCustomPlot之个性化外观（二）这章节
+    QSharedPointer<QCPAxisTickerText> xTicker(new QCPAxisTickerText);
+    QSharedPointer<QCPAxisTickerText> yTicker(new QCPAxisTickerText);
+    xTicker->setTicks(labelPositions(distance, 0.5), distance);
+//    yTicker->setTicks(labelPositions(aisle, 0.5), aisle);
+    xTicker->setSubTickCount(1);
+    yTicker->setSubTickCount(1);
+    plot->xAxis->setTicker(xTicker);
+    plot->yAxis->setTicker(yTicker);
+    plot->xAxis->grid()->setPen(Qt::NoPen);
+    plot->yAxis->grid()->setPen(Qt::NoPen);
+    plot->xAxis->grid()->setSubGridVisible(true);
+    plot->yAxis->grid()->setSubGridVisible(true);
+    plot->xAxis->setSubTicks(true);
+    plot->yAxis->setSubTicks(true);
+    plot->xAxis->setTickLength(0);
+    plot->yAxis->setTickLength(0);
+    plot->xAxis->setSubTickLength(6);
+    plot->yAxis->setSubTickLength(6);
+    plot->xAxis->setRange(0, colsNum);
+    plot->yAxis->setRange(0, rowsNum);
+
+
+    QCPColorScale* colorScale = new QCPColorScale(plot);  // 构造一个色条
+    colorScale->setType(QCPAxis::atBottom);   // 水平显示
+    plot->plotLayout()->addElement(1, 0, colorScale); // 在颜色图下面显示
+    heatmap->setColorScale(colorScale);
+    QCPColorGradient gradient;  // 色条使用的颜色渐变
+    gradient.setColorStopAt(0.0, QColor("#f6efa6"));   // 设置色条开始时的颜色
+    gradient.setColorStopAt(1.0, QColor("#bf444c"));  // 设置色条结束时的颜色
+    heatmap->setGradient(gradient);
+    //    colorMap->rescaleDataRange();        // 自动计算数据范围，数据范围决定了哪些数据值映射到QCPColorGradient的颜色渐变当中
+    heatmap->setDataRange(QCPRange(0, 10));     // 为了保持与echart的例子一致，我们这里手动设置数据范围
+    heatmap->setInterpolate(false);         // 为了显示小方块，我们禁用插值
+
+    // 保持色条与轴矩形边距一致
+    QCPMarginGroup* marginGroup = new QCPMarginGroup(plot);
+    plot->axisRect()->setMarginGroup(QCP::msLeft | QCP::msRight, marginGroup);
+    colorScale->setMarginGroup(QCP::msLeft | QCP::msRight, marginGroup);
+}
+
+void CustomColorMap::updateSavePlot()
+{
+    if (m_repeateScanLines.ChanelData.size() == 0)
+    {
+        return;
+    }
+
+//    QCustomPlot* plot = getPlot();
+    QCPColorMapData* mapData = heatmap->data();
+
+    SINGAL_SCAN_LINE& scanLine = m_saveScanLines;
+    QVector<SINGAL_CHANEL_DATA>& data = scanLine.ChanelData;
+
+    int keySize = mapData->keySize();
+    int valueSize = mapData->valueSize();
+
+
+    // refill
+    for ( int i = 0; i < keySize; i++ )
+    {
+        for ( int j = 0; j < valueSize; j++ )
+        {
+            int z = data[j][i];
+            if (z)
+                mapData->setCell( i, j, data[j][i] );
+            else
+                mapData->setAlpha( i, j, 0 );
+        }
+    }
+
+
+
+    //x轴标签更新
+//    {
+//        QVector<QString> label;
+//        QVector<double> positions;
+//        int skip = qMax( 1, keySize / 20 );
+//        for ( int i = 0; i < keySize; i += skip )
+//        {
+//            positions.append( i + 0.5 );
+//            label.append(QString::number(i));
+//        }
+
+//        QSharedPointer<QCPAxisTickerText> xTicker( new QCPAxisTickerText );
+//        xTicker->setTicks( positions, label );
+//        xTicker->setSubTickCount( 1 );
+//        plot->xAxis->setTicker( xTicker );
+//    }
+
+   // updateXAxisSpacing();
+
+//    mapData->setKeyRange(QCPRange(0.5, 0.5 + keySize));
+//    plot->xAxis->setRange(0, keySize - 1);
+
+    update();
+}
+
 void CustomColorMap::updateXAxisSpacing()
 {
     QCustomPlot* plot = getPlot();
@@ -316,6 +437,10 @@ void CustomColorMap::updateXAxisSpacing()
 
 void CustomColorMap::onWidgetMouseWheel(QWheelEvent* event)
 {
+    if (m_repeateScanLines.ChanelData.size() == 0)
+    {
+        return;
+    }
     qDebug() << "onWidgetMouseWheel is running" << endl;
     QCustomPlot* plot = getPlot();
     int numDegrees = event->delta() / 8;

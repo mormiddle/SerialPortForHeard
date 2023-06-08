@@ -112,9 +112,22 @@ Item {
            text: "数据保存"
            onClicked: {
                 dataManager.saveData()
-                dataManager.saveDataToFile()
+//                dataManager.saveDataToFile()
            }
 
+       }
+
+       Basic.Button {
+           id: showDataWindowButton
+           width: parent.width
+           text: "硬点分布图显示"
+           onClicked: {
+               var component = Qt.createComponent("SaveData.qml");
+                   if (component.status === Component.Ready) {
+                       var newWindow = component.createObject(showDataWindowButton);
+                       newWindow.show();
+                   }
+           }
        }
 
        Timer {
