@@ -20,6 +20,12 @@ Item {
             width: parent.width
             height: 40
 
+            Rectangle {
+                        anchors.fill: parent
+                        border.width: 3;
+                        color: "#80808080" // black with 50% transparency
+                    }
+
             Text {
                        id: fileNameText
                        text: modelData.fileName
@@ -33,6 +39,11 @@ Item {
                 anchors.fill: parent
                 onClicked: {
                     dataManager.loadData(modelData.fileName)
+                    var component = Qt.createComponent("SaveData.qml");
+                        if (component.status === Component.Ready) {
+                            var newWindow = component.createObject(listView);
+                            newWindow.show();
+                        }
 
                 }
             }
