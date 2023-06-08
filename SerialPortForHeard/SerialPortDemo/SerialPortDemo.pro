@@ -17,6 +17,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     cpp/common/AppInfo.cpp \
+    cpp/common/Datamanager.cpp \
     cpp/common/Globals.cpp \
     cpp/common/MySerialport.cpp \
     cpp/common/qcustomplot.cpp \
@@ -48,6 +49,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     cpp/common/AppInfo.h \
+    cpp/common/Datamanager.h \
     cpp/common/Globals.h \
     cpp/common/MySerialport.h \
     cpp/common/SwitchPage.h \

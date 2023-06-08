@@ -3,6 +3,7 @@ import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import "./basic" as Basic
 import "./../js/images.js" as JsPng
+import DataManager 1.0
 
 Item {
     id: root
@@ -32,7 +33,7 @@ Item {
 
     }
 
-
+    property DataManager dataManager
 
     ColumnLayout {
         width: root.width
@@ -59,27 +60,27 @@ Item {
        }
 
 
-       Basic.Button {
-           id: openBtn
-           width: parent.width
-           text: btnStation == false ? "打开串口":"关闭串口"
-           property bool btnStation: false
+//       Basic.Button {
+//           id: openBtn
+//           width: parent.width
+//           text: btnStation == false ? "打开串口":"关闭串口"
+//           property bool btnStation: false
 
-           onClicked: {
-               btnStation = !btnStation
-               if( sp_obj.readIsMyPortOpen() ) {
-                   emit: sendSettingInfoSignal(0)
-                   timer.stop()
-                   //customPlotTimer.stop()
-               }
-               else {
-                   emit: sendSettingInfoSignal(1)
-                   timer.start()
-                   //customPlotTimer.start()
-               }
+//           onClicked: {
+//               btnStation = !btnStation
+//               if( sp_obj.readIsMyPortOpen() ) {
+//                   emit: sendSettingInfoSignal(0)
+//                   timer.stop()
+//                   //customPlotTimer.stop()
+//               }
+//               else {
+//                   emit: sendSettingInfoSignal(1)
+//                   timer.start()
+//                   //customPlotTimer.start()
+//               }
 
-           }
-       }
+//           }
+//       }
 
        Basic.Button {
            id: repeateScanBtn
@@ -90,10 +91,15 @@ Item {
                    text = "结束第" + repeateScanLineNum + "次探测";
                    emit: sendrepeateScanLineNum( repeateScanLineNum - 1)
                    emit: sendSerPortStart( isStart )
+                   emit: sendSettingInfoSignal(1)
+                   timer.start()
                } else {
                    repeateScanLineNum += 1;
                    text = "开始第" + repeateScanLineNum + "次探测";
                    emit: sendSerPortStart( isStart)
+                   emit: sendSettingInfoSignal(0)
+                   dataManager.saveClos()
+                   timer.stop()
                }
                isStart = !isStart;
            }
@@ -105,14 +111,15 @@ Item {
            width: parent.width
            text: "数据保存"
            onClicked: {
-
+                dataManager.saveData()
+                dataManager.saveDataToFile()
            }
 
        }
 
        Timer {
            id: timer
-           interval: 50
+           interval: 20
            repeat: true
            onTriggered: {
                customColorMap.updatePlot( )

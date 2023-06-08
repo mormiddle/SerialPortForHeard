@@ -1,4 +1,5 @@
 release/AppInfo.o
+release/Datamanager.o
 release/Globals.o
 release/MySerialport.o
 release/qcustomplot.o
@@ -8,6 +9,7 @@ release/qrc_image.o
 release/qrc_js.o
 release/qrc_qml.o
 release/moc_AppInfo.o
+release/moc_Datamanager.o
 release/moc_MySerialport.o
 release/moc_SwitchPage.o
 release/moc_qcustomplot.o

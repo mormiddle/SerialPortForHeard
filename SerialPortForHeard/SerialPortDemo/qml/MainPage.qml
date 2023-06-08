@@ -5,7 +5,7 @@ import "./basic" as Basic
 import SerialPortDemo.SWitchpage 1.0
 import MySerialPort 1.0
 import CustomPlot 1.0
-//import CustomPlot 1.0
+import DataManager 1.0
 
 Page{
     id: root
@@ -32,6 +32,8 @@ Page{
         right_main.sendSerPortStart.connect(setSerPortStart)
 
     }
+
+    property DataManager dataManager: DataManager {}
 
     SerialPort {
         id: sp_obj
@@ -110,6 +112,7 @@ Page{
         RightMain {
             id: right_main
             anchors.fill: parent
+            dataManager: root.dataManager
         }
 
     }
