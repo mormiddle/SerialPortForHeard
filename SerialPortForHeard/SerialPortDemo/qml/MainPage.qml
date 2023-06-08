@@ -69,6 +69,7 @@ Page{
         LeftMain{
             id: left_main
             anchors.fill: parent
+            dataManager: root.dataManager
         }
 
     }

@@ -347,7 +347,7 @@ void CustomColorMap::initSaveCustomPlot()
 
 void CustomColorMap::updateSavePlot()
 {
-    if (m_repeateScanLines.ChanelData.size() == 0)
+    if (m_saveScanLines.ChanelData.size() == 0)
     {
         return;
     }

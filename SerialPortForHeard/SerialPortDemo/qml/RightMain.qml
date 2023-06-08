@@ -112,7 +112,7 @@ Item {
            text: "数据保存"
            onClicked: {
                 dataManager.saveData()
-//                dataManager.saveDataToFile()
+                dataManager.saveDataToFile()
            }
 
        }

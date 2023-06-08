@@ -24,7 +24,7 @@ public:
 public slots:
     void saveData();
     void saveDataToFile();
-    SINGAL_SCAN_LINE loadData(const QString& path);
+    void loadData(const QString &fileName);
     void loadExistingFiles();
     void saveClos();
 
@@ -33,6 +33,7 @@ signals:
 
 private:
     QVariantList m_fileNames;
+    QString dirPath = "D:/SacarLog";
 
 };
 

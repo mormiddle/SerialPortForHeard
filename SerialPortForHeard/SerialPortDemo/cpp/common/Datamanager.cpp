@@ -63,68 +63,90 @@ void DataManager::saveData()
         }
 
 
+
 }
 
 void DataManager::saveDataToFile()
 {
     QString timestamp = QDateTime::currentDateTime().toString("yyyy年MM月dd日hh时mm分");
-    QString filename = QString("%1/%2.dat").arg(QDir::homePath(), timestamp);
+        QDir dir(dirPath);
+        if (!dir.exists()) {
+            dir.mkpath(".");
+        }
+    QString filename = QString("%1/%2.dat").arg(dirPath, timestamp);
     QFile file(filename);
-       if (!file.open(QIODevice::WriteOnly)) {
-           qWarning("Could not open file for writing");
-           return;
-       }
 
-       QDataStream out(&file);
-       out.setVersion(QDataStream::Qt_5_12);
-       for (const auto& chanel : m_saveScanLines.ChanelData) {
-           out << chanel;
-       }
+   if (!file.open(QIODevice::WriteOnly)) {
+       qWarning("Could not open file for writing");
+       return;
+   }
 
-       file.close();
+   QDataStream out(&file);
+   out.setVersion(QDataStream::Qt_5_12);
+   for (const auto& chanel : m_saveScanLines.ChanelData) {
+       out << chanel;
+   }
+
+   file.close();
+
+   // 添加新文件名到 m_fileNames 列表中
+    m_fileNames.append(QVariantMap{{"fileName", timestamp}});
+    emit fileNamesChanged();
+
 }
 
-SINGAL_SCAN_LINE DataManager::loadData(const QString& path)
+void DataManager::loadData(const QString &fileName)
 {
     SINGAL_SCAN_LINE scanLine;
-
-
-    QFile file(path);
-    if (!file.open(QIODevice::ReadOnly)) {
-        qWarning("Could not open file for reading");
-        return scanLine;
+    QString filePath = dirPath + "/" + fileName + ".dat";
+    QFile file(filePath);
+    if (!file.open(QIODevice::ReadOnly))
+    {
+        qWarning("Cannot open file for reading");
+        return;
     }
 
     QDataStream in(&file);
-    in.setVersion(QDataStream::Qt_5_12);
+    in.setVersion(QDataStream::Qt_5_14);
 
-    while (!in.atEnd()) {
-        SINGAL_CHANEL_DATA chanel;
-        in >> chanel;
-        scanLine.ChanelData.push_back(chanel);
+
+    QVector<QVector<int>> data;
+    while (!in.atEnd())
+    {
+        QVector<int> subData;
+        in >> subData;
+        data.append(subData);
     }
 
     file.close();
-    return scanLine;
+
+    if ( m_saveScanLines.ChanelData.size() == 0)
+    {
+        for ( int i = 0; i < m_chanelPerScanLine; ++i){
+            m_saveScanLines.ChanelData.push_back(SINGAL_CHANEL_DATA());
+        }
+    }
+    // Assign the loaded data to m_saveScanLines.ChanelData
+    m_saveScanLines.ChanelData = data;
 }
 
 void DataManager::loadExistingFiles()
 {
-   QDir dir("D:/EddyLog/");
-   QStringList nameFilters;
-   nameFilters << "*.dat";
-   QFileInfoList files = dir.entryInfoList(nameFilters, QDir::Files);
-   for (const QFileInfo &file : files)
-   {
-       QString fileName = file.baseName(); // 获取文件名，不包括后缀
-       // 假设文件名的格式是 "{timestamp}_{dataType}"
-       QStringList parts = fileName.split("_");
-       if (parts.size() == 2)
-       {
-           m_fileNames.append(QVariantMap{{"fileName", parts[0]}, {"dataType", parts[1]}});
-       }
-   }
-   emit fileNamesChanged();
+    QDir dir(dirPath);
+    QStringList nameFilters;
+    nameFilters << "*.dat";
+    QFileInfoList files = dir.entryInfoList(nameFilters, QDir::Files);
+    for (const QFileInfo &file : files)
+    {
+        QString fileName = file.baseName(); // 获取文件名，不包括后缀
+        // 我们假设文件名的格式是 "2023年06月08日15时08分"
+        QRegExp rx("(\\d{4}年\\d{2}月\\d{2}日\\d{2}时\\d{2}分)");
+        if (rx.indexIn(fileName) != -1)
+        {
+            m_fileNames.append(QVariantMap{{"fileName", fileName}});
+        }
+    }
+    emit fileNamesChanged();
 }
 
 void DataManager::saveClos()
