@@ -44,6 +44,8 @@ public slots:
     Q_INVOKABLE void setScanIsStart(bool start);
     Q_INVOKABLE void setRepeateScanLineNum(int value);
 
+private:
+//    SINGAL_CHANEL_DATA m_c
 
 };
 

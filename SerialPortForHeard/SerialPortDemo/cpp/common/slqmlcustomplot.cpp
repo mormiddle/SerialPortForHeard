@@ -284,6 +284,10 @@ void CustomColorMap::updatePlot()
 void CustomColorMap::initSaveCustomPlot()
 {
     updateCustomPlotSize();
+    if (m_saveScanLines.ChanelData.size() == 0)
+    {
+        return;
+    }
 
     QCustomPlot *plot = getPlot();
     int colsNum = m_saveScanLines.ChanelData[0].size();
@@ -441,6 +445,7 @@ void CustomColorMap::onWidgetMouseWheel(QWheelEvent* event)
     {
         return;
     }
+
     qDebug() << "onWidgetMouseWheel is running" << endl;
     QCustomPlot* plot = getPlot();
     int numDegrees = event->delta() / 8;

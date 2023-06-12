@@ -5,7 +5,7 @@
 
 extern  int m_chanelPerScanLine;
 
-typedef QVector<int>			SINGAL_CHANEL_DATA;
+typedef QVector<int>			SINGAL_CHANEL_DATA; 
 
 typedef struct {
     int								cols = 0;

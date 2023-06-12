@@ -116,12 +116,12 @@ void MySerialPort::readData_slot()
                 for ( int i = 0; i < m_chanelPerScanLine; ++i){
                     m_repeateScanLines.ChanelData.push_back(SINGAL_CHANEL_DATA());
                 }
-                int value = 0;
-                for (int i = 0; i < m_chanelPerScanLine; ++i) {
-                    value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
-                    m_repeateScanLines.ChanelData[i].push_back(value);
-                }
-                return;
+//                int value = 0;
+//                for (int i = 0; i < m_chanelPerScanLine; ++i) {
+//                    value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
+//                    m_repeateScanLines.ChanelData[i].push_back(value);
+//                }
+//                return;
 
             }
 
