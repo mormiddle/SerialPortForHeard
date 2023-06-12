@@ -5,6 +5,8 @@
 #include <QSerialPort>
 #include <QColor>
 #include <vector>
+#include <QVector>
+#include <QtMath>
 
 #include "Globals.h"
 
@@ -45,8 +47,16 @@ public slots:
     Q_INVOKABLE void setRepeateScanLineNum(int value);
 
 private:
-//    SINGAL_CHANEL_DATA m_c
-
+    std::array<double, 10> m_10MhzReal;
+    std::array<double, 10> m_10MhzImag;
+    std::array<double, 10> m_25MhzReal;
+    std::array<double, 10> m_25MhzImag;
+    std::array<double, 10> m_dhardValue;
+    bool m_b10MhzIsReady = false;
+    bool m_b25MhzIsReady = false;
+    double CalculateHardnessValue(double b0, double b1, double b2, double b3, double b4, double b5,
+                                double b6, double b7, double b8, double b9, double b10, double b11, double b12,
+                                double x1, double x2, double x3, double x4);
 };
 
 #endif // MYSERIALPORT_H

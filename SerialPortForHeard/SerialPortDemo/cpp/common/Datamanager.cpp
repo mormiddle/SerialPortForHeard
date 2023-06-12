@@ -110,10 +110,10 @@ void DataManager::loadData(const QString &fileName)
     in.setVersion(QDataStream::Qt_5_14);
 
 
-    QVector<QVector<int>> data;
+    QVector<QVector<double>> data;
     while (!in.atEnd())
     {
-        QVector<int> subData;
+        QVector<double> subData;
         in >> subData;
         data.append(subData);
     }
