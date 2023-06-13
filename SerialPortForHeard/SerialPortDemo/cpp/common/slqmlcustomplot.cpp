@@ -406,6 +406,26 @@ void CustomColorMap::updateSavePlot()
     update();
 }
 
+void CustomColorMap::clearPlot()
+{
+    heatmap->data()->clear();
+    heatmap->rescaleDataRange();
+    getPlot()->replot();
+
+    m_repeateScanLines.ChanelData.clear();
+    m_repeateScanLines.cols = 0;
+    m_repeateScanLines.repeateTimes.clear();
+    m_repeateScanLines.repeateTimes.push_back(0);
+
+    m_saveScanLines.ChanelData.clear();
+    m_saveScanLines.cols = 0;
+    m_saveScanLines.repeateTimes.clear();
+
+    m_repeateScanLineNum = 0;
+
+    initCustomPlot();
+}
+
 void CustomColorMap::updateXAxisSpacing()
 {
     QCustomPlot* plot = getPlot();

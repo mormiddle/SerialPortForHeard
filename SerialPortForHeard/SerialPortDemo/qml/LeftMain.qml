@@ -11,6 +11,7 @@ Item {
     anchors.fill: parent
 
     property DataManager dataManager
+    property var saveDataWindow: null
 
     ListView {
         id: listView
@@ -38,12 +39,20 @@ Item {
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+//                    dataManager.loadData(modelData.fileName)
+//                    var component = Qt.createComponent("SaveData.qml");
+//                        if (component.status === Component.Ready) {
+//                            var newWindow = component.createObject(listView);
+//                            newWindow.show();
+//                        }
                     dataManager.loadData(modelData.fileName)
-                    var component = Qt.createComponent("SaveData.qml");
+                    if (root.saveDataWindow === null) {
+                        var component = Qt.createComponent("SaveData.qml");
                         if (component.status === Component.Ready) {
-                            var newWindow = component.createObject(listView);
-                            newWindow.show();
+                            root.saveDataWindow = component.createObject(listView, {"rootObject": root});
                         }
+                    }
+                    root.saveDataWindow.show();
 
                 }
             }

@@ -130,6 +130,21 @@ Item {
            }
        }
 
+       Basic.Button {
+           id: clearPlotButton
+           width: parent.width
+           text: "清除表格"
+           onClicked: {
+                customColorMap.clearPlot()
+                repeateScanBtn.text = "开始第1次探测"
+               emit: sendSerPortStart( isStart)
+               emit: sendSettingInfoSignal(0)
+               repeateScanLineNum = 1
+               isStart = true
+               timer.stop()
+           }
+       }
+
        Timer {
            id: timer
            interval: 20

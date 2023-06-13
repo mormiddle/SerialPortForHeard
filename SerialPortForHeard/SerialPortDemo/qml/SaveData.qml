@@ -13,6 +13,7 @@ ApplicationWindow {
     width: 640
     height: 480
     title: "硬点分布图"
+    property Item rootObject
 
 
     CustomColorMap {
@@ -23,4 +24,8 @@ ApplicationWindow {
             customColorMap.updateSavePlot()
         }
     }
+
+    onClosing: {
+           rootObject.saveDataWindow = null;
+       }
 }
