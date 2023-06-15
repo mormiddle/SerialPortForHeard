@@ -4,6 +4,7 @@ import QtQuick.Layouts 1.12
 import "./basic" as Basic
 import "./../js/images.js" as JsPng
 import DataManager 1.0
+import QtQuick.Dialogs 1.2
 
 Item {
     id: root
@@ -111,8 +112,14 @@ Item {
            width: parent.width
            text: "数据保存"
            onClicked: {
-                dataManager.saveData()
-                dataManager.saveDataToFile()
+               if(isStart) {
+                   dataManager.saveData()
+                   dataManager.saveDataToFile()
+               }
+               else {
+                    alertDialog.open()
+               }
+
            }
 
        }
@@ -154,6 +161,15 @@ Item {
 
            }
        }
+
+       MessageDialog {
+           id: alertDialog
+           title: "警告"
+           text: "请先该轮结束探测"
+           icon: StandardIcon.Warning
+           standardButtons: StandardButton.Ok
+       }
+
     }
  }
 

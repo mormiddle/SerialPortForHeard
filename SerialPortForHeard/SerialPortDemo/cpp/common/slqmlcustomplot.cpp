@@ -192,7 +192,7 @@ void CustomColorMap::initCustomPlot()
     gradient.setColorStopAt(1.0, QColor("#bf444c"));  // 设置色条结束时的颜色
     heatmap->setGradient(gradient);
     //    colorMap->rescaleDataRange();        // 自动计算数据范围，数据范围决定了哪些数据值映射到QCPColorGradient的颜色渐变当中
-    heatmap->setDataRange(QCPRange(0, 10));     // 为了保持与echart的例子一致，我们这里手动设置数据范围
+    heatmap->setDataRange(QCPRange(100, 200));     // 为了保持与echart的例子一致，我们这里手动设置数据范围
     heatmap->setInterpolate(false);         // 为了显示小方块，我们禁用插值
 
     // 保持色条与轴矩形边距一致
@@ -237,7 +237,7 @@ void CustomColorMap::updatePlot()
         {
             for ( int j = 0; j < valueSize; j++ )
             {
-                mapData->setCell( i, j, data[j][i] );
+                mapData->setCell( i, j, data[j][i]);
             }
         }
         currCols = newCols;

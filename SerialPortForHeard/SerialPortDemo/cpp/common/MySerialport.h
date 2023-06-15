@@ -7,6 +7,7 @@
 #include <vector>
 #include <QVector>
 #include <QtMath>
+#include <QFile>
 
 #include "Globals.h"
 
@@ -47,16 +48,30 @@ public slots:
     Q_INVOKABLE void setRepeateScanLineNum(int value);
 
 private:
-    std::array<double, 10> m_10MhzReal;
-    std::array<double, 10> m_10MhzImag;
-    std::array<double, 10> m_25MhzReal;
-    std::array<double, 10> m_25MhzImag;
+    std::array<double, 10> m_01KhzReal;
+    std::array<double, 10> m_01KhzImag;
+    std::array<double, 10> m_2_5KhzReal;
+    std::array<double, 10> m_2_5KhzImag;
+    std::array<double, 10> m_04KhzReal;
+    std::array<double, 10> m_04KhzImag;
+    std::array<double, 10> m_5_5KhzReal;
+    std::array<double, 10> m_5_5KhzImag;
     std::array<double, 10> m_dhardValue;
-    bool m_b10MhzIsReady = false;
-    bool m_b25MhzIsReady = false;
-    double CalculateHardnessValue(double b0, double b1, double b2, double b3, double b4, double b5,
-                                double b6, double b7, double b8, double b9, double b10, double b11, double b12,
-                                double x1, double x2, double x3, double x4);
+
+    bool m_b01KhzIsReady = false;
+    bool m_b2_5KhzIsReady = false;
+    bool m_b04KhzIsReady = false;
+    bool m_b5_5KhzIsReady = false;
+    bool m_bchannelPerameterIsReady = false;
+
+    QVector< QVector<double>> m_channelParameter;
+
+    double CalculateHardnessValue(std::array<double, 25> channel,
+                                double x1, double x2, double x3, double x4,
+                                double x5, double x6, double x7, double x8  );
+    void readFileTo2DArray(QVector< QVector<double> >& array, const QString& filePath);
+
+
 };
 
 #endif // MYSERIALPORT_H
