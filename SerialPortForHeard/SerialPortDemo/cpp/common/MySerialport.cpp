@@ -123,69 +123,57 @@ void MySerialPort::readData_slot()
 
             //双频率数据处理
             if ( buffer[start + 43] == static_cast<char>(0x01)) {
-                int value = 0;
-                //10Mhz的实部
+                int value = 0;           
                 for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                    //10Mhz的实部
                     value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
                     m_01KhzReal[i] = value;
-                }
-                //10Mhz的虚部
-                for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                    //10Mhz的虚部
                     value = toIntData(buffer[start + 4 + i * 4], buffer[start + 5 + i * 4]);
                     m_01KhzImag[i] = value;
-
-                }
+                }                
                 m_b01KhzIsReady = true;
 
             }
 
             if ( buffer[start + 43] == static_cast<char>(0x02)) {
-                int value = 0;
-                //25Mhz的实部
+                int value = 0;              
                 for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                    //25Mhz的实部
                     value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
                     m_2_5KhzReal[i] = value;
-                }
-                //25Mhz的虚部
-                for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                    //25Mhz的虚部
                     value = toIntData(buffer[start + 4 + i * 4], buffer[start + 5 + i * 4]);
                     m_2_5KhzImag[i] = value;
-
-                }
+                }               
                 m_b2_5KhzIsReady = true;
 
             }
 
             if ( buffer[start + 43] == static_cast<char>(0x03)) {
-                int value = 0;
-                //25Mhz的实部
+                int value = 0;                
                 for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                    //25Mhz的实部
                     value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
                     m_04KhzReal[i] = value;
-                }
-                //25Mhz的虚部
-                for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                    //25Mhz的虚部
                     value = toIntData(buffer[start + 4 + i * 4], buffer[start + 5 + i * 4]);
                     m_04KhzImag[i] = value;
-
-                }
+                }             
                 m_b04KhzIsReady = true;
 
             }
 
             if ( buffer[start + 43] == static_cast<char>(0x04)) {
-                int value = 0;
-                //25Mhz的实部
+                int value = 0;                
                 for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                    //25Mhz的实部
                     value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
                     m_5_5KhzReal[i] = value;
-                }
-                //25Mhz的虚部
-                for (int i = 0; i < m_chanelPerScanLine; ++i) {
+                    //25Mhz的虚部
                     value = toIntData(buffer[start + 4 + i * 4], buffer[start + 5 + i * 4]);
                     m_5_5KhzImag[i] = value;
-
-                }
+                }                
                 m_b5_5KhzIsReady = true;
 
             }

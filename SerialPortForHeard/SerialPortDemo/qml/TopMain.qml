@@ -49,29 +49,29 @@ Item {
             }
         }
 
-        FileDialog {
-            id: fileOpenDialog
-            title: qsTr("Please choose an Dicom file")
-            nameFilters: [
-                "Dicom Files (*.dcm)",
-                "*.*"
-            ]
-            onAccepted: {
-                var file = String(fileUrl)
+//        FileDialog {
+//            id: fileOpenDialog
+//            title: qsTr("Please choose an Dicom file")
+//            nameFilters: [
+//                "Dicom Files (*.dcm)",
+//                "*.*"
+//            ]
+//            onAccepted: {
+//                var file = String(fileUrl)
 
-                // remove file:///
-                if (file.indexOf("file:///") === 0)
-                {
-                    file = file.slice(8)
-                }
-                else if (file.indexOf("file://") === 0)
-                {
-                    file = file.slice(7)
-                }
+//                // remove file:///
+//                if (file.indexOf("file:///") === 0)
+//                {
+//                    file = file.slice(8)
+//                }
+//                else if (file.indexOf("file://") === 0)
+//                {
+//                    file = file.slice(7)
+//                }
 
-                pImageProvider.load(file)
-            }
-        }
+//                pImageProvider.load(file)
+//            }
+//        }
     
     }
 }
