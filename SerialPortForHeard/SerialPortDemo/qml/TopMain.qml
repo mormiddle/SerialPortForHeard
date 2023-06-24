@@ -5,10 +5,16 @@ import QtQuick.Layouts 1.12
 import QtQuick.Dialogs 1.2
 import "./basic" as Basic
 import "./../js/images.js" as JsPng
+import MySerialPort 1.0
 
 Item {
     id: root
     anchors.fill: parent
+    signal sendSettingInfoSignal(int state)
+    signal sendSerPortStart( bool value)
+    property bool isStart: true
+
+    property SerialPort topSerialPort
 
     Rectangle {
         id: rect
@@ -23,10 +29,13 @@ Item {
             Basic.MenuButton {
                 id: btn_load
                 source: JsPng.img_left_image_manager
-                tooltip: qsTr("加载")
+                tooltip: qsTr("标定")
                 onClicked: {
                     console.log("[trace] " + tooltip)
-                    fileOpenDialog.open()
+                    emit: sendSerPortStart( isStart )
+                    emit: sendSettingInfoSignal(1)
+                    isStart = !isStart;
+//                    fileOpenDialog.open()
                 }
             }
             Basic.MenuButton {
@@ -34,19 +43,23 @@ Item {
                 tooltip: qsTr("保存")
                 onClicked: {
                     console.log("[trace] " + tooltip)
-                    pImageProvider.save()
+                    emit: sendSerPortStart( isStart)
+                    emit: sendSettingInfoSignal(0)
+                    isStart = !isStart;
+                    topSerialPort.setDemarcate()
+//                    pImageProvider.save()
                 }
             }
 
-            Basic.MenuBlank {}
-            Basic.MenuButton {
-                source: JsPng.img_right_reset
-                tooltip: qsTr("重置")
-                onClicked: {
-                    console.log("[trace] " + tooltip)
-                    pImageProvider.reset()
-                }
-            }
+//            Basic.MenuBlank {}
+//            Basic.MenuButton {
+//                source: JsPng.img_right_reset
+//                tooltip: qsTr("重置")
+//                onClicked: {
+//                    console.log("[trace] " + tooltip)
+////                    pImageProvider.reset()
+//                }
+//            }
         }
 
 //        FileDialog {

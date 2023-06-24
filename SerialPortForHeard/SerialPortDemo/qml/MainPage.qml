@@ -31,13 +31,17 @@ Page{
         right_main.sendrepeateScanLineNum.connect(setRepeateScanLineNum)
         right_main.sendSerPortStart.connect(setSerPortStart)
 
+        top_main.sendSettingInfoSignal.connect(sendSetting)
+        top_main.sendSerPortStart.connect(setSerPortStart)
+
     }
 
     property DataManager dataManager: DataManager {}
+    property SerialPort sp_obj: SerialPort {}
 
-    SerialPort {
-        id: sp_obj
-    }
+//    SerialPort {
+//        id: sp_obj
+//    }
     Basic.Rectangle {
         id: rect_top
         radius: 0
@@ -51,6 +55,7 @@ Page{
         TopMain{
             id: top_main
             anchors.fill: parent
+            topSerialPort: root.sp_obj
         }
 
     }

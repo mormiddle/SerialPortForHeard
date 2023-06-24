@@ -46,8 +46,19 @@ public slots:
     int toIntData(quint8 lowByte, quint8 highByte);
     Q_INVOKABLE void setScanIsStart(bool start);
     Q_INVOKABLE void setRepeateScanLineNum(int value);
+    Q_INVOKABLE void setDemarcate();
 
-private:
+private:   
+    std::array<double, 10> m_01KhzRealDemarcate{};
+    std::array<double, 10> m_01KhzImagDemarcate{};
+    std::array<double, 10> m_2_5KhzRealDemarcate{};
+    std::array<double, 10> m_2_5KhzImagDemarcate{};
+    std::array<double, 10> m_04KhzRealDemarcate{};
+    std::array<double, 10> m_04KhzImagDemarcate{};
+    std::array<double, 10> m_5_5KhzRealDemarcate{};
+    std::array<double, 10> m_5_5KhzImagDemarcate{};
+    std::array<double, 10> m_dhardValueDemarcate{};
+
     std::array<double, 10> m_01KhzReal;
     std::array<double, 10> m_01KhzImag;
     std::array<double, 10> m_2_5KhzReal;
@@ -63,6 +74,8 @@ private:
     bool m_b04KhzIsReady = false;
     bool m_b5_5KhzIsReady = false;
     bool m_bchannelPerameterIsReady = false;
+
+    bool m_bdemarcateIsReady = false;
 
     QVector< QVector<double>> m_channelParameter;
 

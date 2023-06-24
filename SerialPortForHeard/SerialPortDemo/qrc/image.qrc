@@ -99,5 +99,6 @@
         <file>../images/right/right_vertical.png</file>
         <file>../images/right/right_window_wide.png</file>
         <file>../images/right/right_zoom.png</file>
+        <file>../images/ico/JY.ico</file>
     </qresource>
 </RCC>

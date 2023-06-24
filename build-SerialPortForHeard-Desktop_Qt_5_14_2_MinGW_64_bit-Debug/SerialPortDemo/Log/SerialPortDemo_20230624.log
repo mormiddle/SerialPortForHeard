@@ -1,0 +1,473 @@
+10:42:00.319 (0x1654) [info ]
+10:42:00.323 (0x1654) [info ] ----- App init ------
+10:42:00.323 (0x1654) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+10:42:00.323 (0x1654) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+10:42:00.324 (0x1654) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+10:42:00.324 (0x1654) [info ] Check chinese support: 012汉字abc
+10:42:00.325 (0x1654) [info ] ----- msAppInit: 1687574520318.151855, [1952]15:00:39.-1550741466
+10:42:01.680 (0x1654) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+10:42:02.253 (0x1654) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+10:42:02.271 (0x1654) [debug] qml: [trace]activetrue
+10:42:06.293 (0x1654) [debug] qml: [trace]activetrue
+10:42:07.319 (0x1654) [debug] qml: [trace]activetrue
+10:42:07.860 (0x1654) [debug] qml: [trace]activetrue
+10:42:09.162 (0x1654) [debug] qml: [trace]activetrue
+10:42:10.448 (0x1654) [debug] qml: [trace]activetrue
+10:42:11.590 (0x1654) [debug] qml: [trace]activetrue
+10:42:12.273 (0x1654) [debug] qml: [trace]activetrue
+10:42:13.095 (0x1654) [debug] qml: [trace]activetrue
+10:42:13.688 (0x1654) [debug] qml: [trace]activetrue
+10:42:14.594 (0x1654) [debug] qml: [trace]activetrue
+10:42:15.580 (0x1654) [debug] qml: [trace]activefalse
+10:42:15.882 (0x1654) [debug] qml: [trace]activetrue
+10:42:17.374 (0x1654) [trace] qml:
+10:42:17.385 (0x1654) [info ] ----- msAppExit: 1687574537385.169922, [1952]15:00:41.-1550726399
+10:42:17.386 (0x1654) [info ] app running: 17067.018066, 00:00:01.16067
+10:42:17.386 (0x1654) [info ] app return: 0
+10:42:17.386 (0x1654) [info ] ----- App exit ------
+11:03:43.042 (0x1860) [info ]
+11:03:43.043 (0x1860) [info ] ----- App init ------
+11:03:43.043 (0x1860) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+11:03:43.043 (0x1860) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+11:03:43.044 (0x1860) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+11:03:43.044 (0x1860) [info ] Check chinese support: 012汉字abc
+11:03:43.044 (0x1860) [info ] ----- msAppInit: 1687575823042.862549, [1952]15:02:50.-1549569742
+11:03:43.464 (0x1860) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+11:03:43.610 (0x1860) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+11:03:43.628 (0x1860) [debug] qml: [trace]activetrue
+11:04:10.975 (0x1860) [trace] qml:
+11:04:11.004 (0x1860) [info ] ----- msAppExit: 1687575851004.201660, [1952]15:02:53.-1549544780
+11:04:11.005 (0x1860) [info ] app running: 27961.339111, 00:00:02.25961
+11:04:11.005 (0x1860) [info ] app return: 0
+11:04:11.005 (0x1860) [info ] ----- App exit ------
+17:15:51.909 (0x65dc) [info ]
+17:15:51.910 (0x65dc) [info ] ----- App init ------
+17:15:51.910 (0x65dc) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:15:51.910 (0x65dc) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+17:15:51.911 (0x65dc) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+17:15:51.911 (0x65dc) [info ] Check chinese support: 012汉字abc
+17:15:51.911 (0x65dc) [info ] ----- msAppInit: 1687598151909.436035, [1952]15:40:02.-1529472875
+17:15:52.313 (0x65dc) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:15:52.438 (0x65dc) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:15:52.449 (0x65dc) [debug] qml: [trace]activetrue
+17:15:57.554 (0x65dc) [trace] qml:
+17:15:57.576 (0x65dc) [info ] ----- msAppExit: 1687598157576.954590, [1952]15:40:02.-1529467208
+17:15:57.578 (0x65dc) [info ] app running: 5667.518555, 00:00:00.5667
+17:15:57.578 (0x65dc) [info ] app return: 0
+17:15:57.578 (0x65dc) [info ] ----- App exit ------
+17:37:56.878 (0x5d74) [info ]
+17:37:56.879 (0x5d74) [info ] ----- App init ------
+17:37:56.879 (0x5d74) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+17:37:56.880 (0x5d74) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+17:37:56.880 (0x5d74) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+17:37:56.880 (0x5d74) [info ] Check chinese support: 012汉字abc
+17:37:56.880 (0x5d74) [info ] ----- msAppInit: 1687599476878.717285, [1952]15:42:14.-1528279906
+17:37:57.314 (0x5d74) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+17:37:57.442 (0x5d74) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+17:37:57.456 (0x5d74) [debug] qml: [trace]activetrue
+17:37:59.064 (0x5d74) [trace] qml:
+17:37:59.079 (0x5d74) [info ] ----- msAppExit: 1687599479079.172607, [1952]15:42:15.-1528278705
+17:37:59.079 (0x5d74) [info ] app running: 2200.455322, 00:00:00.2200
+17:37:59.079 (0x5d74) [info ] app return: 0
+17:37:59.080 (0x5d74) [info ] ----- App exit ------
+19:06:13.315 (0x2cdc) [info ]
+19:06:13.315 (0x2cdc) [info ] ----- App init ------
+19:06:13.316 (0x2cdc) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+19:06:13.316 (0x2cdc) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+19:06:13.316 (0x2cdc) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+19:06:13.317 (0x2cdc) [info ] Check chinese support: 012汉字abc
+19:06:13.317 (0x2cdc) [info ] ----- msAppInit: 1687604773314.100098, [1952]15:51:04.-1523513470
+19:06:13.742 (0x2cdc) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+19:06:13.870 (0x2cdc) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+19:06:13.883 (0x2cdc) [debug] qml: [trace]activetrue
+19:06:16.672 (0x2cdc) [debug] qml: [trace] 标定
+19:06:16.684 (0x2cdc) [debug]  openPort is working 
+19:06:18.355 (0x2cdc) [debug] qml: [trace]activefalse
+19:06:24.507 (0x2cdc) [debug] qml: [trace]activetrue
+19:06:25.836 (0x2cdc) [debug] qml: [trace] 保存
+19:06:25.836 (0x2cdc) [debug]  openPort is working 
+19:06:25.837 (0x2cdc) [warn ] qrc:/qml/RightMain.qml:27: ReferenceError: openBtn is not defined
+19:06:26.532 (0x2cdc) [debug] qml: [trace]activefalse
+19:08:30.539 (0x2cdc) [debug] qml: [trace]activetrue
+19:08:31.721 (0x2cdc) [trace] qml:
+19:08:31.761 (0x2cdc) [info ] ----- msAppExit: 1687604911761.318115, [1952]15:51:18.-1523389023
+19:08:31.762 (0x2cdc) [info ] app running: 138447.218018, 00:00:13.125447
+19:08:31.762 (0x2cdc) [info ] app return: 0
+19:08:31.762 (0x2cdc) [info ] ----- App exit ------
+19:08:39.354 (0x34f4) [info ]
+19:08:39.356 (0x34f4) [info ] ----- App init ------
+19:08:39.356 (0x34f4) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+19:08:39.357 (0x34f4) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+19:08:39.357 (0x34f4) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+19:08:39.358 (0x34f4) [info ] Check chinese support: 012汉字abc
+19:08:39.358 (0x34f4) [info ] ----- msAppInit: 1687604919354.296875, [1952]15:51:18.-1523381430
+19:08:40.159 (0x5604) [debug] QML Debugger: Waiting for connection on port 57335...
+19:08:43.150 (0x34f4) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+19:08:46.725 (0x34f4) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+19:08:46.738 (0x34f4) [debug] qml: [trace]activetrue
+19:08:52.177 (0x34f4) [debug] qml: [trace] 标定
+19:08:52.178 (0x34f4) [debug]  openPort is working 
+19:08:59.041 (0x34f4) [debug] qml: [trace] 保存
+19:08:59.041 (0x34f4) [debug]  openPort is working 
+19:08:59.042 (0x34f4) [warn ] qrc:/qml/RightMain.qml:27: ReferenceError: openBtn is not defined
+19:09:00.230 (0x34f4) [debug] qml: [trace]activefalse
+19:11:47.927 (0x34f4) [debug] qml: [trace]activetrue
+19:11:49.139 (0x34f4) [debug] qml: [trace]activefalse
+19:11:51.814 (0x34f4) [debug] qml: [trace]activetrue
+19:11:52.682 (0x34f4) [debug] qml: [trace]activefalse
+19:11:58.197 (0x34f4) [debug] qml: [trace]activetrue
+19:12:00.418 (0x34f4) [debug] qml: [trace] 标定
+19:12:00.420 (0x34f4) [debug]  openPort is working 
+19:12:05.612 (0x34f4) [debug] qml: [trace]activefalse
+19:12:11.315 (0x34f4) [debug] qml: [trace]activetrue
+19:12:13.052 (0x34f4) [debug] qml: [trace] 保存
+19:12:13.053 (0x34f4) [debug]  openPort is working 
+19:12:13.054 (0x34f4) [warn ] qrc:/qml/RightMain.qml:27: ReferenceError: openBtn is not defined
+19:12:14.725 (0x34f4) [debug] qml: [trace]activefalse
+19:12:53.869 (0x410c) [info ]
+19:12:53.871 (0x410c) [info ] ----- App init ------
+19:12:53.871 (0x410c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+19:12:53.872 (0x410c) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+19:12:53.872 (0x410c) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+19:12:53.873 (0x410c) [info ] Check chinese support: 012汉字abc
+19:12:53.873 (0x410c) [info ] ----- msAppInit: 1687605173869.995361, [1952]15:51:44.-1523152915
+19:12:54.433 (0x62d4) [debug] QML Debugger: Waiting for connection on port 57595...
+19:12:57.196 (0x410c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+19:13:00.849 (0x410c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+19:13:00.866 (0x410c) [debug] qml: [trace]activetrue
+19:13:05.398 (0x410c) [debug] qml: [trace]activefalse
+19:13:07.597 (0x410c) [debug] qml: [trace]activetrue
+19:13:08.592 (0x410c) [debug] qml: [trace] 标定
+19:13:08.592 (0x410c) [debug]  openPort is working 
+19:13:08.603 (0x410c) [debug] "COM1" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+19:13:17.534 (0x410c) [debug] "19:13:17.534 4 frames received, 3 bytes ignored"
+19:13:17.536 (0x410c) [debug] "19:13:17.536 91 frames received, 91 bytes ignored"
+19:13:17.539 (0x410c) [debug] "19:13:17.539 91 frames received, 92 bytes ignored"
+19:13:17.541 (0x410c) [debug] qml: [trace]activefalse
+19:13:17.549 (0x410c) [debug] "19:13:17.549 4 frames received, 5 bytes ignored"
+19:13:17.643 (0x410c) [debug] "19:13:17.642 4 frames received, 4 bytes ignored"
+19:13:17.753 (0x410c) [debug] "19:13:17.753 4 frames received, 4 bytes ignored"
+19:13:17.848 (0x410c) [debug] "19:13:17.848 4 frames received, 4 bytes ignored"
+19:13:17.939 (0x410c) [debug] "19:13:17.939 4 frames received, 4 bytes ignored"
+19:13:18.049 (0x410c) [debug] "19:13:18.48 4 frames received, 4 bytes ignored"
+19:13:18.142 (0x410c) [debug] "19:13:18.141 4 frames received, 4 bytes ignored"
+19:13:18.252 (0x410c) [debug] "19:13:18.251 4 frames received, 4 bytes ignored"
+19:13:18.348 (0x410c) [debug] "19:13:18.347 4 frames received, 4 bytes ignored"
+19:13:18.442 (0x410c) [debug] "19:13:18.442 4 frames received, 4 bytes ignored"
+19:13:18.551 (0x410c) [debug] "19:13:18.551 4 frames received, 4 bytes ignored"
+19:13:18.645 (0x410c) [debug] "19:13:18.644 4 frames received, 4 bytes ignored"
+19:13:18.754 (0x410c) [debug] "19:13:18.753 4 frames received, 4 bytes ignored"
+19:13:18.847 (0x410c) [debug] "19:13:18.847 4 frames received, 4 bytes ignored"
+19:13:18.941 (0x410c) [debug] "19:13:18.941 4 frames received, 4 bytes ignored"
+19:13:19.050 (0x410c) [debug] "19:13:19.50 4 frames received, 4 bytes ignored"
+19:13:19.144 (0x410c) [debug] "19:13:19.143 4 frames received, 4 bytes ignored"
+19:13:19.252 (0x410c) [debug] "19:13:19.252 4 frames received, 4 bytes ignored"
+19:13:19.346 (0x410c) [debug] "19:13:19.345 4 frames received, 4 bytes ignored"
+19:13:19.439 (0x410c) [debug] "19:13:19.439 4 frames received, 4 bytes ignored"
+19:13:19.549 (0x410c) [debug] "19:13:19.548 4 frames received, 4 bytes ignored"
+19:13:19.642 (0x410c) [debug] "19:13:19.641 4 frames received, 4 bytes ignored"
+19:13:19.752 (0x410c) [debug] "19:13:19.751 4 frames received, 4 bytes ignored"
+19:13:19.845 (0x410c) [debug] "19:13:19.844 4 frames received, 4 bytes ignored"
+19:13:19.939 (0x410c) [debug] "19:13:19.939 4 frames received, 4 bytes ignored"
+19:13:20.049 (0x410c) [debug] "19:13:20.48 4 frames received, 4 bytes ignored"
+19:13:20.143 (0x410c) [debug] "19:13:20.143 4 frames received, 4 bytes ignored"
+19:13:20.250 (0x410c) [debug] "19:13:20.250 4 frames received, 4 bytes ignored"
+19:13:20.344 (0x410c) [debug] "19:13:20.344 4 frames received, 4 bytes ignored"
+19:13:20.438 (0x410c) [debug] "19:13:20.437 4 frames received, 4 bytes ignored"
+19:13:20.546 (0x410c) [debug] "19:13:20.546 4 frames received, 4 bytes ignored"
+19:13:20.654 (0x410c) [debug] "19:13:20.654 4 frames received, 4 bytes ignored"
+19:13:20.762 (0x410c) [debug] "19:13:20.762 4 frames received, 4 bytes ignored"
+19:13:20.846 (0x410c) [debug] "19:13:20.846 4 frames received, 4 bytes ignored"
+19:13:20.950 (0x410c) [debug] "19:13:20.950 4 frames received, 4 bytes ignored"
+19:13:21.059 (0x410c) [debug] "19:13:21.58 4 frames received, 4 bytes ignored"
+19:13:21.152 (0x410c) [debug] "19:13:21.151 4 frames received, 4 bytes ignored"
+19:13:21.259 (0x410c) [debug] "19:13:21.259 4 frames received, 4 bytes ignored"
+19:13:21.353 (0x410c) [debug] "19:13:21.353 4 frames received, 4 bytes ignored"
+19:13:21.448 (0x410c) [debug] "19:13:21.447 4 frames received, 4 bytes ignored"
+19:13:21.557 (0x410c) [debug] "19:13:21.557 4 frames received, 4 bytes ignored"
+19:13:21.650 (0x410c) [debug] "19:13:21.650 4 frames received, 4 bytes ignored"
+19:13:21.759 (0x410c) [debug] "19:13:21.758 4 frames received, 4 bytes ignored"
+19:13:21.854 (0x410c) [debug] "19:13:21.853 4 frames received, 4 bytes ignored"
+19:13:21.947 (0x410c) [debug] "19:13:21.946 4 frames received, 4 bytes ignored"
+19:13:22.056 (0x410c) [debug] "19:13:22.56 4 frames received, 4 bytes ignored"
+19:13:22.150 (0x410c) [debug] "19:13:22.150 4 frames received, 4 bytes ignored"
+19:13:22.261 (0x410c) [debug] "19:13:22.261 4 frames received, 4 bytes ignored"
+19:13:22.357 (0x410c) [debug] "19:13:22.356 4 frames received, 4 bytes ignored"
+19:13:22.449 (0x410c) [debug] "19:13:22.449 4 frames received, 4 bytes ignored"
+19:13:22.559 (0x410c) [debug] "19:13:22.558 4 frames received, 4 bytes ignored"
+19:13:22.654 (0x410c) [debug] "19:13:22.654 4 frames received, 4 bytes ignored"
+19:13:22.761 (0x410c) [debug] "19:13:22.761 4 frames received, 4 bytes ignored"
+19:13:22.855 (0x410c) [debug] "19:13:22.855 4 frames received, 4 bytes ignored"
+19:13:22.935 (0x410c) [debug] "19:13:22.935 4 frames received, 4 bytes ignored"
+19:13:23.044 (0x410c) [debug] "19:13:23.44 4 frames received, 4 bytes ignored"
+19:13:23.137 (0x410c) [debug] "19:13:23.137 4 frames received, 4 bytes ignored"
+19:13:23.264 (0x410c) [debug] "19:13:23.263 4 frames received, 4 bytes ignored"
+19:13:23.356 (0x410c) [debug] "19:13:23.356 4 frames received, 4 bytes ignored"
+19:13:23.450 (0x410c) [debug] "19:13:23.449 4 frames received, 4 bytes ignored"
+19:13:23.559 (0x410c) [debug] "19:13:23.558 4 frames received, 4 bytes ignored"
+19:13:23.651 (0x410c) [debug] "19:13:23.650 4 frames received, 4 bytes ignored"
+19:13:23.759 (0x410c) [debug] "19:13:23.759 4 frames received, 4 bytes ignored"
+19:13:23.853 (0x410c) [debug] "19:13:23.853 4 frames received, 4 bytes ignored"
+19:13:23.945 (0x410c) [debug] "19:13:23.945 4 frames received, 4 bytes ignored"
+19:13:24.054 (0x410c) [debug] "19:13:24.54 4 frames received, 4 bytes ignored"
+19:13:24.148 (0x410c) [debug] "19:13:24.148 4 frames received, 4 bytes ignored"
+19:13:24.256 (0x410c) [debug] "19:13:24.256 4 frames received, 4 bytes ignored"
+19:13:24.350 (0x410c) [debug] "19:13:24.350 4 frames received, 4 bytes ignored"
+19:13:24.443 (0x410c) [debug] "19:13:24.442 4 frames received, 4 bytes ignored"
+19:13:24.553 (0x410c) [debug] "19:13:24.552 4 frames received, 4 bytes ignored"
+19:13:24.646 (0x410c) [debug] "19:13:24.646 4 frames received, 4 bytes ignored"
+19:13:24.755 (0x410c) [debug] "19:13:24.755 4 frames received, 4 bytes ignored"
+19:13:24.850 (0x410c) [debug] "19:13:24.849 4 frames received, 4 bytes ignored"
+19:13:24.941 (0x410c) [debug] "19:13:24.941 4 frames received, 4 bytes ignored"
+19:13:25.049 (0x410c) [debug] "19:13:25.49 4 frames received, 4 bytes ignored"
+19:13:25.142 (0x410c) [debug] "19:13:25.141 4 frames received, 4 bytes ignored"
+19:13:25.252 (0x410c) [debug] "19:13:25.251 4 frames received, 4 bytes ignored"
+19:13:25.345 (0x410c) [debug] "19:13:25.345 4 frames received, 4 bytes ignored"
+19:13:25.439 (0x410c) [debug] "19:13:25.439 4 frames received, 4 bytes ignored"
+19:13:25.547 (0x410c) [debug] "19:13:25.547 4 frames received, 4 bytes ignored"
+19:13:25.642 (0x410c) [debug] "19:13:25.642 4 frames received, 4 bytes ignored"
+19:13:25.752 (0x410c) [debug] "19:13:25.752 4 frames received, 4 bytes ignored"
+19:13:25.827 (0x410c) [debug] qml: [trace]activetrue
+19:13:25.845 (0x410c) [debug] "19:13:25.845 4 frames received, 4 bytes ignored"
+19:13:25.938 (0x410c) [debug] "19:13:25.938 4 frames received, 4 bytes ignored"
+19:13:26.051 (0x410c) [debug] "19:13:26.51 4 frames received, 4 bytes ignored"
+19:13:26.143 (0x410c) [debug] "19:13:26.143 4 frames received, 4 bytes ignored"
+19:13:26.252 (0x410c) [debug] "19:13:26.251 4 frames received, 4 bytes ignored"
+19:13:26.345 (0x410c) [debug] "19:13:26.345 4 frames received, 4 bytes ignored"
+19:13:26.439 (0x410c) [debug] "19:13:26.439 4 frames received, 4 bytes ignored"
+19:13:26.547 (0x410c) [debug] "19:13:26.547 4 frames received, 4 bytes ignored"
+19:13:26.640 (0x410c) [debug] "19:13:26.639 4 frames received, 4 bytes ignored"
+19:13:26.749 (0x410c) [debug] "19:13:26.749 4 frames received, 4 bytes ignored"
+19:13:26.760 (0x410c) [debug] qml: [trace] 保存
+19:13:26.760 (0x410c) [debug]  openPort is working 
+19:13:26.845 (0x410c) [warn ] qrc:/qml/RightMain.qml:27: ReferenceError: openBtn is not defined
+19:14:10.127 (0x4d78) [info ]
+19:14:10.128 (0x4d78) [info ] ----- App init ------
+19:14:10.129 (0x4d78) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+19:14:10.129 (0x4d78) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+19:14:10.130 (0x4d78) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+19:14:10.130 (0x4d78) [info ] Check chinese support: 012汉字abc
+19:14:10.131 (0x4d78) [info ] ----- msAppInit: 1687605250126.089111, [1952]15:51:52.-1523084658
+19:14:10.691 (0x2a98) [debug] QML Debugger: Waiting for connection on port 57632...
+19:14:13.427 (0x4d78) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+19:14:17.074 (0x4d78) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+19:14:17.089 (0x4d78) [debug] qml: [trace]activetrue
+19:14:21.232 (0x4d78) [debug] qml: [trace] 标定
+19:14:21.232 (0x4d78) [debug]  openPort is working 
+19:14:21.233 (0x4d78) [debug] "COM1" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+19:14:21.250 (0x4d78) [debug] "19:14:21.250 4 frames received, 3 bytes ignored"
+19:14:21.342 (0x4d78) [debug] "19:14:21.342 4 frames received, 4 bytes ignored"
+19:14:21.436 (0x4d78) [debug] "19:14:21.435 4 frames received, 4 bytes ignored"
+19:14:21.545 (0x4d78) [debug] "19:14:21.545 4 frames received, 4 bytes ignored"
+19:14:21.638 (0x4d78) [debug] "19:14:21.638 4 frames received, 4 bytes ignored"
+19:14:21.750 (0x4d78) [debug] "19:14:21.750 4 frames received, 4 bytes ignored"
+19:14:21.843 (0x4d78) [debug] "19:14:21.843 4 frames received, 4 bytes ignored"
+19:14:21.938 (0x4d78) [debug] "19:14:21.937 4 frames received, 4 bytes ignored"
+19:14:22.047 (0x4d78) [debug] "19:14:22.46 4 frames received, 4 bytes ignored"
+19:14:22.143 (0x4d78) [debug] "19:14:22.142 4 frames received, 4 bytes ignored"
+19:14:22.250 (0x4d78) [debug] "19:14:22.250 4 frames received, 4 bytes ignored"
+19:14:22.342 (0x4d78) [debug] "19:14:22.342 4 frames received, 4 bytes ignored"
+19:14:22.438 (0x4d78) [debug] "19:14:22.438 4 frames received, 4 bytes ignored"
+19:14:22.549 (0x4d78) [debug] "19:14:22.548 4 frames received, 4 bytes ignored"
+19:14:22.642 (0x4d78) [debug] "19:14:22.641 4 frames received, 4 bytes ignored"
+19:14:22.751 (0x4d78) [debug] "19:14:22.751 4 frames received, 4 bytes ignored"
+19:14:22.846 (0x4d78) [debug] "19:14:22.845 4 frames received, 4 bytes ignored"
+19:14:22.941 (0x4d78) [debug] "19:14:22.941 4 frames received, 4 bytes ignored"
+19:14:23.049 (0x4d78) [debug] "19:14:23.49 4 frames received, 4 bytes ignored"
+19:14:23.065 (0x4d78) [debug] qml: [trace] 保存
+19:14:23.066 (0x4d78) [debug]  openPort is working 
+19:14:23.151 (0x4d78) [warn ] qrc:/qml/RightMain.qml:27: ReferenceError: openBtn is not defined
+19:14:24.891 (0x4d78) [debug]  openPort is working 
+19:14:24.893 (0x4d78) [debug] "COM1" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+19:14:24.953 (0x4d78) [debug] "19:14:24.953 4 frames received, 3 bytes ignored"
+19:14:25.052 (0x4d78) [debug] "19:14:25.51 4 frames received, 4 bytes ignored"
+19:14:25.146 (0x4d78) [debug] "19:14:25.145 4 frames received, 4 bytes ignored"
+19:14:25.255 (0x4d78) [debug] "19:14:25.255 4 frames received, 4 bytes ignored"
+19:14:25.349 (0x4d78) [debug] "19:14:25.348 4 frames received, 4 bytes ignored"
+19:14:25.443 (0x4d78) [debug] "19:14:25.442 4 frames received, 4 bytes ignored"
+19:14:25.553 (0x4d78) [debug] "19:14:25.552 4 frames received, 4 bytes ignored"
+19:14:25.645 (0x4d78) [debug] "19:14:25.645 4 frames received, 4 bytes ignored"
+19:14:25.756 (0x4d78) [debug] "19:14:25.755 4 frames received, 4 bytes ignored"
+19:14:25.848 (0x4d78) [debug] "19:14:25.848 4 frames received, 4 bytes ignored"
+19:14:25.940 (0x4d78) [debug] "19:14:25.940 4 frames received, 4 bytes ignored"
+19:14:26.051 (0x4d78) [debug] "19:14:26.50 4 frames received, 4 bytes ignored"
+19:14:26.118 (0x4d78) [debug] qml: [trace]activefalse
+19:14:26.144 (0x4d78) [debug] "19:14:26.144 4 frames received, 4 bytes ignored"
+19:14:26.253 (0x4d78) [debug] "19:14:26.253 4 frames received, 4 bytes ignored"
+19:14:26.348 (0x4d78) [debug] "19:14:26.348 4 frames received, 4 bytes ignored"
+19:14:26.442 (0x4d78) [debug] "19:14:26.441 4 frames received, 4 bytes ignored"
+19:14:26.551 (0x4d78) [debug] "19:14:26.550 4 frames received, 4 bytes ignored"
+19:14:26.644 (0x4d78) [debug] "19:14:26.644 4 frames received, 4 bytes ignored"
+19:14:26.754 (0x4d78) [debug] "19:14:26.753 4 frames received, 4 bytes ignored"
+19:14:26.846 (0x4d78) [debug] "19:14:26.846 4 frames received, 4 bytes ignored"
+19:14:26.940 (0x4d78) [debug] "19:14:26.940 4 frames received, 4 bytes ignored"
+19:14:27.052 (0x4d78) [debug] "19:14:27.51 4 frames received, 4 bytes ignored"
+19:14:27.146 (0x4d78) [debug] "19:14:27.145 4 frames received, 4 bytes ignored"
+19:14:27.254 (0x4d78) [debug] "19:14:27.253 4 frames received, 4 bytes ignored"
+19:14:27.347 (0x4d78) [debug] "19:14:27.346 4 frames received, 4 bytes ignored"
+19:14:27.441 (0x4d78) [debug] "19:14:27.439 4 frames received, 4 bytes ignored"
+19:14:27.547 (0x4d78) [debug] "19:14:27.547 4 frames received, 4 bytes ignored"
+19:14:27.642 (0x4d78) [debug] "19:14:27.642 4 frames received, 4 bytes ignored"
+19:14:27.753 (0x4d78) [debug] "19:14:27.752 4 frames received, 4 bytes ignored"
+19:14:27.845 (0x4d78) [debug] "19:14:27.845 4 frames received, 4 bytes ignored"
+19:14:27.938 (0x4d78) [debug] "19:14:27.938 4 frames received, 4 bytes ignored"
+19:14:28.048 (0x4d78) [debug] "19:14:28.48 4 frames received, 4 bytes ignored"
+19:14:28.140 (0x4d78) [debug] "19:14:28.140 4 frames received, 4 bytes ignored"
+19:14:28.248 (0x4d78) [debug] "19:14:28.248 4 frames received, 4 bytes ignored"
+19:14:28.343 (0x4d78) [debug] "19:14:28.342 4 frames received, 4 bytes ignored"
+19:14:28.451 (0x4d78) [debug] "19:14:28.450 4 frames received, 4 bytes ignored"
+19:14:28.557 (0x4d78) [debug] "19:14:28.557 4 frames received, 4 bytes ignored"
+19:14:28.650 (0x4d78) [debug] "19:14:28.650 4 frames received, 4 bytes ignored"
+19:14:28.762 (0x4d78) [debug] "19:14:28.761 4 frames received, 4 bytes ignored"
+19:14:28.853 (0x4d78) [debug] "19:14:28.853 4 frames received, 4 bytes ignored"
+19:14:28.946 (0x4d78) [debug] "19:14:28.946 4 frames received, 4 bytes ignored"
+19:14:29.056 (0x4d78) [debug] "19:14:29.56 4 frames received, 4 bytes ignored"
+19:14:29.149 (0x4d78) [debug] "19:14:29.148 4 frames received, 4 bytes ignored"
+19:14:29.258 (0x4d78) [debug] "19:14:29.257 4 frames received, 4 bytes ignored"
+19:14:29.352 (0x4d78) [debug] "19:14:29.351 4 frames received, 4 bytes ignored"
+19:14:29.446 (0x4d78) [debug] "19:14:29.445 4 frames received, 4 bytes ignored"
+19:14:29.554 (0x4d78) [debug] "19:14:29.554 4 frames received, 4 bytes ignored"
+19:14:29.649 (0x4d78) [debug] "19:14:29.647 4 frames received, 4 bytes ignored"
+19:14:29.758 (0x4d78) [debug] "19:14:29.757 4 frames received, 4 bytes ignored"
+19:14:29.850 (0x4d78) [debug] "19:14:29.850 4 frames received, 4 bytes ignored"
+19:14:29.944 (0x4d78) [debug] "19:14:29.943 4 frames received, 4 bytes ignored"
+19:14:30.051 (0x4d78) [debug] "19:14:30.51 4 frames received, 4 bytes ignored"
+19:14:30.147 (0x4d78) [debug] "19:14:30.146 4 frames received, 4 bytes ignored"
+19:14:30.254 (0x4d78) [debug] "19:14:30.254 4 frames received, 4 bytes ignored"
+19:14:30.348 (0x4d78) [debug] "19:14:30.347 4 frames received, 4 bytes ignored"
+19:14:30.441 (0x4d78) [debug] "19:14:30.440 4 frames received, 4 bytes ignored"
+19:14:30.549 (0x4d78) [debug] "19:14:30.549 4 frames received, 4 bytes ignored"
+19:14:30.644 (0x4d78) [debug] "19:14:30.643 4 frames received, 4 bytes ignored"
+19:14:30.753 (0x4d78) [debug] "19:14:30.752 4 frames received, 4 bytes ignored"
+19:14:30.846 (0x4d78) [debug] "19:14:30.845 4 frames received, 4 bytes ignored"
+19:14:30.938 (0x4d78) [debug] "19:14:30.938 4 frames received, 4 bytes ignored"
+19:14:31.047 (0x4d78) [debug] "19:14:31.47 4 frames received, 4 bytes ignored"
+19:14:31.084 (0x4d78) [debug] qml: [trace]activetrue
+19:14:31.142 (0x4d78) [debug] "19:14:31.141 4 frames received, 4 bytes ignored"
+19:14:31.252 (0x4d78) [debug] "19:14:31.251 4 frames received, 4 bytes ignored"
+19:14:31.345 (0x4d78) [debug] "19:14:31.344 4 frames received, 4 bytes ignored"
+19:14:31.438 (0x4d78) [debug] "19:14:31.437 4 frames received, 4 bytes ignored"
+19:14:31.546 (0x4d78) [debug] "19:14:31.546 4 frames received, 4 bytes ignored"
+19:14:31.640 (0x4d78) [debug] "19:14:31.640 4 frames received, 4 bytes ignored"
+19:14:31.750 (0x4d78) [debug] "19:14:31.749 4 frames received, 4 bytes ignored"
+19:14:31.843 (0x4d78) [debug] "19:14:31.842 4 frames received, 4 bytes ignored"
+19:14:31.951 (0x4d78) [debug] "19:14:31.950 4 frames received, 4 bytes ignored"
+19:14:32.046 (0x4d78) [debug] "19:14:32.46 4 frames received, 4 bytes ignored"
+19:14:32.137 (0x4d78) [debug] "19:14:32.137 4 frames received, 4 bytes ignored"
+19:14:32.261 (0x4d78) [debug] "19:14:32.261 4 frames received, 4 bytes ignored"
+19:14:32.342 (0x4d78) [debug] "19:14:32.341 4 frames received, 4 bytes ignored"
+19:14:32.452 (0x4d78) [debug] "19:14:32.451 4 frames received, 4 bytes ignored"
+19:14:32.547 (0x4d78) [debug]  openPort is working 
+19:14:32.632 (0x4d78) [warn ] qrc:/qml/RightMain.qml:27: ReferenceError: openBtn is not defined
+19:14:33.400 (0x4d78) [trace] qml:
+19:14:33.425 (0x4d78) [info ] ----- msAppExit: 1687605273425.278809, [1952]15:51:54.-1523063359
+19:14:33.426 (0x4d78) [info ] app running: 23299.189697, 00:00:02.21299
+19:14:33.426 (0x4d78) [info ] app return: 0
+19:14:33.427 (0x4d78) [info ] ----- App exit ------
+19:15:26.617 (0x3e04) [info ]
+19:15:26.618 (0x3e04) [info ] ----- App init ------
+19:15:26.619 (0x3e04) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+19:15:26.619 (0x3e04) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+19:15:26.619 (0x3e04) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+19:15:26.620 (0x3e04) [info ] Check chinese support: 012汉字abc
+19:15:26.621 (0x3e04) [info ] ----- msAppInit: 1687605326617.960693, [1952]15:51:59.-1523015167
+19:15:27.178 (0x32bc) [debug] QML Debugger: Waiting for connection on port 57665...
+19:15:29.917 (0x3e04) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+19:15:33.571 (0x3e04) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+19:15:33.582 (0x3e04) [debug] qml: [trace]activetrue
+19:15:41.692 (0x3e04) [debug] qml: [trace] 标定
+19:15:41.692 (0x3e04) [debug]  openPort is working 
+19:15:41.693 (0x3e04) [debug] "COM1" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+19:15:41.762 (0x3e04) [debug] "19:15:41.762 4 frames received, 3 bytes ignored"
+19:15:41.860 (0x3e04) [debug] "19:15:41.860 4 frames received, 4 bytes ignored"
+19:15:41.951 (0x3e04) [debug] "19:15:41.950 4 frames received, 4 bytes ignored"
+19:15:42.046 (0x3e04) [debug] "19:15:42.45 4 frames received, 4 bytes ignored"
+19:15:42.139 (0x3e04) [debug] "19:15:42.138 4 frames received, 4 bytes ignored"
+19:15:42.248 (0x3e04) [debug] "19:15:42.248 4 frames received, 4 bytes ignored"
+19:15:42.356 (0x3e04) [debug] "19:15:42.356 4 frames received, 4 bytes ignored"
+19:15:42.449 (0x3e04) [debug] "19:15:42.449 4 frames received, 4 bytes ignored"
+19:15:42.558 (0x3e04) [debug] "19:15:42.558 4 frames received, 4 bytes ignored"
+19:15:42.652 (0x3e04) [debug] "19:15:42.651 4 frames received, 4 bytes ignored"
+19:15:42.762 (0x3e04) [debug] "19:15:42.761 4 frames received, 4 bytes ignored"
+19:15:42.859 (0x3e04) [debug] "19:15:42.859 4 frames received, 4 bytes ignored"
+19:15:42.949 (0x3e04) [debug] "19:15:42.949 4 frames received, 4 bytes ignored"
+19:15:43.060 (0x3e04) [debug] "19:15:43.60 4 frames received, 4 bytes ignored"
+19:15:43.152 (0x3e04) [debug] "19:15:43.152 4 frames received, 4 bytes ignored"
+19:15:43.261 (0x3e04) [debug] "19:15:43.261 4 frames received, 4 bytes ignored"
+19:15:43.356 (0x3e04) [debug] "19:15:43.356 4 frames received, 4 bytes ignored"
+19:15:43.436 (0x3e04) [debug] "19:15:43.436 4 frames received, 4 bytes ignored"
+19:15:43.548 (0x3e04) [debug] "19:15:43.548 4 frames received, 4 bytes ignored"
+19:15:43.640 (0x3e04) [debug] "19:15:43.640 4 frames received, 4 bytes ignored"
+19:15:43.751 (0x3e04) [debug] "19:15:43.751 4 frames received, 4 bytes ignored"
+19:15:43.848 (0x3e04) [debug] "19:15:43.848 4 frames received, 4 bytes ignored"
+19:15:43.855 (0x3e04) [debug] qml: [trace] 保存
+19:15:43.855 (0x3e04) [debug]  openPort is working 
+19:15:43.941 (0x3e04) [warn ] qrc:/qml/RightMain.qml:27: ReferenceError: openBtn is not defined
+19:15:45.220 (0x3e04) [debug] qml: [trace]activefalse
+19:15:48.605 (0x3e04) [debug] qml: [trace]activetrue
+19:15:49.660 (0x3e04) [debug]  openPort is working 
+19:15:49.661 (0x3e04) [debug] "COM1" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+19:17:14.792 (0x3e04) [debug] "19:17:14.792 4 frames received, 3 bytes ignored"
+19:18:25.812 (0x3e34) [info ]
+19:18:25.814 (0x3e34) [info ] ----- App init ------
+19:18:25.814 (0x3e34) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+19:18:25.815 (0x3e34) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+19:18:25.815 (0x3e34) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+19:18:25.815 (0x3e34) [info ] Check chinese support: 012汉字abc
+19:18:25.816 (0x3e34) [info ] ----- msAppInit: 1687605505812.076660, [1952]15:52:17.-1522853972
+19:18:26.384 (0x3d0c) [debug] QML Debugger: Waiting for connection on port 57702...
+19:18:29.554 (0x3e34) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+19:18:33.236 (0x3e34) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+19:18:33.250 (0x3e34) [debug] qml: [trace]activetrue
+19:18:33.252 (0x3e34) [debug] qml: [trace]activefalse
+19:18:37.503 (0x3e34) [debug] qml: [trace]activetrue
+19:18:40.920 (0x3e34) [debug] qml: [trace] 标定
+19:18:40.921 (0x3e34) [debug]  openPort is working 
+19:18:40.921 (0x3e34) [debug] "COM1" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+19:18:45.488 (0x3e34) [debug] "19:18:45.488 4 frames received, 3 bytes ignored"
+19:18:45.492 (0x3e34) [debug] "19:18:45.492 91 frames received, 91 bytes ignored"
+19:18:45.510 (0x3e34) [debug] qml: [trace]activefalse
+19:18:45.534 (0x3e34) [debug] "19:18:45.534 4 frames received, 5 bytes ignored"
+19:18:45.628 (0x3e34) [debug] "19:18:45.627 4 frames received, 4 bytes ignored"
+19:18:45.738 (0x3e34) [debug] "19:18:45.738 4 frames received, 4 bytes ignored"
+19:18:45.832 (0x3e34) [debug] "19:18:45.832 4 frames received, 4 bytes ignored"
+19:18:45.926 (0x3e34) [debug] "19:18:45.926 4 frames received, 4 bytes ignored"
+19:18:46.036 (0x3e34) [debug] "19:18:46.35 4 frames received, 4 bytes ignored"
+19:18:46.127 (0x3e34) [debug] "19:18:46.127 4 frames received, 4 bytes ignored"
+19:18:46.234 (0x3e34) [debug] "19:18:46.233 4 frames received, 4 bytes ignored"
+19:18:46.327 (0x3e34) [debug] "19:18:46.327 4 frames received, 4 bytes ignored"
+19:18:46.421 (0x3e34) [debug] "19:18:46.421 4 frames received, 4 bytes ignored"
+19:18:46.529 (0x3e34) [debug] "19:18:46.529 4 frames received, 4 bytes ignored"
+19:18:46.623 (0x3e34) [debug] "19:18:46.622 4 frames received, 4 bytes ignored"
+19:18:46.658 (0x3e34) [debug] qml: [trace]activetrue
+19:18:46.731 (0x3e34) [debug] "19:18:46.731 4 frames received, 4 bytes ignored"
+19:18:46.841 (0x3e34) [debug] "19:18:46.841 4 frames received, 4 bytes ignored"
+19:18:46.934 (0x3e34) [debug] "19:18:46.933 4 frames received, 4 bytes ignored"
+19:18:47.043 (0x3e34) [debug] "19:18:47.43 4 frames received, 4 bytes ignored"
+19:18:47.136 (0x3e34) [debug] "19:18:47.136 4 frames received, 4 bytes ignored"
+19:18:47.245 (0x3e34) [debug] "19:18:47.245 4 frames received, 4 bytes ignored"
+19:18:47.339 (0x3e34) [debug] "19:18:47.339 4 frames received, 4 bytes ignored"
+19:18:47.432 (0x3e34) [debug] "19:18:47.432 4 frames received, 4 bytes ignored"
+19:18:47.541 (0x3e34) [debug] "19:18:47.541 4 frames received, 4 bytes ignored"
+19:18:47.636 (0x3e34) [debug] "19:18:47.636 4 frames received, 4 bytes ignored"
+19:18:47.648 (0x3e34) [debug] qml: [trace] 保存
+19:18:47.648 (0x3e34) [debug]  openPort is working 
+19:18:47.650 (0x3e34) [warn ] qrc:/qml/RightMain.qml:27: ReferenceError: openBtn is not defined
+19:18:48.697 (0x3e34) [debug]  openPort is working 
+19:18:48.697 (0x3e34) [debug] "COM1" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+19:18:48.745 (0x3e34) [debug] "19:18:48.745 4 frames received, 3 bytes ignored"
+19:18:48.838 (0x3e34) [debug] "19:18:48.837 4 frames received, 4 bytes ignored"
+19:18:48.931 (0x3e34) [debug] "19:18:48.931 4 frames received, 4 bytes ignored"
+19:18:49.040 (0x3e34) [debug] "19:18:49.40 4 frames received, 4 bytes ignored"
+19:18:49.135 (0x3e34) [debug] "19:18:49.134 4 frames received, 4 bytes ignored"
+19:18:49.244 (0x3e34) [debug] "19:18:49.244 4 frames received, 4 bytes ignored"
+19:18:49.338 (0x3e34) [debug] "19:18:49.338 4 frames received, 4 bytes ignored"
+19:18:49.431 (0x3e34) [debug] "19:18:49.431 4 frames received, 4 bytes ignored"
+19:18:49.542 (0x3e34) [debug] "19:18:49.542 4 frames received, 4 bytes ignored"
+19:18:49.629 (0x3e34) [debug]  openPort is working 
+19:18:49.631 (0x3e34) [warn ] qrc:/qml/RightMain.qml:27: ReferenceError: openBtn is not defined
+19:18:50.181 (0x3e34) [trace] qml:
+19:18:50.210 (0x3e34) [info ] ----- msAppExit: 1687605530210.450439, [1952]15:52:20.-1522832574
+19:18:50.211 (0x3e34) [info ] app running: 24398.373779, 00:00:02.22398
+19:18:50.211 (0x3e34) [info ] app return: 0
+19:18:50.212 (0x3e34) [info ] ----- App exit ------

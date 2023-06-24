@@ -9,7 +9,7 @@ MySerialPort::MySerialPort(QObject *parent) : QObject(parent)
     myPort = new QSerialPort;
     m_repeateScanLineNum = 0;
     m_repeateScanLines.repeateTimes.push_back(0);
-    readFileTo2DArray(m_channelParameter,"E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/参数.txt");
+    readFileTo2DArray(m_channelParameter,"D:/Sacar/参数.txt");
 }
 
 MySerialPort::~MySerialPort()
@@ -127,10 +127,10 @@ void MySerialPort::readData_slot()
                 for (int i = 0; i < m_chanelPerScanLine; ++i) {
                     //10Mhz的实部
                     value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
-                    m_01KhzReal[i] = value;
+                    m_01KhzReal[i] = value - m_01KhzRealDemarcate[i];
                     //10Mhz的虚部
                     value = toIntData(buffer[start + 4 + i * 4], buffer[start + 5 + i * 4]);
-                    m_01KhzImag[i] = value;
+                    m_01KhzImag[i] = value - m_01KhzImagDemarcate[i];
                 }                
                 m_b01KhzIsReady = true;
 
@@ -141,10 +141,10 @@ void MySerialPort::readData_slot()
                 for (int i = 0; i < m_chanelPerScanLine; ++i) {
                     //25Mhz的实部
                     value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
-                    m_2_5KhzReal[i] = value;
+                    m_2_5KhzReal[i] = value - m_2_5KhzRealDemarcate[i];
                     //25Mhz的虚部
                     value = toIntData(buffer[start + 4 + i * 4], buffer[start + 5 + i * 4]);
-                    m_2_5KhzImag[i] = value;
+                    m_2_5KhzImag[i] = value - m_2_5KhzImagDemarcate[i];
                 }               
                 m_b2_5KhzIsReady = true;
 
@@ -155,10 +155,10 @@ void MySerialPort::readData_slot()
                 for (int i = 0; i < m_chanelPerScanLine; ++i) {
                     //25Mhz的实部
                     value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
-                    m_04KhzReal[i] = value;
+                    m_04KhzReal[i] = value - m_04KhzRealDemarcate[i];
                     //25Mhz的虚部
                     value = toIntData(buffer[start + 4 + i * 4], buffer[start + 5 + i * 4]);
-                    m_04KhzImag[i] = value;
+                    m_04KhzImag[i] = value - m_04KhzImagDemarcate[i];
                 }             
                 m_b04KhzIsReady = true;
 
@@ -169,20 +169,20 @@ void MySerialPort::readData_slot()
                 for (int i = 0; i < m_chanelPerScanLine; ++i) {
                     //25Mhz的实部
                     value = toIntData(buffer[start + 2 + i * 4], buffer[start + 3 + i * 4]);
-                    m_5_5KhzReal[i] = value;
+                    m_5_5KhzReal[i] = value - m_5_5KhzRealDemarcate[i];
                     //25Mhz的虚部
                     value = toIntData(buffer[start + 4 + i * 4], buffer[start + 5 + i * 4]);
-                    m_5_5KhzImag[i] = value;
+                    m_5_5KhzImag[i] = value - m_5_5KhzImagDemarcate[i];
                 }                
                 m_b5_5KhzIsReady = true;
 
             }
 
-            if ( m_b01KhzIsReady && m_b2_5KhzIsReady && m_b04KhzIsReady && m_b5_5KhzIsReady && m_bchannelPerameterIsReady) {
+            if ( m_b01KhzIsReady && m_b2_5KhzIsReady && m_b04KhzIsReady && m_b5_5KhzIsReady && m_bchannelPerameterIsReady && m_bdemarcateIsReady) {
 
                 for( int i = 0; i < m_chanelPerScanLine; ++i) {
-                    std::array<double, 25> tmpParam;
-                    for( int j = 0; j < 25; ++j) {
+                    std::array<double, 25> tmpParam{};
+                    for( int j = 0; j < 19; ++j) {
                         tmpParam[j] = m_channelParameter[i][j];
                     }
                     m_dhardValue[i] = CalculateHardnessValue(tmpParam, m_01KhzReal[i], m_01KhzImag[i], m_2_5KhzReal[i], m_2_5KhzImag[i], m_04KhzReal[i], m_04KhzImag[i], m_5_5KhzReal[i], m_5_5KhzImag[i]);
@@ -278,6 +278,35 @@ void MySerialPort::setScanIsStart(bool start)
 void MySerialPort::setRepeateScanLineNum(int value)
 {
     repeateScanLineNum = value;
+}
+
+void MySerialPort::setDemarcate()
+{
+    for (int i = 0; i < m_chanelPerScanLine; ++i)
+    {
+        m_01KhzRealDemarcate[i] = m_01KhzReal[i];
+        m_01KhzImagDemarcate[i] = m_01KhzImag[i];
+        m_2_5KhzRealDemarcate[i] = m_2_5KhzReal[i];
+        m_2_5KhzImagDemarcate[i] = m_2_5KhzImag[i];
+        m_04KhzRealDemarcate[i] = m_04KhzReal[i];
+        m_04KhzImagDemarcate[i] = m_04KhzImag[i];
+        m_5_5KhzRealDemarcate[i] = m_5_5KhzReal[i];
+        m_5_5KhzImagDemarcate[i] = m_5_5KhzImag[i];
+        m_dhardValueDemarcate[i] = m_dhardValue[i];
+    }
+
+    m_b01KhzIsReady = false;
+    m_b2_5KhzIsReady = false;
+    m_b04KhzIsReady = false;
+    m_b5_5KhzIsReady = false;
+    m_bdemarcateIsReady = true;
+
+    buffer.clear();
+    start = 0;
+    framesReceived = 0;
+    scanIsStart = false;
+    repeateScanLineNum = 0;
+
 }
 
 double MySerialPort::CalculateHardnessValue(std::array<double, 25> channel, double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8)
