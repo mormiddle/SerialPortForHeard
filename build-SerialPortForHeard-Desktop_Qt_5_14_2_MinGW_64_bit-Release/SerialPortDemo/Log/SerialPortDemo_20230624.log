@@ -73,3 +73,49 @@
 19:19:06.754 (0x0fe0) [info ] app running: 3369.702881, 00:00:00.3369
 19:19:06.755 (0x0fe0) [info ] app return: 0
 19:19:06.755 (0x0fe0) [info ] ----- App exit ------
+21:52:49.424 (0x5a94) [info ]
+21:52:49.424 (0x5a94) [info ] ----- App init ------
+21:52:49.425 (0x5a94) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+21:52:49.425 (0x5a94) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Release/SerialPortDemo/release/SerialPortDemo.exe
+21:52:49.425 (0x5a94) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Release/SerialPortDemo
+21:52:49.425 (0x5a94) [info ] Check chinese support: 012汉字abc
+21:52:49.426 (0x5a94) [info ] ----- msAppInit: 1687614769423.325684, [1952]16:07:43.-1514516361
+21:52:49.825 (0x5a94) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+21:52:49.965 (0x5a94) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+21:52:49.974 (0x5a94) [debug] qml: [trace]activetrue
+21:53:40.549 (0x5a94) [debug] qml: [trace]activefalse
+21:54:07.858 (0x5a94) [trace] qml:
+21:54:07.866 (0x5a94) [info ] ----- msAppExit: 1687614847866.198242, [1952]16:07:51.-1514445918
+21:54:07.867 (0x5a94) [info ] app running: 78442.872559, 00:00:07.71442
+21:54:07.867 (0x5a94) [info ] app return: 0
+21:54:07.868 (0x5a94) [info ] ----- App exit ------
+21:54:18.353 (0x4200) [info ]
+21:54:18.354 (0x4200) [info ] ----- App init ------
+21:54:18.354 (0x4200) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+21:54:18.354 (0x4200) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Release/SerialPortDemo/release/SerialPortDemo.exe
+21:54:18.355 (0x4200) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Release/SerialPortDemo
+21:54:18.355 (0x4200) [info ] Check chinese support: 012汉字abc
+21:54:18.355 (0x4200) [info ] ----- msAppInit: 1687614858353.445068, [1952]16:07:52.-1514436431
+21:54:18.733 (0x4200) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+21:54:18.854 (0x4200) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+21:54:18.866 (0x4200) [debug] qml: [trace]activetrue
+21:54:42.594 (0x4200) [trace] qml:
+21:54:42.609 (0x4200) [info ] ----- msAppExit: 1687614882609.532227, [1952]16:07:54.-1514414175
+21:54:42.610 (0x4200) [info ] app running: 24256.087158, 00:00:02.22256
+21:54:42.611 (0x4200) [info ] app return: 0
+21:54:42.612 (0x4200) [info ] ----- App exit ------
+21:58:17.394 (0x068c) [info ]
+21:58:17.395 (0x068c) [info ] ----- App init ------
+21:58:17.395 (0x068c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+21:58:17.396 (0x068c) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Release/SerialPortDemo/release/SerialPortDemo.exe
+21:58:17.396 (0x068c) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Release/SerialPortDemo
+21:58:17.396 (0x068c) [info ] Check chinese support: 012汉字abc
+21:58:17.396 (0x068c) [info ] ----- msAppInit: 1687615097394.780762, [1952]16:08:16.-1514221390
+21:58:17.856 (0x068c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+21:58:18.022 (0x068c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+21:58:18.038 (0x068c) [debug] qml: [trace]activetrue
+21:59:53.764 (0x068c) [trace] qml:
+21:59:53.777 (0x068c) [info ] ----- msAppExit: 1687615193777.601807, [1952]16:08:26.-1514135007
+21:59:53.777 (0x068c) [info ] app running: 96382.821045, 00:00:09.87382
+21:59:53.778 (0x068c) [info ] app return: 0
+21:59:53.778 (0x068c) [info ] ----- App exit ------

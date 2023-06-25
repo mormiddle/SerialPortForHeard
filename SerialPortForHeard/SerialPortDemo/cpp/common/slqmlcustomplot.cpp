@@ -188,7 +188,8 @@ void CustomColorMap::initCustomPlot()
     plot->plotLayout()->addElement(1, 0, colorScale); // 在颜色图下面显示
     heatmap->setColorScale(colorScale);
     QCPColorGradient gradient;  // 色条使用的颜色渐变
-    gradient.setColorStopAt(0.0, QColor("#f6efa6"));   // 设置色条开始时的颜色
+    gradient.setColorStopAt(0.0, QColor("#000080"));   // 设置色条开始时的颜色
+    gradient.setColorStopAt(0.5, QColor("#FFF68F"));   // 设置色条开始时的颜色
     gradient.setColorStopAt(1.0, QColor("#bf444c"));  // 设置色条结束时的颜色
     heatmap->setGradient(gradient);
     //    colorMap->rescaleDataRange();        // 自动计算数据范围，数据范围决定了哪些数据值映射到QCPColorGradient的颜色渐变当中
