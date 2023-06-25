@@ -115,7 +115,7 @@ void MySerialPort::readData_slot()
             if ( m_repeateScanLines.ChanelData.size() == 0)
             {
                 for ( int i = 0; i < m_chanelPerScanLine; ++i){
-                    m_repeateScanLines.ChanelData.push_back(SINGAL_CHANEL_DATA());
+                    m_repeateScanLines.ChanelData.push_back(SINGAL_CHANEL_DATA());                    
 
                 }
 
@@ -180,13 +180,24 @@ void MySerialPort::readData_slot()
 
             if ( m_b01KhzIsReady && m_b2_5KhzIsReady && m_b04KhzIsReady && m_b5_5KhzIsReady && m_bchannelPerameterIsReady && m_bdemarcateIsReady) {
 
+                std::array<double, 10> tmpHardValue;
                 for( int i = 0; i < m_chanelPerScanLine; ++i) {
                     std::array<double, 25> tmpParam{};
                     for( int j = 0; j < 19; ++j) {
                         tmpParam[j] = m_channelParameter[i][j];
                     }
-                    m_dhardValue[i] = CalculateHardnessValue(tmpParam, m_01KhzReal[i], m_01KhzImag[i], m_2_5KhzReal[i], m_2_5KhzImag[i], m_04KhzReal[i], m_04KhzImag[i], m_5_5KhzReal[i], m_5_5KhzImag[i]);
+                    tmpHardValue[i] = CalculateHardnessValue(tmpParam, m_01KhzReal[i], m_01KhzImag[i], m_2_5KhzReal[i], m_2_5KhzImag[i], m_04KhzReal[i], m_04KhzImag[i], m_5_5KhzReal[i], m_5_5KhzImag[i]);
                 }
+                m_dhardValue[0] = tmpHardValue[3];
+                m_dhardValue[1] = tmpHardValue[4];
+                m_dhardValue[2] = tmpHardValue[1];
+                m_dhardValue[3] = tmpHardValue[0];
+                m_dhardValue[4] = tmpHardValue[7];
+                m_dhardValue[5] = tmpHardValue[6];
+                m_dhardValue[6] = tmpHardValue[2];
+                m_dhardValue[7] = tmpHardValue[8];
+                m_dhardValue[8] = tmpHardValue[5];
+                m_dhardValue[9] = tmpHardValue[9];
 
                 for (int i = 0; i < m_chanelPerScanLine; ++i) {
                     m_repeateScanLines.ChanelData[i].push_back(m_dhardValue[i]);

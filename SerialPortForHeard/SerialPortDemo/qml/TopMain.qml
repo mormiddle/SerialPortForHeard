@@ -31,6 +31,7 @@ Item {
                 source: JsPng.img_left_image_manager
                 tooltip: qsTr("标定")
                 onClicked: {
+                    btn_load.backgroundColor = "red"
                     console.log("[trace] " + tooltip)
                     emit: sendSerPortStart( isStart )
                     emit: sendSettingInfoSignal(1)
@@ -42,6 +43,7 @@ Item {
                 source: JsPng.img_right_save
                 tooltip: qsTr("保存")
                 onClicked: {
+                    btn_load.backgroundColor = "#3E3E3E"
                     console.log("[trace] " + tooltip)
                     emit: sendSerPortStart( isStart)
                     emit: sendSettingInfoSignal(0)
