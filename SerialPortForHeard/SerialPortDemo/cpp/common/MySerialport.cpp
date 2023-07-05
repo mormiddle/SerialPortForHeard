@@ -1,4 +1,4 @@
-﻿#include "MySerialport.h"
+﻿ #include "MySerialport.h"
 #include <QSerialPortInfo>
 #include <QDebug>
 #include <QTime>
@@ -178,8 +178,8 @@ void MySerialPort::readData_slot()
 
             }
 
-            if ( m_b01KhzIsReady && m_b2_5KhzIsReady && m_b04KhzIsReady && m_b5_5KhzIsReady && m_bchannelPerameterIsReady && m_bdemarcateIsReady) {
-
+            if ( m_b01KhzIsReady && m_b2_5KhzIsReady && m_b04KhzIsReady && m_b5_5KhzIsReady && m_bchannelPerameterIsReady) {
+//            if ( m_b01KhzIsReady && m_b2_5KhzIsReady && m_b04KhzIsReady && m_b5_5KhzIsReady && m_bchannelPerameterIsReady && m_bdemarcateIsReady) {
                 std::array<double, 10> tmpHardValue;
                 for( int i = 0; i < m_chanelPerScanLine; ++i) {
                     std::array<double, 25> tmpParam{};

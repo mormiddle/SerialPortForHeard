@@ -10,8 +10,8 @@ import CustomPlot 1.0
 ApplicationWindow {
     id: savedateWindo
     visible: true
-    width: 640
-    height: 480
+    width: 1366
+    height: 892
     title: "硬点分布图"
     property Item rootObject
 

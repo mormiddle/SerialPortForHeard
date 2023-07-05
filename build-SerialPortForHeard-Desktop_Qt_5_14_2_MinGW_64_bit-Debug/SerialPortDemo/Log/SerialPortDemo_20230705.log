@@ -1,0 +1,15 @@
+09:25:19.268 (0x1630) [info ]
+09:25:19.269 (0x1630) [info ] ----- App init ------
+09:25:19.269 (0x1630) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:25:19.269 (0x1630) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo/debug/SerialPortDemo.exe
+09:25:19.269 (0x1630) [info ] App path: E:/BaiduSyncdisk/Project/Code/SACAR/SerialPortForHeard/SerialPortForHeard/build-SerialPortForHeard-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/SerialPortDemo
+09:25:19.270 (0x1630) [info ] Check chinese support: 012汉字abc
+09:25:19.270 (0x1630) [info ] ----- msAppInit: 1688520319267.895264, [1953]17:16:31.-699494517
+09:25:20.397 (0x1630) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:25:21.053 (0x1630) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+09:25:21.066 (0x1630) [debug] qml: [trace]activetrue
+09:26:43.324 (0x1630) [debug] qml: [trace]activefalse
+09:28:56.645 (0x1630) [debug] qml: [trace]activetrue
+09:30:02.181 (0x1630) [debug] qml: [trace]activefalse
+09:31:28.644 (0x1630) [debug] qml: [trace]activetrue
+09:31:30.805 (0x1630) [debug] qml: [trace]activefalse
